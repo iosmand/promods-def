@@ -10,7 +10,7 @@ country_data : country.data.spain
 
 	pos: (-67500, 0, 52500)
 
-	fuel_price: 1.09
+	fuel_price: 1.85
 
 	lights_mandatory: false
 	driving_tired_offence: true
@@ -36,3 +36,6 @@ country_data : country.data.spain
 	regions[]: basque
 	region_areas[]: (-55393.20, -53152.79, 32400.72, 35039.66) # left, right, top, bottom
 }
+
+
+

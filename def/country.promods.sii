@@ -1,47 +1,27 @@
 SiiNunit
 {
-# For modders: Please do not modify this file if you want to add a new entry. Create in
-# this directory a new file "<base_name>.<idofyourmod>.sui" where <base_name> is name of
-# base file without the extension (e.g. "city" for "/def/city.sui") and <idofyourmod> is
-# some string which is unlikely to conflict with other mod.
-#
-# Warning: Even if the units are specified in more than one source file, they share the
-# same namespace so suffixes or prefixes should be used to avoid conflicts.
-
-
-#@include "country/finland.sui"
-#@include "country/estonia.sui"
-#@include "country/latvia.sui"
-#@include "country/lithuania.sui"
-#@include "country/bulgaria.sui"
-#@include "country/romania.sui"
-#@include "country/turkey.sui"
-
-@include "country/ireland.sui"
-@include "country/nireland.sui"
-@include "country/iceland.sui"
-@include "country/faroe.sui"
-@include "country/slovenia.sui"
-@include "country/croatia.sui"
-#@include "country/spain.sui"
-#@include "country/portugal.sui"
+@include "country/aland.sui"
+@include "country/albania.sui"
 @include "country/andorra.sui"
-@include "country/ukraine.sui"
-@include "country/moldova.sui"
-@include "country/greece.sui"
-@include "country/isleofman.sui"
 @include "country/bosnia.sui"
-@include "country/serbia.sui"
+@include "country/croatia.sui"
+@include "country/cyprus.sui"
+@include "country/faroe.sui"
+@include "country/georgia.sui"
+@include "country/greece.sui"
+@include "country/iceland.sui"
+@include "country/ireland.sui"
+@include "country/isleofman.sui"
 @include "country/jersey.sui"
 @include "country/macedonia.sui"
+@include "country/malta.sui"
 @include "country/mnegro.sui"
-@include "country/albania.sui"
-@include "country/aland.sui"
-@include "country/cyprus.sui"
+@include "country/moldova.sui"
+@include "country/nireland.sui"
+@include "country/serbia.sui"
+@include "country/slovenia.sui"
 @include "country/svalbard.sui"
-@include "country/georgia.sui"
-
-}
+@include "country/ukraine.sui"
 
 # Recommended country identifiers for currently unused countries. Using those indices
 # is not required however it improves compatibility with future DLCs or with other
@@ -265,4 +245,4 @@ SiiNunit
 # 200 Samoa
 # 201 Tonga
 # 202 Tuvalu
-
+}

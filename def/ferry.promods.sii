@@ -1,13 +1,5 @@
 SiiNunit
 {
-# For modders: Please do not modify this file if you want to add a new entry. Create in
-# this directory a new file "<base_name>.<idofyourmod>.sui" where <base_name> is name of
-# base file without the extension (e.g. "city" for "/def/city.sui") and <idofyourmod> is
-# some string which is unlikely to conflict with other mod.
-#
-# Warning: Even if the units are specified in more than one source file, they share the
-# same namespace so suffixes or prefixes should be used to avoid conflicts.
-
 @include "ferry/ambarli.sui"
 @include "ferry/bar.sui"
 @include "ferry/belfast.sui"
@@ -48,6 +40,7 @@ SiiNunit
 @include "ferry/portsmouth.sui"
 @include "ferry/portswinou.sui"
 @include "ferry/poti.sui"
+@include "ferry/pozzallo.sui"
 @include "ferry/puttgarden.sui"
 @include "ferry/rodbyhavn.sui"
 @include "ferry/ronne.sui"
@@ -66,6 +59,8 @@ SiiNunit
 @include "ferry/uig.sui"
 @include "ferry/ullapool.sui"
 @include "ferry/vaasa.sui"
+@include "ferry/valletta.sui"
+@include "ferry/vardo.sui"
 @include "ferry/varna.sui"
 @include "ferry/vestmannaeyjar.sui"
 @include "ferry/vestnes.sui"

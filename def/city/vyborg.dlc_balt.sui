@@ -1,5 +1,4 @@
-﻿
-city_data: city.vyborg
+﻿city_data: city.vyborg
 {
 	city_name: "Выборг"
 	city_name_localized: "@@vyborg@@"

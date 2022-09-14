@@ -6,7 +6,7 @@ mod_package : .package_name
 {
 
 	# Package version can be any string with any length.
-	package_version: "2.61"
+	package_version: "2.62"
 
 	# Display name can be any string with any length.
 	display_name: "ProMods Definition Package"
@@ -24,7 +24,7 @@ mod_package : .package_name
 	description_file: "description.txt"
 
 	 
-	compatible_versions[]: "1.44.*" # Mod is compatible with 1.44.X..
+	compatible_versions[]: "1.45.*" # Mod is compatible with 1.45.X..
 	
 	dlc_dependencies[]: "dlc_east"
 	dlc_dependencies[]: "dlc_north"

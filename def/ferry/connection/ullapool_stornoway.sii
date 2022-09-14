@@ -6,16 +6,16 @@ ferry_connection : conn.ullapool.stornoway{
 	distance: 30
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256
-	connection_positions[0]: (-12747468, 0, -16565504)
-	connection_positions[1]: (-12778828, 0, -16552550)
+	connection_positions[0]: (-12804788, 0, -16566656)
+	connection_positions[1]: (-12845466, 0, -16572416)
 	connection_positions[2]: (-13564826, 0, -16966758)
-	connection_positions[3]: (-13599462, 0, -17054924)
+	connection_positions[3]: (-13605300, 0, -17039514)
 
 	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
-	connection_directions[0]: ( 0.08716, 0,  0.99619)
+	connection_directions[0]: (-0.99619, 0,  0.08716)
 	connection_directions[1]: (-0.90631, 0, -0.42262)
 	connection_directions[2]: (-0.86603, 0, -0.5    )
-	connection_directions[3]: ( 0.17365, 0, -0.98481)
+	connection_directions[3]: ( 0.08716, 0, -0.99619)
 }
 }
 

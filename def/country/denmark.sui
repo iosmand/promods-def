@@ -8,9 +8,9 @@ country_data : country.data.denmark
 	country_code: "DK"
 	iso_country_code: dnk
 
-	pos: (-2100, 0, -31000)
+	pos: (-2100, 0, -29000)
 
-	fuel_price: 1.31
+	fuel_price: 2.11
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -25,3 +25,7 @@ country_data : country.data.denmark
 	mass_limit_per_axle_count[]: 50000
 	mass_limit_per_axle_count[]: 56000
 }
+
+
+
+

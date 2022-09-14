@@ -10,7 +10,7 @@ country_data : country.data.poland
 
 	pos: (32130, 0, -8330)
 
-	fuel_price: 1.2
+	fuel_price: 1.55
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -23,3 +23,6 @@ country_data : country.data.poland
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 40000
 }
+
+
+

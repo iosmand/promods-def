@@ -1,7 +1,5 @@
 SiiNunit
 {
-
 #@include "country/russia.sui"
 @include "country/belarus.sui"
-
 }

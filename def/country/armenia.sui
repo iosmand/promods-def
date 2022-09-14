@@ -3,14 +3,14 @@ country_data : country.data.armenia
 {
 	country_id: 47
 
-	name: "Armenia"
+	name: "Hayastan"
 	name_localized: "@@armenia@@"
 	country_code: "AM"
 	iso_country_code: arm
 	
 	pos: (148000, 0, 32000)
 
-	fuel_price: 0.82
+	fuel_price: 1.12
 
 	lights_mandatory: false
 	leftside_traffic: true
@@ -24,3 +24,6 @@ country_data : country.data.armenia
 	mass_limit_per_axle_count[]: 44000
 	mass_limit_per_axle_count[]: 44000
 }
+
+
+
