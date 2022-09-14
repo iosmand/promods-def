@@ -1,0 +1,983 @@
+	# Note: Region code is specified first so that specific letter combinations can be associated with each region code
+
+	# Republic of Adygea
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BC"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KO"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KP"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MA"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CC"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TA"
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TE"
+
+	# Republic of Bashkortostan
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BM"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BH"
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BO"
+
+	def4[]:"102</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"   # (limited issue)
+
+	# Republic of Buryatia
+	def4[]:"03 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"03 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"03 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+
+	# Altai Republic
+	def4[]:"04 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+
+	# Republic of Dagestan
+	def4[]:"05 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"05 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"05 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"05 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"05 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"05 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"05 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+
+	# Republic of Ingushetia
+	def4[]:"06 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CC"
+	def4[]:"06 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KE"
+	def4[]:"06 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KO"
+	def4[]:"06 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> YY"
+	def4[]:"06 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"06 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"06 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Kabardino-Balkar Republic
+	def4[]:"07 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"07 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"07 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+
+	# Republic of Kalmykia
+	def4[]:"08 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"08 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+
+	# Karachay-Cherkess Republic
+	def4[]:"09 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"09 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"09 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"   # (likely limited issue)
+	def4[]:"09 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EA"   # (limited issue)
+	def4[]:"09 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KA"   # (limited issue)
+	def4[]:"09 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MA"   # (limited issue)
+
+	# Republic of Karelia
+	def4[]:"10 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"10 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"10 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"10 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"10 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"10 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"10 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"10 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+
+	# Komi Republic
+	def4[]:"11 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KM"
+	def4[]:"11 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MK"
+	def4[]:"11 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"11 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"11 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"11 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+
+	# Mari El Republic
+	def4[]:"12 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"12 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"12 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MC"   # (limited issue)
+	def4[]:"12 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"12 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+
+	# Republic of Mordovia
+	def4[]:"13 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EA"
+	def4[]:"13 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"
+	def4[]:"13 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"   # (limited issue)
+	def4[]:"13 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"   # (limited issue)
+	def4[]:"13 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EB"
+
+	# Sakha Republic
+	def4[]:"14 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"14 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"14 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+
+	# Republic of North Ossetia–Alania
+	def4[]:"15 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"15 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"   # (limited issue)
+	def4[]:"15 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"   # (limited issue)
+	def4[]:"15 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"15 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"15 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+
+	# Republic of Tatarstan
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BH"
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BP"
+
+	# Tuva Republic
+	def4[]:"17 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TB"
+	def4[]:"17 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+
+	# Udmurt Republic
+	def4[]:"18 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"18 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"18 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"18 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"18 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"18 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"18 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Republic of Khakassia
+	def4[]:"19 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"19 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"19 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"19 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+
+	# Chechen Republic
+#	def4[]:"20 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"   # (code 20 discontinued)
+
+	def4[]:"95 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"95 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"95 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+
+	# Chuvash Republic
+	def4[]:"21 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"21 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"21 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"21 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EK"
+
+	# Altai Krai
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+
+	# Krasnodar Krai
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KA"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KB"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KE"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KK"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KM"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KH"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KO"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KP"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KC"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KT"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KX"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EA"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EB"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EK"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EM"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EH"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EO"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EP"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EC"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> ET"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EY"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EX"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MA"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MB"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> ME"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MK"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MM"
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MH"
+
+	# Krasnoyarsk Krai
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"   # (limited issue)
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KA"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KB"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KE"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KK"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KM"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MA"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MB"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MK"   # (limited issue)
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MH"   # (limited issue)
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MO"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MP"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MC"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MM"   # (limited issue)
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MT"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MX"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MY"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HA"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HB"
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> OA"
+
+	# Primorsky Krai
+	def4[]:"25 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"25 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"25 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"25 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"25 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+
+	# Stavropol Krai
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"   # Mineralnye Vody (Минеральные Воды)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EA"   # Mineralnye Vody (Минеральные Воды)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EB"   # Mineralnye Vody (Минеральные Воды)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"   # Mineralnye Vody (Минеральные Воды)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EK"   # Mineralnye Vody (Минеральные Воды)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"   # Budyonnovsk (Будённовск)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KA"   # Nevinnomyssk (Невинномысск)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HA"   # Neftekumsk (Нефтекумск)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> OA"   # Izobilny (Изобильный)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> OB"   # Izobilny (Изобильный)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PA"   # Svetlograd (Светлоград)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PB"   # Svetlograd (Светлоград)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CA"   # Stavropol (Ставрополь)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CB"   # Stavropol (Ставрополь)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> XA"   # Georgiyevsk (Георгиевск)
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> XB"   # Georgiyevsk (Георгиевск)
+
+	# Khabarovsk Krai
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"   # general region
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"   # Amursk (Амурск)
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"   # Vanino (Ванино)
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"   # Verkhnebureinsky (Верхнебуреинский) district
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KM"   # Komsomolsk-on-Amur (Комсомольск-на-Амуре)
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HA"   # Nanaysky (Нанайский) district
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HK"   # Nikolayevsky (Николаевский) district, Ayano-Maysky (Аяно-Майский) district, Tuguro-Chumikansky (Тугуро-Чумиканский) district
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> OC"   # imeni Poliny Osipenko (имени Полины Осипенко) district
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> OX"   # Okhotsk (Охотск)
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CB"   # Sovetskaya Gavan (Советская Гавань)
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CO"   # Solnechny (Солнечный) district
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TA"   # imeni Lazo (имени Лазо) district
+#	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TB"   # Vyazemsky (Вяземский) (none found)
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TE"   # Bikin (Бикин)
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> YA"   # Ulchsky (Ульчский) district
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> XA"   # Khabarovsk (Хабаровск)
+
+	# Amur Oblast
+	def4[]:"28 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"28 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"28 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+
+	# Arkhangelsk Oblast
+	def4[]:"29 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"29 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"29 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"29 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"29 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"29 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"29 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"29 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Astrakhan Oblast
+	def4[]:"30 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"30 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"30 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"30 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+
+	# Belgorod Oblast
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+
+	# Bryansk Oblast
+	def4[]:"32 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"32 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"32 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"32 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"   # (limited issue)
+	def4[]:"32 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"32 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"32 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"32 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Vladimir Oblast
+	def4[]:"33 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PA"   # Raduzhny (Радужный) only (limited issue)
+	def4[]:"33 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"33 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"33 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"33 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"33 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"33 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+
+	# Volgograd Oblast
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BH"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BO"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BP"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BC"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BT"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BY"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BX"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EA"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EB"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EK"
+
+	# Vologda Oblast
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+
+	# Voronezh Oblast
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+
+	# Ivanovo Oblast
+	def4[]:"37 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PA"
+	def4[]:"37 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PE"   # (limited issue)
+	def4[]:"37 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PK"
+	def4[]:"37 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PB"
+	def4[]:"37 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PM"
+	def4[]:"37 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PH"
+
+	# Irkutsk Oblast
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+
+	# Kaliningrad Oblast
+	def4[]:"39 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"39 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"39 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"39 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"   # (limited issue)
+	def4[]:"39 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"39 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"39 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"39 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+
+	# Kaluga Oblast
+	def4[]:"40 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"40 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"40 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"40 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"40 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+
+	# Kamchatka Krai
+	def4[]:"41 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+
+	# Kemerovo Oblast
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KE"
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+
+	# Kirov Oblast
+	def4[]:"43 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"43 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"43 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"43 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"43 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"   # (limited issue)
+	def4[]:"43 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"43 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"43 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> XA"
+
+	# Kostroma Oblast
+	def4[]:"44 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"44 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"44 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"44 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"44 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> YA"
+
+	# Kurgan Oblast
+	def4[]:"45 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"45 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"45 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"45 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"45 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"45 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"45 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"45 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Kursk Oblast
+	def4[]:"46 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"46 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"46 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"46 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"46 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+
+	# Leningrad Oblast
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+#	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"   # (none found)
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+
+	# Lipetsk Oblast
+	def4[]:"48 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"48 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"48 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"48 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"48 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"48 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"48 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> YA"
+
+	# Magadan Oblast
+	def4[]:"49 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MA"
+	def4[]:"49 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MB"
+	def4[]:"49 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> ME"
+	def4[]:"49 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MC"
+
+	# Moscow Oblast
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"   # (limited issue)
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BM"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BH"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BO"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BP"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BC"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BT"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BY"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BX"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EA"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EB"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EK"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EM"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EH"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EO"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EP"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EC"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> ET"
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EY"
+
+	# Murmansk Oblast
+	def4[]:"51 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"51 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"51 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"   # (limited issue)
+	def4[]:"51 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"51 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"51 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"51 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Nizhny Novgorod Oblast
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EK"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EM"
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> XX"
+
+	# Novgorod Oblast
+	def4[]:"53 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HA"
+	def4[]:"53 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HB"
+	def4[]:"53 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HC"
+	def4[]:"53 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HE"
+	def4[]:"53 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HK"
+
+	# Novosibirsk Oblast
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HB"
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HE"
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HK"
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HC"
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HM"
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HH"   # (limited issue)
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HO"
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HX"   # (limited issue)
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TT"
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TE"
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TA"
+
+	# Omsk Oblast
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+
+	# Orenburg Oblast
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+
+	# Oryol Oblast
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"   # (limited issue)
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MM"   # (limited issue)
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HH"   # (limited issue)
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PP"   # (limited issue)
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TT"
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> YY"   # (limited issue)
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CC"   # (limited issue)
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> XX"
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"
+
+	# Penza Oblast
+	def4[]:"58 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"58 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"58 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"58 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"58 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"   # (limited issue)
+	def4[]:"58 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"58 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+
+	# Perm Krai
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+
+	# Pskov Oblast
+	def4[]:"60 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PA"
+	def4[]:"60 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"60 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"   # (limited issue)
+	def4[]:"60 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"60 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MM"   # (limited issue)
+	def4[]:"60 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> HH"   # (limited issue)
+	def4[]:"60 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> OO"   # (limited issue)
+	def4[]:"60 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+
+	# Rostov Oblast
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PA"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PB"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PE"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PK"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PM"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PH"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PO"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PP"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PC"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PT"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PY"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PX"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CA"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CB"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CE"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CK"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CM"
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CH"
+
+	# Ryazan Oblast
+	def4[]:"62 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"62 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"62 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"62 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"62 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+
+	# Samara Oblast
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BM"
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BH"
+
+	# Saratov Oblast
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+
+	# Sakhalin Oblast
+	def4[]:"65 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"65 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"65 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> XA"
+
+	# Sverdlovsk Oblast
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BM"
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EA"
+
+	# Smolensk Oblast
+	def4[]:"67 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CM"
+	def4[]:"67 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"67 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"67 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"67 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"67 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"67 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+
+	# Tambov Oblast
+	def4[]:"68 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"68 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"68 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"68 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"68 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"68 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"68 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Tver Oblast
+	def4[]:"69 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"69 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"69 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"69 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"69 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"69 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"69 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Tomsk Oblast
+	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+#	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> PC"   # (likely very limited issue)
+#	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"   # (likely very limited issue)
+	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Tula Oblast
+	def4[]:"71 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"71 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"71 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"71 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"71 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"   # (limited issue)
+	def4[]:"71 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"71 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+
+	# Tyumen Oblast
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"   # (limited issue)
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"   # (limited issue)
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"   # (limited issue)
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"   # (limited issue)
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"   # (limited issue)
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+
+	# Ulyanovsk Oblast
+	def4[]:"73 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"73 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"73 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"   # (limited issue)
+	def4[]:"73 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"   # (limited issue)
+	def4[]:"73 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"73 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"73 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"73 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+
+	# Chelyabinsk Oblast
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"   # (limited issue)
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"   # (limited issue)
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BM"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BH"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BO"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BP"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BC"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BT"
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BX"
+
+	# Transbaikal (Zabaykalsky) Krai
+	def4[]:"75 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"75 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"   # (limited issue)
+	def4[]:"75 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"   # (limited issue)
+	def4[]:"75 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"   # (limited issue)
+	def4[]:"75 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+
+	# Yaroslavl Oblast
+	def4[]:"76 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"76 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"76 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"76 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"   # (limited issue)
+	def4[]:"76 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"76 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"76 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+
+	# Moscow
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BM"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BH"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BO"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BP"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BC"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BT"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BY"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BX"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EA"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EB"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EE"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EK"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EM"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EH"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EO"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> EP"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> YY"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> YX"
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> XY"
+
+	# St. Petersburg
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"   # (limited issue)
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BK"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BM"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> OO"   # (limited issue)
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BH"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BO"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BP"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BC"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BT"
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BY"
+
+	# Jewish Autonomous Oblast
+	def4[]:"79 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"79 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BE"
+	def4[]:"79 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> CA"   # (limited issue)
+	def4[]:"79 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TA"   # (limited issue)
+
+	# Former Buryat Autonomous District of Aginskoye
+	def4[]:"80 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"   # (limited issue)
+	def4[]:"80 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"   # (limited issue)
+
+	# Former Komi-Permyak Autonomous District
+	def4[]:"81 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KO"
+
+	# Republic of Crimea
+	def4[]:"82 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"82 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"82 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"82 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"82 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"82 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"82 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+
+	# Nenets Autonomous Okrug
+	def4[]:"83 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"83 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+
+	# Former Taymyr (Dolgan-Nenets) Autonomous District
+	def4[]:"84 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> TA"
+
+	# Former Buryat Autonomous District of Ust-Ordynskoye
+	def4[]:"85 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+
+	# Khanty-Mansi Autonomous Okrug
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AO"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AP"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AC"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AY"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AX"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BB"
+
+	# Chukotka Autonomous Okrug
+	def4[]:"87 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KO"
+	def4[]:"87 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+
+	# Former Evenk Autonomous District
+	def4[]:"88 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> KA"
+	def4[]:"88 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> MM"
+	def4[]:"88 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> OO"
+
+	# Yamalo-Nenets Autonomous Okrug
+	def4[]:"89 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+	def4[]:"89 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AE"
+	def4[]:"89 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AK"   # (limited issue)
+	def4[]:"89 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"   # (limited issue)
+	def4[]:"89 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AT"   # (limited issue)
+	def4[]:"89 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> ET"
+	def4[]:"89 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> BA"
+	def4[]:"89 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AH"
+
+	# Sevastopol
+	def4[]:"92 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AA"
+	def4[]:"92 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AB"
+
+	# Territories outside of the Russian Federation
+	def4[]:"94 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> AM"

@@ -1,0 +1,55 @@
+﻿city_data: city.klaipeda
+{
+	city_name: "Klaipėda"
+	city_name_localized: "@@klaipeda@@"
+	country: lithuania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -40
+	map_x_offsets[]: -43
+	map_x_offsets[]: -40
+	map_x_offsets[]: -36
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -82
+	map_y_offsets[]: -65
+	map_y_offsets[]: -30
+	map_y_offsets[]: -29
+
+	vehicle_brands[]: "iveco"
+
+	license_plate[]: .klaipeda.lp.car
+	license_plate[]: .klaipeda.lp.truck
+	license_plate[]: .klaipeda.lp.trailer
+}
+
+license_plate_data : .klaipeda.lp.car
+{
+	type: car
+
+@include "city_lp_lt_car.sui"
+}
+
+license_plate_data : .klaipeda.lp.truck
+{
+	type: truck
+
+	probability: 0.1
+
+@include "city_lp_lt_truck.sui"
+}
+
+license_plate_data : .klaipeda.lp.trailer
+{
+	type: trailer
+
+	probability: 0.1
+
+@include "city_lp_lt_trailer.sui"
+}

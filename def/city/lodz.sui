@@ -1,0 +1,585 @@
+city_data: city.lodz
+{
+	city_name: "Łódź"
+	city_name_localized: "@@lodz@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -23
+	map_x_offsets[]: -23
+	map_x_offsets[]: -24
+	map_x_offsets[]: -25
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -52
+	map_y_offsets[]: -40
+	map_y_offsets[]: -23
+	map_y_offsets[]: -27
+
+	vehicle_brands[]:"scania"
+
+	license_plate[]: .lodz.lp.car
+	license_plate[]: .lodz.lp.truck
+	license_plate[]: .lodz.lp.trailer
+	license_plate[]: .lodz.lp.police
+}
+
+license_plate_data : .lodz.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+#	templates[]:"EL544444"   # I    before EU stars
+#	templates[]:"EL544442"   # II   most before EU stars
+	templates[]:"EL544422"   # III
+	templates[]:"EL532444"   # IV
+	templates[]:"EL53044"    # V
+	templates[]:"EL53044"    # V
+	templates[]:"EL53044"    # V
+	templates[]:"EL53044"    # V
+
+	# Three letter powiat codes
+#	templates[]:"ELW52444"   # I    before EU stars
+	templates[]:"ELW54422"   # II   some before EU stars
+	templates[]:"ELW53244"   # III
+	templates[]:"ELW54423"   # IV
+	templates[]:"ELW52244"   # VI
+	templates[]:"ELW5144"    # VII
+
+	def0[]:"AA"
+	def0[]:"AC"
+	def0[]:"AE"
+	def0[]:"AF"
+	def0[]:"AG"
+	def0[]:"AH"
+	def0[]:"AJ"
+	def0[]:"AK"
+	def0[]:"AL"
+	def0[]:"AM"
+	def0[]:"AN"
+	def0[]:"AP"
+	def0[]:"AR"
+	def0[]:"AS"
+	def0[]:"AT"
+	def0[]:"AU"
+	def0[]:"AV"  # "EL" V latest issued (April 2021)
+#	def0[]:"AW"
+#	def0[]:"AX"
+#	def0[]:"AY"
+
+	# Łódź office "ELW" VII
+	def1[]:"012"
+	def1[]:"013"
+	def1[]:"014"
+	def1[]:"017"
+
+	# Tuszyn office "ELW" VII
+	def1[]:"005"
+	def1[]:"006"
+	def1[]:"010"
+#	def1[]:"011"  # Not issued yet
+
+	# Koluszki office (still issuing from VI series)
+
+	# Rzgów office "ELW" VII
+	def1[]:"000"
+	def1[]:"001"
+	def1[]:"002"
+	def1[]:"003"
+	def1[]:"004"
+	def1[]:"007"
+	def1[]:"008"
+	def1[]:"009"
+	def1[]:"015"
+	def1[]:"016"
+
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+#	def2[]:"F"  # Used for "EL" double-row plates
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+#	def2[]:"T"  # Used for "ELW" motorcycles and tractors
+#	def2[]:"U"  # Used for "ELW" trailers
+#	def2[]:"V"  # Used for "ELW" mopeds, trailers, motorcycles, and tractors
+#	def2[]:"W"  # Used for "ELW" double-row plates and trailers
+#	def2[]:"X"  # Partially used for "EL" trailers, for "ELW" trailers, motorcycles, and tractors
+#	def2[]:"Y"  # Partially used for "EL" trailers, for "ELW" motorcycles, tractors, mopeds, and trailers
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .lodz.lp.truck
+{
+	type: truck
+
+	# Two letter powiat codes
+#	templates[]:"EL544444"   # I    before EU stars
+#	templates[]:"EL544442"   # II   most before EU stars
+#	templates[]:"EL544422"   # III
+#	templates[]:"EL50444"    # IV
+	templates[]:"EL53144"    # V
+
+#	def0[]:"1A"
+#	def0[]:"2A"
+#	def0[]:"3A"
+#	def0[]:"4A"
+#	def0[]:"5A"
+#	def0[]:"6A"
+#	def0[]:"7A"
+#	def0[]:"8A"
+#	def0[]:"9A"
+#	def0[]:"1C"
+#	def0[]:"2C"
+#	def0[]:"3C"
+#	def0[]:"4C"
+#	def0[]:"5C"
+#	def0[]:"6C"
+#	def0[]:"7C"
+#	def0[]:"8C"
+#	def0[]:"9C"
+#	def0[]:"1E"
+#	def0[]:"2E"
+#	def0[]:"3E"
+#	def0[]:"4E"
+#	def0[]:"5E"
+#	def0[]:"6E"
+#	def0[]:"7E"
+#	def0[]:"8E"
+#	def0[]:"9E"
+#	def0[]:"1F"
+#	def0[]:"2F"
+#	def0[]:"3F"
+#	def0[]:"4F"
+#	def0[]:"5F"
+#	def0[]:"6F"
+#	def0[]:"7F"
+#	def0[]:"8F"
+#	def0[]:"9F"
+#	def0[]:"1G"
+#	def0[]:"2G"
+#	def0[]:"3G"
+#	def0[]:"4G"
+#	def0[]:"5G"
+#	def0[]:"6G"
+#	def0[]:"7G"
+#	def0[]:"8G"
+#	def0[]:"9G"
+#	def0[]:"1H"
+#	def0[]:"2H"
+#	def0[]:"3H"
+#	def0[]:"4H"
+#	def0[]:"5H"
+#	def0[]:"6H"
+#	def0[]:"7H"
+#	def0[]:"8H"
+#	def0[]:"9H"
+#	def0[]:"1J"
+#	def0[]:"2J"
+#	def0[]:"3J"
+#	def0[]:"4J"
+#	def0[]:"5J"
+#	def0[]:"6J"
+#	def0[]:"7J"
+#	def0[]:"8J"
+#	def0[]:"9J"
+#	def0[]:"1K"
+#	def0[]:"2K"
+#	def0[]:"3K"
+#	def0[]:"4K"
+#	def0[]:"5K"
+#	def0[]:"6K"
+#	def0[]:"7K"
+#	def0[]:"8K"
+#	def0[]:"9K"
+#	def0[]:"1L"
+#	def0[]:"2L"
+#	def0[]:"3L"
+#	def0[]:"4L"
+#	def0[]:"5L"
+#	def0[]:"6L"
+#	def0[]:"7L"
+#	def0[]:"8L"
+#	def0[]:"9L"
+#	def0[]:"1M"
+#	def0[]:"2M"
+#	def0[]:"3M"
+#	def0[]:"4M"
+#	def0[]:"5M"
+#	def0[]:"6M"
+#	def0[]:"7M"
+#	def0[]:"8M"
+#	def0[]:"9M"
+#	def0[]:"1N"
+#	def0[]:"2N"
+#	def0[]:"3N"
+#	def0[]:"4N"
+#	def0[]:"5N"
+#	def0[]:"6N"
+#	def0[]:"7N"
+#	def0[]:"8N"
+#	def0[]:"9N"
+#	def0[]:"1P"
+#	def0[]:"2P"
+#	def0[]:"3P"
+#	def0[]:"4P"
+#	def0[]:"5P"
+#	def0[]:"6P"
+#	def0[]:"7P"
+#	def0[]:"8P"
+#	def0[]:"9P"
+#	def0[]:"1R"
+#	def0[]:"2R"
+#	def0[]:"3R"
+#	def0[]:"4R"
+#	def0[]:"5R"
+#	def0[]:"6R"
+#	def0[]:"7R"
+#	def0[]:"8R"
+#	def0[]:"9R"
+#	def0[]:"1S"
+#	def0[]:"2S"
+#	def0[]:"3S"
+#	def0[]:"4S"
+#	def0[]:"5S"
+#	def0[]:"6S"
+#	def0[]:"7S"
+#	def0[]:"8S"
+#	def0[]:"9S"
+#	def0[]:"1T"
+#	def0[]:"2T"
+#	def0[]:"3T"
+#	def0[]:"4T"
+#	def0[]:"5T"
+#	def0[]:"6T"
+#	def0[]:"7T"
+#	def0[]:"8T"
+##	def0[]:"9T"  # "EL" IV used for electric cars
+#	def0[]:"1U"
+#	def0[]:"2U"
+#	def0[]:"3U"
+#	def0[]:"4U"
+#	def0[]:"5U"
+#	def0[]:"6U"
+#	def0[]:"7U"
+#	def0[]:"8U"
+#	def0[]:"9U"
+#	def0[]:"1V"
+#	def0[]:"2V"
+#	def0[]:"3V"
+#	def0[]:"4V"
+#	def0[]:"5V"
+#	def0[]:"6V"
+#	def0[]:"7V"
+#	def0[]:"8V"
+#	def0[]:"9V"
+#	def0[]:"1W"
+#	def0[]:"2W"
+#	def0[]:"3W"
+#	def0[]:"4W"
+#	def0[]:"5W"
+#	def0[]:"6W"
+#	def0[]:"7W"
+#	def0[]:"8W"
+#	def0[]:"9W"
+
+#	def1[]:"AA"
+#	def1[]:"AC"
+#	def1[]:"AE"
+#	def1[]:"AF"
+#	def1[]:"AG"
+#	def1[]:"AH"
+#	def1[]:"AJ"
+#	def1[]:"AK"
+#	def1[]:"AL"
+#	def1[]:"AM"
+#	def1[]:"AN"
+#	def1[]:"AP"
+#	def1[]:"AR"
+	def1[]:"AS"
+	def1[]:"AT"
+	def1[]:"AU"
+	def1[]:"AV"  # "EL" V latest issued (April 2021)
+#	def1[]:"AW"
+#	def1[]:"AX"
+#	def1[]:"AY"
+
+#	def2[]:"A"
+#	def2[]:"C"
+#	def2[]:"E"
+##	def2[]:"F"  # Used for double-row plates
+#	def2[]:"G"
+#	def2[]:"H"
+#	def2[]:"J"
+#	def2[]:"K"
+#	def2[]:"L"
+#	def2[]:"M"
+#	def2[]:"N"
+#	def2[]:"P"
+#	def2[]:"R"
+#	def2[]:"S"
+#	def2[]:"T"
+#	def2[]:"U"
+#	def2[]:"V"
+#	def2[]:"W"
+##	def2[]:"X"  # Partially used for trailers
+##	def2[]:"Y"  # Partially used for trailers
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .lodz.lp.trailer
+{
+	type: trailer
+
+	# Two letter powiat codes
+#	templates[]:"EL5044"     # I    most before EU stars
+#	templates[]:"EL54441"    # III
+	templates[]:"EL5244"     # IV
+
+#	def0[]:"500"
+#	def0[]:"501"
+#	def0[]:"502"
+#	def0[]:"503"
+#	def0[]:"504"
+#	def0[]:"505"
+#	def0[]:"506"
+#	def0[]:"507"
+#	def0[]:"508"
+#	def0[]:"509"
+#	def0[]:"520"
+#	def0[]:"521"
+#	def0[]:"522"
+#	def0[]:"523"
+#	def0[]:"524"
+#	def0[]:"525"
+#	def0[]:"526"
+#	def0[]:"527"
+#	def0[]:"528"
+#	def0[]:"529"
+#	def0[]:"530"
+#	def0[]:"531"
+#	def0[]:"532"
+#	def0[]:"533"
+#	def0[]:"534"
+#	def0[]:"535"
+#	def0[]:"536"
+#	def0[]:"537"
+#	def0[]:"538"
+#	def0[]:"539"
+#	def0[]:"540"
+#	def0[]:"541"
+#	def0[]:"542"
+#	def0[]:"543"
+#	def0[]:"544"
+#	def0[]:"545"
+#	def0[]:"546"
+#	def0[]:"547"
+#	def0[]:"548"
+#	def0[]:"549"
+#	def0[]:"550"
+#	def0[]:"551"
+#	def0[]:"552"
+#	def0[]:"553"
+#	def0[]:"554"
+#	def0[]:"555"
+#	def0[]:"556"
+#	def0[]:"557"
+#	def0[]:"558"
+#	def0[]:"559"
+#	def0[]:"560"
+#	def0[]:"561"
+#	def0[]:"562"
+#	def0[]:"563"
+#	def0[]:"564"
+#	def0[]:"565"
+#	def0[]:"566"
+#	def0[]:"567"
+#	def0[]:"568"
+#	def0[]:"569"
+#	def0[]:"570"
+#	def0[]:"571"
+#	def0[]:"572"
+#	def0[]:"573"
+#	def0[]:"574"
+#	def0[]:"575"
+#	def0[]:"576"
+#	def0[]:"577"
+#	def0[]:"578"
+#	def0[]:"579"  # Before EU stars
+#	def0[]:"580"
+#	def0[]:"581"
+#	def0[]:"582"
+#	def0[]:"583"
+#	def0[]:"584"
+#	def0[]:"590"
+#	def0[]:"591"
+#	def0[]:"592"
+#	def0[]:"593"
+#	def0[]:"594"
+#	def0[]:"595"
+#	def0[]:"596"
+#	def0[]:"597"
+#	def0[]:"598"
+#	def0[]:"599"
+
+#	def1[]:"AY"
+#	def1[]:"AX"
+#	def1[]:"CY"
+#	def1[]:"CX"
+#	def1[]:"EY"
+#	def1[]:"FY"
+#	def1[]:"HX"
+#	def1[]:"HY"
+#	def1[]:"NX"
+#	def1[]:"NY"
+#	def1[]:"RT"
+#	def1[]:"SY"
+#	def1[]:"TY"
+#	def1[]:"WY"
+#	def1[]:"XY"
+#	def1[]:"YX"
+#	def1[]:"UY"
+
+#	def2[]:"1X0"
+#	def2[]:"1X1"
+#	def2[]:"1X2"
+#	def2[]:"1X3"
+#	def2[]:"1X4"
+#	def2[]:"1X5"
+#	def2[]:"1X6"
+#	def2[]:"1X7"
+#	def2[]:"1X8"
+#	def2[]:"1X9"
+#	def2[]:"2X0"
+	def2[]:"2X1"
+	def2[]:"2X2"
+	def2[]:"2X3"
+	def2[]:"2X4"
+	def2[]:"2X5"
+	def2[]:"2X6"
+	def2[]:"2X7"
+	def2[]:"2X8"  # "EL" IV X latest issued (April 2021)
+#	def2[]:"2X9"
+
+#	def2[]:"1Y0"
+#	def2[]:"1Y1"
+	def2[]:"1Y2"
+	def2[]:"1Y3"  # "EL" IV Y latest issued (September 2020)
+#	def2[]:"1Y4"
+#	def2[]:"1Y5"
+#	def2[]:"1Y6"
+#	def2[]:"1Y7"
+#	def2[]:"1Y8"
+#	def2[]:"1Y9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .lodz.lp.police
+{
+	type: police
+
+	# F = Łódź (Łódzkie) Voivodeship Headquarters
+	templates[]:"HPF51222"
+#	templates[]:"HPF51222"
+#	templates[]:"HPF51222"
+#	templates[]:"HPF51222"
+#	templates[]:"HPF52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

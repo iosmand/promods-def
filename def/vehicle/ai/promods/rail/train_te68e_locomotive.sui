@@ -1,0 +1,106 @@
+traffic_vehicle : traffic.train_te68e.plc
+{
+	accessories[]: .train_te68e.chassis.plc
+	accessories[]: .train_te68e.fwheel.plc
+	accessories[]: .train_te68e.rwheel.plc
+	accessories[]: .train_te68e.rwheel1.plc
+	accessories[]: .train_te68e.rwheel2.plc
+
+	max_speed: 140
+
+	vehicle_mass: 86000
+	engine_power: 5000
+	
+	spawn_ratio: 0.0
+
+	trailer_chains[]: "train_cargo 15-30"
+	trailer_chains[]: "train_cargo 8-16 | train_cargo 8-16"
+	
+	sound_move[]: "/sound/traffic/train_electric.soundref"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+}
+
+vehicle_accessory: .train_te68e.chassis.plc
+{
+	data_path: "/def/vehicle/ai/promods/rail/train_te68e/chassis_pl2.sii"
+}
+
+vehicle_wheel_accessory: .train_te68e.fwheel.plc
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .train_te68e.rwheel.plc
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .train_te68e.rwheel1.plc
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .train_te68e.rwheel2.plc
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+traffic_vehicle : traffic.train_te68e.plp
+{
+	accessories[]: .train_te68e.chassis.plp
+	accessories[]: .train_te68e.fwheel.plp
+	accessories[]: .train_te68e.rwheel.plp
+	accessories[]: .train_te68e.rwheel1.plp
+	accessories[]: .train_te68e.rwheel2.plp
+
+	max_speed: 140
+
+	vehicle_mass: 86000
+	engine_power: 5000
+
+	spawn_ratio: 0.0
+
+	trailer_chains[]: "train_car.w.passenger.pl 6-9"
+	
+	sound_move[]: "/sound/traffic/train_electric.soundref"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+}
+
+vehicle_accessory: .train_te68e.chassis.plp
+{
+	data_path: "/def/vehicle/ai/promods/rail/train_te68e/chassis_pl.sii"
+}
+
+vehicle_wheel_accessory: .train_te68e.fwheel.plp
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .train_te68e.rwheel.plp
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .train_te68e.rwheel1.plp
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .train_te68e.rwheel2.plp
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

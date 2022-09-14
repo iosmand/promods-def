@@ -1,0 +1,446 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sui" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sui") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+# ALAND ISLANDS
+@include "city/geta.sui"
+@include "city/godby.sui"
+@include "city/mariehamn.sui"
+
+# ALBANIA
+@include "city/elbasani.sui"
+@include "city/korce.sui"
+@include "city/tirane.sui"
+
+# ANDORRA
+@include "city/andorra.sui"
+
+# AUSTRIA
+@include "city/feldkirch.sui"
+@include "city/flachau.sui"
+@include "city/groedig.sui"
+@include "city/hainburg.sui"
+@include "city/obsteig.sui"
+@include "city/reutte.sui"
+@include "city/truckstop2.sui"
+
+# BELGIUM
+@include "city/antwerp.sui"
+
+# BOSNIA AND HERZEGOVINA
+@include "city/banjaluka.sui"
+@include "city/doboj.sui"
+@include "city/mostar.sui"
+@include "city/sarajevo.sui"
+@include "city/tuzla.sui"
+@include "city/zenica.sui"
+
+# BULGARIA
+@include "city/blagoevgrad.sui"
+@include "city/montana.sui"
+#@include "city/pleven.sui" #dlc_blke_e
+#@include "city/ruse.sui"   #dlc_blke_e
+#@include "city/sofia.sui"  #dlc_blke_e
+@include "city/vidin.sui"
+
+# CROATIA
+@include "city/dubrovnik.sui"
+@include "city/osijek.sui"
+@include "city/ploce.sui"
+@include "city/pula.sui"
+@include "city/rijeka.sui"
+@include "city/senj.sui"
+@include "city/sibenik.sui"
+@include "city/sibenik2.sui"
+@include "city/slbrod.sui"
+@include "city/split.sui"
+@include "city/virovitica.sui"
+@include "city/zadar.sui"
+@include "city/zagreb.sui"
+@include "city/zuta.sui"
+@include "city/zuta2.sui"
+
+# CYPRUS
+@include "city/larnaka.sui"
+@include "city/lefkosia.sui"
+@include "city/lemesos.sui"
+@include "city/pafos.sui"
+
+# CZECHIA
+@include "city/jihlava.sui"
+@include "city/mlada.sui"
+@include "city/olomouc.sui"
+
+# DENMARK
+@include "city/aarhus.sui"
+@include "city/herning.sui"
+@include "city/holstebro.sui"
+@include "city/kolding.sui"
+@include "city/lellinge.sui"
+@include "city/padborg.sui"
+@include "city/rodbyhavn.sui"
+@include "city/ronne.sui"
+@include "city/truckstop1.sui"
+@include "city/vhavn.sui"
+@include "city/viborg.sui"
+
+# ESTONIA
+@include "city/haapsalu.sui"
+@include "city/kuressaare.sui"
+@include "city/valga.sui" 
+
+# FINLAND
+@include "city/alajarvi.sui"
+@include "city/ivalo.sui"
+@include "city/joensuu.sui"
+@include "city/jyvaskyla.sui"
+@include "city/karsamaki.sui"
+@include "city/kemi.sui"
+@include "city/kemijarvi.sui"
+@include "city/kittila.sui"
+@include "city/kokkola.sui"
+@include "city/kristiinank.sui"
+@include "city/kuopio.sui"
+@include "city/mikkeli.sui"
+@include "city/muonio.sui"
+@include "city/oulu.sui"
+@include "city/pello.sui"
+@include "city/rovaniemi.sui"
+@include "city/savonlinna.sui"
+@include "city/sodankyla.sui"
+@include "city/tornio.sui"
+@include "city/utsjoki.sui"
+@include "city/vaasa.sui"
+@include "city/vantaa.sui"
+@include "city/varkaus.sui"
+@include "city/viitasaari.sui"
+@include "city/ylivieska.sui"
+
+# FAROE ISLANDS
+@include "city/klaksvik.sui"
+@include "city/torshavn.sui"
+
+# FRANCE
+#@include "city/bayonne.sui" #dlc_fr
+@include "city/cherbourg.sui"
+@include "city/foix.sui"
+@include "city/granville.sui"
+@include "city/mulhouse.sui"
+@include "city/orleans.sui"
+@include "city/valenciennes.sui"
+
+# GEORGIA
+@include "city/batumi.sui"
+@include "city/poti.sui"
+
+# GERMANY
+@include "city/anklam.sui"
+@include "city/aurach.sui"
+@include "city/bado.sui"
+@include "city/bonn.sui"
+@include "city/bremerhaven.sui"
+@include "city/burg.sui"
+@include "city/chemnitz.sui"
+@include "city/cuxhaven.sui"
+@include "city/flensburg.sui"
+@include "city/forst.sui"
+@include "city/furth.sui"
+@include "city/geisel.sui"
+@include "city/halle.sui"
+@include "city/heilbronn.sui"
+@include "city/koblenz.sui"
+@include "city/mainz.sui"
+@include "city/oberhausen.sui"
+@include "city/puttgarden.sui"
+@include "city/roadworks_a7.sui"
+@include "city/sangerhausen.sui"
+@include "city/soltau.sui"
+@include "city/uelzen.sui"
+@include "city/ulm.sui"
+@include "city/wiesbaden.sui"
+
+# GREECE
+@include "city/alexandroup.sui"
+@include "city/igoumenitsa.sui"
+@include "city/ioannina.sui"
+@include "city/kavala.sui"
+@include "city/ptolemaida.sui"
+@include "city/serres.sui"
+@include "city/thessaloniki.sui"
+@include "city/trikala.sui"
+
+# HUNGARY
+@include "city/gyor.sui"
+@include "city/sumeg.sui"
+@include "city/szombathely.sui"
+@include "city/vasarosnameny.sui"
+
+# ICELAND
+@include "city/akranes.sui"
+@include "city/akureyri.sui"
+@include "city/blonduos.sui"
+@include "city/bolungarvik.sui"
+@include "city/borgarnes.sui"
+@include "city/egilsstadir.sui"
+@include "city/garpsdalur.sui"
+@include "city/hofn.sui"
+@include "city/holmavik.sui"
+@include "city/isafjordur.sui"
+@include "city/keflavik.sui"
+@include "city/krafla.sui"
+@include "city/nordurfjord.sui"
+@include "city/olafsvik.sui"
+@include "city/reydar.sui"
+@include "city/reykjavik.sui"
+@include "city/selfoss.sui"
+@include "city/seydis.sui"
+@include "city/stykkisholm.sui"
+@include "city/sudureyri.sui"
+@include "city/thorlakshofn.sui"
+@include "city/varmahlid.sui"
+@include "city/vestmannaeyjar.sui"
+@include "city/vik.sui"
+
+# IRELAND
+@include "city/dublin.sui"
+@include "city/galway.sui"
+@include "city/limerick.sui"
+@include "city/sligo.sui"
+@include "city/wexford.sui"
+
+# ISLE OF MAN
+@include "city/douglas.sui"
+@include "city/ramsey.sui"
+
+# ITALY
+@include "city/lecco.sui"
+@include "city/trieste.sui"
+
+# JERSEY
+@include "city/sthelier.sui"
+@include "city/trinity.sui"
+
+# LATVIA
+@include "city/balvi.sui"
+@include "city/jekabpils.sui"
+@include "city/kolka.sui"
+@include "city/valka.sui" 
+
+# LITHUANIA
+@include "city/taurage.sui"
+@include "city/ukmerge.sui"
+
+# NORTH MACEDONIA
+@include "city/bitola.sui"
+@include "city/ohrid.sui"
+@include "city/prilep.sui"
+@include "city/skopje.sui"
+@include "city/stip.sui"
+
+# MOLDOVA
+@include "city/balti.sui"
+@include "city/chisinau.sui"
+@include "city/giurgiulesti.sui"
+
+# MONTENEGRO
+@include "city/bar.sui"
+
+# THE NETHERLANDS
+@include "city/arnhem.sui"
+@include "city/eindhoven.sui"
+@include "city/moerdijk.sui"
+@include "city/zwolle.sui"
+
+# NORWAY
+@include "city/andalsnes.sui"
+@include "city/dombas.sui"
+@include "city/drammen.sui"
+@include "city/grumantbyen.sui"
+@include "city/hamar.sui"
+@include "city/hammerfest.sui"
+@include "city/hiorthhamn.sui"
+@include "city/honningsvag.sui"
+@include "city/kirkenes.sui"
+@include "city/kristiansund.sui"
+@include "city/lillehammer.sui"
+@include "city/longyearbyem.sui"
+@include "city/longyearbyen.sui"
+@include "city/molde.sui"
+@include "city/oppdal.sui"
+@include "city/orkanger.sui"
+@include "city/otta.sui"
+@include "city/svalsateast.sui"
+@include "city/svalsatwest.sui"
+@include "city/tanabru.sui"
+@include "city/trondheim.sui"
+
+# POLAND
+@include "city/augustow.sui"
+@include "city/bbiala.sui"
+@include "city/belda.sui"
+@include "city/bobolice.sui"
+@include "city/busko.sui"
+@include "city/bydgoszcz.sui"
+@include "city/chelm.sui"
+@include "city/cieszyn.sui"
+@include "city/czluchow.sui"
+@include "city/dziwnowek.sui"
+@include "city/elblag.sui"
+@include "city/elk.sui"
+@include "city/gorzow.sui"
+@include "city/gostynin.sui"
+@include "city/grudziadz.sui"
+@include "city/ilowa.sui"
+@include "city/ilza.sui"
+@include "city/kielce.sui"
+@include "city/koszalin.sui"
+@include "city/krasnystaw.sui"
+@include "city/miedzyzdroje.sui"
+@include "city/mragowo.sui"
+@include "city/nowogard.sui"
+@include "city/olszyna.sui"
+@include "city/opole.sui"
+@include "city/ostroleka.sui"
+@include "city/ostrowm.sui"
+@include "city/pila.sui"
+@include "city/piotrkowt.sui"
+@include "city/plock.sui"
+@include "city/przemysl.sui"
+@include "city/radom.sui"
+@include "city/rzeszow.sui"
+@include "city/sanok.sui"
+@include "city/siedlce.sui"
+@include "city/stargard.sui"
+@include "city/strzelcekraj.sui"
+@include "city/suwalki.sui"
+@include "city/swinoujscie.sui"
+@include "city/walcz.sui"
+@include "city/zamosc.sui"
+@include "city/zgierz.sui"
+@include "city/zgorzelec.sui"
+
+# ROMANIA
+#@include "city/bacau.sui"     #dlc_blke_e
+@include "city/baiamare.sui"
+#@include "city/bucuresti.sui" #dlc_blke_e
+#@include "city/cluj.sui"      #dlc_blke_e
+#@include "city/constanta.sui" #dlc_blke_e
+#@include "city/craiova.sui"   #dlc_blke_e
+#@include "city/iasi.sui"      #dlc_blke_e
+#@include "city/pitesti.sui"   #dlc_blke_e
+@include "city/satumare.sui"
+#@include "city/timisoara.sui" #dlc_blke_e
+
+# RUSSIA
+@include "city/gusev.sui"
+@include "city/kandalaksha.sui"
+@include "city/murmansk.sui"
+@include "city/nikel.sui"
+@include "city/verkhnetulom.sui"
+@include "city/zelenogradsk.sui"
+
+# SERBIA
+@include "city/beograd.sui"
+@include "city/kragujevac.sui"
+@include "city/leskovac.sui"
+@include "city/nis.sui"
+@include "city/novisad.sui"
+@include "city/pancevo.sui"
+@include "city/subotica.sui"
+@include "city/vranje.sui"
+@include "city/zrenjanin.sui"
+
+# SLOVAKIA
+@include "city/michalovce.sui"
+@include "city/trnava.sui"
+@include "city/zvolen.sui"
+
+# SLOVENIA
+@include "city/koper.sui"
+@include "city/ljubljana.sui"
+@include "city/maribor.sui"
+
+# SWEDEN
+@include "city/are.sui"
+@include "city/boden.sui"
+@include "city/gavle.sui"
+@include "city/haparanda.sui"
+@include "city/kalix.sui"
+@include "city/karesuando.sui"
+@include "city/karlstad.sui"
+@include "city/kristianstad.sui"
+@include "city/lulea.sui"
+@include "city/ornskoldsvik.sui"
+@include "city/ostersund.sui"
+@include "city/skelleftea.sui"
+@include "city/soderhamn.sui"
+@include "city/sundsvall.sui"
+@include "city/umea.sui"
+@include "city/visby.sui"
+@include "city/ystad.sui"
+
+# SWITZERLAND
+@include "city/basel.sui"
+
+# UK
+@include "city/aberystwyth.sui"
+@include "city/balivanich.sui"
+@include "city/belfast.sui"
+@include "city/birsay.sui"
+@include "city/broadford.sui"
+@include "city/brighton.sui"
+@include "city/cairnryan.sui"
+@include "city/canterbury.sui"
+@include "city/chelmsford.sui"
+@include "city/croydon.sui"
+@include "city/dumfries.sui"
+@include "city/evie.sui"
+@include "city/exeter.sui"
+@include "city/fishguard.sui"
+@include "city/folkestone.sui"
+@include "city/fraserburgh.sui"
+@include "city/ftwilliam.sui"
+@include "city/hawes.sui"
+@include "city/heysham.sui"
+@include "city/holyhead.sui"
+@include "city/inverness.sui"
+@include "city/kirkwall.sui"
+@include "city/larne.sui"
+@include "city/lisburn.sui"
+@include "city/lochboisdale.sui"
+@include "city/londonderry.sui"
+@include "city/norwich.sui"
+@include "city/oban.sui"
+@include "city/perth.sui"
+@include "city/porthmadog.sui"
+@include "city/portree.sui"
+@include "city/portsmouth.sui"
+@include "city/stornoway.sui"
+@include "city/stranraer.sui"
+@include "city/stromness.sui"
+@include "city/tarbert.sui"
+@include "city/thurso.sui"
+@include "city/uig.sui"
+@include "city/ullapool.sui"
+@include "city/wick.sui"
+
+# UKRAINE
+@include "city/chernivtsi.sui"
+@include "city/ivanofrank.sui"
+@include "city/kovel.sui"
+@include "city/lutsk.sui"
+@include "city/lviv.sui"
+@include "city/novovolynsk.sui"
+@include "city/mukacheve.sui"
+@include "city/polyanytsya.sui"
+@include "city/stryi.sui"
+@include "city/uzhhorod.sui"
+@include "city/varash.sui"
+
+}

@@ -1,0 +1,55 @@
+﻿city_data: city.panevezys
+{
+	city_name: "Panevėžys"
+	city_name_localized: "@@panevezys@@"
+	country: lithuania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -40
+	map_x_offsets[]: -43
+	map_x_offsets[]: -40
+	map_x_offsets[]: -45
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -82
+	map_y_offsets[]: -65
+	map_y_offsets[]: -30
+	map_y_offsets[]: 4
+
+	vehicle_brands[]:"mercedes"
+
+	license_plate[]: .panevezys.lp.car
+	license_plate[]: .panevezys.lp.truck
+	license_plate[]: .panevezys.lp.trailer
+}
+
+license_plate_data : .panevezys.lp.car
+{
+	type: car
+
+@include "city_lp_lt_car.sui"
+}
+
+license_plate_data : .panevezys.lp.truck
+{
+	type: truck
+
+	probability: 0.1
+
+@include "city_lp_lt_truck.sui"
+}
+
+license_plate_data : .panevezys.lp.trailer
+{
+	type: trailer
+
+	probability: 0.1
+
+@include "city_lp_lt_trailer.sui"
+}

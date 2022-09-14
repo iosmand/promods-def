@@ -1,0 +1,54 @@
+city_data: city.aalborg
+{
+	city_name: "Aalborg"
+	city_name_localized: "@@aalborg@@"
+	country: denmark
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -38
+	map_x_offsets[]: -37
+	map_x_offsets[]: -31
+	map_x_offsets[]: -33
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 28
+	map_y_offsets[]: 9
+	map_y_offsets[]: 1
+	map_y_offsets[]: 5
+
+	license_plate[]: .aalborg.lp.car
+	license_plate[]: .aalborg.lp.truck
+	license_plate[]: .aalborg.lp.trailer
+}
+
+license_plate_data : .aalborg.lp.car
+{
+	type: car
+
+@include "city_lp_dk_car.sui"
+}
+
+license_plate_data : .aalborg.lp.truck
+{
+	type: truck
+
+	background_front: truck_front
+	background_rear: truck_rear
+
+@include "city_lp_dk_truck.sui"
+}
+
+license_plate_data : .aalborg.lp.trailer
+{
+	type: trailer
+
+	background_rear: trailer
+
+@include "city_lp_dk_trailer.sui"
+}

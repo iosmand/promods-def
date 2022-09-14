@@ -1,0 +1,66 @@
+﻿city_data: city.holstebro
+{
+	city_name: "Holstebro"
+	city_name_localized: "@@holstebro@@"
+	country: denmark
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -38
+	map_x_offsets[]: -33
+	map_x_offsets[]: -35
+	map_x_offsets[]: -29
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -57
+	map_y_offsets[]: -32
+	map_y_offsets[]: -25
+	map_y_offsets[]: -22
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	vehicle_brands[]:"daf"
+
+	license_plate[]: .holstebro.lp.car
+	license_plate[]: .holstebro.lp.truck
+	license_plate[]: .holstebro.lp.trailer
+}
+
+license_plate_data : .holstebro.lp.car
+{
+	type: car
+
+@include "city_lp_dk_car.sui"
+}
+
+license_plate_data : .holstebro.lp.truck
+{
+	type: truck
+
+	background_front: truck_front
+	background_rear: truck_rear
+
+@include "city_lp_dk_truck.sui"
+}
+
+license_plate_data : .holstebro.lp.trailer
+{
+	type: trailer
+
+	background_rear: trailer
+
+@include "city_lp_dk_trailer.sui"
+}

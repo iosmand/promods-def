@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_chassis_data : .chassis.ducato.itd
+{
+	model: "/vehicle/ai/promods/road/ducato/ai.pmd"
+	lods[]: "/vehicle/ai/promods/road/ducato/lod.pmd"
+	lods[]: "/vehicle/ai/promods/road/ducato/lod2.pmd"
+	
+	collision: "/vehicle/ai/promods/road/ducato/ai.pmc"
+
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.8
+
+	variant: default
+	look: itd
+}
+}

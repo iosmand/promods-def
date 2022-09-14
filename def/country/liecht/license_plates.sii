@@ -1,0 +1,114 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	templates[]:"014445"  # 2000-9999
+	templates[]:"024445"  # 10000-38999
+	templates[]:"024445"
+	templates[]:"024445"
+
+	def0[]:"<color value=FFE0E0E0><align left=-13>FL <offset vshift=-4><img src=/material/ui/lp/liecht/liecht_coa.mat color=FFFFFFFF><offset vshift=4> "
+
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"10"
+	def2[]:"11"
+	def2[]:"12"
+	def2[]:"13"
+	def2[]:"14"
+	def2[]:"15"
+	def2[]:"16"
+	def2[]:"17"
+	def2[]:"18"
+	def2[]:"19"
+	def2[]:"20"
+	def2[]:"21"
+	def2[]:"22"
+	def2[]:"23"
+	def2[]:"24"
+	def2[]:"25"
+	def2[]:"26"
+	def2[]:"27"
+	def2[]:"28"
+	def2[]:"29"
+	def2[]:"30"
+	def2[]:"31"
+	def2[]:"32"
+	def2[]:"33"
+	def2[]:"34"
+	def2[]:"35"
+	def2[]:"36"
+	def2[]:"37"
+	def2[]:"38"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"</align>"
+}
+
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+	templates[]:"01445"   # 300-999
+	templates[]:"024445"  # 1000-1999
+	templates[]:"034445"  # 65000-67999
+	templates[]:"034445"
+
+	def0[]:"<color value=FFE0E0E0><align left=-13>FL <offset vshift=-4><img src=/material/ui/lp/liecht/liecht_coa.mat color=FFFFFFFF><offset vshift=4> "
+
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"1"
+
+	def3[]:"65"
+	def3[]:"66"
+	def3[]:"67"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"</align>"
+}
+
+}

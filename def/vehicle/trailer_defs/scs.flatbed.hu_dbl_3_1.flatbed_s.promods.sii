@@ -1,0 +1,19 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.flatbed.hu_dbl_3_1.flatbed_s
+{
+	gross_trailer_weight_limit: 45000
+	chassis_mass: 10230
+	body_mass: 200
+	length: 22.7
+	axles: 4
+	volume: 140
+	body_type: flatbed
+	chain_type: double
+
+	country_validity[]: hungary
+
+	mass_ratio[]: 0.67
+	mass_ratio[]: 0.33
+}
+}

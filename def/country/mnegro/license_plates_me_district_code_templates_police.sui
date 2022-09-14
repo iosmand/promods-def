@@ -1,0 +1,71 @@
+﻿	# Andrijevica
+	templates[]:"3P4AN 000"
+
+	# Berane
+	templates[]:"3P4BA 000"
+
+	# Budva
+	templates[]:"3P4BD 000"
+
+	# Bijelo Polje
+	templates[]:"3P4BP 000"
+
+	# Bar
+	templates[]:"3P4BR 000"
+
+	# Cetinje
+	templates[]:"3P4CT 000"
+
+	# Danilovgrad
+	templates[]:"3P4DG 000"
+
+	# Gusinje
+	templates[]:"3P4GS 000"
+
+	# Herceg Novi
+	templates[]:"3P4HN 000"
+
+	# Kolašin
+	templates[]:"3P4KL 000"
+
+	# Kotor
+	templates[]:"3P4KO 000"
+
+	# Mojkovac
+	templates[]:"3P4MK 000"
+
+	# Nikšić
+	templates[]:"3P4NK 000"
+
+	# Podgorica
+	templates[]:"3P4PG 000"
+
+	# Plav
+	templates[]:"3P4PL 000"
+
+	# Petnjica
+	templates[]:"3P4PT 000"
+
+	# Plužine
+	templates[]:"3P4PŽ 000"
+
+	# Pljevlja
+	templates[]:"3P4PV 000"
+
+	# Rožaje
+	templates[]:"3P4RO 000"
+
+	# Šavnik
+	templates[]:"3P4ŠN 000"
+
+	# Tivat
+	templates[]:"3P4TV 000"
+
+	# Tuzi
+	templates[]:"3P4TZ 000"
+
+	# Ulcinj
+	templates[]:"3P4UL 000"
+
+	# Žabljak
+	templates[]:"3P4ŽB 000"
