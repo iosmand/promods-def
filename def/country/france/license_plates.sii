@@ -1,0 +1,37 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+@include "license_plates_normal_series.sui"
+}
+
+# Note: Even though the truck and trailer LP definitions are identical to car,
+#       I have included them here so that the "probability" factor specified
+#       in the city definition files will have an effect on LP generation for
+#       A.I. vehicles.
+
+license_plate_data : .lp.truck
+{
+	type: truck
+
+@include "license_plates_normal_series.sui"
+}
+
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+@include "license_plates_normal_series.sui"
+}
+
+}

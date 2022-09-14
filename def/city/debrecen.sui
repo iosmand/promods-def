@@ -1,0 +1,53 @@
+city_data: city.debrecen
+{
+	city_name: "Debrecen"
+	city_name_localized: "@@debrecen@@"
+	country: hungary
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -43
+	map_x_offsets[]: -44
+	map_x_offsets[]: -44
+	map_x_offsets[]: -45
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -43
+	map_y_offsets[]: -45
+	map_y_offsets[]: -30
+	map_y_offsets[]: -27
+
+	license_plate[]: .debrecen.lp.car
+	license_plate[]: .debrecen.lp.truck
+	license_plate[]: .debrecen.lp.trailer
+}
+
+license_plate_data : .debrecen.lp.car
+{
+	type: car
+
+@include "city_lp_hu_car.sui"
+}
+
+license_plate_data : .debrecen.lp.truck
+{
+	type: truck
+
+	probability: 0.1
+
+@include "city_lp_hu_truck.sui"
+}
+
+license_plate_data : .debrecen.lp.trailer
+{
+	type: trailer
+
+	probability: 0.1
+
+@include "city_lp_hu_trailer.sui"
+}

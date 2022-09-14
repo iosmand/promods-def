@@ -1,0 +1,37 @@
+traffic_vehicle : traffic.bmw5.police.az
+{
+	accessories[]: .bmw5.police.az.chassis
+	accessories[]: .bmw5.police.az.fwheel
+	accessories[]: .bmw5.police.az.rwheel
+
+	max_speed: 160
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	vehicle_mass: 2000	
+	
+	sound_move[]: "/sound/traffic/car_default_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	
+	spawn_ratio: 0
+	
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .bmw5.police.az.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/bmw5/chassis_police_az.sii"
+}
+
+vehicle_wheel_accessory: .bmw5.police.az.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .bmw5.police.az.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}

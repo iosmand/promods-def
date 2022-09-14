@@ -1,0 +1,10 @@
+﻿###
+# WARNING: Map must be rebuilt when anything is changed here!
+###
+ferry_data: ferry.smiltyne
+{
+	ferry_name: "@@smiltyne@@"
+	cutscene: ltferry1
+}
+
+

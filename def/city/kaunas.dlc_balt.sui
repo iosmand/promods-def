@@ -1,0 +1,55 @@
+city_data: city.kaunas
+{
+	city_name: "Kaunas"
+	city_name_localized: "@@kaunas@@"
+	country: lithuania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -40
+	map_x_offsets[]: -43
+	map_x_offsets[]: -40
+	map_x_offsets[]: -38
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -82
+	map_y_offsets[]: -65
+	map_y_offsets[]: -30
+	map_y_offsets[]: -26
+
+	vehicle_brands[]: "renault"
+
+	license_plate[]: .kaunas.lp.car
+	license_plate[]: .kaunas.lp.truck
+	license_plate[]: .kaunas.lp.trailer
+}
+
+license_plate_data : .kaunas.lp.car
+{
+	type: car
+
+@include "city_lp_lt_car.sui"
+}
+
+license_plate_data : .kaunas.lp.truck
+{
+	type: truck
+
+	probability: 0.1
+
+@include "city_lp_lt_truck.sui"
+}
+
+license_plate_data : .kaunas.lp.trailer
+{
+	type: trailer
+
+	probability: 0.1
+
+@include "city_lp_lt_trailer.sui"
+}

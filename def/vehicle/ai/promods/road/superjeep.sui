@@ -1,0 +1,45 @@
+traffic_vehicle : traffic.superjeep
+{
+	accessories[]: .superjeep.chassis
+	accessories[]: .superjeep.fwheel
+	accessories[]: .superjeep.rwheel
+
+        allow_parked: false
+
+	max_speed: 132
+	vehicle_mass: 2751
+	spawn_ratio: 0
+
+	lod_dist[]: 80
+	lod_dist[]: 120
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+	
+	headlights_diffuse : (0.9418, 0.9291, 0.6661)
+	headlights_offset : -0.8
+	headlights_pitch: -7
+	headlights_range: 20.0
+	headlights_angle: 95.0
+	headlights_aspect: 2
+	headlights_mask: "/material/custom/trucklight_mask_norm.tobj"
+	headlights_intensity_min: 0.7
+	headlights_intensity_max: 2.5
+@include "/def/vehicle/ai/drivers_generic.sui"
+}
+
+vehicle_accessory: .superjeep.chassis
+{
+    	data_path: "/def/vehicle/ai/promods/road/superjeep/chassis.sii"
+}
+
+vehicle_wheel_accessory: .superjeep.fwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/superjeep_f.sii"
+}
+
+vehicle_wheel_accessory: .superjeep.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/superjeep_r.sii"
+}

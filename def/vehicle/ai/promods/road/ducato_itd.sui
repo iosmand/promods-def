@@ -1,0 +1,37 @@
+traffic_vehicle : traffic.ducato.itd
+{
+	accessories[]: .ducato.itd.chassis
+	accessories[]: .ducato.itd.fwheel
+	accessories[]: .ducato.itd.rwheel
+
+	max_speed: 100
+	
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+	
+	lod_dist[]: 60
+	lod_dist[]: 110
+	
+	spawn_ratio: 0
+	
+	color[]: (1, 1, 1) #white
+	
+	vehicle_mass: 3500
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .ducato.itd.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/ducato/chassis_itd.sii"
+}
+
+vehicle_wheel_accessory: .ducato.itd.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_front.sii"
+}
+
+vehicle_wheel_accessory: .ducato.itd.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/27_steel_fiat_rear.sii"
+}

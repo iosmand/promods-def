@@ -1,0 +1,296 @@
+city_data : city.roma
+{
+	city_name: "Roma"
+	city_name_localized: "@@roma@@"
+	country: italy
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -20
+	map_x_offsets[]: -31
+	map_x_offsets[]: -31
+	map_x_offsets[]: -28
+	map_x_offsets[]: -30
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -15
+	map_y_offsets[]: -6
+	map_y_offsets[]: -1
+	map_y_offsets[]: -21
+	map_y_offsets[]: -29
+
+	vehicle_brands[]: "iveco"
+
+	license_plate[]: .roma.lp.car
+	license_plate[]: .roma.lp.truck
+	license_plate[]: .roma.lp.trailer
+	license_plate[]: .roma.lp.police
+}
+
+license_plate_data : .roma.lp.car
+{
+	type: car
+
+	templates[]:"01 222334"
+	templates[]:"01 2223345"
+
+	def0[]:"<align left=-15>"
+
+	def1[]:"BB"  # First with Euroband
+	def1[]:"BC"
+	def1[]:"BD"
+	def1[]:"BE"
+	def1[]:"BF"
+	def1[]:"BG"
+	def1[]:"BH"
+	def1[]:"BJ"
+	def1[]:"BK"
+	def1[]:"BL"
+	def1[]:"BM"
+	def1[]:"BN"
+	def1[]:"BP"
+	def1[]:"BR"
+	def1[]:"BS"
+	def1[]:"BT"
+	def1[]:"BV"
+	def1[]:"BX"
+	def1[]:"BY"
+	def1[]:"BZ"
+	def1[]:"CA"
+	def1[]:"CB"
+	def1[]:"CC"
+	def1[]:"CD"
+	def1[]:"CE"
+	def1[]:"CF"
+	def1[]:"CG"
+	def1[]:"CH"
+	def1[]:"CJ"
+	def1[]:"CK"
+	def1[]:"CL"
+	def1[]:"CM"
+	def1[]:"CN"
+	def1[]:"CP"
+	def1[]:"CR"
+	def1[]:"CS"
+	def1[]:"CT"
+	def1[]:"CV"
+	def1[]:"CX"
+	def1[]:"CY"
+	def1[]:"CZ"
+	def1[]:"DA"
+	def1[]:"DB"
+	def1[]:"DC"
+	def1[]:"DD"
+	def1[]:"DE"
+	def1[]:"DF"
+	def1[]:"DG"
+	def1[]:"DH"
+	def1[]:"DJ"
+	def1[]:"DK"
+	def1[]:"DL"
+	def1[]:"DM"
+	def1[]:"DN"
+	def1[]:"DP"
+	def1[]:"DR"
+	def1[]:"DS"
+	def1[]:"DT"
+	def1[]:"DV"
+	def1[]:"DX"
+	def1[]:"DY"
+	def1[]:"DZ"
+	def1[]:"EA"
+	def1[]:"EB"
+	def1[]:"EC"
+	def1[]:"ED"
+#	def1[]:"EE"  # Skipped
+	def1[]:"EF"
+	def1[]:"EG"
+	def1[]:"EH"
+	def1[]:"EJ"
+	def1[]:"EK"
+	def1[]:"EL"
+	def1[]:"EM"
+	def1[]:"EN"
+	def1[]:"EP"
+	def1[]:"ER"
+	def1[]:"ES"
+	def1[]:"ET"
+	def1[]:"EV"
+	def1[]:"EX"
+	def1[]:"EY"
+	def1[]:"EZ"
+	def1[]:"FA"
+	def1[]:"FB"
+	def1[]:"FC"
+	def1[]:"FD"
+	def1[]:"FE"
+	def1[]:"FF"
+	def1[]:"FG"
+	def1[]:"FH"
+	def1[]:"FJ"
+	def1[]:"FK"
+	def1[]:"FL"
+	def1[]:"FM"
+	def1[]:"FN"
+	def1[]:"FP"
+	def1[]:"FR"
+	def1[]:"FS"
+	def1[]:"FT"
+	def1[]:"FV"
+	def1[]:"FX"
+	def1[]:"FY"
+	def1[]:"FZ"
+	def1[]:"GA"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"</align>"
+
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"  # Roma (Rome)
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/aq.mat color=FFFFFFFF width=15 height=35></align>"  # L'Aquila
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/fr.mat color=FFFFFFFF width=15 height=35></align>"  # Frosinone
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/lt.mat color=FFFFFFFF width=15 height=35></align>"  # Latina
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/ri.mat color=FFFFFFFF width=15 height=35></align>"  # Rieti
+	def5[]:"<ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/vt.mat color=FFFFFFFF width=15 height=35></align>"  # Viterbo
+}
+
+license_plate_data : .roma.lp.truck
+{
+	type: truck
+
+	templates[]:"0GB 111CA2"
+	templates[]:"0GB 111CB2"
+	templates[]:"0GB 111CC2"
+	templates[]:"0GB 111CE2"
+	templates[]:"0GB 111CF2"
+	templates[]:"0GB 111CG2"
+	templates[]:"0GB 111CH2"
+	templates[]:"0GB 111DM2"
+	templates[]:"0GB 111DN2"
+	templates[]:"0GB 111DP2"
+	templates[]:"0GB 111DR2"
+	templates[]:"0GB 111DS2"
+	templates[]:"0GB 111DT2"
+	templates[]:"0GB 111DV2"
+	templates[]:"0GB 111DW2"
+	templates[]:"0GB 111GB2"
+	templates[]:"0GB 111GC2"
+	templates[]:"0GB 111GD2"
+	templates[]:"0GB 111GE2"
+	templates[]:"0GB 111GF2"
+	templates[]:"0GB 111GG2"
+	templates[]:"0GB 111GH2"
+	templates[]:"0GB 111GJ2"
+	templates[]:"0GB 111KN2"
+	templates[]:"0GB 111KP2"
+	templates[]:"0GB 111KR2"
+	templates[]:"0GB 111KS2"
+	templates[]:"0GB 111RM2"
+	templates[]:"0GB 111RN2"
+	templates[]:"0GB 111RP2"
+	templates[]:"0GB 111RR2"
+	templates[]:"0GB 111RS2"
+	templates[]:"0GB 111VB2"
+	templates[]:"0GB 111VC2"
+	templates[]:"0GB 111VD2"
+	templates[]:"0GB 111VE2"
+	templates[]:"0GB 111XX2"
+	templates[]:"0GB 111XY2"
+	templates[]:"0GB 111YA2"
+	templates[]:"0GB 111YB2"
+	templates[]:"0GB 111YC2"
+	templates[]:"0GB 111YD2"
+	templates[]:"0GC 111CE2"
+	templates[]:"0GC 111CF2"
+	templates[]:"0GC 111CG2"
+	templates[]:"0GC 111CH2"
+
+	def0[]:"<align left=-15>"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"</align>"
+	def2[]:"</align><ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"  # Roma (Rome)
+}
+
+license_plate_data : .roma.lp.trailer
+{
+	type: trailer
+
+	templates[]:"0XA 12"
+	
+	def0[]:"<align left=-15>"
+	
+@include "it_lp_roma_trailer.sui"
+
+	def2[]:"</align>"
+	def2[]:"</align><ret><align left=126><offset vshift=-5><img src=/material/ui/lp/italy/roma.mat color=FFFFFFFF width=15 height=35></align>"  # Roma (Rome)
+}
+
+license_plate_data : .roma.lp.police
+{
+	type: police
+
+	background_front: "front"
+	background_rear: "rear"
+
+	templates[]:"0YA  12"
+
+	def0[]:"<offset vshift=-7><color value=FF9E0000><align left=-15><font xscale=0.5 yscale=0.4>POLIZA  LOCALE</font></align><ret><offset vshift=4><color value=FF000000><align left=-15><font xscale=0.8 yscale=0.9>"
+	
+@include "it_lp_roma_police.sui"
+
+	def2[]:"</font></align>"
+}

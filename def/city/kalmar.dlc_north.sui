@@ -1,0 +1,53 @@
+city_data: city.kalmar
+{
+	city_name: "Kalmar"
+	city_name_localized: "@@kalmar@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -35
+	map_x_offsets[]: -31
+	map_x_offsets[]: -30
+	map_x_offsets[]: -29
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -61
+	map_y_offsets[]: -31
+	map_y_offsets[]: -27
+	map_y_offsets[]: -27
+
+	vehicle_brands[]:"mercedes"
+
+	license_plate[]: .kalmar.lp.car
+	license_plate[]: .kalmar.lp.truck
+	license_plate[]: .kalmar.lp.trailer
+}
+
+license_plate_data : .kalmar.lp.car
+{
+	type: car
+
+@include "city_lp_se_car.sui"
+}
+
+license_plate_data : .kalmar.lp.truck
+{
+	type: truck
+	probability: 0.1
+
+@include "city_lp_se_truck.sui"
+}
+
+license_plate_data : .kalmar.lp.trailer
+{
+	type: trailer
+	probability: 0.1
+
+@include "city_lp_se_trailer.sui"
+}

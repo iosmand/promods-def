@@ -1,0 +1,47 @@
+SiiNunit
+{
+ferry_connection : conn.rosslare.cherbourg{
+	price: 1500
+	time: 1080
+	distance: 577
+
+	# NODE POSITIONS #######     x*256  , 0,   z*256
+	connection_positions[0]:  (-17004672, 0, -6198964)
+	connection_positions[1]:  (-16995942, 0, -6208460)
+	connection_positions[2]:  (-16976204, 0, -6204340)
+	connection_positions[3]:  (-16962022, 0, -6185190)
+	connection_positions[4]:  (-16940262, 0, -6174950)
+	connection_positions[5]:  (-16905344, 0, -6217088)
+	connection_positions[6]:  (-16873190, 0, -6221210)
+	connection_positions[7]:  (-16861568, 0, -6180608)
+	connection_positions[8]:  (-17794074, 0, -1828294)
+	connection_positions[9]:  (-17078988, 0, -1251164)
+	connection_positions[10]: (-11417114, 0,  -361836)
+	connection_positions[11]: (-11389082, 0,  -339520)
+	connection_positions[12]: (-11405798, 0,  -310694)
+	connection_positions[13]: (-11469492, 0,  -278584)
+	connection_positions[14]: (-11478938, 0,  -268446)
+	connection_positions[15]: (-11477632, 0,  -260268)
+	connection_positions[16]: (-11466752, 0,  -238174)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  ( 0.70711, 0, -0.70711)
+	connection_directions[1]:  ( 0.25882, 0, -0.96593)
+	connection_directions[2]:  ( 0.5,     0,  0.86603)
+	connection_directions[3]:  ( 0.5,     0,  0.86603)
+	connection_directions[4]:  ( 0.64279, 0, -0.76604)
+	connection_directions[5]:  ( 0.64279, 0, -0.76604)
+	connection_directions[6]:  ( 0.86603, 0,  0.5    )
+	connection_directions[7]:  (-0.25882, 0,  0.96593)
+	connection_directions[8]:  (-0.17365, 0,  0.98481)
+	connection_directions[9]:  ( 0.9763,  0,  0.21644)
+	connection_directions[10]: ( 0.98481, 0,  0.17365)
+	connection_directions[11]: ( 0,       0,  1      )
+	connection_directions[12]: (-0.86603, 0,  0.5    )
+	connection_directions[13]: (-0.86603, 0,  0.5    )
+	connection_directions[14]: (-0.25882, 0,  0.96593)
+	connection_directions[15]: ( 0.5,     0,  0.86603)
+	connection_directions[16]: ( 0.5,     0,  0.86603)
+}
+}
+

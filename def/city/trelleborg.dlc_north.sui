@@ -1,0 +1,62 @@
+city_data: city.trelleborg
+{
+	city_name: "Trelleborg"
+	city_name_localized: "@@trelleborg@@"
+	country: sweden
+
+	## City pin and name scale factor sets size of city pin and name text on UI map.
+	## Valid values: (0;2> default value 1.0. Default pin size on UI map 24px X 24px.
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 0.9f
+	city_pin_scale_factor[]: 0.85f
+	city_pin_scale_factor[]: 0.75f
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -44
+	map_x_offsets[]: -46
+	map_x_offsets[]: -36
+	map_x_offsets[]: -37
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 5
+	map_y_offsets[]: 25
+	map_y_offsets[]: 9
+	map_y_offsets[]: 3
+
+	license_plate[]: .trelleborg.lp.car
+	license_plate[]: .trelleborg.lp.truck
+	license_plate[]: .trelleborg.lp.trailer
+}
+
+license_plate_data : .trelleborg.lp.car
+{
+	type: car
+
+@include "city_lp_se_car.sui"
+}
+
+license_plate_data : .trelleborg.lp.truck
+{
+	type: truck
+	probability: 0.1
+
+@include "city_lp_se_truck.sui"
+}
+
+license_plate_data : .trelleborg.lp.trailer
+{
+	type: trailer
+	probability: 0.1
+
+@include "city_lp_se_trailer.sui"
+}

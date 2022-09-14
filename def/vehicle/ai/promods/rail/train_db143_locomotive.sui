@@ -1,0 +1,98 @@
+traffic_vehicle : traffic.db143_loco.cz
+{
+	accessories[]: .db143_loco.chassis.cz
+	accessories[]: .db143_loco.fwheel.cz
+	accessories[]: .db143_loco.rwheel.cz
+	accessories[]: .db143_loco.rwheel2.cz
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+
+	trailer_chains[]: "train_car.w_passenger.cz 4-6"
+	trailer_chains[]: "train_car_c 6-10"
+	
+	sound_move[]: "/sound/traffic/train_electric.soundref"
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0.0
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+}
+
+vehicle_accessory: .db143_loco.chassis.cz
+{
+	data_path: "/def/vehicle/ai/promods/rail/train_db_class_143/chassis_cz.sii"
+}
+
+vehicle_wheel_accessory: .db143_loco.fwheel.cz
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .db143_loco.rwheel.cz
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .db143_loco.rwheel2.cz
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+
+traffic_vehicle : traffic.db143_loco.sk
+{
+	accessories[]: .db143_loco.chassis.sk
+	accessories[]: .db143_loco.fwheel.sk
+	accessories[]: .db143_loco.rwheel.sk
+	accessories[]: .db143_loco.rwheel2.sk
+
+	max_speed: 120
+
+	vehicle_mass: 83000
+	engine_power: 3720
+	
+	trailer_chains[]: "train_car.pass.r 4-6"
+	trailer_chains[]: "train_car_c 6-10"
+	
+	sound_move[]: "/sound/traffic/train_electric.soundref"
+
+	displacement_limit: 0.0
+
+	spawn_ratio: 0.0
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+}
+
+vehicle_accessory: .db143_loco.chassis.sk
+{
+	data_path: "/def/vehicle/ai/promods/rail/train_db_class_143/chassis_sk.sii"
+}
+
+vehicle_wheel_accessory: .db143_loco.fwheel.sk
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .db143_loco.rwheel.sk
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .db143_loco.rwheel2.sk
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
