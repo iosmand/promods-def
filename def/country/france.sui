@@ -8,9 +8,9 @@ country_data : country.data.france
 	country_code: "F"
 	iso_country_code: fra
 
-	pos: (-32380, 0, 20210)
+	pos: (-32380, 0, 13210)
 
-	fuel_price: 2.15
+	fuel_price: 1.42
 
 	lights_mandatory: false
 	driving_tired_offence: true
@@ -23,7 +23,3 @@ country_data : country.data.france
 	mass_limit_per_axle_count[]: 38000
 	mass_limit_per_axle_count[]: 44000
 }
-
-
-
-

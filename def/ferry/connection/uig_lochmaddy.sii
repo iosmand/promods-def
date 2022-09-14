@@ -11,7 +11,7 @@ ferry_connection : conn.uig.lochmaddy{
 	connection_positions[2]: (-14208308, 0, -15933516)
 	connection_positions[3]: (-14232500, 0, -15935564)
 	connection_positions[4]: (-14264550, 0, -16022426)
-	connection_positions[5]: (-14736896, 0, -16392116)
+	connection_positions[5]: (-14765516, 0, -16399462)
 
 	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
 	connection_directions[0]: ( 0.25882, 0,  0.96593)

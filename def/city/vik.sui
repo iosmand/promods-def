@@ -1,8 +1,8 @@
 ﻿city_data: city.vik
 {
 	city_name: "Vík í Mýrdal"
-	city_name_localized: "@@vik@@"
 	short_city_name: "Vík"
+	city_name_localized: "@@vik@@"
 	short_city_name_localized: "@@vik_short@@"
 	country: iceland
 

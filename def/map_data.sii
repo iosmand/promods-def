@@ -121,7 +121,6 @@ map_data : .map.data {
 
 	ui_map_camera_min: (-80000.0, -170000.0)
 	ui_map_camera_max: (135000.0, 95000.0)
-	ui_map_camera_start: (-7000.0, 1000.0)
 
 	ui_map_always_draw_city: true
 

@@ -8,9 +8,9 @@ country_data : country.data.bulgaria
 	country_code: "BG"
 	iso_country_code: bgr
 
-	pos: (57500, 0, 44000)
-
-	fuel_price: 1.52
+	pos: (57000, 0, 43000)
+	
+	fuel_price: 1.17
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -23,6 +23,3 @@ country_data : country.data.bulgaria
 	mass_limit_per_axle_count[]: 38000
 	mass_limit_per_axle_count[]: 40000	# 44t containers
 }
-
-
-

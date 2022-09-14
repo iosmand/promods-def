@@ -8,9 +8,9 @@ country_data : country.data.moldova
 	country_code: "MD"
 	iso_country_code: mda
 
-	pos: (70500, 0, 14500)
+	pos: (69000, 0, 14500)
 
-	fuel_price: 1.502
+	fuel_price: 0.77
 
 	lights_mandatory: false	
 	driving_tired_offence: true
@@ -23,6 +23,3 @@ country_data : country.data.moldova
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 40000
 }
-
-
-

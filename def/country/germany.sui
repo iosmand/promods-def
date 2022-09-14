@@ -10,7 +10,7 @@ country_data : country.data.germany
 
 	pos: (-2770, 0, -370)
 
-	fuel_price: 2.18
+	fuel_price: 1.23
 
 	lights_mandatory: false
 	driving_tired_offence: true
@@ -23,7 +23,3 @@ country_data : country.data.germany
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 40000
 }
-
-
-
-

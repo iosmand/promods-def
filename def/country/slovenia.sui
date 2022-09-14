@@ -10,7 +10,7 @@ country_data : country.data.slovenia
 
 	pos: (16000, 0, 25500)
 
-	fuel_price: 1.788
+	fuel_price: 1.27
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -23,6 +23,3 @@ country_data : country.data.slovenia
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 40000
 }
-
-
-

@@ -26,7 +26,7 @@
 	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0  
 	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
@@ -41,34 +41,94 @@ license_plate_data : .dombas.lp.car
 {
 	type: car
 
-@include "city_lp_no_car.sui"
+	templates[]:"0 12222"
 
-	# Otta
-	def0[]:"HZ"  # 1930 - 2021
+	def0[]:"HZ"  # Otta
 #	def0[]:"JA"
 #	def0[]:"JB"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
 }
 
 license_plate_data : .dombas.lp.truck
 {
 	type: truck
 
-@include "city_lp_no_truck.sui"
+	templates[]:"0 12222"
 
-	# Otta
-	def0[]:"HZ"  # 1930 - 2021
+	def0[]:"HZ"  # Otta
 #	def0[]:"JA"
 #	def0[]:"JB"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
 }
 
 license_plate_data : .dombas.lp.trailer
 {
 	type: trailer
 
-@include "city_lp_no_trailer.sui"
+	templates[]:"0 1222"
 
-	# Otta
-#	def0[]:"HZ"  # 1936 - 2001 (limited issue)
-	def0[]:"JA"  # 1943 - 2020
-	def0[]:"JB"  # 1966 - 2021
+#	def0[]:"HZ"  # Otta
+	def0[]:"JA"
+	def0[]:"JB"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
 }

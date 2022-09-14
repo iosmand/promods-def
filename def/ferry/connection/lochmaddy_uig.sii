@@ -6,7 +6,7 @@ ferry_connection : conn.lochmaddy.uig{
 	distance: 50
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256
-	connection_positions[0]: (-14736896, 0, -16392116)
+	connection_positions[0]: (-14765516, 0, -16399462)
 	connection_positions[1]: (-14264550, 0, -16022426)
 	connection_positions[2]: (-14232500, 0, -15935564)
 	connection_positions[3]: (-14208308, 0, -15933516)

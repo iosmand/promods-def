@@ -55,8 +55,8 @@
 	def4[]:"ND"
 	def4[]:"NE"
 	def4[]:"NF"  # April 2022
-	def4[]:"NG"  # May 2022
-	def4[]:"NH"  # Latest issued (23.06.2022)
+	def4[]:"NG"  # Latest issued (late May 2022)
+#	def4[]:"NH"
 #	def4[]:"NI"
 #	def4[]:"NJ"
 #	def4[]:"NK"
