@@ -1,0 +1,69 @@
+city_data : city.coimbra
+{
+	city_name: "Coimbra"
+	city_name_localized: "@@coimbra@@"
+	country: portugal
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -40
+	map_x_offsets[]: -40
+	map_x_offsets[]: -40
+	map_x_offsets[]: -40
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -50
+	map_y_offsets[]: -28
+	map_y_offsets[]: -26
+	map_y_offsets[]: -26
+	map_y_offsets[]: -26
+	map_y_offsets[]: -26
+
+	license_plate[]: .coimbra.lp.car
+	license_plate[]: .coimbra.lp.truck
+	license_plate[]: .coimbra.lp.trailer
+}
+
+license_plate_data : .coimbra.lp.car
+{
+	type: car
+
+@include "city_lp_pt_car.sui"
+}
+
+license_plate_data : .coimbra.lp.truck
+{
+	type: truck
+	probability: 0.1
+
+@include "city_lp_pt_truck.sui"
+}
+
+license_plate_data : .coimbra.lp.trailer
+{
+	type: trailer
+	background_rear: "trailer"
+	probability: 0.1
+
+	templates[]: "0-1222"
+
+	def0[]:"C"   # Coimbra
+
+	def1[]:"69"
+	def1[]:"70"
+	def1[]:"71"  # Latest issue as of April 2021
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}

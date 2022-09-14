@@ -1,0 +1,235 @@
+﻿SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+	background_front: "front"
+	background_rear: "rear"
+
+	templates[]:"4AA  100 335"  # No zero for first numeral
+	templates[]:"4AA  010 335"
+	templates[]:"4AA  001 335"
+	templates[]:"4AA  100 335"
+	templates[]:"4AA  010 335"
+	templates[]:"4AA  001 335"
+	templates[]:"4AA  100 335"
+	templates[]:"4AA  010 335"
+	templates[]:"4AA  001 335"
+	templates[]:"4AB  100 235"
+	templates[]:"4AB  010 235"
+	templates[]:"4AB  001 235"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"  # Latest issued March 2022
+#	def2[]:"H"
+#	def2[]:"I"
+#	def2[]:"J"
+#	def2[]:"K"
+#	def2[]:"L"
+#	def2[]:"M"
+#	def2[]:"N"
+#	def2[]:"O"
+#	def2[]:"P"
+##	def2[]:"Q"  # Not used
+#	def2[]:"R"
+#	def2[]:"S"
+#	def2[]:"T"
+#	def2[]:"U"
+#	def2[]:"V"
+##	def2[]:"W"  # Not used
+#	def2[]:"X"
+#	def2[]:"Y"
+#	def2[]:"Z"
+
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"I"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"O"
+	def3[]:"P"
+#	def3[]:"Q"  # Not used
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+#	def3[]:"W"  # Not used
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"<align left=-12>"
+	def5[]:"</align>"
+}
+
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+	background_rear: "trailer"
+
+	templates[]:"40   R  2115"  # No zero for first numeral
+	templates[]:"40   R  1215"
+	templates[]:"40   R  1125"
+
+	def0[]:"AA"
+	def0[]:"AB"
+	def0[]:"AC"
+	def0[]:"AD"
+	def0[]:"AE"
+	def0[]:"AF"
+	def0[]:"AG"
+	def0[]:"AH"
+	def0[]:"AI"  # Latest issued March 2022
+#	def0[]:"AJ"
+#	def0[]:"AK"
+#	def0[]:"AL"
+#	def0[]:"AM"
+#	def0[]:"AN"
+#	def0[]:"AO"
+#	def0[]:"AP"
+##	def0[]:"AQ"  # Not used
+#	def0[]:"AR"
+#	def0[]:"AS"
+#	def0[]:"AT"
+#	def0[]:"AU"
+#	def0[]:"AV"
+##	def0[]:"AW"  # Not used
+#	def0[]:"AX"
+#	def0[]:"AY"
+#	def0[]:"AZ"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def4[]:"<align left=-12><color value=FFF8F8F8>"
+	def5[]:"</align>"
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	background_front: "police_front"
+	background_rear: "police_rear"
+
+	templates[]:"4MB  100 25"  # No zero for first numeral
+	templates[]:"4MB  010 25"
+	templates[]:"4MB  001 25"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"AA"
+	def2[]:"AB"
+	def2[]:"AC"
+	def2[]:"AD"
+	def2[]:"AE"
+	def2[]:"AF"
+	def2[]:"AG"
+	def2[]:"AH"
+	def2[]:"AI"
+	def2[]:"AJ"
+	def2[]:"AK"
+	def2[]:"AL"
+	def2[]:"AM"
+	def2[]:"AN"
+	def2[]:"AO"
+	def2[]:"AP"
+#	def2[]:"AQ"  # Not used
+	def2[]:"AR"
+	def2[]:"AS"
+	def2[]:"AT"
+	def2[]:"AU"
+	def2[]:"AV"
+#	def2[]:"AW"  # Not used
+	def2[]:"AX"
+	def2[]:"AY"
+	def2[]:"AZ"
+
+	def4[]:"<align left=-12><color value=FF660000>"
+	def5[]:"</align>"
+}
+
+}

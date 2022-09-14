@@ -1,0 +1,44 @@
+traffic_vehicle : traffic.santafe.police.al
+{
+	accessories[]: .santafe.police.al.chassis
+	accessories[]: .santafe.police.al.fwheel
+	accessories[]: .santafe.police.al.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	
+	lod_dist[]: 60
+	lod_dist[]: 110
+	spawn_ratio: 0
+	allow_parked: true 
+	
+	color[]: (0.0343, 0.0343, 0.0343) #black
+	color[]: (0.0883, 0.0622, 0.0454) #brown
+	color[]: (0, 0.0263, 0.1347) #blue
+	color[]: (0.5394, 0.5711, 0.5906) #silver
+	color[]: (0.8713, 0.8631, 0.8227) #white
+	color[]: (0.1596, 0.0093, 0.0197) #red
+
+	vehicle_mass: 2000	
+
+@include "/def/vehicle/ai/drivers_generic_police.sui"
+}
+
+vehicle_accessory: .santafe.police.al.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/santafe/chassis_police_al.sii"
+}
+
+vehicle_wheel_accessory: .santafe.police.al.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_santafe.sii"
+}
+
+vehicle_wheel_accessory: .santafe.police.al.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_santafe.sii"
+}

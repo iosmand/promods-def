@@ -1,0 +1,24 @@
+SiiNunit
+{
+ferry_connection : conn.sthelier.portsmouth{
+	price: 928
+	time: 540
+	distance: 177
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-12176460, 0,   534116)
+	connection_positions[1]: (-12194740, 0,   612952)
+	connection_positions[2]: (-12461004, 0,   433646)
+	connection_positions[3]: (-11920410, 0,  -192370)
+	connection_positions[4]: (-11070004, 0, -1320130)
+	connection_positions[5]: (-11066880, 0, -1342034)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.25882, 0,  0.96593)
+	connection_directions[1]: (-0.96593, 0,  0.25882)
+	connection_directions[2]: ( 0,       0, -1      )
+	connection_directions[3]: ( 0.5,     0, -0.86603)
+	connection_directions[4]: ( 0.5,     0, -0.86603)
+	connection_directions[5]: ( 0,       0, -1      )
+}
+}

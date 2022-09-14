@@ -1,0 +1,51 @@
+city_data: city.vasteraas
+{
+	city_name: "Västerås"
+	city_name_localized: "@@vasteras@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -38
+	map_x_offsets[]: -37
+	map_x_offsets[]: -37
+	map_x_offsets[]: -60
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -73
+	map_y_offsets[]: -39
+	map_y_offsets[]: -28
+	map_y_offsets[]: -25
+
+	license_plate[]: .vasteraas.lp.car
+	license_plate[]: .vasteraas.lp.truck
+	license_plate[]: .vasteraas.lp.trailer
+}
+
+license_plate_data : .vasteraas.lp.car
+{
+	type: car
+
+@include "city_lp_se_car.sui"
+}
+
+license_plate_data : .vasteraas.lp.truck
+{
+	type: truck
+	probability: 0.1
+
+@include "city_lp_se_truck.sui"
+}
+
+license_plate_data : .vasteraas.lp.trailer
+{
+	type: trailer
+	probability: 0.1
+
+@include "city_lp_se_trailer.sui"
+}

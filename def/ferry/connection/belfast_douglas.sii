@@ -1,0 +1,30 @@
+SiiNunit
+{
+ferry_connection : conn.belfast.douglas{
+	price: 350
+	time: 180
+	distance: 100
+
+	# NODE POSITIONS #######    x*256  , 0,   z*256
+	connection_positions[0]: (-14980122, 0, -10743040)
+	connection_positions[1]: (-14945588, 0, -10720358)
+	connection_positions[2]: (-14929868, 0, -10712218)
+	connection_positions[3]: (-14898124, 0, -10742092)
+	connection_positions[4]: (-14802688, 0, -10741658)
+	connection_positions[5]: (-14301440, 0, -10003916)
+	connection_positions[6]: (-13486234, 0,  -9342336)
+	connection_positions[7]: (-13734092, 0,  -9064628)
+	connection_positions[8]: (-13794458, 0,  -9068108)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: ( 0.86603, 0,  0.5    )
+	connection_directions[1]: ( 0.70711, 0,  0.70711)
+	connection_directions[2]: ( 0.70711, 0, -0.70711)
+	connection_directions[3]: ( 0.70711, 0, -0.70711)
+	connection_directions[4]: ( 0.70711, 0,  0.70711)
+	connection_directions[5]: ( 0.5,     0,  0.86603)
+	connection_directions[6]: ( 0,       0,  1      )
+	connection_directions[7]: (-0.99619, 0,  0.08716)
+	connection_directions[8]: (-0.84339, 0, -0.5373 )
+}
+}

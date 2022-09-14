@@ -1,0 +1,71 @@
+city_data : city.lisboa
+{
+	city_name: "Lisboa"
+	city_name_localized: "@@lisboa@@"
+	country: portugal
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -70
+	map_x_offsets[]: -70
+	map_x_offsets[]: -70
+	map_x_offsets[]: -70
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -50
+	map_y_offsets[]: -28
+	map_y_offsets[]: -10
+	map_y_offsets[]: -10
+	map_y_offsets[]: -10
+	map_y_offsets[]: -10
+
+	vehicle_brands[]: "scania"
+
+	license_plate[]: .lisboa.lp.car
+	license_plate[]: .lisboa.lp.truck
+	license_plate[]: .lisboa.lp.trailer
+}
+
+license_plate_data : .lisboa.lp.car
+{
+	type: car
+
+@include "city_lp_pt_car.sui"
+}
+
+license_plate_data : .lisboa.lp.truck
+{
+	type: truck
+	probability: 0.1
+
+@include "city_lp_pt_truck.sui"
+}
+
+license_plate_data : .lisboa.lp.trailer
+{
+	type: trailer
+	background_rear: "trailer"
+	probability: 0.1
+
+	templates[]: "0-1222"
+
+	def0[]:"L"   # Lisbon
+
+	def1[]:"209"
+	def1[]:"210"
+	def1[]:"211"  # Latest issue as of April 2022
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}

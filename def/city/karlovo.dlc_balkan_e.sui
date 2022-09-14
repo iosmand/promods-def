@@ -1,0 +1,285 @@
+city_data : city.karlovo
+{
+	city_name: "Карлово"
+	city_name_localized: "@@karlovo@@"
+	country: bulgaria
+
+	## City pin and name scale factor sets size of city pin and name text on UI map.
+	## Valid values: (0;2> default value 1.0. Default pin size on UI map 24px X 24px.
+	#
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 0.9f
+	city_pin_scale_factor[]: 0.85f
+	city_pin_scale_factor[]: 0.75f
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -79
+	map_x_offsets[]: -59
+	map_x_offsets[]: -29
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 63
+	map_y_offsets[]: 37
+	map_y_offsets[]: 10
+	map_y_offsets[]: 7
+
+	license_plate[]: .karlovo.lp.car
+	license_plate[]: .karlovo.lp.truck
+	license_plate[]: .karlovo.lp.trailer
+}
+
+license_plate_data : .karlovo.lp.car
+{
+	type: car
+
+	templates[]:"PB 0111 KA"
+	templates[]:"PB 1011 KA"
+	templates[]:"PB 1101 KA"
+	templates[]:"PB 1110 KA"
+	templates[]:"PB 0111 KB"
+	templates[]:"PB 1011 KB"
+	templates[]:"PB 1101 KB"
+	templates[]:"PB 1110 KB"
+	templates[]:"PB 0111 KK"
+	templates[]:"PB 1011 KK"
+	templates[]:"PB 1101 KK"
+	templates[]:"PB 1110 KK"
+	templates[]:"PB 0111 KM"
+	templates[]:"PB 1011 KM"
+	templates[]:"PB 1101 KM"
+	templates[]:"PB 1110 KM"
+	templates[]:"PB 0111 KH"
+	templates[]:"PB 1011 KH"
+	templates[]:"PB 1101 KH"
+	templates[]:"PB 1110 KH"
+	templates[]:"PB 0111 KP"
+	templates[]:"PB 1011 KP"
+	templates[]:"PB 1101 KP"
+	templates[]:"PB 1110 KP"
+	templates[]:"PB 0111 KC"
+	templates[]:"PB 1011 KC"
+	templates[]:"PB 1101 KC"
+	templates[]:"PB 1110 KC"
+	templates[]:"PB 0111 KT"
+	templates[]:"PB 1011 KT"
+	templates[]:"PB 1101 KT"
+	templates[]:"PB 1110 KT"
+	templates[]:"PB 0111 KX"
+	templates[]:"PB 1011 KX"
+	templates[]:"PB 1101 KX"
+	templates[]:"PB 1110 KX"
+	templates[]:"PB 0111 MA"
+	templates[]:"PB 1011 MA"
+	templates[]:"PB 1101 MA"
+	templates[]:"PB 1110 MA"
+	templates[]:"PB 0111 MB"
+	templates[]:"PB 1011 MB"
+	templates[]:"PB 1101 MB"
+	templates[]:"PB 1110 MB"
+	templates[]:"PB 0111 MK"
+	templates[]:"PB 1011 MK"
+	templates[]:"PB 1101 MK"
+	templates[]:"PB 1110 MK"
+	templates[]:"PB 0111 MP"
+	templates[]:"PB 1011 MP"
+	templates[]:"PB 1101 MP"
+	templates[]:"PB 1110 MP"
+	templates[]:"PB 0111 MC"
+	templates[]:"PB 1011 MC"
+	templates[]:"PB 1101 MC"
+	templates[]:"PB 1110 MC"
+	templates[]:"PB 0111 MT"
+	templates[]:"PB 1011 MT"
+	templates[]:"PB 1101 MT"
+	templates[]:"PB 1110 MT"
+	templates[]:"PB 0111 MX"
+	templates[]:"PB 1011 MX"
+	templates[]:"PB 1101 MX"
+	templates[]:"PB 1110 MX"
+	templates[]:"PB 0111 PA"
+	templates[]:"PB 1011 PA"
+	templates[]:"PB 1101 PA"
+	templates[]:"PB 1110 PA"
+	templates[]:"PB 0111 PB"
+	templates[]:"PB 1011 PB"
+	templates[]:"PB 1101 PB"
+	templates[]:"PB 1110 PB"
+	templates[]:"PB 0111 PK"
+	templates[]:"PB 1011 PK"
+	templates[]:"PB 1101 PK"
+	templates[]:"PB 1110 PK"
+	templates[]:"PB 0111 PM"
+	templates[]:"PB 1011 PM"
+	templates[]:"PB 1101 PM"
+	templates[]:"PB 1110 PM"
+	templates[]:"PB 0111 PH"
+	templates[]:"PB 1011 PH"
+	templates[]:"PB 1101 PH"
+	templates[]:"PB 1110 PH"
+	templates[]:"PB 0111 PP"
+	templates[]:"PB 1011 PP"
+	templates[]:"PB 1101 PP"
+	templates[]:"PB 1110 PP"
+	templates[]:"PB 0111 PC"
+	templates[]:"PB 1011 PC"
+	templates[]:"PB 1101 PC"
+	templates[]:"PB 1110 PC"
+	templates[]:"PB 0111 PT"
+	templates[]:"PB 1011 PT"
+	templates[]:"PB 1101 PT"
+	templates[]:"PB 1110 PT"
+	templates[]:"PB 0111 PX"
+	templates[]:"PB 1011 PX"
+	templates[]:"PB 1101 PX"
+	templates[]:"PB 1110 PX"
+	templates[]:"PB 0111 CA"
+	templates[]:"PB 1011 CA"
+	templates[]:"PB 1101 CA"
+	templates[]:"PB 1110 CA"
+	templates[]:"PB 0111 CB"
+	templates[]:"PB 1011 CB"
+	templates[]:"PB 1101 CB"
+	templates[]:"PB 1110 CB"
+	templates[]:"PB 0111 CK"
+	templates[]:"PB 1011 CK"
+	templates[]:"PB 1101 CK"
+	templates[]:"PB 1110 CK"
+	templates[]:"PB 0111 CM"
+	templates[]:"PB 1011 CM"
+	templates[]:"PB 1101 CM"
+	templates[]:"PB 1110 CM"
+	templates[]:"PB 0111 CP"
+	templates[]:"PB 1011 CP"
+	templates[]:"PB 1101 CP"
+	templates[]:"PB 1110 CP"
+	templates[]:"PB 0111 CC"
+	templates[]:"PB 1011 CC"
+	templates[]:"PB 1101 CC"
+	templates[]:"PB 1110 CC"
+	templates[]:"PB 0111 CT"
+	templates[]:"PB 1011 CT"
+	templates[]:"PB 1101 CT"
+	templates[]:"PB 1110 CT"
+	templates[]:"PB 0111 CX"
+	templates[]:"PB 1011 CX"
+	templates[]:"PB 1101 CX"
+	templates[]:"PB 1110 CX"
+	templates[]:"PB 0111 TA"
+	templates[]:"PB 1011 TA"
+	templates[]:"PB 1101 TA"
+	templates[]:"PB 1110 TA"
+	templates[]:"PB 0111 TP"
+	templates[]:"PB 1011 TP"
+	templates[]:"PB 1101 TP"
+	templates[]:"PB 1110 TP"
+	templates[]:"PB 0111 TC"
+	templates[]:"PB 1011 TC"
+	templates[]:"PB 1101 TC"
+	templates[]:"PB 1110 TC"
+	templates[]:"PB 0111 TT"
+	templates[]:"PB 1011 TT"
+	templates[]:"PB 1101 TT"
+	templates[]:"PB 1110 TT"
+	templates[]:"PB 0111 TX"
+	templates[]:"PB 1011 TX"
+	templates[]:"PB 1101 TX"
+	templates[]:"PB 1110 TX"
+	templates[]:"PB 0111 XP"
+	templates[]:"PB 1011 XP"
+	templates[]:"PB 1101 XP"
+	templates[]:"PB 1110 XP"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+}
+
+license_plate_data : .karlovo.lp.truck
+{
+	type: truck
+
+	templates[]:"PB 0111 XP"
+	templates[]:"PB 1011 XP"
+	templates[]:"PB 1101 XP"
+	templates[]:"PB 1110 XP"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+}
+
+license_plate_data : .karlovo.lp.trailer
+{
+	type: trailer
+
+	templates[]:"PB 0111 EP"
+	templates[]:"PB 1011 EP"
+	templates[]:"PB 1101 EP"
+	templates[]:"PB 1110 EP"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+}

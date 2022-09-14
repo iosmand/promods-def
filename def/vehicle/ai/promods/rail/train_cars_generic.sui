@@ -1,0 +1,265 @@
+#
+#	SC GENERIC PASSENGER CAR
+#
+
+traffic_trailer : train_car.sc_psgr_car.sc
+{
+	accessories[]: .sc_psgr_car.sc.tchassis
+	accessories[]: .sc_psgr_car.sc.trwheel0
+	accessories[]: .sc_psgr_car.sc.trwheel1
+	accessories[]: .sc_psgr_car.sc.trwheel2
+	accessories[]: .sc_psgr_car.sc.trwheel3
+	
+	sound_move: "/sound/traffic/train_car_pas.soundref"
+	
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .sc_psgr_car.sc.tchassis
+{
+    	data_path: "/def/vehicle/ai/promods/rail/train_cars/chassis_sc_psgr_car_sc.sii"
+}
+
+vehicle_wheel_accessory: .sc_psgr_car.sc.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .sc_psgr_car.sc.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .sc_psgr_car.sc.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .sc_psgr_car.sc.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+#
+#	DE GENERIC PASSENGER CAR
+#
+
+traffic_trailer : train_car.w_passenger.de
+{
+	accessories[]: .w_passenger.de.tchassis
+	accessories[]: .w_passenger.de.trwheel0
+	accessories[]: .w_passenger.de.trwheel1
+	accessories[]: .w_passenger.de.trwheel2
+	accessories[]: .w_passenger.de.trwheel3
+	
+	sound_move: "/sound/traffic/train_car_pas.soundref"
+	
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .w_passenger.de.tchassis
+{
+    	data_path: "/def/vehicle/ai/promods/rail/train_cars/chassis_passenger_de.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.de.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.de.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .w_passenger.de.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.de.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+#
+#	CH GENERIC PASSENGER CAR
+#
+
+traffic_trailer : train_car.w_passenger.ch
+{
+	accessories[]: .w_passenger.ch.tchassis
+	accessories[]: .w_passenger.ch.trwheel0
+	accessories[]: .w_passenger.ch.trwheel1
+	accessories[]: .w_passenger.ch.trwheel2
+	accessories[]: .w_passenger.ch.trwheel3
+	
+	sound_move: "/sound/traffic/train_car_pas.soundref"
+
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .w_passenger.ch.tchassis
+{
+    	data_path: "/def/vehicle/ai/promods/rail/train_cars/chassis_passenger_ch.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.ch.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.ch.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .w_passenger.ch.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.ch.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+#
+#	AT GENERIC PASSENGER CAR
+#
+
+traffic_trailer : train_car.w_passenger.at
+{
+	accessories[]: .w_passenger.at.tchassis
+	accessories[]: .w_passenger.at.trwheel0
+	accessories[]: .w_passenger.at.trwheel1
+	accessories[]: .w_passenger.at.trwheel2
+	accessories[]: .w_passenger.at.trwheel3
+	
+	sound_move: "/sound/traffic/train_car_pas.soundref"
+
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .w_passenger.at.tchassis
+{
+    	data_path: "/def/vehicle/ai/promods/rail/train_cars/chassis_passenger_at.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.at.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.at.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .w_passenger.at.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.at.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+#
+#	CZ GENERIC PASSENGER CAR
+#
+
+traffic_trailer : train_car.w_passenger.cz
+{
+	accessories[]: .w_passenger.cz.tchassis
+	accessories[]: .w_passenger.cz.trwheel0
+	accessories[]: .w_passenger.cz.trwheel1
+	accessories[]: .w_passenger.cz.trwheel2
+	accessories[]: .w_passenger.cz.trwheel3
+	
+	sound_move: "/sound/traffic/train_car_pas.soundref"
+
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .w_passenger.cz.tchassis
+{
+    	data_path: "/def/vehicle/ai/promods/rail/train_cars/chassis_passenger_cz.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.cz.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.cz.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .w_passenger.cz.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w_passenger.cz.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+#
+#	PL GENERIC PASSENGER CAR
+#
+
+traffic_trailer : train_car.w.passenger.pl
+{
+	accessories[]: .w.passenger.pl.tchassis
+	accessories[]: .w.passenger.pl.trwheel0
+	accessories[]: .w.passenger.pl.trwheel1
+	accessories[]: .w.passenger.pl.trwheel2
+	accessories[]: .w.passenger.pl.trwheel3
+	
+	sound_move: "/sound/traffic/train_car_pas.soundref"
+
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .w.passenger.pl.tchassis
+{
+    	data_path: "/def/vehicle/ai/promods/rail/train_cars/chassis_passenger_pl.sii"
+}
+
+vehicle_wheel_accessory: .w.passenger.pl.trwheel0
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w.passenger.pl.trwheel1
+{
+	offset: 2
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .w.passenger.pl.trwheel2
+{
+	offset: 4
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .w.passenger.pl.trwheel3
+{
+	offset: 6
+    	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
