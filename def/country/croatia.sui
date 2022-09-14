@@ -10,7 +10,7 @@ country_data : country.data.croatia
 
 	pos: (23600, 0, 29500)
 
-	fuel_price: 1.29
+	fuel_price: 1.91
 
 	lights_mandatory: false
 	driving_tired_offence: true
