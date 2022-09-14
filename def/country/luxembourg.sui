@@ -10,7 +10,7 @@ country_data : country.data.luxembourg
 
 	pos: (-17090, 0, 2880)
 
-	fuel_price: 1.08
+	fuel_price: 1.91
 
 	lights_mandatory: false
 	driving_tired_offence: true
@@ -22,3 +22,6 @@ country_data : country.data.luxembourg
 	mass_limit_per_axle_count[]: 26000
 	mass_limit_per_axle_count[]: 44000
 }
+
+
+

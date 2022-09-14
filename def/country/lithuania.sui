@@ -8,9 +8,9 @@ country_data : country.data.lithuania
 	country_code: "LT"
 	iso_country_code: ltu
 
-	pos: (42000, 0, -28000)
+	pos: (42000, 0, -28500)
 
-	fuel_price: 1.09
+	fuel_price: 1.78
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -23,3 +23,6 @@ country_data : country.data.lithuania
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 40000
 }
+
+
+

@@ -8,9 +8,9 @@ country_data : country.data.serbia
 	country_code: "SRB"
 	iso_country_code: srb
 
-	pos: (40000, 0, 36000)
+	pos: (40000, 0, 35500)
 
-	fuel_price: 1.37
+	fuel_price: 1.837
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -23,3 +23,6 @@ country_data : country.data.serbia
 	mass_limit_per_axle_count[]: 32000
 	mass_limit_per_axle_count[]: 40000
 }
+
+
+

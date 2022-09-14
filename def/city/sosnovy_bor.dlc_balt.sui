@@ -1,5 +1,4 @@
-﻿
-city_data: city.sosnovy_bor
+﻿city_data: city.sosnovy_bor
 {
 	city_name: "Сосновый Бор"
 	city_name_localized: "@@sosnovy_bor@@"
