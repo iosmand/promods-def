@@ -10,7 +10,7 @@ country_data : country.data.norway
 
 	pos: (-2800, 0, -55000)
 
-	fuel_price: 2.6
+	fuel_price: 2.26
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -24,3 +24,6 @@ country_data : country.data.norway
 	mass_limit_per_axle_count[]: 47000	# 46t if 3+2
 	mass_limit_per_axle_count[]: 60000	# 50t if non double
 }
+
+
+

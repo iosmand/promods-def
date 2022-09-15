@@ -1,8 +1,8 @@
 city_data: city.strzelcekraj
 {
 	city_name: "Strzelce Krajeńskie"
-	short_city_name: "Strzelce Kraj."
 	city_name_localized: "@@strzelcekraj@@"
+	short_city_name: "Strzelce Kraj."
 	short_city_name_localized: "@@strzelcekraj_short@@"
 	country: poland
 

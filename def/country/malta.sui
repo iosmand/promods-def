@@ -10,7 +10,7 @@ country_data : country.data.malta
 
 	pos: (14020, 0, 83100)
 
-	fuel_price: 1.26
+	fuel_price: 1.21
 
 	lights_mandatory: false
 	imperial_units: false
@@ -25,3 +25,6 @@ country_data : country.data.malta
 	mass_limit_per_axle_count[]: 40000
 	mass_limit_per_axle_count[]: 44000
 }
+
+
+

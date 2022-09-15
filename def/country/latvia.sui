@@ -10,7 +10,7 @@ country_data : country.data.latvia
 
 	pos: (49500, 0, -39000)
 
-	fuel_price: 2.12
+	fuel_price: 1.84
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -23,3 +23,6 @@ country_data : country.data.latvia
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 40000	# 44t containers
 }
+
+
+

@@ -170,6 +170,21 @@ license_plate_data : .lp.car
 	def0[]:"IYT"
 	def0[]:"IYY"
 	def0[]:"IYX"
+	def0[]:"XEA"
+	def0[]:"XEB"
+	def0[]:"XEE"
+	def0[]:"XEZ"
+	def0[]:"XEH"
+	def0[]:"XEI"
+	def0[]:"XEK"
+	def0[]:"XEM"
+	def0[]:"XEN"
+	def0[]:"XEO"
+	def0[]:"XEP"
+	def0[]:"XET"
+	def0[]:"XEY"
+	def0[]:"XEX"
+	def0[]:"XZA"
 	def0[]:"YNB"  # Piraeus
 	def0[]:"YNE"
 	def0[]:"YNZ"
@@ -186,6 +201,7 @@ license_plate_data : .lp.car
 	def0[]:"ZNA"
 	def0[]:"ZNB"
 	def0[]:"ZNE"
+	def0[]:"ZNZ"
 	def0[]:"ZYT"  # East Attica
 	def0[]:"ZYY"
 	def0[]:"ZYX"
@@ -206,6 +222,9 @@ license_plate_data : .lp.car
 	def0[]:"BKA"
 	def0[]:"BKB"
 	def0[]:"BKE"
+	def0[]:"BKZ"
+	def0[]:"BKH"
+	def0[]:"BKI"
 	def0[]:"YPP"  # West Attica
 	def0[]:"YPT"
 	def0[]:"YPY"
@@ -220,6 +239,13 @@ license_plate_data : .lp.car
 	def0[]:"YTM"
 	def0[]:"YTN"
 	def0[]:"YTO"
+	def0[]:"YTP"
+	def0[]:"YTT"
+	def0[]:"YTY"
+	def0[]:"YTX"
+	def0[]:"ZTA"
+	def0[]:"ZTB"
+	def0[]:"ZTE"
 	def0[]:"NZX"  # Thessaloniki
 	def0[]:"NHA"
 	def0[]:"NHB"
@@ -256,6 +282,10 @@ license_plate_data : .lp.car
 	def0[]:"NKH"
 	def0[]:"NKI"
 	def0[]:"NKK"
+	def0[]:"NKM"
+	def0[]:"NKN"
+	def0[]:"NKO"
+	def0[]:"NKP"
 	def0[]:"HKI"  # Heraklion
 	def0[]:"HKK"
 	def0[]:"HKM"
@@ -269,6 +299,7 @@ license_plate_data : .lp.car
 	def0[]:"HZB"
 	def0[]:"HZE"
 	def0[]:"HZZ"
+	def0[]:"HZH"
 	def0[]:"AXI"  # Achaeia (Patras)
 	def0[]:"AXO"
 	def0[]:"AXY"
@@ -278,6 +309,7 @@ license_plate_data : .lp.car
 	def0[]:"AZZ"
 	def0[]:"AZH"
 	def0[]:"AZI"
+	def0[]:"AZM"
 	def0[]:"PIX"  # Larissa
 	def0[]:"PII"
 	def0[]:"PIO"
@@ -287,12 +319,14 @@ license_plate_data : .lp.car
 	def0[]:"PPE"
 	def0[]:"PPZ"
 	def0[]:"PPH"
+	def0[]:"PPI"
 	def0[]:"BOP"  # Magnesia (Volos)
 	def0[]:"BOT"
 	def0[]:"BOX"
 	def0[]:"BOI"
 	def0[]:"BOO"
 	def0[]:"BOY"
+	def0[]:"BBA"
 	def0[]:"XAT"  # Evia (Chalkida)
 	def0[]:"XAX"
 	def0[]:"XAA"
@@ -305,6 +339,7 @@ license_plate_data : .lp.car
 	def0[]:"XNI"
 	def0[]:"XNN"
 	def0[]:"XNO"
+	def0[]:"XNY"
 	def0[]:"INM"  # Ioannina
 	def0[]:"INP"
 	def0[]:"INT"
@@ -312,12 +347,14 @@ license_plate_data : .lp.car
 	def0[]:"INI"
 	def0[]:"INN"
 	def0[]:"INO"
+	def0[]:"INY"
 	def0[]:"POM"  # Dodecanese (Rhodes)
 	def0[]:"PON"
 	def0[]:"POP"
 	def0[]:"POT"
 	def0[]:"POX"
 	def0[]:"PKA"
+	def0[]:"POI"
 	def0[]:"KXB"  # Dodecanese (Kos)
 	def0[]:"KXE"
 	def0[]:"KXZ"
@@ -332,15 +369,18 @@ license_plate_data : .lp.car
 	def0[]:"HMX"
 	def0[]:"HMI"
 	def0[]:"HMM"
+	def0[]:"HMO"
 	def0[]:"MIM"  # Phthiotis (Lamia)
 	def0[]:"MIN"
 	def0[]:"MIP"
 	def0[]:"MIT"
 	def0[]:"MIX"
+	def0[]:"MIH"
 	def0[]:"EPM"  # Serres
 	def0[]:"EPN"
 	def0[]:"EPT"
 	def0[]:"EPX"
+	def0[]:"EPI"
 	def0[]:"KOK"  # Rhodope (Komotini)
 	def0[]:"KOM"
 	def0[]:"KON"
@@ -358,6 +398,7 @@ license_plate_data : .lp.car
 	def0[]:"TKN"
 	def0[]:"TKP"
 	def0[]:"TKT"
+	def0[]:"TKX"
 	def0[]:"KYK"  # Corfu
 	def0[]:"KYM"
 	def0[]:"KYN"
@@ -366,6 +407,7 @@ license_plate_data : .lp.car
 	def0[]:"KMN"
 	def0[]:"KMP"
 	def0[]:"KMT"
+	def0[]:"KMX"
 	def0[]:"EEK"  # Pella (Edessa)
 	def0[]:"EEM"
 	def0[]:"EEN"
@@ -384,6 +426,7 @@ license_plate_data : .lp.car
 	def0[]:"KNP"
 	def0[]:"KNT"
 	def0[]:"KNX"
+	def0[]:"KNZ"
 	def0[]:"HAK"  # Elis (Pyrgos)
 	def0[]:"HAM"
 	def0[]:"HAN"
@@ -391,11 +434,13 @@ license_plate_data : .lp.car
 	def0[]:"ANH"  # Lasithi (Agios Nikolaos)
 	def0[]:"ANK"
 	def0[]:"ANM"
+	def0[]:"ANP"
 	def0[]:"AHZ"  # Xanthi
 	def0[]:"AHK"
 	def0[]:"AHM"
 	def0[]:"AHM"
 	def0[]:"AHN"
+	def0[]:"AHP"
 	def0[]:"BIZ"  # Boeotia (Livadeia)
 	def0[]:"BIK"
 	def0[]:"BIM"
@@ -414,14 +459,17 @@ license_plate_data : .lp.car
 	def0[]:"PMN"
 	def0[]:"PMT"
 	def0[]:"PMX"
+	def0[]:"PMB"
 	def0[]:"KAH"  # Karditsa
 	def0[]:"KAK"
 	def0[]:"KAM"
 	def0[]:"KAN"
+	def0[]:"KAP"
 	def0[]:"PEH"  # Rethymno
 	def0[]:"PEK"
 	def0[]:"PEM"
 	def0[]:"PEN"
+	def0[]:"PEP"
 	def0[]:"EBH"  # Evros (Alexandroupoli)
 	def0[]:"EBK"
 	def0[]:"EBM"
@@ -442,6 +490,7 @@ license_plate_data : .lp.car
 	def0[]:"AKM"
 	def0[]:"KIZ"  # Kilkis
 	def0[]:"KIH"
+	def0[]:"KIK"
 	def0[]:"ATE"  # Arta
 	def0[]:"ATH"
 	def0[]:"ATK"
@@ -456,10 +505,12 @@ license_plate_data : .lp.car
 	def0[]:"KTZ"
 	def0[]:"ZAE"  # Zakynthos
 	def0[]:"ZAZ"
+	def0[]:"ZAH"
 	def0[]:"KEB"  # Kefalonia (Argostoli)
 	def0[]:"KEZ"
 	def0[]:"HNB"  # Thesprotia (Igoumenitsa)
 	def0[]:"HNE"
+	def0[]:"HNZ"
 	def0[]:"MOB"  # Samos
 	def0[]:"MOE"
 	def0[]:"PAE"  # Florina
@@ -501,14 +552,15 @@ license_plate_data : .lp.truck
 {
 	type: truck
 
-	background_front: "truck_front"
-	background_rear: "truck_rear"
+	background_front: "old_truck_front"
+	background_rear: "old_truck_rear"
 
 	templates[]:"40-12225"
 
 	def0[]:"EKA"
 	def0[]:"EKB"
 	def0[]:"EKE"
+	def0[]:"IAA"
 	def0[]:"IAE"
 	def0[]:"NXA"
 	def0[]:"NXY"

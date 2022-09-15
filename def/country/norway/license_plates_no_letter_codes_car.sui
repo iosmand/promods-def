@@ -1,0 +1,566 @@
+	# 2000-present location codes issued for 5-numeral license plates
+
+	# Halden
+	def0[]:"AA"  # 1920 - present
+#	def0[]:"AB"
+#	def0[]:"AC"
+
+	# Hafslund (formerly Sarpsborg)
+	def0[]:"AD"  # 1925 - 2006
+	def0[]:"AE"  # 1934 - present
+#	def0[]:"AF"
+#	def0[]:"AH"
+
+	# Hafslund (formerly Fredrikstad)
+	def0[]:"AR"  # 1925 - 2006
+	def0[]:"AS"  # 1924 - present
+#	def0[]:"AT"
+#	def0[]:"AU"
+#	def0[]:"AV"
+#	def0[]:"AW"
+#	def0[]:"DW"
+#	def0[]:"ES"
+#	def0[]:"FL"
+
+	# Mysen
+	def0[]:"AJ"  # 1902 - 2021
+#	def0[]:"AK"
+#	def0[]:"AL"
+#	def0[]:"AN"
+#	def0[]:"AP"
+#	def0[]:"BW"
+
+	# Moss
+	def0[]:"AX"  # 1926 - 2017
+	def0[]:"AY"  # 1962 - 2021
+#	def0[]:"AZ"
+#	def0[]:"BA"
+	def0[]:"BB"  # 2015
+#	def0[]:"FN"
+
+	# Follo (Drøbak)
+#	def0[]:"BC"  # 1928 - 2000
+	def0[]:"BD"  # 1943 - 2017
+	def0[]:"BE"  # 1947 - present
+#	def0[]:"BF"
+#	def0[]:"BH"
+#	def0[]:"BJ"
+#	def0[]:"BK"
+
+	# Asker, Bærum (Billingstad)
+#	def0[]:"BL"  # 1904 - 1987
+	def0[]:"BN"  # 1908 - 2011
+	def0[]:"BP"  # 1943 - 2009
+	def0[]:"BR"  # 1911 - 2016
+	def0[]:"BS"  # 1939 - 2017
+	def0[]:"BT"  # 1949 - 2021
+	def0[]:"BU"  # 1957 - present
+#	def0[]:"BV"
+#	def0[]:"BX"
+#	def0[]:"BY"
+#	def0[]:"BZ"
+#	def0[]:"CA"
+#	def0[]:"CB"
+
+	# Lillestrøm (Romerike)
+#	def0[]:"CC"  # 1910 - 1985
+	def0[]:"CE"  # 1927 - 2004
+	def0[]:"CF"  # 1941 - 2020
+	def0[]:"CH"  # 1976 - present
+#	def0[]:"CJ"
+#	def0[]:"CK"
+#	def0[]:"CL"
+#	def0[]:"CN"
+#	def0[]:"CP"
+#	def0[]:"CR"
+#	def0[]:"CS"
+#	def0[]:"CT"
+	# Jessheim/Lillestrøm
+#	def0[]:"CU"
+
+	# Jessheim
+	def0[]:"CV"  # 1928 - present
+	def0[]:"CX"  # 2017 - 2021
+#	def0[]:"CY"
+#	def0[]:"CZ"
+
+	# Oslo
+#	def0[]:"DA"  # 1928 - 1973
+#	def0[]:"DB"  # 1927 - 1983
+#	def0[]:"DC"  # 1927 - 1985
+#	def0[]:"DD"  # 1928 - 1986
+#	def0[]:"DE"  # 1910 - 1988
+#	def0[]:"DF"  # 1904 - 1999
+#	def0[]:"DH"  # 1938 - 1998
+	def0[]:"DJ"  # 1953 - 2007
+	def0[]:"DK"  # 1953 - 2006
+	def0[]:"DL"  # 1958 - 2011
+	def0[]:"DN"  # 1949 - 2014
+	def0[]:"DP"  # 1951 - 2020
+	def0[]:"DR"  # 1949 - present
+	def0[]:"DS"  # 2002 - present
+#	def0[]:"DT"
+#	def0[]:"DU"
+#	def0[]:"DV"
+#	def0[]:"DX"
+#	def0[]:"DY"
+#	def0[]:"DZ"
+#	def0[]:"EA"
+#	def0[]:"ED"  # Electric vehicles
+#	def0[]:"EE"  # Electric vehicles
+#	def0[]:"EH"
+#	def0[]:"EJ"
+#	def0[]:"EK"  # Electric vehicles
+#	def0[]:"EL"  # Electric vehicles
+#	def0[]:"EN"
+#	def0[]:"EP"
+#	def0[]:"ER"
+#	def0[]:"EU"
+#	def0[]:"EV"  # Electric vehicles
+
+	# Hamar
+#	def0[]:"ET"
+	def0[]:"FS"  # 1926 - 2005
+	def0[]:"FT"  # 1948 - present
+#	def0[]:"FU"
+#	def0[]:"FV"
+#	def0[]:"FW"
+#	def0[]:"FX"
+#	def0[]:"FY"
+	def0[]:"FZ"
+
+	# Elverum
+#	def0[]:"HA"
+	def0[]:"HB"  # 1927 - 2021
+#	def0[]:"HC"
+#	def0[]:"HD"
+#	def0[]:"HE"
+
+	# Tynset
+	def0[]:"HF"  # 1930 - 2021
+#	def0[]:"HH"
+
+	# Kongsvinger
+	def0[]:"HJ"  # 1931 - 2020
+	def0[]:"HK"  # 1958 - present
+#	def0[]:"HL"
+#	def0[]:"HN"
+#	def0[]:"HP"
+#	def0[]:"HR"
+
+	# Lillehammer
+	def0[]:"FB"  # 1978 - 2015
+	def0[]:"HS"  # 1921 - 2014
+	def0[]:"HT"  # 1946 - present
+#	def0[]:"HU"
+#	def0[]:"HV"  # 1963 - 1968
+#	def0[]:"HX"
+
+	# Otta
+	def0[]:"HZ"  # 1930 - 2021
+#	def0[]:"JA"
+#	def0[]:"JB"
+
+	# Gjøvik
+#	def0[]:"JC"  # 1920 - 1999
+	def0[]:"JD"  # 1926 - present
+#	def0[]:"JE"
+#	def0[]:"JF"
+#	def0[]:"JH"
+#	def0[]:"JJ"
+#	def0[]:"JK"
+#	def0[]:"JL"
+#	def0[]:"JN"
+#	def0[]:"JP"
+#	def0[]:"KW"
+
+	# Fagernes
+	def0[]:"JR"  # 1930 - present
+#	def0[]:"JS"
+#	def0[]:"JT"
+
+	# Hønefoss (Ringerike)
+	def0[]:"JU"  # 1912 - 2012
+	def0[]:"JV"  # 1963 - present
+#	def0[]:"JX"
+#	def0[]:"JY"
+#	def0[]:"JZ"
+#	def0[]:"KA"
+
+	# Hallingdal (Gol)
+	def0[]:"KB"  # 1928 - present
+#	def0[]:"KC"
+#	def0[]:"KD"
+
+	# Drammen
+#	def0[]:"KE"  # 1920 - 1987
+	def0[]:"KF"  # 1931 - 2013
+	def0[]:"KH"  # 1958 - 2021
+	def0[]:"KJ"  # 1948 - present
+#	def0[]:"KK"
+#	def0[]:"KL"
+#	def0[]:"KN"
+#	def0[]:"KP"
+#	def0[]:"KR"
+#	def0[]:"KS"
+
+	# Kongsberg
+	def0[]:"KT"  # 1922 - 2021
+	def0[]:"KU"  # 1987 - present
+#	def0[]:"KV"
+#	def0[]:"KX"
+#	def0[]:"KY"
+
+	# Horten
+	def0[]:"KZ"  # 1927 - present
+#	def0[]:"LA"
+#	def0[]:"LB"
+#	def0[]:"LC"
+	# Horten/Tønsberg
+#	def0[]:"LD"
+
+	# Tønsberg
+	def0[]:"LH"  # 1926 - 2006
+	def0[]:"LJ"  # 1930 - 2021
+#	def0[]:"LK"
+#	def0[]:"LL"
+#	def0[]:"LN"
+#	def0[]:"LP"
+#	def0[]:"LR"
+
+	# Larvik
+	def0[]:"LS"  # 1922 - present
+#	def0[]:"LT"
+#	def0[]:"LU"
+#	def0[]:"LV"
+#	def0[]:"LX"
+#	def0[]:"LZ"
+#	def0[]:"NB"
+#	def0[]:"NC"
+	# Larvik/Sandefjord
+#	def0[]:"NA"
+
+	# Sandefjord
+	def0[]:"LY"  # 1928 - present
+
+	# Skien
+	def0[]:"ND"  # 1923 - 2001
+	def0[]:"NE"  # 1929 - 2006
+	def0[]:"NF"  # 1932 - 2021
+	def0[]:"NH"  # 1989 - present
+#	def0[]:"NJ"
+#	def0[]:"NK"
+#	def0[]:"NL"
+#	def0[]:"NN"  # 1928 - 1973
+#	def0[]:"NP"
+#	def0[]:"NR"
+#	def0[]:"NT"
+#	def0[]:"NU"
+
+	# Notodden
+	def0[]:"NV"  # 1920 - present
+#	def0[]:"NX"
+#	def0[]:"NY"
+#	def0[]:"NZ"
+
+	# Rjukan
+	def0[]:"PA"  # 1928 - present
+#	def0[]:"PB"
+
+	# Arendal
+	def0[]:"PC"  # 1908 - 2006
+	def0[]:"PD"  # 1953 - present
+#	def0[]:"PE"
+#	def0[]:"PF"
+#	def0[]:"PH"
+#	def0[]:"PJ"
+#	def0[]:"PK"
+
+	# Setesdal
+	def0[]:"PL"  # 1966 - 2021
+#	def0[]:"LF"
+
+	# Kristiansand
+	def0[]:"PN"  # 1926 - 2003
+	def0[]:"PP"  # 1956 - 2012
+	def0[]:"PR"  # 1956 - present
+#	def0[]:"PS"
+#	def0[]:"PT"
+#	def0[]:"PU"
+#	def0[]:"PV"
+#	def0[]:"PW"
+
+	# Mandal
+	def0[]:"PX"  # 1942 - present
+#	def0[]:"PY"
+#	def0[]:"PZ"
+#	def0[]:"RC"
+#	def0[]:"RD"
+
+	# Flekkefjord
+	def0[]:"RA"  # 1928 - present
+#	def0[]:"RB"
+
+	# Stavanger
+#	def0[]:"RE"  # 1909 - 1984
+#	def0[]:"RF"  # 1923 - 1996
+	def0[]:"RH"  # 1928 - 2003
+	def0[]:"RJ"  # 1960 - 2013
+	def0[]:"RK"  # 1944 - 2020
+	def0[]:"RL"  # 1956 - present
+#	def0[]:"RN"
+#	def0[]:"RP"
+#	def0[]:"RR"
+#	def0[]:"RS"  # 1960 - 1973
+#	def0[]:"RT"
+#	def0[]:"RU"
+#	def0[]:"RV"
+#	def0[]:"RW"
+#	def0[]:"RX"
+#	def0[]:"RY"
+
+	# Egersund
+	def0[]:"RZ"  # 1924 - present
+#	def0[]:"SA"
+#	def0[]:"SB"
+
+	# Haugesund
+	def0[]:"SC"  # 1928 - 2001
+	def0[]:"SD"  # 1956 - present
+#	def0[]:"SE"
+#	def0[]:"SF"
+#	def0[]:"SH"
+#	def0[]:"SJ"
+#	def0[]:"SK"
+#	def0[]:"SL"
+
+	# Bergen
+#	def0[]:"HW"
+#	def0[]:"SN"  # 1926 - 2001
+#	def0[]:"SP"  # 1904 - 2001
+#	def0[]:"SR"  # 1937 - 1999
+#	def0[]:"SS"
+	def0[]:"ST"  # 1957 - 2006
+	def0[]:"SU"  # 1930 - 2012
+	def0[]:"SV"  # 1965 - 2020
+	def0[]:"SX"  # 1974 - present
+#	def0[]:"SY"
+#	def0[]:"SZ"
+#	def0[]:"TA"
+#	def0[]:"TB"
+#	def0[]:"TC"
+#	def0[]:"TD"
+#	def0[]:"TE"
+
+	# Voss
+	def0[]:"TF"  # 1938 - present
+#	def0[]:"TH"
+#	def0[]:"TJ"
+#	def0[]:"TK"
+
+	# Stord
+	def0[]:"TL"  # 1940 - present
+#	def0[]:"TN"
+#	def0[]:"TP"
+#	def0[]:"TR"
+
+	# Odda
+	def0[]:"TS"  # 1937 - present
+#	def0[]:"TT"
+#	def0[]:"TU"
+
+	# Førde
+	def0[]:"TV"  # 1916 - present
+#	def0[]:"TX"
+#	def0[]:"TY"
+#	def0[]:"TZ"
+
+	# Nordfjordeid
+	def0[]:"UA"  # 1930 - present
+#	def0[]:"UB"
+
+	# Sogndal
+	def0[]:"UC"  # 1939 - present
+#	def0[]:"UD"
+
+	# Ålesund
+	def0[]:"UE"  # 1917 - 2002
+	def0[]:"UF"  # 1956 - present
+#	def0[]:"UG"
+#	def0[]:"UH"
+#	def0[]:"UJ"
+#	def0[]:"UK"
+#	def0[]:"UL"
+
+	# Ørsta
+	def0[]:"UN"  # 1928 - present
+#	def0[]:"UP"
+
+	# Molde
+	def0[]:"UR"  # 1928 - 2020
+	def0[]:"US"  # 1971 - present
+#	def0[]:"UT"
+#	def0[]:"UU"
+#	def0[]:"UV"
+
+	# Kristiansund
+	def0[]:"UX"  # 1929 - present
+#	def0[]:"UY"
+#	def0[]:"UZ"
+#	def0[]:"VA"
+
+	# Sunndalsøra
+	def0[]:"VB"  # 1931 - present
+#	def0[]:"VC"
+
+	# Trondheim
+#	def0[]:"FP"
+#	def0[]:"NW"
+	def0[]:"VD"  # 1912 - 2008
+	def0[]:"VE"  # 1925 - 2001
+	def0[]:"VF"  # 1947 - 2012
+	def0[]:"VH"  # 1928 - 2021
+	def0[]:"VJ"  # 1940 - present
+#	def0[]:"VK"
+#	def0[]:"VL"
+#	def0[]:"VN"
+#	def0[]:"VP"
+#	def0[]:"VR"
+	# Støren/Trondheim
+#	def0[]:"VS"  # 1995 - 2006 (limited issue)
+
+	# Støren
+#	def0[]:"LW"
+	def0[]:"VT"  # 1940 - present
+#	def0[]:"VU"
+#	def0[]:"VV"
+
+	# Orkdal
+	def0[]:"VX"  # 1927 - present
+#	def0[]:"VY"
+#	def0[]:"VZ"
+
+	# Brekstad
+	def0[]:"XA"  # 1938 - present
+#	def0[]:"XB"
+#	def0[]:"XC"
+
+	# Steinkjer
+	def0[]:"XD"  # 1926 - present
+#	def0[]:"XE"
+#	def0[]:"XF"
+#	def0[]:"XH"
+#	def0[]:"XJ"
+#	def0[]:"XW"
+
+	# Levanger
+#	def0[]:"VW"
+	def0[]:"XK"  # 1963 - present
+	def0[]:"XL"  # 1940 - 2012
+
+	# Stjørdal
+	def0[]:"XN"  # 1940 - present
+#	def0[]:"XP"
+#	def0[]:"YW"
+
+	# Namsos
+	def0[]:"XR"  # 1929 - present
+#	def0[]:"XS"
+#	def0[]:"XT"
+#	def0[]:"XU"
+
+	# Mosjøen
+	def0[]:"FA"  # 1974 - 2017
+	def0[]:"XV"  # 1938 - present
+#	def0[]:"XX"
+#	def0[]:"XY"
+#	def0[]:"XZ"
+
+	# Mo i Rana
+	def0[]:"YA"  # 1936 - present
+#	def0[]:"YB"
+#	def0[]:"YC"
+#	def0[]:"YD"
+
+	# Bodø
+#	def0[]:"EZ"  # 1974 - 2015 (limited issue)
+#	def0[]:"FD"
+	def0[]:"YE"  # 1939 - 2018
+	def0[]:"YF"  # 1965 - present
+#	def0[]:"YH"
+#	def0[]:"YJ"
+
+	# Fauske
+	def0[]:"YK"  # 1943 - present
+#	def0[]:"YL"
+
+	# Narvik
+	def0[]:"YN"  # 1937 - present
+#	def0[]:"YP"
+#	def0[]:"YR"
+#	def0[]:"YS"
+
+	# Svolvær
+	def0[]:"YT"  # 1943 - present
+#	def0[]:"YY"
+
+	# Sortland
+	def0[]:"YU"  # 1941 - present
+#	def0[]:"YV"
+#	def0[]:"YX"
+
+	# Storslett
+	def0[]:"FK"  # 1968 - present
+#	def0[]:"SW"
+
+	# Harstad
+#	def0[]:"TW"
+	def0[]:"YZ"  # 1928 - 2011
+	def0[]:"ZA"  # 1965 - present
+#	def0[]:"ZB"
+
+	# Tromsø
+#	def0[]:"EW"
+	def0[]:"FC"  # 1986 - 2015
+#	def0[]:"ZC"
+	def0[]:"ZE"  # 1928 - 2003
+	def0[]:"ZH"  # 1959 - present
+#	def0[]:"ZK"
+#	def0[]:"ZL"
+
+	# Finnsnes
+#	def0[]:"EX"  # 2010 - 2019 (limited issue)
+	def0[]:"ZD"  # 1958 - present
+	def0[]:"ZF"  # 1940 - 2006
+#	def0[]:"ZJ"
+
+	# Vadsø
+#	def0[]:"FR"  # 2015 (limited issue)
+#	def0[]:"JW"
+#	def0[]:"LE"
+	def0[]:"ZP"  # 1940 - present
+#	def0[]:"ZR"
+
+	# Kirkenes
+#	def0[]:"EY"  # 2015 (limited issue)
+	def0[]:"ZS"  # 1956 - present
+
+	# Alta
+#	def0[]:"UW"
+	def0[]:"ZT"  # 1934 - present
+#	def0[]:"ZU"
+#	def0[]:"ZV"
+#	def0[]:"ZW"
+#	def0[]:"ZY"
+
+	# Hammerfest
+#	def0[]:"FF"
+	def0[]:"ZX"  # 1960 - present
+
+	# Lakselv
+#	def0[]:"CW"
+	def0[]:"ZZ"  # 1955 - present
+
+	# Svalbard
+#	def0[]:"FH"
+	def0[]:"ZN"  # 1963 - present
