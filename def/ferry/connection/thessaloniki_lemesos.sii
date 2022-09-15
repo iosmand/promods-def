@@ -9,7 +9,7 @@ ferry_connection : conn.thessaloniki.lemesos{
 	connection_positions[0]:  (12870000, 0, 14570000)
 	connection_positions[1]:  (15135232, 0, 16067072)
 	connection_positions[2]:  (16255030, 0, 17334600)
-	connection_positions[3]:  (19440640, 0, 20517120)
+	connection_positions[3]:  (19428224, 0, 20252442)
 	connection_positions[4]:  (25559500, 0, 20770868)
 	connection_positions[5]:  (25777920, 0, 20398822)
 	

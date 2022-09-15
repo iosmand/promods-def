@@ -26,7 +26,7 @@
 	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0  
 	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
@@ -43,115 +43,55 @@ license_plate_data : .drammen.lp.car
 {
 	type: car
 
-	templates[]:"0 12222"
+@include "city_lp_no_car.sui"
 
-#	def0[]:"KE"  # Drammen
-	def0[]:"KF"
-	def0[]:"KH"
-	def0[]:"KJ"
+	# Drammen
+#	def0[]:"KE"  # 1920 - 1987
+	def0[]:"KF"  # 1931 - 2013
+	def0[]:"KH"  # 1958 - 2021
+	def0[]:"KJ"  # 1948 - present
 #	def0[]:"KK"
 #	def0[]:"KL"
 #	def0[]:"KN"
 #	def0[]:"KP"
 #	def0[]:"KR"
 #	def0[]:"KS"
-
-	def1[]:"1"
-	def1[]:"2"
-	def1[]:"3"
-	def1[]:"4"
-	def1[]:"5"
-	def1[]:"6"
-	def1[]:"7"
-	def1[]:"8"
-	def1[]:"9"
-
-	def2[]:"0"
-	def2[]:"1"
-	def2[]:"2"
-	def2[]:"3"
-	def2[]:"4"
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
 }
 
 license_plate_data : .drammen.lp.truck
 {
 	type: truck
 
-	templates[]:"0 12222"
+@include "city_lp_no_truck.sui"
 
-#	def0[]:"KE"  # Drammen
-#	def0[]:"KF"
-	def0[]:"KH"
-	def0[]:"KJ"
+	# Drammen
+#	def0[]:"KE"  # 1920 - 1987
+#	def0[]:"KF"  # 1931 - 2013
+	def0[]:"KH"  # 1958 - 2021
+	def0[]:"KJ"  # 1948 - present
 #	def0[]:"KK"
 #	def0[]:"KL"
 #	def0[]:"KN"
 #	def0[]:"KP"
 #	def0[]:"KR"
 #	def0[]:"KS"
-
-	def1[]:"1"
-	def1[]:"2"
-	def1[]:"3"
-	def1[]:"4"
-	def1[]:"5"
-	def1[]:"6"
-	def1[]:"7"
-	def1[]:"8"
-	def1[]:"9"
-
-	def2[]:"0"
-	def2[]:"1"
-	def2[]:"2"
-	def2[]:"3"
-	def2[]:"4"
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
 }
 
 license_plate_data : .drammen.lp.trailer
 {
 	type: trailer
 
-	templates[]:"0 1222"
+@include "city_lp_no_trailer.sui"
 
-#	def0[]:"KE"  # Drammen
-#	def0[]:"KF"
-#	def0[]:"KH"
-#	def0[]:"KJ"
-#	def0[]:"KK"
-#	def0[]:"KL"
-#	def0[]:"KN"
-	def0[]:"KP"
-	def0[]:"KR"
-	def0[]:"KS"
-
-	def1[]:"1"
-	def1[]:"2"
-	def1[]:"3"
-	def1[]:"4"
-	def1[]:"5"
-	def1[]:"6"
-	def1[]:"7"
-	def1[]:"8"
-	def1[]:"9"
-
-	def2[]:"0"
-	def2[]:"1"
-	def2[]:"2"
-	def2[]:"3"
-	def2[]:"4"
-	def2[]:"5"
-	def2[]:"6"
-	def2[]:"7"
-	def2[]:"8"
-	def2[]:"9"
+	# Drammen
+#	def0[]:"KE"  # 1917 - 1994
+#	def0[]:"KF"  # 1938 - 1988
+#	def0[]:"KH"  # 1935 - 2006
+#	def0[]:"KJ"  # 1939 - 2002
+#	def0[]:"KK"  # 1945 - 2002
+#	def0[]:"KL"  # 1943 - 2011
+#	def0[]:"KN"  # 1942 - 2011
+#	def0[]:"KP"  # 1951 - 2017
+	def0[]:"KR"  # 1954 - 2020
+	def0[]:"KS"  # 1967 - 2021
 }

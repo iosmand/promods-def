@@ -1,8 +1,8 @@
 city_data: city.slbrod
 {
 	city_name: "Slavonski Brod"
-	short_city_name: "Brod"
 	city_name_localized: "@@slbrod@@"
+	short_city_name: "Brod"
 	short_city_name_localized: "@@slbrod_short@@"
 	country: croatia
 

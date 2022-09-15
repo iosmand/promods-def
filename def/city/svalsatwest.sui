@@ -1,8 +1,8 @@
 city_data: city.svalsatwest
 {
 	city_name: "Svalbard Western Satellite station"
-	short_city_name: "SvalSat"
 	city_name_localized: "@@svalsatwest@@"
+	short_city_name: "SvalSat"
 	short_city_name_localized: "@@svalsat_short@@"
 	country: svalbard
 

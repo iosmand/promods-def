@@ -1,12 +1,5 @@
 SiiNunit
 {
-# For modders: Please do not modify this file if you want to add a new entry. Create in
-# this directory a new file "<base_name>.<idofyourmod>.sui" where <base_name> is name of
-# base file without the extension (e.g. "city" for "/def/city.sui") and <idofyourmod> is
-# some string which is unlikely to conflict with other mod.
-#
-# Warning: Even if the units are specified in more than one source file, they share the
-# same namespace so suffixes or prefixes should be used to avoid conflicts.
 
 # ALAND ISLANDS
 @include "city/geta.sui"
@@ -20,15 +13,6 @@ SiiNunit
 
 # ANDORRA
 @include "city/andorra.sui"
-
-# AUSTRIA
-@include "city/feldkirch.sui"
-@include "city/flachau.sui"
-@include "city/groedig.sui"
-@include "city/hainburg.sui"
-@include "city/obsteig.sui"
-@include "city/reutte.sui"
-@include "city/truckstop2.sui"
 
 # BELGIUM
 @include "city/antwerp.sui"
@@ -44,9 +28,6 @@ SiiNunit
 # BULGARIA
 @include "city/blagoevgrad.sui"
 @include "city/montana.sui"
-#@include "city/pleven.sui" #dlc_blke_e
-#@include "city/ruse.sui"   #dlc_blke_e
-#@include "city/sofia.sui"  #dlc_blke_e
 @include "city/vidin.sui"
 
 # CROATIA
@@ -101,6 +82,7 @@ SiiNunit
 @include "city/joensuu.sui"
 @include "city/jyvaskyla.sui"
 @include "city/karsamaki.sui"
+@include "city/kaustinen.sui"
 @include "city/kemi.sui"
 @include "city/kemijarvi.sui"
 @include "city/kittila.sui"
@@ -113,6 +95,7 @@ SiiNunit
 @include "city/pello.sui"
 @include "city/rovaniemi.sui"
 @include "city/savonlinna.sui"
+@include "city/seinajoki.sui"
 @include "city/sodankyla.sui"
 @include "city/tornio.sui"
 @include "city/utsjoki.sui"
@@ -127,7 +110,6 @@ SiiNunit
 @include "city/torshavn.sui"
 
 # FRANCE
-#@include "city/bayonne.sui" #dlc_fr
 @include "city/cherbourg.sui"
 @include "city/foix.sui"
 @include "city/granville.sui"
@@ -162,7 +144,6 @@ SiiNunit
 @include "city/sangerhausen.sui"
 @include "city/soltau.sui"
 @include "city/uelzen.sui"
-@include "city/ulm.sui"
 @include "city/wiesbaden.sui"
 
 # GREECE
@@ -220,6 +201,7 @@ SiiNunit
 
 # ITALY
 @include "city/lecco.sui"
+@include "city/siracusa.sui"
 @include "city/trieste.sui"
 
 # JERSEY
@@ -243,6 +225,9 @@ SiiNunit
 @include "city/skopje.sui"
 @include "city/stip.sui"
 
+# MALTA
+@include "city/valletta.sui"
+
 # MOLDOVA
 @include "city/balti.sui"
 @include "city/chisinau.sui"
@@ -259,6 +244,8 @@ SiiNunit
 
 # NORWAY
 @include "city/andalsnes.sui"
+@include "city/batsfjord.sui"
+@include "city/berlevag.sui"
 @include "city/dombas.sui"
 @include "city/drammen.sui"
 @include "city/grumantbyen.sui"
@@ -267,10 +254,14 @@ SiiNunit
 @include "city/hiorthhamn.sui"
 @include "city/honningsvag.sui"
 @include "city/kirkenes.sui"
+@include "city/kjollefjord.sui"
 @include "city/kristiansund.sui"
+@include "city/lakselv.sui"
+@include "city/lebesby.sui"
 @include "city/lillehammer.sui"
 @include "city/longyearbyem.sui"
 @include "city/longyearbyen.sui"
+@include "city/mehamn.sui"
 @include "city/molde.sui"
 @include "city/oppdal.sui"
 @include "city/orkanger.sui"
@@ -279,6 +270,8 @@ SiiNunit
 @include "city/svalsatwest.sui"
 @include "city/tanabru.sui"
 @include "city/trondheim.sui"
+@include "city/vadso.sui"
+@include "city/vardo.sui"
 
 # POLAND
 @include "city/augustow.sui"
@@ -326,16 +319,7 @@ SiiNunit
 @include "city/zgorzelec.sui"
 
 # ROMANIA
-#@include "city/bacau.sui"     #dlc_blke_e
-@include "city/baiamare.sui"
-#@include "city/bucuresti.sui" #dlc_blke_e
-#@include "city/cluj.sui"      #dlc_blke_e
-#@include "city/constanta.sui" #dlc_blke_e
-#@include "city/craiova.sui"   #dlc_blke_e
-#@include "city/iasi.sui"      #dlc_blke_e
-#@include "city/pitesti.sui"   #dlc_blke_e
 @include "city/satumare.sui"
-#@include "city/timisoara.sui" #dlc_blke_e
 
 # RUSSIA
 @include "city/gusev.sui"
@@ -442,5 +426,4 @@ SiiNunit
 @include "city/stryi.sui"
 @include "city/uzhhorod.sui"
 @include "city/varash.sui"
-
 }

@@ -1,8 +1,8 @@
 city_data: city.sthelier
 {
 	city_name: "Saint Helier"
-	short_city_name: "St Helier"
 	city_name_localized: "@@sthelier@@"
+	short_city_name: "St. Helier"
 	short_city_name_localized: "@@sthelier_short@@"
 	country: jersey
 
