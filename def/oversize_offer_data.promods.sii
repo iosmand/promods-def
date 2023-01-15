@@ -1867,4 +1867,55 @@ oversize_offer_data : spec_offer.ovesize_104e {
 		cutscenes_intro_night[]: cutscene.ovs_i_latn
 }
 
+### From Brest to Rennes (Viva la France !) 1
+oversize_offer_data : spec_offer.ovesize_56 {
+		route : route_data.bre_ren1
+		cargo : cargo.mystery_cyl
+		low_time_limit  : 120
+		high_time_limit : 1200
+		cargo_dimension : (6.0, 1.3, 6.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_mysc
+		cutscenes_intro_night[]: cutscene.ovs_i_myscni
+
+}
+
+### From Brest to Rennes (Viva la France !) 2
+oversize_offer_data : spec_offer.ovesize_56a {
+		route : route_data.bre_ren1
+		cargo : cargo.ex_bucket
+		low_time_limit  : 120
+		high_time_limit : 1200
+		cargo_dimension : (4.9, 2.9, 3.5)
+		
+		cutscenes_intro[]: cutscene.ovs_i_ex
+		cutscenes_intro_night[]: cutscene.ovs_i_exn
+
+}
+
+### From Brest to Rennes (Viva la France !) 3
+oversize_offer_data : spec_offer.ovesize_56b {
+		route : route_data.bre_ren1
+		cargo : cargo.m_59_80_r63
+		low_time_limit  : 120
+		high_time_limit : 1200
+		cargo_dimension : (4.0, 3.2, 12.1)
+		
+		cutscenes_intro[]: cutscene.ovs_i_tir3
+		cutscenes_intro_night[]: cutscene.ovs_i_tir3n
+
+}
+
+### From Brest to Rennes (Viva la France !) 4
+oversize_offer_data : spec_offer.ovesize_56c {
+		route : route_data.bre_ren1
+		cargo : cargo.lattice
+		low_time_limit  : 120
+		high_time_limit : 1200
+		cargo_dimension : (5.6, 4.7, 20.0)
+		
+		cutscenes_intro[]: cutscene.ovs_i_lat
+		cutscenes_intro_night[]: cutscene.ovs_i_latn
+
+}
 }

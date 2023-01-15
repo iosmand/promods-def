@@ -8,8 +8,6 @@ SiiNunit
 
 # ALBANIA
 @include "city/elbasani.sui"
-@include "city/korce.sui"
-@include "city/tirane.sui"
 
 # ANDORRA
 @include "city/andorra.sui"
@@ -65,7 +63,6 @@ SiiNunit
 @include "city/kolding.sui"
 @include "city/lellinge.sui"
 @include "city/padborg.sui"
-@include "city/rodbyhavn.sui"
 @include "city/ronne.sui"
 @include "city/truckstop1.sui"
 @include "city/vhavn.sui"
@@ -110,11 +107,14 @@ SiiNunit
 @include "city/torshavn.sui"
 
 # FRANCE
-@include "city/cherbourg.sui"
+@include "city/dax.sui"
 @include "city/foix.sui"
 @include "city/granville.sui"
 @include "city/mulhouse.sui"
+@include "city/narbonne.sui"
 @include "city/orleans.sui"
+@include "city/perpignan.sui"
+@include "city/port_vendres.sui"
 @include "city/valenciennes.sui"
 
 # GEORGIA
@@ -139,7 +139,6 @@ SiiNunit
 @include "city/koblenz.sui"
 @include "city/mainz.sui"
 @include "city/oberhausen.sui"
-@include "city/puttgarden.sui"
 @include "city/roadworks_a7.sui"
 @include "city/sangerhausen.sui"
 @include "city/soltau.sui"
@@ -148,7 +147,6 @@ SiiNunit
 
 # GREECE
 @include "city/alexandroup.sui"
-@include "city/igoumenitsa.sui"
 @include "city/ioannina.sui"
 @include "city/kavala.sui"
 @include "city/ptolemaida.sui"
@@ -243,9 +241,11 @@ SiiNunit
 @include "city/zwolle.sui"
 
 # NORWAY
+@include "city/alta.sui"
 @include "city/andalsnes.sui"
 @include "city/batsfjord.sui"
 @include "city/berlevag.sui"
+@include "city/bidjovagge.sui"
 @include "city/dombas.sui"
 @include "city/drammen.sui"
 @include "city/grumantbyen.sui"
@@ -253,6 +253,8 @@ SiiNunit
 @include "city/hammerfest.sui"
 @include "city/hiorthhamn.sui"
 @include "city/honningsvag.sui"
+@include "city/karasjok.sui"
+@include "city/kautokeino.sui"
 @include "city/kirkenes.sui"
 @include "city/kjollefjord.sui"
 @include "city/kristiansund.sui"
@@ -266,9 +268,11 @@ SiiNunit
 @include "city/oppdal.sui"
 @include "city/orkanger.sui"
 @include "city/otta.sui"
+@include "city/storslett.sui"
 @include "city/svalsateast.sui"
 @include "city/svalsatwest.sui"
 @include "city/tanabru.sui"
+@include "city/tromso.sui"
 @include "city/trondheim.sui"
 @include "city/vadso.sui"
 @include "city/vardo.sui"
@@ -313,6 +317,7 @@ SiiNunit
 @include "city/strzelcekraj.sui"
 @include "city/suwalki.sui"
 @include "city/swinoujscie.sui"
+@include "city/wadowice.sui"
 @include "city/walcz.sui"
 @include "city/zamosc.sui"
 @include "city/zgierz.sui"
@@ -349,6 +354,14 @@ SiiNunit
 @include "city/koper.sui"
 @include "city/ljubljana.sui"
 @include "city/maribor.sui"
+
+# SPAIN
+@include "city/huesca.sui"
+@include "city/jonquera.sui"
+@include "city/llivia.sui"
+@include "city/canfranc.sui"
+@include "city/jaca.sui"
+@include "city/contreras.sui"
 
 # SWEDEN
 @include "city/are.sui"
@@ -391,7 +404,6 @@ SiiNunit
 @include "city/fraserburgh.sui"
 @include "city/ftwilliam.sui"
 @include "city/hawes.sui"
-@include "city/heysham.sui"
 @include "city/holyhead.sui"
 @include "city/inverness.sui"
 @include "city/kirkwall.sui"
@@ -399,6 +411,7 @@ SiiNunit
 @include "city/lisburn.sui"
 @include "city/lochboisdale.sui"
 @include "city/londonderry.sui"
+@include "city/newport.sui"
 @include "city/norwich.sui"
 @include "city/oban.sui"
 @include "city/perth.sui"
@@ -407,10 +420,7 @@ SiiNunit
 @include "city/portsmouth.sui"
 @include "city/stornoway.sui"
 @include "city/stranraer.sui"
-@include "city/stromness.sui"
-@include "city/tarbert.sui"
 @include "city/thurso.sui"
-@include "city/uig.sui"
 @include "city/ullapool.sui"
 @include "city/wick.sui"
 
