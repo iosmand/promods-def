@@ -8,19 +8,29 @@ city_data : city.catania
 	map_x_offsets[]: 0
 	map_x_offsets[]: -20
 	map_x_offsets[]: -20
-	map_x_offsets[]: -31
-	map_x_offsets[]: -31
-	map_x_offsets[]: -28
-	map_x_offsets[]: -32
+	map_x_offsets[]: -50
+	map_x_offsets[]: -40
+	map_x_offsets[]: -40
+	map_x_offsets[]: 5
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -15
-	map_y_offsets[]: -6
-	map_y_offsets[]: -1
-	map_y_offsets[]: -21
-	map_y_offsets[]: 7
+	map_y_offsets[]: 200
+	map_y_offsets[]: 30
+	map_y_offsets[]: 0
+	map_y_offsets[]: -9
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]: "daf"
 
@@ -205,9 +215,9 @@ license_plate_data : .catania.lp.truck
 	templates[]:"0FZ 111JP2"
 	templates[]:"0FZ 111JR2"
 	templates[]:"0FZ 111JT2"
-	templates[]:"0GA 111WL2"	
-	templates[]:"0GA 111WM2"	
-	templates[]:"0GA 111WN2"	
+	templates[]:"0GA 111WL2"
+	templates[]:"0GA 111WM2"
+	templates[]:"0GA 111WN2"
 	templates[]:"0GA 111WP2"
 
 	def0[]:"<align left=-15>"
@@ -232,9 +242,9 @@ license_plate_data : .catania.lp.trailer
 	type: trailer
 
 	templates[]:"0XA 12"
-	
+
 	def0[]:"<align left=-15>"
-	
+
 @include "it_lp_ct_trailer.sui"
 
 	def2[]:"</align>"
@@ -251,7 +261,7 @@ license_plate_data : .catania.lp.police
 	templates[]:"0YA  12"
 
 	def0[]:"<offset vshift=-7><color value=FF9E0000><align left=-15><font xscale=0.5 yscale=0.4>POLIZA  LOCALE</font></align><ret><offset vshift=4><color value=FF000000><align left=-15><font xscale=0.8 yscale=0.9>"
-	
+
 @include "it_lp_ct_police.sui"
 
 	def2[]:"</font></align>"

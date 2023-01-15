@@ -8,19 +8,19 @@ city_data: city.beograd
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: 250
+	map_x_offsets[]: 60
+	map_x_offsets[]: -10
+	map_x_offsets[]: -39
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -130
+	map_y_offsets[]: -40
+	map_y_offsets[]: -15
+	map_y_offsets[]: 2
 
 	vehicle_brands[]:"man"
 

@@ -8,19 +8,29 @@ city_data : city.cagliari
 	map_x_offsets[]: 0
 	map_x_offsets[]: -20
 	map_x_offsets[]: -20
-	map_x_offsets[]: -31
-	map_x_offsets[]: -31
-	map_x_offsets[]: -28
+	map_x_offsets[]: -200
+	map_x_offsets[]: -60
+	map_x_offsets[]: -40
 	map_x_offsets[]: -30
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -15
-	map_y_offsets[]: -6
-	map_y_offsets[]: -1
-	map_y_offsets[]: -21
-	map_y_offsets[]: -29
+	map_y_offsets[]: -300
+	map_y_offsets[]: -70
+	map_y_offsets[]: -30
+	map_y_offsets[]: 2
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]: "scania"
 
@@ -200,7 +210,7 @@ license_plate_data : .cagliari.lp.car
 license_plate_data : .cagliari.lp.truck
 {
 	type: truck
-	
+
 	templates[]:"0FZ 111PA2"
 	templates[]:"0FZ 111PB2"
 	templates[]:"0FZ 111PC2"
@@ -231,11 +241,11 @@ license_plate_data : .cagliari.lp.truck
 license_plate_data : .cagliari.lp.trailer
 {
 	type: trailer
-	
+
 	templates[]:"0XA 12"
-	
+
 	def0[]:"<align left=-15>"
-	
+
 @include "it_lp_ca_trailer.sui"
 
 	def2[]:"</align>"
@@ -252,7 +262,7 @@ license_plate_data : .cagliari.lp.police
 	templates[]:"0YA  12"
 
 	def0[]:"<offset vshift=-7><color value=FF9E0000><align left=-15><font xscale=0.5 yscale=0.4>POLIZA  LOCALE</font></align><ret><offset vshift=4><color value=FF000000><align left=-15><font xscale=0.8 yscale=0.9>"
-	
+
 @include "it_lp_ca_police.sui"
 
 	def2[]:"</font></align>"

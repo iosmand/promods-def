@@ -1,4 +1,4 @@
-﻿city_data: city.bbiala
+city_data: city.bbiala
 {
 	city_name: "Bielsko-Biała"
 	city_name_localized: "@@bbiala@@"
@@ -8,19 +8,29 @@
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
+	map_x_offsets[]: -10
+	map_x_offsets[]: -70
+	map_x_offsets[]: -60
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: 0
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
-	map_y_offsets[]: 0
+	map_y_offsets[]: -40
+	map_y_offsets[]: -20
+	map_y_offsets[]: -8
+	map_y_offsets[]: -2
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]:"scania"
 
@@ -52,7 +62,9 @@ license_plate_data : .bbiala.lp.car
 	templates[]:"SBI544444"  # VII  Bielsko-Biała office
 	templates[]:"SBI54441"   # IX   Czechowice-Dziedzice office
 	templates[]:"SBI54444A"  # VIII Bielsko-Biała office
+	templates[]:"SBI54444C"  # VIII Bielsko-Biała office
 
+	# "SB" III
 	def0[]:"AA"
 	def0[]:"AC"
 	def0[]:"AE"
@@ -79,24 +91,62 @@ license_plate_data : .bbiala.lp.car
 	def0[]:"CF"
 	def0[]:"CG"
 	def0[]:"CH"
-	def0[]:"CJ"  # "SB" III latest issued (April 2021)
-#	def0[]:"CK"
-#	def0[]:"CL"
-#	def0[]:"CM"
-#	def0[]:"CN"
-#	def0[]:"CP"
-#	def0[]:"CR"
-#	def0[]:"CS"
-#	def0[]:"CT"
-#	def0[]:"CU"
-#	def0[]:"CV"
-#	def0[]:"CW"
-#	def0[]:"CX"
-#	def0[]:"CY"
+	def0[]:"CJ"
+	def0[]:"CK"
+	def0[]:"CL"
+	def0[]:"CM"
+	def0[]:"CN"
+	def0[]:"CP"
+	def0[]:"CR"
+	def0[]:"CS"
+	def0[]:"CT"
+	def0[]:"CU"
+	def0[]:"CV"
+	def0[]:"CW"
+	def0[]:"CX"
+	def0[]:"CY"
+	def0[]:"EA"
+	def0[]:"EC"
+	def0[]:"EE"
+	def0[]:"EF"
+	def0[]:"EG"
+	def0[]:"EH"
+	def0[]:"EJ"
+	def0[]:"EK"
+	def0[]:"EL"
+	def0[]:"EM"
+	def0[]:"EN"
+	def0[]:"EP"
+	def0[]:"ER"
+	def0[]:"ES"
+	def0[]:"ET"
+	def0[]:"EU"  # "SB" III latest issued (October 2022)
+#	def0[]:"EV"
+#	def0[]:"EW"
+#	def0[]:"EX"
+#	def0[]:"EY"
 
+	# "SBI" IX
 	def1[]:"AA"
 	def1[]:"AC"
-	def1[]:"AE"  # "SBI" IX latest issued (April 2021)
+	def1[]:"AE"
+	def1[]:"AF"
+	def1[]:"AG"
+	def1[]:"AH"
+	def1[]:"AJ"  # "SBI" IX latest issued (October 2022)
+#	def1[]:"AK"
+#	def1[]:"AL"
+#	def1[]:"AM"
+#	def1[]:"AN"
+#	def1[]:"AP"
+#	def1[]:"AR"
+#	def1[]:"AS"
+#	def1[]:"AT"
+#	def1[]:"AU"
+#	def1[]:"AV"
+#	def1[]:"AW"
+#	def1[]:"AX"
+#	def1[]:"AY"
 
 	def2[]:"A"
 	def2[]:"C"
@@ -147,11 +197,14 @@ license_plate_data : .bbiala.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"SB544444"   # I    most before EU stars
 #	templates[]:"SB544442"   # II
 	templates[]:"SB54440"    # III
 
+	# "SB" III
 #	def0[]:"AA"
 #	def0[]:"AC"
 #	def0[]:"AE"
@@ -176,9 +229,9 @@ license_plate_data : .bbiala.lp.truck
 #	def0[]:"CC"
 #	def0[]:"CE"
 #	def0[]:"CF"
-	def0[]:"CG"
-	def0[]:"CH"
-	def0[]:"CJ"  # "SB" III latest issued (April 2021)
+#	def0[]:"CG"
+#	def0[]:"CH"
+#	def0[]:"CJ"
 #	def0[]:"CK"
 #	def0[]:"CL"
 #	def0[]:"CM"
@@ -192,6 +245,26 @@ license_plate_data : .bbiala.lp.truck
 #	def0[]:"CW"
 #	def0[]:"CX"
 #	def0[]:"CY"
+#	def0[]:"EA"
+#	def0[]:"EC"
+#	def0[]:"EE"
+#	def0[]:"EF"
+#	def0[]:"EG"
+#	def0[]:"EH"
+#	def0[]:"EJ"
+#	def0[]:"EK"
+#	def0[]:"EL"
+#	def0[]:"EM"
+#	def0[]:"EN"
+#	def0[]:"EP"
+#	def0[]:"ER"
+	def0[]:"ES"
+	def0[]:"ET"
+	def0[]:"EU"  # "SB" III latest issued (October 2022)
+#	def0[]:"EV"
+#	def0[]:"EW"
+#	def0[]:"EX"
+#	def0[]:"EY"
 
 #	def2[]:"A"
 #	def2[]:"C"
@@ -204,7 +277,7 @@ license_plate_data : .bbiala.lp.truck
 #	def2[]:"L"
 #	def2[]:"M"
 #	def2[]:"N"
-#	def2[]:"P"
+##	def2[]:"P"  # Used for trailers
 #	def2[]:"R"
 #	def2[]:"S"
 #	def2[]:"T"
@@ -232,10 +305,13 @@ license_plate_data : .bbiala.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"SB544444"   # I    before EU stars
 	templates[]:"SB5044P"    # II   few before EU stars
 
+	# "SB" II ....P
 ##	def0[]:"00"  # Before EU stars
 #	def0[]:"01"
 #	def0[]:"02"
@@ -307,30 +383,30 @@ license_plate_data : .bbiala.lp.trailer
 #	def0[]:"68"
 #	def0[]:"69"
 #	def0[]:"70"
-	def0[]:"71"
-	def0[]:"72"
-	def0[]:"73"
-	def0[]:"74"
-	def0[]:"75"
-	def0[]:"76"
-	def0[]:"77"
-	def0[]:"78"
-	def0[]:"79"
-	def0[]:"80"  # "SB" II latest issued (April 2021)
+#	def0[]:"71"
+#	def0[]:"72"
+#	def0[]:"73"
+#	def0[]:"74"
+#	def0[]:"75"
+#	def0[]:"76"
+#	def0[]:"77"
+#	def0[]:"78"
+#	def0[]:"79"
+#	def0[]:"80"
 #	def0[]:"81"
 #	def0[]:"82"
 #	def0[]:"83"
 #	def0[]:"84"
-#	def0[]:"85"
-#	def0[]:"86"
-#	def0[]:"87"
-#	def0[]:"88"
-#	def0[]:"89"
-#	def0[]:"90"
-#	def0[]:"91"
-#	def0[]:"92"
-#	def0[]:"93"
-#	def0[]:"94"
+	def0[]:"85"
+	def0[]:"86"
+	def0[]:"87"
+	def0[]:"88"
+	def0[]:"89"
+	def0[]:"90"
+	def0[]:"91"
+	def0[]:"92"
+	def0[]:"93"
+	def0[]:"94"  # "SB" II ....P latest issued (October 2022)
 #	def0[]:"95"
 #	def0[]:"96"
 #	def0[]:"97"
@@ -354,6 +430,8 @@ license_plate_data : .bbiala.lp.trailer
 license_plate_data : .bbiala.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# P = Silesian (Śląskie) Voivodeship Headquarters
 	templates[]:"HPP51222"

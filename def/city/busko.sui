@@ -22,15 +22,15 @@ city_data: city.busko
 	map_y_offsets[]: -18
 	map_y_offsets[]: -15
 
-	### SMALL CITY ###
+	### SERVICE CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
-	city_pin_scale_factor[]: 0.8  // middle zoom for world map
-	city_pin_scale_factor[]: 0.5  // whole world map zoom
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
 
 	license_plate[]: .busko.lp.car
 	license_plate[]: .busko.lp.truck
@@ -52,6 +52,7 @@ license_plate_data : .busko.lp.car
 	templates[]:"TBU51444"   # VII
 	templates[]:"TBU51444"   # VII
 
+	# "TBU" VI
 	def0[]:"AA"
 	def0[]:"AC"
 	def0[]:"AE"
@@ -254,10 +255,11 @@ license_plate_data : .busko.lp.car
 	def0[]:"PX"
 	def0[]:"PY"
 
+	# "TBU" VII
 	def1[]:"00"
 	def1[]:"01"
 	def1[]:"02"
-	def1[]:"03"
+#	def1[]:"03"  # Partially used for double-row plates
 	def1[]:"04"
 	def1[]:"05"
 	def1[]:"06"
@@ -265,16 +267,27 @@ license_plate_data : .busko.lp.car
 	def1[]:"08"
 	def1[]:"09"
 	def1[]:"10"
-	def1[]:"11"  # "TBU" VII latest issued (April 2021)
-#	def1[]:"12"
-#	def1[]:"13"
-#	def1[]:"14"
-#	def1[]:"15"
-#	def1[]:"16"
-#	def1[]:"17"
-#	def1[]:"18"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"  # "TBU" VII latest issued (October 2022)
 #	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
 
+	# "TBU" II & III
 	def2[]:"A"
 #	def2[]:"C"  # Used for motorcycles and tractors
 	def2[]:"E"
@@ -324,6 +337,8 @@ license_plate_data : .busko.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"TBU52444"   # I    before EU stars
 #	templates[]:"TBU54422"   # II   some before EU stars
@@ -331,6 +346,7 @@ license_plate_data : .busko.lp.truck
 #	templates[]:"TBU5044"    # VI
 	templates[]:"TBU51444"   # VII
 
+	# "TBU" VI
 #	def0[]:"AA"
 #	def0[]:"AC"
 #	def0[]:"AE"
@@ -532,27 +548,39 @@ license_plate_data : .busko.lp.truck
 #	def0[]:"PX"
 #	def0[]:"PY"
 
+	# "TBU" VII
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
-#	def1[]:"03"
+##	def1[]:"03"  # Partially used for double-row plates
 #	def1[]:"04"
 #	def1[]:"05"
 #	def1[]:"06"
 #	def1[]:"07"
 #	def1[]:"08"
-	def1[]:"09"
-	def1[]:"10"
-	def1[]:"11"  # "TBU" VII latest issued (April 2021)
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
 #	def1[]:"12"
 #	def1[]:"13"
 #	def1[]:"14"
 #	def1[]:"15"
-#	def1[]:"16"
-#	def1[]:"17"
-#	def1[]:"18"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"  # "TBU" VII latest issued (October 2022)
 #	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
 
+	# "TBU" II & III
 #	def2[]:"A"
 ##	def2[]:"C"  # Used for motorcycles and tractors
 #	def2[]:"E"
@@ -602,6 +630,8 @@ license_plate_data : .busko.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"TBU5P444"   # I    before EU stars
 #	templates[]:"TBU5N444"   # I    most before EU stars
@@ -609,6 +639,7 @@ license_plate_data : .busko.lp.trailer
 #	templates[]:"TBU5144"    # III
 	templates[]:"TBU5244"    # VI
 
+	# "TBU" II
 #	def0[]:"YA"
 #	def0[]:"YC"
 #	def0[]:"YE"
@@ -630,6 +661,7 @@ license_plate_data : .busko.lp.trailer
 #	def0[]:"YX"
 #	def0[]:"YY"
 
+	# "TBU" III
 #	def1[]:"1Y"
 #	def1[]:"2Y"
 #	def1[]:"3Y"
@@ -640,6 +672,7 @@ license_plate_data : .busko.lp.trailer
 #	def1[]:"8Y"
 #	def1[]:"9Y"
 
+	# "TBU" VI
 #	def2[]:"YA"
 #	def2[]:"YC"
 #	def2[]:"YE"
@@ -651,16 +684,21 @@ license_plate_data : .busko.lp.trailer
 #	def2[]:"YL"
 #	def2[]:"YM"
 ##	def2[]:"YY"  # Used for double-row plates
-	def2[]:"MC"
-	def2[]:"YN"
-	def2[]:"YP"
-	def2[]:"YR"
+#	def2[]:"MC"
+#	def2[]:"YN"
+#	def2[]:"YP"
+#	def2[]:"YR"
 	def2[]:"YS"
 	def2[]:"YT"
 	def2[]:"RA"
 	def2[]:"RC"
 	def2[]:"YW"
-	def2[]:"YX"  # "TBU" VI latest issued (March 2021)
+	def2[]:"YX"
+	def2[]:"RH"
+	def2[]:"RP"
+	def2[]:"RT"
+#	def2[]:"RU"  # Likely used for double-row plates
+	def2[]:"RV"  # "TBU" VI latest issued (September 2022)
 
 #	def3[]:"1"
 #	def3[]:"2"
@@ -689,6 +727,8 @@ license_plate_data : .busko.lp.trailer
 license_plate_data : .busko.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# S = Świętokrzyskie Provincial Headquarters
 	templates[]:"HPS51222"

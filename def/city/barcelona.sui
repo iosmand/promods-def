@@ -8,19 +8,19 @@ city_data : city.barcelona
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -45
-	map_x_offsets[]: -45
-	map_x_offsets[]: -45
-	map_x_offsets[]: -45
+	map_x_offsets[]: 120
+	map_x_offsets[]: -40
+	map_x_offsets[]: -35
+	map_x_offsets[]: 7
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -50
 	map_y_offsets[]: -28
-	map_y_offsets[]: -26
-	map_y_offsets[]: -26
-	map_y_offsets[]: -26
-	map_y_offsets[]: -26
+	map_y_offsets[]: -40
+	map_y_offsets[]: -10
+	map_y_offsets[]: -10
+	map_y_offsets[]: -10
 
 	vehicle_brands[]: "renault"
 
