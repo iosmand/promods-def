@@ -6,27 +6,27 @@
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 10 // close zoom for minimap
-	map_x_offsets[]: -30 // far zoom for monimap
-	map_x_offsets[]: -30 // city zoom for world map
-	map_x_offsets[]: -30 // closest zoom for world map
-	map_x_offsets[]: -40 // middle zoom for world map
-	map_x_offsets[]: -40 // whole world map zoom
+	map_x_offsets[]: 10  // close zoom for minimap
+	map_x_offsets[]: -30 // far zoom for minimap
+	map_x_offsets[]: 60  // city zoom for world map
+	map_x_offsets[]: -20 // closest zoom for world map
+	map_x_offsets[]: -35 // middle zoom for world map
+	map_x_offsets[]: -33 // whole world map zoom
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -88
 	map_y_offsets[]: 10
+	map_y_offsets[]: 120
 	map_y_offsets[]: 20
-	map_y_offsets[]: 20
-	map_y_offsets[]: 8
-	map_y_offsets[]: -3
+	map_y_offsets[]: -10
+	map_y_offsets[]: -21
 
 	### MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 1.0  // closest zoom for world map
 	city_pin_scale_factor[]: 1.0  // middle zoom for world map

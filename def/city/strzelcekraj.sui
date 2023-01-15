@@ -24,6 +24,16 @@ city_data: city.strzelcekraj
 	map_y_offsets[]: -18
 	map_y_offsets[]: -15
 
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
 	license_plate[]: .strzelcekraj.lp.car
 	license_plate[]: .strzelcekraj.lp.truck
 	license_plate[]: .strzelcekraj.lp.trailer
@@ -42,6 +52,7 @@ license_plate_data : .strzelcekraj.lp.car
 	templates[]:"FSD52444"   # VII
 	templates[]:"FSD52444"   # VII
 
+	# "FSD" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for motorcycles and tractors
 #	def0[]:"E"
@@ -63,6 +74,7 @@ license_plate_data : .strzelcekraj.lp.car
 #	def0[]:"X"
 #	def0[]:"Y"
 
+	# "FSD" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -464,6 +476,7 @@ license_plate_data : .strzelcekraj.lp.car
 	def1[]:"YX"
 	def1[]:"YY"
 
+	# "FSD" VII
 	def2[]:"00"
 	def2[]:"01"
 	def2[]:"02"
@@ -549,14 +562,14 @@ license_plate_data : .strzelcekraj.lp.car
 	def2[]:"82"
 	def2[]:"83"
 	def2[]:"84"
-	def2[]:"85"  # "FSD" VII latest issued (April 2021)
-#	def2[]:"86"
-#	def2[]:"87"
-#	def2[]:"88"
-#	def2[]:"89"
-#	def2[]:"90"
-#	def2[]:"91"
-#	def2[]:"92"
+	def2[]:"85"
+	def2[]:"86"
+	def2[]:"87"
+	def2[]:"88"
+	def2[]:"89"
+	def2[]:"90"
+	def2[]:"91"
+	def2[]:"92"  # "FSD" VII latest issued (October 2022)
 #	def2[]:"93"
 #	def2[]:"94"
 #	def2[]:"95"
@@ -583,11 +596,14 @@ license_plate_data : .strzelcekraj.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"FSD50444"   # I    before EU stars
 #	templates[]:"FSD5441"    # II   most before EU stars
 	templates[]:"FSD52444"   # VII
 
+	# "FSD" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for motorcycles and tractors
 #	def0[]:"E"
@@ -609,6 +625,7 @@ license_plate_data : .strzelcekraj.lp.truck
 #	def0[]:"X"
 #	def0[]:"Y"
 
+	# "FSD" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -1010,6 +1027,7 @@ license_plate_data : .strzelcekraj.lp.truck
 #	def1[]:"YX"
 #	def1[]:"YY"
 
+	# "FSD" VII
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
@@ -1093,16 +1111,16 @@ license_plate_data : .strzelcekraj.lp.truck
 #	def2[]:"80"
 #	def2[]:"81"
 #	def2[]:"82"
-	def2[]:"83"
-	def2[]:"84"
-	def2[]:"85"  # "FSD" VII latest issued (April 2021)
+#	def2[]:"83"
+#	def2[]:"84"
+#	def2[]:"85"
 #	def2[]:"86"
 #	def2[]:"87"
 #	def2[]:"88"
 #	def2[]:"89"
-#	def2[]:"90"
-#	def2[]:"91"
-#	def2[]:"92"
+	def2[]:"90"
+	def2[]:"91"
+	def2[]:"92"  # "FSD" VII latest issued (October 2022)
 #	def2[]:"93"
 #	def2[]:"94"
 #	def2[]:"95"
@@ -1129,11 +1147,14 @@ license_plate_data : .strzelcekraj.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"FSD5044"    # I    before EU stars
 #	templates[]:"FSD5441"    # II   half before EU stars
 	templates[]:"FSD5244"    # III
 
+	# "FSD" I
 #	def0[]:"P0"
 ##	def0[]:"P1"  # Used for double-row plates
 #	def0[]:"P2"
@@ -1155,9 +1176,11 @@ license_plate_data : .strzelcekraj.lp.trailer
 #	def0[]:"V8"
 ##	def0[]:"V9"  # Used for double-row plates
 
+	# "FSD" II
 #	def1[]:"NH"  # Before EU stars
 #	def1[]:"PW"
 
+	# "FSD" III
 #	def2[]:"1C"
 #	def2[]:"2C"
 #	def2[]:"3C"
@@ -1183,17 +1206,26 @@ license_plate_data : .strzelcekraj.lp.trailer
 #	def2[]:"5N"
 #	def2[]:"6N"
 #	def2[]:"7N"
-	def2[]:"8N"
-	def2[]:"9N"
-	def2[]:"1R"
-	def2[]:"2R"
-	def2[]:"3R"
-	def2[]:"4R"
+#	def2[]:"8N"
+#	def2[]:"9N"
+#	def2[]:"1R"
+#	def2[]:"2R"
+#	def2[]:"3R"
+#	def2[]:"4R"
 	def2[]:"5R"
 	def2[]:"6R"
 	def2[]:"7R"
-	def2[]:"8R"  # "FSD" III latest issued (April 2021)
-#	def2[]:"9R"
+	def2[]:"8R"
+	def2[]:"9R"
+	def2[]:"1T"
+	def2[]:"2T"
+	def2[]:"3T"
+	def2[]:"4T"
+	def2[]:"5T"  # "FSD" III latest issued (October 2022)
+#	def2[]:"6T"
+#	def2[]:"7T"
+#	def2[]:"8T"
+#	def2[]:"9T"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -1212,6 +1244,8 @@ license_plate_data : .strzelcekraj.lp.trailer
 license_plate_data : .strzelcekraj.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# E = Lubusz (Lubuskie) Provincial Headquarters
 	templates[]:"HPE51222"

@@ -1,25 +1,25 @@
-﻿city_data: city.vardo
+﻿city_data: city.storslett
 {
-	city_name: "Vardø"
-	city_name_localized: "@@vardo@@"
+	city_name: "Storslett"
+	city_name_localized: "@@storslett@@"
 	country: norway
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
+	map_x_offsets[]: -80
+	map_x_offsets[]: -50
 	map_x_offsets[]: -30
-	map_x_offsets[]: -20
 	map_x_offsets[]: -22
-	map_x_offsets[]: -15
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: 0
-	map_y_offsets[]: -6
-	map_y_offsets[]: -10
+	map_y_offsets[]: -55
+	map_y_offsets[]: -25
+	map_y_offsets[]: -15
 	map_y_offsets[]: -15
 
 	### SERVICE CITY ###
@@ -34,49 +34,40 @@
 
 	#vehicle_brands[]:"daf"
 
-	license_plate[]: .vardo.lp.car
-	license_plate[]: .vardo.lp.truck
-	license_plate[]: .vardo.lp.trailer
+	license_plate[]: .storslett.lp.car
+	license_plate[]: .storslett.lp.truck
+	license_plate[]: .storslett.lp.trailer
 }
 
-license_plate_data : .vardo.lp.car
+license_plate_data : .storslett.lp.car
 {
 	type: car
 
 @include "city_lp_no_car.sui"
 
-	# Vadsø
-#	def0[]:"FR"  # 2015 (limited issue)
-#	def0[]:"JW"
-#	def0[]:"LE"
-	def0[]:"ZP"  # 1940 - present
-#	def0[]:"ZR"
+	# Storslett
+	def0[]:"FK"  # 1968 - present
+#	def0[]:"SW"
 }
 
-license_plate_data : .vardo.lp.truck
+license_plate_data : .storslett.lp.truck
 {
 	type: truck
 
 @include "city_lp_no_truck.sui"
 
-	# Vadsø
-#	def0[]:"FR"  # 2015 (limited issue)
-#	def0[]:"JW"
-#	def0[]:"LE"
-	def0[]:"ZP"  # 1940 - present
-#	def0[]:"ZR"
+	# Storslett
+	def0[]:"FK"  # 1968 - present
+#	def0[]:"SW"
 }
 
-license_plate_data : .vardo.lp.trailer
+license_plate_data : .storslett.lp.trailer
 {
 	type: trailer
 
 @include "city_lp_no_trailer.sui"
 
-	# Vadsø
-#	def0[]:"FR"  # 1944 - 2003
-	def0[]:"JW"  # 1949 - 2021
-	def0[]:"LE"  # 1951 - 2021
-#	def0[]:"ZP"  # 1939 - 1998
-#	def0[]:"ZR"  # 1943 - 2006
+	# Storslett
+	def0[]:"FK"  # 1958 - 2020
+	def0[]:"SW"  # 2004 - 2019
 }

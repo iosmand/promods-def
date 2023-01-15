@@ -8,19 +8,29 @@ city_data: city.szczecin
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: 100
+	map_x_offsets[]: -30
+	map_x_offsets[]: -38
+	map_x_offsets[]: -33
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
-	map_y_offsets[]: -15
+	map_y_offsets[]: -70
+	map_y_offsets[]: -20
+	map_y_offsets[]: -10
+	map_y_offsets[]: 1
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]:"mercedes"
 
@@ -42,6 +52,7 @@ license_plate_data : .szczecin.lp.car
 	templates[]:"ZS54442"    # III
 	templates[]:"ZS54442"    # III
 
+	# "ZS" I
 #	def0[]:"00"
 #	def0[]:"01"
 ##	def0[]:"02"  # Partially used for double-row plates
@@ -143,6 +154,7 @@ license_plate_data : .szczecin.lp.car
 #	def0[]:"98"
 #	def0[]:"99"
 
+	# "ZS" II
 ##	def1[]:"A"  # Used for trailers
 #	def1[]:"C"
 #	def1[]:"E"
@@ -164,6 +176,7 @@ license_plate_data : .szczecin.lp.car
 	def1[]:"X"
 	def1[]:"Y"
 
+	# "ZS" III
 #	def2[]:"AA"  # Used for trailers
 	def2[]:"AC"
 	def2[]:"AE"
@@ -369,41 +382,81 @@ license_plate_data : .szczecin.lp.car
 	def2[]:"NE"
 	def2[]:"NF"
 	def2[]:"NG"
-	def2[]:"NH"
+#	def2[]:"NH"  # Partially used for electric vehicles
 	def2[]:"NJ"
 	def2[]:"NK"
-	def2[]:"NL"  # "ZS" III latest issued (April 2021)
-#	def2[]:"NM"
-#	def2[]:"NN"
-#	def2[]:"NP"
-#	def2[]:"NR"
-#	def2[]:"NS"
-#	def2[]:"NT"
-#	def2[]:"NU"
-#	def2[]:"NV"
-#	def2[]:"NW"
-#	def2[]:"NX"
-#	def2[]:"NY"
-##	def2[]:"PA"  # Used for trailers
-#	def2[]:"PC"
-#	def2[]:"PE"
-#	def2[]:"PF"
-#	def2[]:"PG"
-#	def2[]:"PH"
-#	def2[]:"PJ"
-#	def2[]:"PK"
-#	def2[]:"PL"
-#	def2[]:"PM"
-#	def2[]:"PN"
-#	def2[]:"PP"
-#	def2[]:"PR"
-#	def2[]:"PS"
-#	def2[]:"PT"
-#	def2[]:"PU"
-#	def2[]:"PV"
-#	def2[]:"PW"
-#	def2[]:"PX"
-#	def2[]:"PY"
+#	def2[]:"NL"  # Partially used for double-row plates
+	def2[]:"NM"
+	def2[]:"NN"
+	def2[]:"NP"
+	def2[]:"NR"
+	def2[]:"NS"
+	def2[]:"NT"
+	def2[]:"NU"
+	def2[]:"NV"
+	def2[]:"NW"
+	def2[]:"NX"
+	def2[]:"NY"
+#	def2[]:"PA"  # Used for trailers
+	def2[]:"PC"
+	def2[]:"PE"
+#	def2[]:"PF"  # Partially used for electric vehicles
+	def2[]:"PG"
+	def2[]:"PH"
+	def2[]:"PJ"
+	def2[]:"PK"
+	def2[]:"PL"
+	def2[]:"PM"
+	def2[]:"PN"
+	def2[]:"PP"
+#	def2[]:"PR"  # Partially used for electric vehicles
+	def2[]:"PS"
+	def2[]:"PT"
+	def2[]:"PU"
+	def2[]:"PV"
+	def2[]:"PW"
+	def2[]:"PX"
+	def2[]:"PY"
+#	def2[]:"RA"  # Used for trailers
+	def2[]:"RC"
+	def2[]:"RE"
+	def2[]:"RF"
+	def2[]:"RG"
+	def2[]:"RH"
+	def2[]:"RJ"  # "ZS" III latest issued (October 2022)
+#	def2[]:"RK"
+#	def2[]:"RL"
+#	def2[]:"RM"
+#	def2[]:"RN"
+#	def2[]:"RP"
+#	def2[]:"RR"
+#	def2[]:"RS"
+#	def2[]:"RT"
+#	def2[]:"RU"
+#	def2[]:"RV"
+#	def2[]:"RW"
+#	def2[]:"RX"
+#	def2[]:"RY"
+##	def2[]:"SA"  # Used for trailers
+#	def2[]:"SC"
+#	def2[]:"SE"
+#	def2[]:"SF"
+#	def2[]:"SG"
+#	def2[]:"SH"
+#	def2[]:"SJ"
+#	def2[]:"SK"
+#	def2[]:"SL"
+#	def2[]:"SM"
+#	def2[]:"SN"
+#	def2[]:"SP"
+#	def2[]:"SR"
+#	def2[]:"SS"
+#	def2[]:"ST"
+#	def2[]:"SU"
+#	def2[]:"SV"
+#	def2[]:"SW"
+#	def2[]:"SX"
+#	def2[]:"SY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -423,10 +476,13 @@ license_plate_data : .szczecin.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 #	templates[]:"ZS50444"    # I    before EU stars
 #	templates[]:"ZS544441"   # II   some before EU stars
 	templates[]:"ZS54442"    # III
 
+	# "ZS" I
 #	def0[]:"00"
 #	def0[]:"01"
 ##	def0[]:"02"  # Partially used for double-row plates
@@ -528,6 +584,7 @@ license_plate_data : .szczecin.lp.truck
 #	def0[]:"98"
 #	def0[]:"99"
 
+	# "ZS" II
 ##	def1[]:"A"  # Used for trailers
 #	def1[]:"C"
 #	def1[]:"E"
@@ -549,6 +606,7 @@ license_plate_data : .szczecin.lp.truck
 #	def1[]:"X"
 #	def1[]:"Y"
 
+	# "ZS" III
 ##	def2[]:"AA"  # Used for trailers
 #	def2[]:"AC"
 #	def2[]:"AE"
@@ -754,10 +812,10 @@ license_plate_data : .szczecin.lp.truck
 #	def2[]:"NE"
 #	def2[]:"NF"
 #	def2[]:"NG"
-#	def2[]:"NH"
-	def2[]:"NJ"
-	def2[]:"NK"
-	def2[]:"NL"  # "ZS" III latest issued (April 2021)
+##	def2[]:"NH"  # Partially used for electric vehicles
+#	def2[]:"NJ"
+#	def2[]:"NK"
+##	def2[]:"NL"  # Partially used for double-row plates
 #	def2[]:"NM"
 #	def2[]:"NN"
 #	def2[]:"NP"
@@ -772,7 +830,7 @@ license_plate_data : .szczecin.lp.truck
 ##	def2[]:"PA"  # Used for trailers
 #	def2[]:"PC"
 #	def2[]:"PE"
-#	def2[]:"PF"
+##	def2[]:"PF"  # Partially used for electric vehicles
 #	def2[]:"PG"
 #	def2[]:"PH"
 #	def2[]:"PJ"
@@ -781,7 +839,7 @@ license_plate_data : .szczecin.lp.truck
 #	def2[]:"PM"
 #	def2[]:"PN"
 #	def2[]:"PP"
-#	def2[]:"PR"
+##	def2[]:"PR"  # Partially used for electric vehicles
 #	def2[]:"PS"
 #	def2[]:"PT"
 #	def2[]:"PU"
@@ -789,6 +847,46 @@ license_plate_data : .szczecin.lp.truck
 #	def2[]:"PW"
 #	def2[]:"PX"
 #	def2[]:"PY"
+##	def2[]:"RA"  # Used for trailers
+#	def2[]:"RC"
+#	def2[]:"RE"
+#	def2[]:"RF"
+	def2[]:"RG"
+	def2[]:"RH"
+	def2[]:"RJ"  # "ZS" III latest issued (October 2022)
+#	def2[]:"RK"
+#	def2[]:"RL"
+#	def2[]:"RM"
+#	def2[]:"RN"
+#	def2[]:"RP"
+#	def2[]:"RR"
+#	def2[]:"RS"
+#	def2[]:"RT"
+#	def2[]:"RU"
+#	def2[]:"RV"
+#	def2[]:"RW"
+#	def2[]:"RX"
+#	def2[]:"RY"
+##	def2[]:"SA"  # Used for trailers
+#	def2[]:"SC"
+#	def2[]:"SE"
+#	def2[]:"SF"
+#	def2[]:"SG"
+#	def2[]:"SH"
+#	def2[]:"SJ"
+#	def2[]:"SK"
+#	def2[]:"SL"
+#	def2[]:"SM"
+#	def2[]:"SN"
+#	def2[]:"SP"
+#	def2[]:"SR"
+#	def2[]:"SS"
+#	def2[]:"ST"
+#	def2[]:"SU"
+#	def2[]:"SV"
+#	def2[]:"SW"
+#	def2[]:"SX"
+#	def2[]:"SY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -808,6 +906,8 @@ license_plate_data : .szczecin.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"ZS5044A"    # II   some before EU stars
 #	templates[]:"ZS5444AA"   # III
@@ -821,9 +921,13 @@ license_plate_data : .szczecin.lp.trailer
 #	templates[]:"ZS5444LA"   # III
 #	templates[]:"ZS5444MA"   # III
 #	templates[]:"ZS5444NA"   # III
-	templates[]:"ZS5144PA"   # III
-	templates[]:"ZS5244RA"   # III
+#	templates[]:"ZS5444PA"   # III
+	templates[]:"ZS5144RA"   # III
+	templates[]:"ZS5244SA"   # III
+	templates[]:"ZS5244SA"   # III
+	templates[]:"ZS5244SA"   # III
 
+	# "ZS" II
 #	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
@@ -925,25 +1029,27 @@ license_plate_data : .szczecin.lp.trailer
 #	def0[]:"98"
 #	def0[]:"99"
 
-#	def1[]:"0"  # III ...PA
-	def1[]:"1"
-	def1[]:"2"
-	def1[]:"3"
-	def1[]:"4"
-	def1[]:"5"
-	def1[]:"6"
-	def1[]:"7"
+	# "ZS" III ...RA
+#	def1[]:"0"
+#	def1[]:"1"
+#	def1[]:"2"
+#	def1[]:"3"
+#	def1[]:"4"
+#	def1[]:"5"
+#	def1[]:"6"
+#	def1[]:"7"
 	def1[]:"8"
 	def1[]:"9"
 
-	def2[]:"0"  # "ZS" III RA latest issued (April 2021)
-#	def2[]:"1"
-#	def2[]:"2"
-#	def2[]:"3"
-#	def2[]:"4"
-#	def2[]:"5"
-#	def2[]:"6"
-#	def2[]:"7"
+	# "ZS" III ...SA
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"  # "ZS" III ...SA latest issued (October 2022)
 #	def2[]:"8"
 #	def2[]:"9"
 
@@ -964,6 +1070,8 @@ license_plate_data : .szczecin.lp.trailer
 license_plate_data : .szczecin.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# W = West Pomeranian (Zachodniopomorskie) Voivodeship Headquarters
 	templates[]:"HPW51222"

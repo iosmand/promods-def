@@ -6,21 +6,21 @@
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -70
+	map_x_offsets[]: -65
+	map_x_offsets[]: -250
+	map_x_offsets[]: -80
+	map_x_offsets[]: -65
+	map_x_offsets[]: -40
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -20
+	map_y_offsets[]: -14
+	map_y_offsets[]: -70
+	map_y_offsets[]: -20
+	map_y_offsets[]: -12
+	map_y_offsets[]: 3
 
 	vehicle_brands[]:"mercedes"
 
