@@ -5,24 +5,25 @@ city_data: city.frankfurt
 	short_city_name: "Frankfurt"
 	short_city_name_localized: "@@frankfurt@@"
 	country: germany
+	key_city: true
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -60
 	map_x_offsets[]: -20
 	map_x_offsets[]: -75
-	map_x_offsets[]: -72
-	map_x_offsets[]: -75
-	map_x_offsets[]: -75
+	map_x_offsets[]: -60
+	map_x_offsets[]: -65
+	map_x_offsets[]: 5
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 30
 	map_y_offsets[]: -5
-	map_y_offsets[]: -73
+	map_y_offsets[]: -130
 	map_y_offsets[]: -38
-	map_y_offsets[]: -24
-	map_y_offsets[]: -26
+	map_y_offsets[]: -12
+	map_y_offsets[]: -10
 
 	vehicle_brands[]:"iveco"
 

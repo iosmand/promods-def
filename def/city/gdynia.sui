@@ -8,25 +8,25 @@ city_data: city.Gdynia
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -80
+	map_x_offsets[]: -40
+	map_x_offsets[]: -30
+	map_x_offsets[]: -28
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
-	map_y_offsets[]: -15
+	map_y_offsets[]: -80
+	map_y_offsets[]: -20
+	map_y_offsets[]: -5
+	map_y_offsets[]: -22
 
 	### MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 1.0  // closest zoom for world map
 	city_pin_scale_factor[]: 1.0  // middle zoom for world map
@@ -52,6 +52,7 @@ license_plate_data : .gdynia.lp.car
 	templates[]:"GA54442"    # III
 	templates[]:"GA54442"    # III
 
+	# "GA" I
 #	def0[]:"0"
 #	def0[]:"1"
 #	def0[]:"2"
@@ -63,6 +64,7 @@ license_plate_data : .gdynia.lp.car
 ##	def0[]:"8"  # Used for trailers
 ##	def0[]:"9"  # Used for trailers
 
+	# "GA" II
 #	def1[]:"A"  # Most before EU stars
 	def1[]:"C"
 	def1[]:"E"
@@ -84,7 +86,8 @@ license_plate_data : .gdynia.lp.car
 	def1[]:"X"
 	def1[]:"Y"
 
-	def2[]:"AA"
+	# "GA" III
+	def2[]:"AA"  # UM Gdynia
 	def2[]:"AC"
 	def2[]:"AE"
 	def2[]:"AF"
@@ -163,7 +166,7 @@ license_plate_data : .gdynia.lp.car
 	def2[]:"FV"
 	def2[]:"FW"
 #	def2[]:"FX"  # Partially used for double-row plates
-#	def2[]:"FY"  # Partially used for electric cars
+#	def2[]:"FY"  # Partially used for electric vehicles
 	def2[]:"GA"
 	def2[]:"GC"
 	def2[]:"GE"
@@ -181,9 +184,69 @@ license_plate_data : .gdynia.lp.car
 	def2[]:"GT"
 	def2[]:"GU"
 	def2[]:"GV"
-	def2[]:"GW"  # "GA" III latest issued (April 2021)
-#	def2[]:"GX"
-#	def2[]:"GY"
+	def2[]:"GW"
+	def2[]:"GX"
+	def2[]:"GY"
+	def2[]:"HA"
+	def2[]:"HC"
+	def2[]:"HE"
+	def2[]:"HF"
+	def2[]:"HG"
+	def2[]:"HH"
+	def2[]:"HJ"
+	def2[]:"HK"
+	def2[]:"HL"
+	def2[]:"HM"
+	def2[]:"HN"
+	def2[]:"HP"
+	def2[]:"HR"
+	def2[]:"HS"
+	def2[]:"HT"
+	def2[]:"HU"
+	def2[]:"HV"
+	def2[]:"HW"
+	def2[]:"HX"
+#	def2[]:"HY"  # Partially used for electric vehicles
+#	def2[]:"JA"  # COM Riviera, partially used for double-row plates
+	def2[]:"JC"
+	def2[]:"JE"
+	def2[]:"JF"
+	def2[]:"JG"
+	def2[]:"JH"  # "GA" III Riviera latest issued (October 2022)
+#	def2[]:"JJ"
+#	def2[]:"JK"
+#	def2[]:"JL"
+#	def2[]:"JM"
+#	def2[]:"JN"
+#	def2[]:"JP"
+#	def2[]:"JR"
+#	def2[]:"JS"
+#	def2[]:"JT"
+#	def2[]:"JU"
+#	def2[]:"JV"
+#	def2[]:"JW"
+#	def2[]:"JX"
+#	def2[]:"JY"
+	def2[]:"KA"  # "GA" III UM Gdynia latest issued (October 2022)
+#	def2[]:"KC"
+#	def2[]:"KE"
+#	def2[]:"KF"
+#	def2[]:"KG"
+#	def2[]:"KH"
+#	def2[]:"KJ"
+#	def2[]:"KK"
+#	def2[]:"KL"
+#	def2[]:"KM"
+#	def2[]:"KN"
+#	def2[]:"KP"
+#	def2[]:"KR"
+#	def2[]:"KS"
+#	def2[]:"KT"
+#	def2[]:"KU"
+#	def2[]:"KV"
+#	def2[]:"KW"
+#	def2[]:"KX"
+#	def2[]:"KY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -203,11 +266,14 @@ license_plate_data : .gdynia.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"GA504444"   # I    before EU stars
 #	templates[]:"GA544441"   # II   some before EU stars
 	templates[]:"GA54442"    # III
 
+	# "GA" I
 #	def0[]:"0"
 #	def0[]:"1"
 #	def0[]:"2"
@@ -219,6 +285,7 @@ license_plate_data : .gdynia.lp.truck
 ##	def0[]:"8"  # Used for trailers
 ##	def0[]:"9"  # Used for trailers
 
+	# "GA" II
 #	def1[]:"A"  # Most before EU stars
 #	def1[]:"C"
 #	def1[]:"E"
@@ -240,7 +307,8 @@ license_plate_data : .gdynia.lp.truck
 #	def1[]:"X"
 #	def1[]:"Y"
 
-#	def2[]:"AA"
+	# "GA" III
+#	def2[]:"AA"  # UM Gdynia
 #	def2[]:"AC"
 #	def2[]:"AE"
 #	def2[]:"AF"
@@ -319,7 +387,7 @@ license_plate_data : .gdynia.lp.truck
 #	def2[]:"FV"
 #	def2[]:"FW"
 ##	def2[]:"FX"  # Partially used for double-row plates
-##	def2[]:"FY"  # Partially used for electric cars
+##	def2[]:"FY"  # Partially used for electric vehicles
 #	def2[]:"GA"
 #	def2[]:"GC"
 #	def2[]:"GE"
@@ -335,11 +403,71 @@ license_plate_data : .gdynia.lp.truck
 #	def2[]:"GR"
 #	def2[]:"GS"
 #	def2[]:"GT"
-	def2[]:"GU"
-	def2[]:"GV"
-	def2[]:"GW"  # "GA" III latest issued (April 2021)
+#	def2[]:"GU"
+#	def2[]:"GV"
+#	def2[]:"GW"
 #	def2[]:"GX"
 #	def2[]:"GY"
+#	def2[]:"HA"
+#	def2[]:"HC"
+#	def2[]:"HE"
+#	def2[]:"HF"
+#	def2[]:"HG"
+#	def2[]:"HH"
+#	def2[]:"HJ"
+#	def2[]:"HK"
+#	def2[]:"HL"
+#	def2[]:"HM"
+#	def2[]:"HN"
+#	def2[]:"HP"
+#	def2[]:"HR"
+#	def2[]:"HS"
+#	def2[]:"HT"
+#	def2[]:"HU"
+#	def2[]:"HV"
+#	def2[]:"HW"
+	def2[]:"HX"
+##	def2[]:"HY"  # Partially used for electric vehicles
+##	def2[]:"JA"  # COM Riviera, partially used for double-row plates
+#	def2[]:"JC"
+#	def2[]:"JE"
+#	def2[]:"JF"
+	def2[]:"JG"
+	def2[]:"JH"  # "GA" III Riviera latest issued (October 2022)
+#	def2[]:"JJ"
+#	def2[]:"JK"
+#	def2[]:"JL"
+#	def2[]:"JM"
+#	def2[]:"JN"
+#	def2[]:"JP"
+#	def2[]:"JR"
+#	def2[]:"JS"
+#	def2[]:"JT"
+#	def2[]:"JU"
+#	def2[]:"JV"
+#	def2[]:"JW"
+#	def2[]:"JX"
+#	def2[]:"JY"
+	def2[]:"KA"  # "GA" III UM Gdynia latest issued (October 2022)
+#	def2[]:"KC"
+#	def2[]:"KE"
+#	def2[]:"KF"
+#	def2[]:"KG"
+#	def2[]:"KH"
+#	def2[]:"KJ"
+#	def2[]:"KK"
+#	def2[]:"KL"
+#	def2[]:"KM"
+#	def2[]:"KN"
+#	def2[]:"KP"
+#	def2[]:"KR"
+#	def2[]:"KS"
+#	def2[]:"KT"
+#	def2[]:"KU"
+#	def2[]:"KV"
+#	def2[]:"KW"
+#	def2[]:"KX"
+#	def2[]:"KY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -359,10 +487,14 @@ license_plate_data : .gdynia.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 	templates[]:"GA5044"     # I    some before EU stars
+	templates[]:"GA54441"    # III
 
-##	def0[]:"800"
+	# "GA" I
+##	def0[]:"800"  # UM Gdynia
 ##	def0[]:"801"
 ##	def0[]:"802"
 ##	def0[]:"803"
@@ -499,26 +631,26 @@ license_plate_data : .gdynia.lp.trailer
 #	def0[]:"934"
 #	def0[]:"935"
 #	def0[]:"936"
-	def0[]:"937"
-	def0[]:"938"
-	def0[]:"939"
-	def0[]:"940"
-	def0[]:"941"
-	def0[]:"942"
-	def0[]:"943"
-	def0[]:"944"
-	def0[]:"945"
-	def0[]:"946"  # "GA" I latest issued (April 2021)
-#	def0[]:"947"
-#	def0[]:"948"
-#	def0[]:"949"
-#	def0[]:"950"
-#	def0[]:"951"
-#	def0[]:"952"
-#	def0[]:"953"
-#	def0[]:"954"
-#	def0[]:"955"
-#	def0[]:"956"
+#	def0[]:"937"
+#	def0[]:"938"
+#	def0[]:"939"
+#	def0[]:"940"
+#	def0[]:"941"
+#	def0[]:"942"
+#	def0[]:"943"
+#	def0[]:"944"
+#	def0[]:"945"
+#	def0[]:"946"
+	def0[]:"947"
+	def0[]:"948"
+	def0[]:"949"
+	def0[]:"950"
+	def0[]:"951"
+	def0[]:"952"
+	def0[]:"953"
+	def0[]:"954"
+	def0[]:"955"
+	def0[]:"956"  # "GA" I UM Gdynia latest issued (October 2022)
 #	def0[]:"957"
 #	def0[]:"958"
 #	def0[]:"959"
@@ -563,6 +695,28 @@ license_plate_data : .gdynia.lp.trailer
 #	def0[]:"998"
 #	def0[]:"999"
 
+	# "GA" III
+	def1[]:"PA"  # "GA" III COM Riviera latest issued (October 2022)
+#	def1[]:"PC"
+#	def1[]:"PE"
+#	def1[]:"PF"
+#	def1[]:"PG"
+#	def1[]:"PH"
+#	def1[]:"PJ"
+#	def1[]:"PK"
+#	def1[]:"PL"
+#	def1[]:"PM"
+#	def1[]:"PN"
+#	def1[]:"PP"
+#	def1[]:"PR"
+#	def1[]:"PS"
+#	def1[]:"PT"
+#	def1[]:"PU"
+#	def1[]:"PV"
+#	def1[]:"PW"
+#	def1[]:"PX"
+#	def1[]:"PY"
+
 	def4[]:"0"
 	def4[]:"1"
 	def4[]:"2"
@@ -580,6 +734,8 @@ license_plate_data : .gdynia.lp.trailer
 license_plate_data : .gdynia.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# N = Pomeranian (Pomorskie) Voivodeship Headquarters
 	templates[]:"HPN51222"

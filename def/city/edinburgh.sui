@@ -8,19 +8,19 @@ city_data: city.edinburgh
 	map_x_offsets[]: 0
 	map_x_offsets[]: -50
 	map_x_offsets[]: -40
-	map_x_offsets[]: -48
-	map_x_offsets[]: -42
-	map_x_offsets[]: -38
-	map_x_offsets[]: -42
+	map_x_offsets[]: -80
+	map_x_offsets[]: -55
+	map_x_offsets[]: -45
+	map_x_offsets[]: -45
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -15
-	map_y_offsets[]: -11
-	map_y_offsets[]: -14
+	map_y_offsets[]: 0
+	map_y_offsets[]: 20
 	map_y_offsets[]: 1
-	map_y_offsets[]: 4
+	map_y_offsets[]: 5
 
 	vehicle_brands[]:"man"
 

@@ -8,19 +8,29 @@ city_data : city.firenze
 	map_x_offsets[]: 0
 	map_x_offsets[]: -20
 	map_x_offsets[]: -20
-	map_x_offsets[]: -31
-	map_x_offsets[]: -31
+	map_x_offsets[]: -50
+	map_x_offsets[]: -25
+	map_x_offsets[]: -32
 	map_x_offsets[]: -28
-	map_x_offsets[]: -34
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -15
-	map_y_offsets[]: -6
-	map_y_offsets[]: -1
-	map_y_offsets[]: -21
-	map_y_offsets[]: -29
+	map_y_offsets[]: 140
+	map_y_offsets[]: 0
+	map_y_offsets[]: -10
+	map_y_offsets[]: -22
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]: "scania"
 
@@ -229,7 +239,7 @@ license_plate_data : .firenze.lp.truck
 	templates[]:"0GA 111ZL2"
 	templates[]:"0GA 111ZM2"
 	templates[]:"0GA 111ZP2"
-	templates[]:"0GA 111ZR2"	
+	templates[]:"0GA 111ZR2"
 
 	def0[]:"<align left=-15>"
 
@@ -253,9 +263,9 @@ license_plate_data : .firenze.lp.trailer
 	type: trailer
 
 	templates[]:"0XA 12"
-	
+
 	def0[]:"<align left=-15>"
-	
+
 @include "it_lp_fi_trailer.sui"
 
 	def2[]:"</align>"
@@ -272,7 +282,7 @@ license_plate_data : .firenze.lp.police
 	templates[]:"0YA  12"
 
 	def0[]:"<offset vshift=-7><color value=FF9E0000><align left=-15><font xscale=0.5 yscale=0.4>POLIZA  LOCALE</font></align><ret><offset vshift=4><color value=FF000000><align left=-15><font xscale=0.8 yscale=0.9>"
-	
+
 @include "it_lp_fi_police.sui"
 
 	def2[]:"</font></align>"

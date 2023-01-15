@@ -8,30 +8,30 @@ city_data: city.elk
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -70
+	map_x_offsets[]: -25
 	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -11
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: 0
-	map_y_offsets[]: -16
-	map_y_offsets[]: -20
-	map_y_offsets[]: -18
+	map_y_offsets[]: -90
+	map_y_offsets[]: -25
 	map_y_offsets[]: -15
+	map_y_offsets[]: 1
 
-	### SMALL CITY ###
+	### SMALL-MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 0.7  // close zoom for minimap
-	city_pin_scale_factor[]: 0.7  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
-	city_pin_scale_factor[]: 0.6  // whole world map zoom
-	
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
+
 	license_plate[]: .elk.lp.car
 	license_plate[]: .elk.lp.truck
 	license_plate[]: .elk.lp.trailer
@@ -52,6 +52,7 @@ license_plate_data : .elk.lp.car
 	templates[]:"NEL51444"   # VII
 	templates[]:"NEL51444"   # VII
 
+	# "NEL" III
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for tractors
 #	def0[]:"E"
@@ -73,6 +74,7 @@ license_plate_data : .elk.lp.car
 	def0[]:"X"
 #	def0[]:"Y"  # Used for mopeds
 
+	# "NEL" VII
 	def1[]:"00"
 	def1[]:"01"
 	def1[]:"02"
@@ -122,15 +124,15 @@ license_plate_data : .elk.lp.car
 	def1[]:"46"
 	def1[]:"47"
 	def1[]:"48"
-	def1[]:"49"  # "NEL" VII latest issued (April 2021)
-#	def1[]:"50"
-#	def1[]:"51"
-#	def1[]:"52"
-#	def1[]:"53"
-#	def1[]:"54"
-#	def1[]:"55"
-#	def1[]:"56"
-#	def1[]:"57"
+	def1[]:"49"
+	def1[]:"50"
+	def1[]:"51"
+	def1[]:"52"
+	def1[]:"53"
+	def1[]:"54"
+	def1[]:"55"
+	def1[]:"56"
+	def1[]:"57"  # "NEL" VII latest issued (September 2022)
 #	def1[]:"58"
 #	def1[]:"59"
 #	def1[]:"60"
@@ -172,6 +174,8 @@ license_plate_data : .elk.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"NEL52444"   # I    before EU stars
 #	templates[]:"NEL53044"   # III  some before EU stars
@@ -179,6 +183,7 @@ license_plate_data : .elk.lp.truck
 #	templates[]:"NEL54444A"  # VIII
 	templates[]:"NEL51444"   # VII
 
+	# "NEL" III
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for tractors
 #	def0[]:"E"
@@ -200,6 +205,7 @@ license_plate_data : .elk.lp.truck
 #	def0[]:"X"
 ##	def0[]:"Y"  # Used for mopeds
 
+	# "NEL" VII
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
@@ -247,17 +253,17 @@ license_plate_data : .elk.lp.truck
 #	def1[]:"44"
 #	def1[]:"45"
 #	def1[]:"46"
-	def1[]:"47"
-	def1[]:"48"
-	def1[]:"49"  # "NEL" VII latest issued (April 2021)
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
 #	def1[]:"50"
 #	def1[]:"51"
 #	def1[]:"52"
 #	def1[]:"53"
 #	def1[]:"54"
-#	def1[]:"55"
-#	def1[]:"56"
-#	def1[]:"57"
+	def1[]:"55"
+	def1[]:"56"
+	def1[]:"57"  # "NEL" VII latest issued (September 2022)
 #	def1[]:"58"
 #	def1[]:"59"
 #	def1[]:"60"
@@ -299,11 +305,14 @@ license_plate_data : .elk.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"NEL5440"    # II   most before EU stars
 #	templates[]:"NEL5144"    # VI
 	templates[]:"NEL5244P"   # VIII
 
+	# "NEL" II
 #	def0[]:"PA"
 #	def0[]:"PC"
 #	def0[]:"PE"
@@ -325,6 +334,7 @@ license_plate_data : .elk.lp.trailer
 #	def0[]:"PX"
 #	def0[]:"PY"  # Some before EU stars
 
+	# "NEL" VI
 ##	def1[]:"PA"
 ##	def1[]:"PC"
 ##	def1[]:"PE"
@@ -346,6 +356,7 @@ license_plate_data : .elk.lp.trailer
 #	def1[]:"PX"
 #	def1[]:"PY"
 
+	# "NEL" VIII ....P
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
@@ -364,22 +375,22 @@ license_plate_data : .elk.lp.trailer
 #	def2[]:"15"
 #	def2[]:"16"
 #	def2[]:"17"
-	def2[]:"18"
-	def2[]:"19"
-	def2[]:"20"
-	def2[]:"21"
-	def2[]:"22"
-	def2[]:"23"
+#	def2[]:"18"
+#	def2[]:"19"
+#	def2[]:"20"
+#	def2[]:"21"
+#	def2[]:"22"
+#	def2[]:"23"
 	def2[]:"24"
 	def2[]:"25"
 	def2[]:"26"
-	def2[]:"27"  # "NEL" VIII P latest issued (April 2021)
-#	def2[]:"28"
-#	def2[]:"29"
-#	def2[]:"30"
-#	def2[]:"31"
-#	def2[]:"32"
-#	def2[]:"33"
+	def2[]:"27"
+	def2[]:"28"
+	def2[]:"29"
+	def2[]:"30"
+	def2[]:"31"
+	def2[]:"32"
+	def2[]:"33"  # "NEL" VIII ....P latest issued (September 2022)
 #	def2[]:"34"
 #	def2[]:"35"
 #	def2[]:"36"
@@ -414,6 +425,8 @@ license_plate_data : .elk.lp.trailer
 license_plate_data : .elk.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# T = Warmian-Masurian (Warmińsko-Mazurskie) Voivodeship Headquarters
 	templates[]:"HPT51222"

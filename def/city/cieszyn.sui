@@ -21,15 +21,15 @@ city_data: city.cieszyn
 	map_y_offsets[]: -30
 	map_y_offsets[]: -18
 	map_y_offsets[]: -15
-	
+
 	vehicle_brands[]:"scania"
 
 	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
 	city_pin_scale_factor[]: 0.5  // whole world map zoom
@@ -54,6 +54,7 @@ license_plate_data : .cieszyn.lp.car
 	templates[]:"SCI544443"  # VIII
 	templates[]:"SCI544443"  # VIII
 
+	# "SCI" I
 ##	def0[]:"A"  # Used for double-row plates
 #	def0[]:"C"
 #	def0[]:"E"
@@ -75,6 +76,7 @@ license_plate_data : .cieszyn.lp.car
 ##	def0[]:"X"  # Used for motorcycles and tractors
 ##	def0[]:"Y"  # Used for motorcycles and tractors
 
+	# "SCI" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 ##	def1[]:"AE"  # Used for double-row plates
@@ -396,6 +398,7 @@ license_plate_data : .cieszyn.lp.car
 #	def1[]:"WX"
 #	def1[]:"WY"
 
+	# "SCI" VI
 #	def2[]:"AA"  # A? = Cieszyn
 #	def2[]:"AC"
 #	def2[]:"AE"
@@ -737,13 +740,14 @@ license_plate_data : .cieszyn.lp.car
 	def2[]:"XX"
 	def2[]:"XY"
 
+	# "SCI" VIII
 	def3[]:"A"
 	def3[]:"C"
 	def3[]:"E"
 	def3[]:"F"
 	def3[]:"G"
-	def3[]:"H"  # "SCI" VIII latest issued (April 2021)
-#	def3[]:"J"
+	def3[]:"H"
+	def3[]:"J"  # "SCI" VIII latest issued (September 2022)
 #	def3[]:"K"
 #	def3[]:"L"
 #	def3[]:"M"
@@ -776,6 +780,8 @@ license_plate_data : .cieszyn.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"SCI52444"   # I    before EU stars
 #	templates[]:"SCI54422"   # II   before EU stars
@@ -785,36 +791,36 @@ license_plate_data : .cieszyn.lp.truck
 #	templates[]:"SCI54444C"  # VIII
 #	templates[]:"SCI54444E"  # VIII
 #	templates[]:"SCI54444F"  # VIII
-	templates[]:"SCI5144G"   # VIII
-	templates[]:"SCI5344H"   # VIII
-	templates[]:"SCI5344H"   # VIII
-	templates[]:"SCI5344H"   # VIII
+#	templates[]:"SCI54444G"  # VIII
+#	templates[]:"SCI5144H"   # VIII
+	templates[]:"SCI5344J"   # VIII
 
-#	def0[]:"AA"  # A? = Cieszyn
-#	def0[]:"AC"
-#	def0[]:"AE"
-#	def0[]:"AF"
-#	def0[]:"AG"
-#	def0[]:"AH"
-#	def0[]:"AJ"
-#	def0[]:"AK"
-#	def0[]:"AL"
-#	def0[]:"AM"
-#	def0[]:"AN"
-#	def0[]:"AP"
-#	def0[]:"AR"
-#	def0[]:"AS"
-#	def0[]:"AT"
-#	def0[]:"AU"
-#	def0[]:"AV"
-#	def0[]:"AW"
-#	def0[]:"AX"
-#	def0[]:"AY"
-#	def0[]:"CA"  # C? = Zebrzydowicach
-#	def0[]:"CC"
-#	def0[]:"CE"
-#	def0[]:"CF"
-#	def0[]:"CG"  # Before EU stars (Zebrzydowicach)
+	# "SCI" VI
+##	def0[]:"AA"  # A? = Cieszyn
+##	def0[]:"AC"
+##	def0[]:"AE"
+##	def0[]:"AF"
+##	def0[]:"AG"
+##	def0[]:"AH"
+##	def0[]:"AJ"
+##	def0[]:"AK"
+##	def0[]:"AL"
+##	def0[]:"AM"
+##	def0[]:"AN"
+##	def0[]:"AP"
+##	def0[]:"AR"
+##	def0[]:"AS"
+##	def0[]:"AT"
+##	def0[]:"AU"
+##	def0[]:"AV"
+##	def0[]:"AW"
+##	def0[]:"AX"
+##	def0[]:"AY"
+##	def0[]:"CA"  # C? = Zebrzydowicach
+##	def0[]:"CC"
+##	def0[]:"CE"
+##	def0[]:"CF"
+##	def0[]:"CG"  # Before EU stars (Zebrzydowicach)
 #	def0[]:"CH"
 #	def0[]:"CJ"
 #	def0[]:"CK"
@@ -826,101 +832,101 @@ license_plate_data : .cieszyn.lp.truck
 #	def0[]:"CS"
 #	def0[]:"CT"
 #	def0[]:"CU"
-#	def0[]:"CV"  # Partially used for double-row plates
-#	def0[]:"CW"  # Used for mopeds
-#	def0[]:"CX"  # Used for motorcycles and tractors
-#	def0[]:"CY"  # Used for mopeds
-#	def0[]:"EA"  # E?-T? = Cieszyn
-#	def0[]:"EC"
-#	def0[]:"EE"
-#	def0[]:"EF"
-#	def0[]:"EG"
-#	def0[]:"EH"
-#	def0[]:"EJ"
-#	def0[]:"EK"
-#	def0[]:"EL"
-#	def0[]:"EM"
-#	def0[]:"EN"
-#	def0[]:"EP"
-#	def0[]:"ER"
-#	def0[]:"ES"
-#	def0[]:"ET"
-#	def0[]:"EU"
-#	def0[]:"EV"
-#	def0[]:"EW"
-#	def0[]:"EX"
-#	def0[]:"EY"
-#	def0[]:"FA"
-#	def0[]:"FC"
-#	def0[]:"FE"
-#	def0[]:"FF"
-#	def0[]:"FG"
-#	def0[]:"FH"
-#	def0[]:"FJ"
-#	def0[]:"FK"
-#	def0[]:"FL"
-#	def0[]:"FM"
-#	def0[]:"FN"
-#	def0[]:"FP"
-#	def0[]:"FR"
-#	def0[]:"FS"
-#	def0[]:"FT"
-#	def0[]:"FU"
-#	def0[]:"FV"
-#	def0[]:"FW"
-#	def0[]:"FX"
-#	def0[]:"FY"
-#	def0[]:"GA"
-#	def0[]:"GC"
-#	def0[]:"GE"
-#	def0[]:"GF"
-#	def0[]:"GG"
-#	def0[]:"GH"
-#	def0[]:"GJ"
-#	def0[]:"GK"
-#	def0[]:"GL"
-#	def0[]:"GM"
-#	def0[]:"GN"
-#	def0[]:"GP"
-#	def0[]:"GR"
-#	def0[]:"GS"
-#	def0[]:"GT"
-#	def0[]:"GU"
-#	def0[]:"GV"
-#	def0[]:"GW"
-#	def0[]:"GX"
-#	def0[]:"GY"
-#	def0[]:"HA"
-#	def0[]:"HC"
-#	def0[]:"HE"
-#	def0[]:"HF"
-#	def0[]:"HG"
-#	def0[]:"HH"
-#	def0[]:"HJ"
-#	def0[]:"HK"
-#	def0[]:"HL"
-#	def0[]:"HM"
-#	def0[]:"HN"
-#	def0[]:"HP"
-#	def0[]:"HR"
-#	def0[]:"HS"
-#	def0[]:"HT"
-#	def0[]:"HU"
-#	def0[]:"HV"
-#	def0[]:"HW"
-#	def0[]:"HX"
-#	def0[]:"HY"
-#	def0[]:"JA"
-#	def0[]:"JC"
-#	def0[]:"JE"
-#	def0[]:"JF"
-#	def0[]:"JG"
-#	def0[]:"JH"
-#	def0[]:"JJ"
-#	def0[]:"JK"
-#	def0[]:"JL"
-#	def0[]:"JM"
-#	def0[]:"JN"  # Before EU stars (Cieszyn)
+##	def0[]:"CV"  # Partially used for double-row plates
+##	def0[]:"CW"  # Used for mopeds
+##	def0[]:"CX"  # Used for motorcycles and tractors
+##	def0[]:"CY"  # Used for mopeds
+##	def0[]:"EA"  # E?-T? = Cieszyn
+##	def0[]:"EC"
+##	def0[]:"EE"
+##	def0[]:"EF"
+##	def0[]:"EG"
+##	def0[]:"EH"
+##	def0[]:"EJ"
+##	def0[]:"EK"
+##	def0[]:"EL"
+##	def0[]:"EM"
+##	def0[]:"EN"
+##	def0[]:"EP"
+##	def0[]:"ER"
+##	def0[]:"ES"
+##	def0[]:"ET"
+##	def0[]:"EU"
+##	def0[]:"EV"
+##	def0[]:"EW"
+##	def0[]:"EX"
+##	def0[]:"EY"
+##	def0[]:"FA"
+##	def0[]:"FC"
+##	def0[]:"FE"
+##	def0[]:"FF"
+##	def0[]:"FG"
+##	def0[]:"FH"
+##	def0[]:"FJ"
+##	def0[]:"FK"
+##	def0[]:"FL"
+##	def0[]:"FM"
+##	def0[]:"FN"
+##	def0[]:"FP"
+##	def0[]:"FR"
+##	def0[]:"FS"
+##	def0[]:"FT"
+##	def0[]:"FU"
+##	def0[]:"FV"
+##	def0[]:"FW"
+##	def0[]:"FX"
+##	def0[]:"FY"
+##	def0[]:"GA"
+##	def0[]:"GC"
+##	def0[]:"GE"
+##	def0[]:"GF"
+##	def0[]:"GG"
+##	def0[]:"GH"
+##	def0[]:"GJ"
+##	def0[]:"GK"
+##	def0[]:"GL"
+##	def0[]:"GM"
+##	def0[]:"GN"
+##	def0[]:"GP"
+##	def0[]:"GR"
+##	def0[]:"GS"
+##	def0[]:"GT"
+##	def0[]:"GU"
+##	def0[]:"GV"
+##	def0[]:"GW"
+##	def0[]:"GX"
+##	def0[]:"GY"
+##	def0[]:"HA"
+##	def0[]:"HC"
+##	def0[]:"HE"
+##	def0[]:"HF"
+##	def0[]:"HG"
+##	def0[]:"HH"
+##	def0[]:"HJ"
+##	def0[]:"HK"
+##	def0[]:"HL"
+##	def0[]:"HM"
+##	def0[]:"HN"
+##	def0[]:"HP"
+##	def0[]:"HR"
+##	def0[]:"HS"
+##	def0[]:"HT"
+##	def0[]:"HU"
+##	def0[]:"HV"
+##	def0[]:"HW"
+##	def0[]:"HX"
+##	def0[]:"HY"
+##	def0[]:"JA"
+##	def0[]:"JC"
+##	def0[]:"JE"
+##	def0[]:"JF"
+##	def0[]:"JG"
+##	def0[]:"JH"
+##	def0[]:"JJ"
+##	def0[]:"JK"
+##	def0[]:"JL"
+##	def0[]:"JM"
+##	def0[]:"JN"  # Before EU stars (Cieszyn)
 #	def0[]:"JP"
 #	def0[]:"JR"
 #	def0[]:"JS"
@@ -1131,7 +1137,8 @@ license_plate_data : .cieszyn.lp.truck
 #	def0[]:"XX"
 #	def0[]:"XY"
 
-#	def1[]:"00"  # VIII ....G
+	# "SCI" VIII ....H
+#	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
 #	def1[]:"03"
@@ -1215,37 +1222,38 @@ license_plate_data : .cieszyn.lp.truck
 #	def1[]:"81"
 #	def1[]:"82"
 #	def1[]:"83"
-	def1[]:"84"
-	def1[]:"85"
-	def1[]:"86"
-	def1[]:"87"
-	def1[]:"88"
-	def1[]:"89"
-	def1[]:"90"
-	def1[]:"91"
-	def1[]:"92"
-	def1[]:"93"
-	def1[]:"94"
-	def1[]:"95"
-	def1[]:"96"
-	def1[]:"97"
-	def1[]:"98"
-	def1[]:"99"
+#	def1[]:"84"
+#	def1[]:"85"
+#	def1[]:"86"
+#	def1[]:"87"
+#	def1[]:"88"
+#	def1[]:"89"
+#	def1[]:"90"
+#	def1[]:"91"
+#	def1[]:"92"
+#	def1[]:"93"
+#	def1[]:"94"
+#	def1[]:"95"
+#	def1[]:"96"
+#	def1[]:"97"
+#	def1[]:"98"
+#	def1[]:"99"
 
-	def3[]:"00"  # VIII ....H
-	def3[]:"01"
-	def3[]:"02"
-	def3[]:"03"
-	def3[]:"04"
-	def3[]:"05"
-	def3[]:"06"
-	def3[]:"07"
-	def3[]:"08"
-	def3[]:"09"
-	def3[]:"10"
-	def3[]:"11"
-	def3[]:"12"
-	def3[]:"13"  # "SCI" VIII latest issued (April 2021)
+	# "SCI" VIII ....J
+#	def3[]:"00"
+#	def3[]:"01"
+#	def3[]:"02"
+#	def3[]:"03"
+#	def3[]:"04"
+#	def3[]:"05"
+#	def3[]:"06"
+#	def3[]:"07"
+#	def3[]:"08"
+#	def3[]:"09"
+#	def3[]:"10"
+#	def3[]:"11"
+#	def3[]:"12"
+#	def3[]:"13"
 #	def3[]:"14"
 #	def3[]:"15"
 #	def3[]:"16"
@@ -1281,36 +1289,36 @@ license_plate_data : .cieszyn.lp.truck
 #	def3[]:"46"
 #	def3[]:"47"
 #	def3[]:"48"
-#	def3[]:"49"
-#	def3[]:"50"
-#	def3[]:"51"
-#	def3[]:"52"
-#	def3[]:"53"
-#	def3[]:"54"
-#	def3[]:"55"
-#	def3[]:"56"
-#	def3[]:"57"
-#	def3[]:"58"
-#	def3[]:"59"
-#	def3[]:"60"
-#	def3[]:"61"
-#	def3[]:"62"
-#	def3[]:"63"
-#	def3[]:"64"
-#	def3[]:"65"
-#	def3[]:"66"
-#	def3[]:"67"
-#	def3[]:"68"
-#	def3[]:"69"
-#	def3[]:"70"
-#	def3[]:"71"
-#	def3[]:"72"
-#	def3[]:"73"
-#	def3[]:"74"
-#	def3[]:"75"
-#	def3[]:"76"
-#	def3[]:"77"
-#	def3[]:"78"
+	def3[]:"49"
+	def3[]:"50"
+	def3[]:"51"
+	def3[]:"52"
+	def3[]:"53"
+	def3[]:"54"
+	def3[]:"55"
+	def3[]:"56"
+	def3[]:"57"
+	def3[]:"58"
+	def3[]:"59"
+	def3[]:"60"
+	def3[]:"61"
+	def3[]:"62"
+	def3[]:"63"
+	def3[]:"64"
+	def3[]:"65"
+	def3[]:"66"
+	def3[]:"67"
+	def3[]:"68"
+	def3[]:"69"
+	def3[]:"70"
+	def3[]:"71"
+	def3[]:"72"
+	def3[]:"73"
+	def3[]:"74"
+	def3[]:"75"
+	def3[]:"76"
+	def3[]:"77"
+	def3[]:"78"  # "SCI" VIII ....J latest issued (September 2022)
 #	def3[]:"79"
 #	def3[]:"80"
 #	def3[]:"81"
@@ -1351,12 +1359,15 @@ license_plate_data : .cieszyn.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"SCI5044"    # I    before EU stars
 #	templates[]:"SCI5441"    # II   some before EU stars
 #	templates[]:"SCI5244"    # VI
 	templates[]:"SCI5344P"   # VIII
 
+	# "SCI" I
 #	def0[]:"P0"
 #	def0[]:"P1"
 #	def0[]:"P2"
@@ -1378,6 +1389,7 @@ license_plate_data : .cieszyn.lp.trailer
 #	def0[]:"U8"
 ##	def0[]:"U9"  # Partially Used for double-row plates
 
+	# "SCI" II
 #	def1[]:"PA"
 #	def1[]:"PC"
 ##	def1[]:"PE"  # Used for double-row plates
@@ -1419,6 +1431,7 @@ license_plate_data : .cieszyn.lp.trailer
 ##	def1[]:"RX"
 #	def1[]:"RY"
 
+	# "SCI" VI
 #	def2[]:"PA"
 #	def2[]:"PC"
 #	def2[]:"PE"
@@ -1460,6 +1473,7 @@ license_plate_data : .cieszyn.lp.trailer
 ##	def2[]:"VX"  # Partially used for motorcycles and tractors
 #	def2[]:"VY"
 
+	# "SCI" VIII ....P
 #	def3[]:"00"
 #	def3[]:"01"
 #	def3[]:"02"
@@ -1481,24 +1495,24 @@ license_plate_data : .cieszyn.lp.trailer
 #	def3[]:"18"
 #	def3[]:"19"
 #	def3[]:"20"
-	def3[]:"21"
-	def3[]:"22"
-	def3[]:"23"
-	def3[]:"24"
-	def3[]:"25"
-	def3[]:"26"
-	def3[]:"27"
-	def3[]:"28"
+#	def3[]:"21"
+#	def3[]:"22"
+#	def3[]:"23"
+#	def3[]:"24"
+#	def3[]:"25"
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
 	def3[]:"29"
-	def3[]:"30"  # "SCI" VIII latest issued (April 2021)
-#	def3[]:"31"
-#	def3[]:"32"
-#	def3[]:"33"
-#	def3[]:"34"
-#	def3[]:"35"
-#	def3[]:"36"
-#	def3[]:"37"
-#	def3[]:"38"
+	def3[]:"30"
+	def3[]:"31"
+	def3[]:"32"
+	def3[]:"33"
+	def3[]:"34"
+	def3[]:"35"
+	def3[]:"36"
+	def3[]:"37"
+	def3[]:"38"  # "SCI" VIII ....P latest issued (September 2022)
 #	def3[]:"39"
 #	def3[]:"40"
 #	def3[]:"41"
@@ -1528,6 +1542,8 @@ license_plate_data : .cieszyn.lp.trailer
 license_plate_data : .cieszyn.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# P = Silesian (Śląskie) Voivodeship Headquarters
 	templates[]:"HPP51222"
