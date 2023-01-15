@@ -8,19 +8,29 @@ city_data: city.vaxjo
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -27
+	map_x_offsets[]: -40
 	map_x_offsets[]: -26
-	map_x_offsets[]: -26
-	map_x_offsets[]: -22
+	map_x_offsets[]: -18
+	map_x_offsets[]: -20
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -48
-	map_y_offsets[]: -56
-	map_y_offsets[]: -28
-	map_y_offsets[]: -27
+	map_y_offsets[]: -200
+	map_y_offsets[]: -53
+	map_y_offsets[]: -18
+	map_y_offsets[]: -20
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
 
 	license_plate[]: .vaxjo.lp.car
 	license_plate[]: .vaxjo.lp.truck

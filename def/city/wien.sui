@@ -8,19 +8,19 @@ city_data: city.wien
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -26
+	map_x_offsets[]: 20
 	map_x_offsets[]: -22
-	map_x_offsets[]: -20
-	map_x_offsets[]: -23
+	map_x_offsets[]: -25
+	map_x_offsets[]: -30
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -90
-	map_y_offsets[]: -64
-	map_y_offsets[]: -27
-	map_y_offsets[]: -27
+	map_y_offsets[]: 160
+	map_y_offsets[]: 40
+	map_y_offsets[]: 5
+	map_y_offsets[]: -25
 
 	vehicle_brands[]:"iveco"
 
