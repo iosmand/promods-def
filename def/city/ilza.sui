@@ -22,6 +22,16 @@ city_data: city.ilza
 	map_y_offsets[]: -18
 	map_y_offsets[]: -15
 
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
 	license_plate[]: .ilza.lp.car
 	license_plate[]: .ilza.lp.truck
 	license_plate[]: .ilza.lp.trailer
@@ -43,9 +53,12 @@ license_plate_data : .ilza.lp.car
 	templates[]:"WRA5344C"   # VIII
 	templates[]:"WRA5344E"   # VIII
 	templates[]:"WRA5344F"   # VIII
+	templates[]:"WRA5344G"   # VIII
+	templates[]:"WRA5344H"   # VIII
 
+	# "WRA" III
 	def0[]:"1A"
-#	def0[]:"2A"
+	def0[]:"2A"
 	def0[]:"3A"
 	def0[]:"4A"
 	def0[]:"5A"
@@ -54,7 +67,7 @@ license_plate_data : .ilza.lp.car
 	def0[]:"8A"
 	def0[]:"9A"
 	def0[]:"1C"
-#	def0[]:"2C"
+	def0[]:"2C"
 	def0[]:"3C"
 	def0[]:"4C"
 	def0[]:"5C"
@@ -79,9 +92,9 @@ license_plate_data : .ilza.lp.car
 	def0[]:"6F"
 	def0[]:"7F"
 	def0[]:"8F"
-#	def0[]:"9F"
+	def0[]:"9F"
 	def0[]:"1G"
-#	def0[]:"2G"
+	def0[]:"2G"
 	def0[]:"3G"
 	def0[]:"4G"
 	def0[]:"5G"
@@ -202,7 +215,7 @@ license_plate_data : .ilza.lp.car
 	def0[]:"3W"
 	def0[]:"4W"
 	def0[]:"5W"
-#	def0[]:"6W"
+	def0[]:"6W"
 	def0[]:"7W"
 	def0[]:"8W"
 	def0[]:"9W"
@@ -213,7 +226,7 @@ license_plate_data : .ilza.lp.car
 	def0[]:"5X"
 	def0[]:"6X"
 	def0[]:"7X"
-#	def0[]:"8X"  # Used for trailers
+	def0[]:"8X"
 	def0[]:"9X"
 	def0[]:"1Y"
 	def0[]:"2Y"
@@ -222,9 +235,10 @@ license_plate_data : .ilza.lp.car
 #	def0[]:"5Y"  # Used for mopeds
 #	def0[]:"6Y"  # Used for motorcycles and tractors
 #	def0[]:"7Y"  # Used for mopeds
-#	def0[]:"8Y"
+#	def0[]:"8Y"  # Used for mopeds
 #	def0[]:"9Y"  # Used for double-row plates
 
+	# "WRA" IV
 	def1[]:"A1"
 	def1[]:"A2"
 	def1[]:"A3"
@@ -263,10 +277,10 @@ license_plate_data : .ilza.lp.car
 #	def1[]:"F9"  # Used for motorcycles
 #	def1[]:"G1"  # Used for mopeds
 #	def1[]:"G2"  # Used for motorcycles and tractors
-#	def1[]:"G3"  # Used for motorcycles and mopeds
+#	def1[]:"G3"  # Used for mopeds
 	def1[]:"G4"
-#	def1[]:"G5"
-#	def1[]:"G6"
+	def1[]:"G5"
+	def1[]:"G6"
 	def1[]:"G7"
 	def1[]:"G8"
 	def1[]:"G9"
@@ -274,9 +288,9 @@ license_plate_data : .ilza.lp.car
 	def1[]:"H2"
 	def1[]:"H3"
 	def1[]:"H4"
-#	def1[]:"H5"
-#	def1[]:"H6"
-#	def1[]:"H7"
+	def1[]:"H5"
+	def1[]:"H6"
+	def1[]:"H7"
 	def1[]:"H8"
 	def1[]:"H9"
 	def1[]:"J1"
@@ -290,16 +304,16 @@ license_plate_data : .ilza.lp.car
 #	def1[]:"J9"  # Used for double-row plates
 	def1[]:"K1"
 	def1[]:"K2"
-#	def1[]:"K3"
+	def1[]:"K3"
 	def1[]:"K4"
 	def1[]:"K5"
 	def1[]:"K6"
 	def1[]:"K7"
 	def1[]:"K8"
-#	def1[]:"K9"
+	def1[]:"K9"
 	def1[]:"L1"
-#	def1[]:"L2"
-#	def1[]:"L3"
+	def1[]:"L2"
+	def1[]:"L3"
 	def1[]:"L4"
 	def1[]:"L5"
 	def1[]:"L6"
@@ -309,7 +323,7 @@ license_plate_data : .ilza.lp.car
 	def1[]:"M1"
 #	def1[]:"M2"  # Used for mopeds
 #	def1[]:"M3"  # Used for mopeds
-#	def1[]:"M4"
+#	def1[]:"M4"  # Used for mopeds
 #	def1[]:"M5"  # Used for trailers
 #	def1[]:"M6"  # Used for double-row plates
 	def1[]:"M7"
@@ -406,7 +420,8 @@ license_plate_data : .ilza.lp.car
 #	def1[]:"Y8"  # Used for mopeds
 #	def1[]:"Y9"  # Used for motorcycles
 
-#	def2[]:"AA"
+	# "WRA" VI
+	def2[]:"AA"
 	def2[]:"AC"
 	def2[]:"AE"
 	def2[]:"AF"
@@ -417,7 +432,7 @@ license_plate_data : .ilza.lp.car
 	def2[]:"AL"
 	def2[]:"AM"
 	def2[]:"AN"
-#	def2[]:"AP"
+#	def2[]:"AP"  # Used for mopeds
 #	def2[]:"AR"  # Used for trailers
 	def2[]:"AS"
 	def2[]:"AT"
@@ -431,7 +446,7 @@ license_plate_data : .ilza.lp.car
 	def2[]:"CE"
 #	def2[]:"CF"  # Used for trailers
 	def2[]:"CG"
-#	def2[]:"CH"
+	def2[]:"CH"
 	def2[]:"CJ"
 	def2[]:"CK"
 	def2[]:"CL"
@@ -449,16 +464,16 @@ license_plate_data : .ilza.lp.car
 #	def2[]:"EA"  # Used for trailers
 	def2[]:"EC"
 	def2[]:"EE"
-#	def2[]:"EF"
+	def2[]:"EF"
 	def2[]:"EG"
-#	def2[]:"EH"
+	def2[]:"EH"
 	def2[]:"EJ"
 	def2[]:"EK"
 	def2[]:"EL"
 	def2[]:"EM"
 	def2[]:"EN"
 	def2[]:"EP"
-#	def2[]:"ER"
+	def2[]:"ER"
 	def2[]:"ES"
 	def2[]:"ET"
 	def2[]:"EU"
@@ -467,18 +482,19 @@ license_plate_data : .ilza.lp.car
 #	def2[]:"EX"  # Used for trailers
 #	def2[]:"EY"  # Used for trailers
 
-#	def3[]:"00"  # ....C used for double-row plates, ....E used for trailers
-#	def3[]:"01"  # ....E used for trailers
+	# "WRA" VIII
+#	def3[]:"00"  # ....C used for double-row plates, ....E used for trailers, ....H used for trailers
+#	def3[]:"01"  # ....E used for trailers, ....H used for trailers
 	def3[]:"02"
 	def3[]:"03"
 	def3[]:"04"
 	def3[]:"05"
 	def3[]:"06"
 	def3[]:"07"
-	def3[]:"08"
-	def3[]:"09"
-#	def3[]:"10"  # ....A used for trailers
-#	def3[]:"11"  # ....A used for trailers
+#	def3[]:"08"  # ....G used for trailers
+#	def3[]:"09"  # ....G used for trailers
+#	def3[]:"10"  # ....A used for trailers, ....F used for trailers
+#	def3[]:"11"  # ....A used for trailers, ....F used for double-row plates
 	def3[]:"12"
 	def3[]:"13"
 	def3[]:"14"
@@ -490,13 +506,13 @@ license_plate_data : .ilza.lp.car
 	def3[]:"20"
 	def3[]:"21"
 	def3[]:"22"
-	def3[]:"23"
-	def3[]:"24"
+#	def3[]:"23"  # ....H used for trailers
+#	def3[]:"24"  # ....H used for trailers
 #	def3[]:"25"  # ....C used for trailers
 #	def3[]:"26"  # ....C used for trailers
-	def3[]:"27"
-	def3[]:"28"
-	def3[]:"29"
+#	def3[]:"27"  # ....G used for trailers
+#	def3[]:"28"  # ....G used for trailers
+#	def3[]:"29"  # ....G used for trailers
 	def3[]:"30"
 	def3[]:"31"
 	def3[]:"32"
@@ -508,10 +524,10 @@ license_plate_data : .ilza.lp.car
 #	def3[]:"38"  # ....A used for trailers
 	def3[]:"39"
 #	def3[]:"40"  # ....E used for trailers
-#	def3[]:"41"  # ....E reserved for trailers
-	def3[]:"42"
-	def3[]:"43"
-	def3[]:"44"
+#	def3[]:"41"  # ....E used for trailers
+#	def3[]:"42"  # ....E used for trailers
+#	def3[]:"43"  # ....F used for trailers
+#	def3[]:"44"  # ....F used for trailers
 	def3[]:"45"
 	def3[]:"46"
 	def3[]:"47"
@@ -525,8 +541,8 @@ license_plate_data : .ilza.lp.car
 	def3[]:"55"
 	def3[]:"56"
 	def3[]:"57"
-	def3[]:"58"
-	def3[]:"59"
+#	def3[]:"58"  # ....C used for double-row plates, ....F used for trailers
+#	def3[]:"59"  # ....F used for trailers
 	def3[]:"60"
 	def3[]:"61"
 	def3[]:"62"
@@ -542,14 +558,14 @@ license_plate_data : .ilza.lp.car
 	def3[]:"72"
 	def3[]:"73"
 	def3[]:"74"
-	def3[]:"75"
-	def3[]:"76"
+#	def3[]:"75"  # ....E used for trailers
+#	def3[]:"76"  # ....E used for trailers
 	def3[]:"77"
 	def3[]:"78"
 	def3[]:"79"
-	def3[]:"80"
-#	def3[]:"81"  # ....A used for trailers
-#	def3[]:"82"  # ....A used for trailers
+#	def3[]:"80"  # ....G used for trailers
+#	def3[]:"81"  # ....A used for trailers, ....G used for trailers
+#	def3[]:"82"  # ....A used for trailers, ....G half used for double-row plates
 	def3[]:"83"
 	def3[]:"84"
 	def3[]:"85"
@@ -557,16 +573,16 @@ license_plate_data : .ilza.lp.car
 	def3[]:"87"
 	def3[]:"88"
 	def3[]:"89"
-	def3[]:"90"
-	def3[]:"91"
+#	def3[]:"90"  # ....E used for trailers
+#	def3[]:"91"  # ....E used for trailers
 	def3[]:"92"
 	def3[]:"93"
 #	def3[]:"94"  # ....A used for trailers
 #	def3[]:"95"  # ....A used for trailers
 	def3[]:"96"
 	def3[]:"97"
-	def3[]:"98"
-	def3[]:"99"
+#	def3[]:"98"  # ....G used for trailers
+#	def3[]:"99"  # ....G used for trailers
 
 	def4[]:"0"
 	def4[]:"1"
@@ -586,6 +602,8 @@ license_plate_data : .ilza.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"WRA52444"   # I    most before EU stars
 #	templates[]:"WRA54422"   # II   most before EU stars
@@ -595,19 +613,22 @@ license_plate_data : .ilza.lp.truck
 #	templates[]:"WRA544444"  # VII
 #	templates[]:"WRA54444A"  # VIII
 #	templates[]:"WRA54444C"  # VIII
-#	templates[]:"WRA5044E"   # VIII
-	templates[]:"WRA5144F"   # VIII
+#	templates[]:"WRA54444E"  # VIII
+#	templates[]:"WRA54444F"  # VIII
+#	templates[]:"WRA5044G"   # VIII
+	templates[]:"WRA5144H"   # VIII
 
-##	def0[]:"00"  # ....E used for trailers
-##	def0[]:"01"  # ....E used for trailers
+	# "WRA" VIII ....G
+#	def0[]:"00"
+#	def0[]:"01"
 #	def0[]:"02"
 #	def0[]:"03"
 #	def0[]:"04"
 #	def0[]:"05"
 #	def0[]:"06"
 #	def0[]:"07"
-#	def0[]:"08"
-#	def0[]:"09"
+##	def0[]:"08"  # Used for trailers
+##	def0[]:"09"  # Used for trailers
 #	def0[]:"10"
 #	def0[]:"11"
 #	def0[]:"12"
@@ -625,9 +646,9 @@ license_plate_data : .ilza.lp.truck
 #	def0[]:"24"
 #	def0[]:"25"
 #	def0[]:"26"
-#	def0[]:"27"
-#	def0[]:"28"
-#	def0[]:"29"
+##	def0[]:"27"  # Used for trailer double-row plates
+##	def0[]:"28"  # Used for trailers
+##	def0[]:"29"  # Used for trailers
 #	def0[]:"30"
 #	def0[]:"31"
 #	def0[]:"32"
@@ -638,8 +659,8 @@ license_plate_data : .ilza.lp.truck
 #	def0[]:"37"
 #	def0[]:"38"
 #	def0[]:"39"
-##	def0[]:"40"  # ....E used for trailers
-##	def0[]:"41"  # ....E reserved for trailers
+#	def0[]:"40"
+#	def0[]:"41"
 #	def0[]:"42"
 #	def0[]:"43"
 #	def0[]:"44"
@@ -678,9 +699,9 @@ license_plate_data : .ilza.lp.truck
 #	def0[]:"77"
 #	def0[]:"78"
 #	def0[]:"79"
-#	def0[]:"80"
-#	def0[]:"81"
-#	def0[]:"82"
+##	def0[]:"80"  # Used for trailers
+##	def0[]:"81"  # Used for trailers
+##	def0[]:"82"  # Half used for double-row plates
 #	def0[]:"83"
 #	def0[]:"84"
 #	def0[]:"85"
@@ -696,34 +717,35 @@ license_plate_data : .ilza.lp.truck
 #	def0[]:"95"
 #	def0[]:"96"
 #	def0[]:"97"
-#	def0[]:"98"
-#	def0[]:"99"
+##	def0[]:"98"  # Used for trailers
+##	def0[]:"99"  # Used for trailers
 
-#	def1[]:"00"
+	# "WRA" VIII ....H
+##	def1[]:"00"  # Used for trailers
 #	def1[]:"01"
 #	def1[]:"02"
 #	def1[]:"03"
 #	def1[]:"04"
-#	def1[]:"05"
-#	def1[]:"06"
-#	def1[]:"07"
-#	def1[]:"08"
-#	def1[]:"09"
-#	def1[]:"10"
-#	def1[]:"11"
-#	def1[]:"12"
-#	def1[]:"13"
-#	def1[]:"14"
-#	def1[]:"15"
-#	def1[]:"16"
-#	def1[]:"17"
-#	def1[]:"18"
-#	def1[]:"19"
-#	def1[]:"20"
-#	def1[]:"21"
-#	def1[]:"22"
-	def1[]:"23"
-	def1[]:"24"
+	def1[]:"05"
+	def1[]:"06"
+	def1[]:"07"
+	def1[]:"08"
+	def1[]:"09"
+	def1[]:"10"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"
+	def1[]:"19"
+	def1[]:"20"
+	def1[]:"21"
+	def1[]:"22"
+#	def1[]:"23"  # Used for trailers
+#	def1[]:"24"  # Used for trailers
 	def1[]:"25"
 	def1[]:"26"
 	def1[]:"27"
@@ -735,23 +757,23 @@ license_plate_data : .ilza.lp.truck
 	def1[]:"33"
 	def1[]:"34"
 	def1[]:"35"
-	def1[]:"36"
-	def1[]:"37"
-	def1[]:"38"
-	def1[]:"39"
-	def1[]:"40"
-	def1[]:"41"
-	def1[]:"42"
-	def1[]:"43"
-	def1[]:"44"
-	def1[]:"45"
-	def1[]:"46"
-	def1[]:"47"
-	def1[]:"48"
-	def1[]:"49"
-	def1[]:"50"
-	def1[]:"51"
-	def1[]:"52"  # "WRA" VIII F latest issued (April 2021)
+	def1[]:"36"  # "WRA" VIII ....H latest issued (October 2022)
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"50"
+#	def1[]:"51"
+#	def1[]:"52"
 #	def1[]:"53"
 #	def1[]:"54"
 #	def1[]:"55"
@@ -849,6 +871,8 @@ license_plate_data : .ilza.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"WRA52444"   # I    most before EU stars
 #	templates[]:"WRA54422"   # II   before EU stars?
@@ -856,12 +880,18 @@ license_plate_data : .ilza.lp.trailer
 #	templates[]:"WRA5441"    # IV
 #	templates[]:"WRA5244"    # VI
 #	templates[]:"WRA544444"  # VII
-	templates[]:"WRA5044A"   # VIII
-	templates[]:"WRA5144C"   # VIII
-	templates[]:"WRA5244E"   # VIII
-	templates[]:"WRA5244E"   # VIII
+#	templates[]:"WRA5044A"   # VIII
+#	templates[]:"WRA5044C"   # VIII
+#	templates[]:"WRA5044E"   # VIII
+#	templates[]:"WRA5044F"   # VIII
+	templates[]:"WRA5144G"   # VIII
+	templates[]:"WRA5244H"   # VIII
+	templates[]:"WRA5244H"   # VIII
+	templates[]:"WRA5244H"   # VIII
+	templates[]:"WRA5244H"   # VIII
 
-#	def0[]:"9C"  # III
+	# "WRA" III
+#	def0[]:"9C"
 #	def0[]:"6G"
 #	def0[]:"5H"
 #	def0[]:"6H"
@@ -873,7 +903,8 @@ license_plate_data : .ilza.lp.trailer
 #	def0[]:"8X"
 #	def0[]:"3Y"
 
-#	def1[]:"E1"  # IV
+	# "WRA" IV
+#	def1[]:"E1"
 #	def1[]:"E2"
 #	def1[]:"J3"
 #	def1[]:"J4"
@@ -883,7 +914,8 @@ license_plate_data : .ilza.lp.trailer
 ##	def1[]:"W6"  # Used for double-row plates
 #	def1[]:"Y5"
 
-#	def2[]:"AH"  # VI
+	# "WRA" VI
+#	def2[]:"AH"
 #	def2[]:"AR"
 #	def2[]:"CF"
 #	def2[]:"CY"
@@ -893,24 +925,55 @@ license_plate_data : .ilza.lp.trailer
 #	def2[]:"EX"
 #	def2[]:"EY"
 
-#	def0[]:"10"  # VIII ....A
+	# "WRA" VIII ....A
+#	def0[]:"10"
 #	def0[]:"11"
 #	def0[]:"37"
 #	def0[]:"38"
 #	def0[]:"81"
-	def0[]:"82"
-	def0[]:"94"
-	def0[]:"95"
+#	def0[]:"82"
+#	def0[]:"94"
+#	def0[]:"95"
 
-	def1[]:"25"  # VIII ....C
-	def1[]:"26"
-	def1[]:"67"
-	def1[]:"68"
+	# "WRA" VIII ....C
+#	def0[]:"25"
+#	def0[]:"26"
+#	def0[]:"67"
+#	def0[]:"68"
 
-	def2[]:"00"  # VIII ....E
-	def2[]:"01"
-	def2[]:"40"  # "WRA" VIII E latest issued (April 2021)
-#	def2[]:"41"
+	# "WRA" VIII ....E
+#	def0[]:"00"
+#	def0[]:"01"
+#	def0[]:"40"
+#	def0[]:"41"
+#	def0[]:"42"
+#	def0[]:"75"
+#	def0[]:"76"
+#	def0[]:"90"
+#	def0[]:"91"
+
+	# "WRA" VIII ....F
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"43"
+#	def0[]:"58"
+#	def0[]:"59"
+
+	# "WRA" VIII ....G
+	def1[]:"08"
+	def1[]:"09"
+#	def1[]:"27"  # Used for double-row plates
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"80"
+	def1[]:"81"
+	def1[]:"98"
+	def1[]:"99"
+
+	# "WRA" VIII ....H
+	def2[]:"00"
+	def2[]:"23"
+	def2[]:"24"  # "WRA" VIII ....H latest issued (October 2022)
 
 	def4[]:"0"
 	def4[]:"1"
@@ -929,6 +992,8 @@ license_plate_data : .ilza.lp.trailer
 license_plate_data : .ilza.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# H = Masovian (Mazowieckie) Provincial Headquarters
 	templates[]:"HPH51222"

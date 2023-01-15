@@ -8,23 +8,23 @@
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -120
+	map_x_offsets[]: -40
+	map_x_offsets[]: -45
+	map_x_offsets[]: -30
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
+	map_y_offsets[]: 100
+	map_y_offsets[]: 15
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -1
 
 	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 0.6  // close zoom for minimap
 	city_pin_scale_factor[]: 0.6  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
