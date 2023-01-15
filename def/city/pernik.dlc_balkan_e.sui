@@ -4,35 +4,33 @@ city_data : city.pernik
 	city_name_localized: "@@pernik@@"
 	country: bulgaria
 
-	## City pin and name scale factor sets size of city pin and name text on UI map.
-	## Valid values: (0;2> default value 1.0. Default pin size on UI map 24px X 24px.
-	#
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 0.9f
-	city_pin_scale_factor[]: 0.85f
-	city_pin_scale_factor[]: 0.75f
-
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -39
-	map_x_offsets[]: -26
+	map_x_offsets[]: -60
 	map_x_offsets[]: -25
-	map_x_offsets[]: -30
+	map_x_offsets[]: -24
+	map_x_offsets[]: -21
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
 	map_y_offsets[]: 183
-	map_y_offsets[]: 41
-	map_y_offsets[]: 16
-	map_y_offsets[]: 5
+	map_y_offsets[]: 30
+	map_y_offsets[]: -2
+	map_y_offsets[]: 0
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
 
 	license_plate[]: .pernik.lp.car
 	license_plate[]: .pernik.lp.truck
@@ -42,7 +40,7 @@ city_data : city.pernik
 license_plate_data : .pernik.lp.car
 {
 	type: car
-	
+
 	templates[]:"PK 0111 AX"
 	templates[]:"PK 1011 AX"
 	templates[]:"PK 1101 AX"

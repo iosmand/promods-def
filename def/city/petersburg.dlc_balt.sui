@@ -11,19 +11,29 @@
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -40
-	map_x_offsets[]: -43
-	map_x_offsets[]: -40
-	map_x_offsets[]: -38
+	map_x_offsets[]: 200
+	map_x_offsets[]: -60
+	map_x_offsets[]: -60
+	map_x_offsets[]: -50
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
 	map_y_offsets[]: -82
-	map_y_offsets[]: -65
-	map_y_offsets[]: -30
+	map_y_offsets[]: -35
+	map_y_offsets[]: -15
 	map_y_offsets[]: -26
+
+	### VERY LARGE CITY ###
+	city_pin_scale_factor[]: 1.3
+	city_pin_scale_factor[]: 1.3
+	city_pin_scale_factor[]: 1.2  // close zoom for minimap
+	city_pin_scale_factor[]: 1.2  // far zoom for minimap
+	city_pin_scale_factor[]: 1.5  // city zoom for world map
+	city_pin_scale_factor[]: 1.4  // closest zoom for world map
+	city_pin_scale_factor[]: 1.3  // middle zoom for world map
+	city_pin_scale_factor[]: 1.2  // whole world map zoom
 
 	vehicle_brands[]: "daf"
 

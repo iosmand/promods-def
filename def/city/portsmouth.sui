@@ -7,30 +7,30 @@
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -60 // close zoom for minimap
-	map_x_offsets[]: -50 // far zoom for monimap
-	map_x_offsets[]: -55 // city zoom for world map
-	map_x_offsets[]: -55 // closest zoom for world map
-	map_x_offsets[]: -50 // middle zoom for world map
-	map_x_offsets[]: -35 // whole world map zoom
+	map_x_offsets[]: -50 // far zoom for minimap
+	map_x_offsets[]: -45 // city zoom for world map
+	map_x_offsets[]: -42 // closest zoom for world map
+	map_x_offsets[]: -48 // middle zoom for world map
+	map_x_offsets[]: -40 // whole world map zoom
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -70
 	map_y_offsets[]: -40
-	map_y_offsets[]: 20
-	map_y_offsets[]: 20
-	map_y_offsets[]: 5
+	map_y_offsets[]: 70
+	map_y_offsets[]: 0
+	map_y_offsets[]: -8
 	map_y_offsets[]: 0
 
-	### SERVICE CITY ###
+	### MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
-	city_pin_scale_factor[]: 0.8  // closest zoom for world map
-	city_pin_scale_factor[]: 0.6  // middle zoom for world map
-	city_pin_scale_factor[]: 0.4  // whole world map zoom
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	license_plate[]: .portsmouth.lp.car
 	license_plate[]: .portsmouth.lp.truck

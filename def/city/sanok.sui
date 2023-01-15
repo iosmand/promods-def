@@ -8,26 +8,26 @@ city_data: city.sanok
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
 	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -30
+	map_x_offsets[]: -22
+	map_x_offsets[]: -16
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: 0
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
-	map_y_offsets[]: 0
+	map_y_offsets[]: -80
+	map_y_offsets[]: -25
+	map_y_offsets[]: -7
+	map_y_offsets[]: -1
 
 	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
 	city_pin_scale_factor[]: 0.5  // whole world map zoom
@@ -50,6 +50,7 @@ license_plate_data : .sanok.lp.car
 	templates[]:"RSA52444"   # VII
 	templates[]:"RSA52444"   # VII
 
+	# "RSA" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -71,6 +72,7 @@ license_plate_data : .sanok.lp.car
 #	def0[]:"X"
 #	def0[]:"Y"
 
+	# "RSA" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -392,6 +394,7 @@ license_plate_data : .sanok.lp.car
 	def1[]:"XX"
 #	def1[]:"XY"  # Used for double-row plates
 
+	# "RSA" VII
 	def2[]:"00"
 	def2[]:"01"
 	def2[]:"02"
@@ -447,15 +450,15 @@ license_plate_data : .sanok.lp.car
 	def2[]:"52"
 	def2[]:"53"
 	def2[]:"54"
-	def2[]:"55"  # "RSA" VII latest issued (April 2021)
-#	def2[]:"56"
-#	def2[]:"57"
-#	def2[]:"58"
-#	def2[]:"59"
-#	def2[]:"60"
-#	def2[]:"61"
-#	def2[]:"62"
-#	def2[]:"63"
+	def2[]:"55"
+	def2[]:"56"
+	def2[]:"57"
+	def2[]:"58"
+	def2[]:"59"
+	def2[]:"60"
+	def2[]:"61"
+	def2[]:"62"
+	def2[]:"63"  # "RSA" VII latest issued (October 2022)
 #	def2[]:"64"
 #	def2[]:"65"
 #	def2[]:"66"
@@ -511,11 +514,14 @@ license_plate_data : .sanok.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"RSA50444"   # I    before EU stars
 #	templates[]:"RSA5441"    # II   some before EU stars
 	templates[]:"RSA52444"   # VII
 
+	# "RSA" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -537,6 +543,7 @@ license_plate_data : .sanok.lp.truck
 #	def0[]:"X"
 #	def0[]:"Y"
 
+	# "RSA" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -858,6 +865,7 @@ license_plate_data : .sanok.lp.truck
 #	def1[]:"XX"
 ##	def1[]:"XY"  # Used for double-row plates
 
+	# "RSA" VII
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
@@ -911,17 +919,17 @@ license_plate_data : .sanok.lp.truck
 #	def2[]:"50"
 #	def2[]:"51"
 #	def2[]:"52"
-	def2[]:"53"
-	def2[]:"54"
-	def2[]:"55"  # "RSA" VII latest issued (April 2021)
+#	def2[]:"53"
+#	def2[]:"54"
+#	def2[]:"55" 
 #	def2[]:"56"
 #	def2[]:"57"
 #	def2[]:"58"
 #	def2[]:"59"
 #	def2[]:"60"
-#	def2[]:"61"
-#	def2[]:"62"
-#	def2[]:"63"
+	def2[]:"61"
+	def2[]:"62"
+	def2[]:"63"  # "RSA" VII latest issued (October 2022)
 #	def2[]:"64"
 #	def2[]:"65"
 #	def2[]:"66"
@@ -977,12 +985,15 @@ license_plate_data : .sanok.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"RSA5P444"   # I    before EU stars
 #	templates[]:"RSA5440"    # II   some before EU stars
 #	templates[]:"RSA5144"    # VI
 	templates[]:"RSA5244P"   # VIII
 
+	# "RSA" II
 ##	def0[]:"PA"  # Partially used for double-row plates
 ##	def0[]:"PC"  # Partially used for double-row plates
 #	def0[]:"PE"
@@ -1004,6 +1015,7 @@ license_plate_data : .sanok.lp.trailer
 #	def0[]:"PX"
 #	def0[]:"PY"
 
+	# "RSA" VI
 #	def1[]:"PA"
 ##	def1[]:"PC"  # Not issued
 #	def1[]:"PE"
@@ -1025,6 +1037,7 @@ license_plate_data : .sanok.lp.trailer
 #	def1[]:"PX"
 #	def1[]:"PY"
 
+	# "RSA" VIII ....P
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
@@ -1032,22 +1045,22 @@ license_plate_data : .sanok.lp.trailer
 #	def2[]:"04"
 #	def2[]:"05"
 #	def2[]:"06"
-	def2[]:"07"
-	def2[]:"08"
-	def2[]:"09"
-	def2[]:"10"
-	def2[]:"11"
-	def2[]:"12"
+#	def2[]:"07"
+#	def2[]:"08"
+#	def2[]:"09"
+#	def2[]:"10"
+#	def2[]:"11"
+#	def2[]:"12"
 	def2[]:"13"
 	def2[]:"14"
 	def2[]:"15"
-	def2[]:"16"  # "RSA" VIII latest issued (April 2021)
-#	def2[]:"17"
-#	def2[]:"18"
-#	def2[]:"19"
-#	def2[]:"20"
-#	def2[]:"21"
-#	def2[]:"22"
+	def2[]:"16"
+	def2[]:"17"
+	def2[]:"18"
+	def2[]:"19"
+	def2[]:"20"
+	def2[]:"21"
+	def2[]:"22"  # "RSA" VIII ....P latest issued (October 2022)
 #	def2[]:"23"
 #	def2[]:"24"
 #	def2[]:"25"
@@ -1143,6 +1156,8 @@ license_plate_data : .sanok.lp.trailer
 license_plate_data : .sanok.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# K = Podkarpackie Voivodeship Headquarters
 	templates[]:"HPK51222"

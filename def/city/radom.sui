@@ -8,25 +8,25 @@ city_data: city.radom
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -30
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -10
 	map_x_offsets[]: -20
-	map_x_offsets[]: -35
+	map_x_offsets[]: -25
+	map_x_offsets[]: -26
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
+	map_y_offsets[]: -160
 	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
 	map_y_offsets[]: -15
+	map_y_offsets[]: -22
 
 	### MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 1.0  // closest zoom for world map
 	city_pin_scale_factor[]: 1.0  // middle zoom for world map
@@ -63,6 +63,7 @@ license_plate_data : .radom.lp.car
 	templates[]:"WRA544444"  # VII
 	templates[]:"WRA544441"  # VIII
 
+	# "WR" III
 	def0[]:"AA"
 #	def0[]:"AC"  # Partially used for double-row plates
 	def0[]:"AE"
@@ -105,7 +106,7 @@ license_plate_data : .radom.lp.car
 	def0[]:"CY"
 	def0[]:"EA"
 #	def0[]:"EC"  # Partially used for double-row plates
-	def0[]:"EE"
+#	def0[]:"EE"  # Partially used for electric vehicles
 	def0[]:"EF"
 	def0[]:"EG"
 	def0[]:"EH"
@@ -113,23 +114,84 @@ license_plate_data : .radom.lp.car
 	def0[]:"EK"
 	def0[]:"EL"
 	def0[]:"EM"
-	def0[]:"EN"  # "WR" III latest issued (April 2021)
-#	def0[]:"EP"
-#	def0[]:"ER"
-#	def0[]:"ES"
-#	def0[]:"ET"
-#	def0[]:"EU"
-#	def0[]:"EV"
-#	def0[]:"EW"
-#	def0[]:"EX"
-#	def0[]:"EY"
+	def0[]:"EN"
+	def0[]:"EP"
+#	def0[]:"ER"  # Partially used for double-row plates
+	def0[]:"ES"
+#	def0[]:"ET"  # Partially used for double-row plates
+	def0[]:"EU"
+	def0[]:"EV"
+	def0[]:"EW"
+	def0[]:"EX"
+	def0[]:"EY"
+	def0[]:"FA"
+	def0[]:"FC"
+	def0[]:"FE"
+	def0[]:"FF"
+	def0[]:"FG"
+#	def0[]:"FH"  # Partially used for double-row plates
+	def0[]:"FJ"
+	def0[]:"FK"
+	def0[]:"FL"
+	def0[]:"FM"
+	def0[]:"FN"
+	def0[]:"FP"
+#	def0[]:"FR"  # Partially used for electric vehicles
+	def0[]:"FS"  # "WR" III latest issued (October 2022)
+#	def0[]:"FT"
+#	def0[]:"FU"
+#	def0[]:"FV"
+#	def0[]:"FW"
+#	def0[]:"FX"
+#	def0[]:"FY"
+#	def0[]:"GA"
+#	def0[]:"GC"
+#	def0[]:"GE"
+#	def0[]:"GF"
+#	def0[]:"GG"
+#	def0[]:"GH"
+#	def0[]:"GJ"
+#	def0[]:"GK"
+#	def0[]:"GL"
+#	def0[]:"GM"
+#	def0[]:"GN"
+#	def0[]:"GP"
+#	def0[]:"GR"
+#	def0[]:"GS"
+#	def0[]:"GT"
+#	def0[]:"GU"
+#	def0[]:"GV"
+#	def0[]:"GW"
+#	def0[]:"GX"
+#	def0[]:"GY"
+#	def0[]:"HA"
+#	def0[]:"HC"
+#	def0[]:"HE"
+#	def0[]:"HF"
+#	def0[]:"HG"
+#	def0[]:"HH"
+#	def0[]:"HJ"
+#	def0[]:"HK"
+#	def0[]:"HL"
+#	def0[]:"HM"
+#	def0[]:"HN"
+#	def0[]:"HP"
+#	def0[]:"HR"
+#	def0[]:"HS"
+#	def0[]:"HT"
+#	def0[]:"HU"
+#	def0[]:"HV"
+#	def0[]:"HW"
+#	def0[]:"HX"
+#	def0[]:"HY"
 
+	# "WRA" VIII
 	def1[]:"A"
 	def1[]:"C"
 	def1[]:"E"
-	def1[]:"F"  # "WRA" VIII latest issued (April 2021)
-#	def1[]:"G"
-#	def1[]:"H"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"  # "WRA" VIII latest issued (October 2022)
 #	def1[]:"J"
 #	def1[]:"K"
 #	def1[]:"L"
@@ -145,6 +207,7 @@ license_plate_data : .radom.lp.car
 #	def1[]:"X"
 #	def1[]:"Y"
 
+	# "WR" II, "WRA" III/IV/VI(E.)
 	def2[]:"A"
 	def2[]:"C"
 	def2[]:"E"
@@ -156,7 +219,7 @@ license_plate_data : .radom.lp.car
 	def2[]:"L"
 	def2[]:"M"
 	def2[]:"N"
-#	def2[]:"P"  # "WR" used for trailers
+#	def2[]:"P"  # "WR" II used for trailers
 	def2[]:"R"
 	def2[]:"S"
 	def2[]:"T"
@@ -164,7 +227,7 @@ license_plate_data : .radom.lp.car
 	def2[]:"V"
 	def2[]:"W"
 	def2[]:"X"
-#	def2[]:"Y"  # "WR" reserved for trailers
+#	def2[]:"Y"  # "WR" II reserved for trailers
 
 	def3[]:"1"
 	def3[]:"2"
@@ -194,11 +257,14 @@ license_plate_data : .radom.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"WR544444"   # I    most before EU stars
 #	templates[]:"WR544440"   # II
 	templates[]:"WR54441"    # III
 
+	# "WR" II
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -218,8 +284,9 @@ license_plate_data : .radom.lp.truck
 #	def0[]:"V"
 #	def0[]:"W"
 #	def0[]:"X"
-#	def0[]:"Y"
+##	def0[]:"Y"  # Reserved for trailers
 
+	# "WR" III
 #	def1[]:"AA"
 ##	def1[]:"AC"  # Partially used for double-row plates
 #	def1[]:"AE"
@@ -262,24 +329,84 @@ license_plate_data : .radom.lp.truck
 #	def1[]:"CY"
 #	def1[]:"EA"
 ##	def1[]:"EC"  # Partially used for double-row plates
-#	def1[]:"EE"
+##	def1[]:"EE"  # Partially used for electric vehicles
 #	def1[]:"EF"
 #	def1[]:"EG"
 #	def1[]:"EH"
 #	def1[]:"EJ"
 #	def1[]:"EK"
-	def1[]:"EL"
-	def1[]:"EM"
-	def1[]:"EN"  # "WR" III latest issued (April 2021)
+#	def1[]:"EL"
+#	def1[]:"EM"
+#	def1[]:"EN"
 #	def1[]:"EP"
-#	def1[]:"ER"
+##	def1[]:"ER"  # Partially used for double-row plates
 #	def1[]:"ES"
-#	def1[]:"ET"
+##	def1[]:"ET"  # Partially used for double-row plates
 #	def1[]:"EU"
 #	def1[]:"EV"
 #	def1[]:"EW"
 #	def1[]:"EX"
 #	def1[]:"EY"
+#	def1[]:"FA"
+#	def1[]:"FC"
+#	def1[]:"FE"
+#	def1[]:"FF"
+#	def1[]:"FG"
+##	def1[]:"FH"  # Partially used for double-row plates
+#	def1[]:"FJ"
+#	def1[]:"FK"
+#	def1[]:"FL"
+#	def1[]:"FM"
+	def1[]:"FN"
+	def1[]:"FP"
+#	def1[]:"FR"  # Partially used for electric vehicles
+	def1[]:"FS"  # "WR" III latest issued (October 2022)
+#	def1[]:"FT"
+#	def1[]:"FU"
+#	def1[]:"FV"
+#	def1[]:"FW"
+#	def1[]:"FX"
+#	def1[]:"FY"
+#	def1[]:"GA"
+#	def1[]:"GC"
+#	def1[]:"GE"
+#	def1[]:"GF"
+#	def1[]:"GG"
+#	def1[]:"GH"
+#	def1[]:"GJ"
+#	def1[]:"GK"
+#	def1[]:"GL"
+#	def1[]:"GM"
+#	def1[]:"GN"
+#	def1[]:"GP"
+#	def1[]:"GR"
+#	def1[]:"GS"
+#	def1[]:"GT"
+#	def1[]:"GU"
+#	def1[]:"GV"
+#	def1[]:"GW"
+#	def1[]:"GX"
+#	def1[]:"GY"
+#	def1[]:"HA"
+#	def1[]:"HC"
+#	def1[]:"HE"
+#	def1[]:"HF"
+#	def1[]:"HG"
+#	def1[]:"HH"
+#	def1[]:"HJ"
+#	def1[]:"HK"
+#	def1[]:"HL"
+#	def1[]:"HM"
+#	def1[]:"HN"
+#	def1[]:"HP"
+#	def1[]:"HR"
+#	def1[]:"HS"
+#	def1[]:"HT"
+#	def1[]:"HU"
+#	def1[]:"HV"
+#	def1[]:"HW"
+#	def1[]:"HX"
+#	def1[]:"HY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -299,10 +426,13 @@ license_plate_data : .radom.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"WR5044"     # I    some before EU stars
 	templates[]:"WR5144P"    # II
 
+	# "WR" I
 #	def0[]:"900"
 #	def0[]:"901"
 ##	def0[]:"902"  # Used for double-row plates
@@ -404,6 +534,7 @@ license_plate_data : .radom.lp.trailer
 #	def0[]:"998"
 #	def0[]:"999"
 
+	# "WR" II ....P
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
@@ -463,32 +594,32 @@ license_plate_data : .radom.lp.trailer
 #	def1[]:"56"
 #	def1[]:"57"
 #	def1[]:"58"
-	def1[]:"59"
-	def1[]:"60"
-	def1[]:"61"
-	def1[]:"62"
-	def1[]:"63"
-	def1[]:"64"
-	def1[]:"65"
-	def1[]:"66"
-	def1[]:"67"
-	def1[]:"68"  # "WR" II P latest issued (April 2021)
+#	def1[]:"59"
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
+#	def1[]:"64"
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
 #	def1[]:"69"
 #	def1[]:"70"
 #	def1[]:"71"
 #	def1[]:"72"
 #	def1[]:"73"
 #	def1[]:"74"
-#	def1[]:"75"
-#	def1[]:"76"
-#	def1[]:"77"
-#	def1[]:"78"
-#	def1[]:"79"
-#	def1[]:"80"
-#	def1[]:"81"
-#	def1[]:"82"
-#	def1[]:"83"
-#	def1[]:"84"
+	def1[]:"75"
+	def1[]:"76"
+	def1[]:"77"
+	def1[]:"78"
+	def1[]:"79"
+	def1[]:"80"
+	def1[]:"81"
+	def1[]:"82"
+	def1[]:"83"
+	def1[]:"84"  # "WR" II ....P latest issued (October 2022)
 #	def1[]:"85"
 #	def1[]:"86"
 #	def1[]:"87"
@@ -522,6 +653,8 @@ license_plate_data : .radom.lp.trailer
 license_plate_data : .radom.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# H = Masovian (Mazowieckie) Provincial Headquarters
 	templates[]:"HPH51222"
