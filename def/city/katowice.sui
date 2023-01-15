@@ -3,24 +3,34 @@ city_data: city.katowice
 	city_name: "Katowice"
 	city_name_localized: "@@katowice@@"
 	country: poland
-	
+
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -38
-	map_x_offsets[]: -37
-	map_x_offsets[]: -35
-	map_x_offsets[]: -40
+	map_x_offsets[]: 20
+	map_x_offsets[]: -20
+	map_x_offsets[]: -33
+	map_x_offsets[]: -34
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -48
-	map_y_offsets[]: -55
-	map_y_offsets[]: -26
-	map_y_offsets[]: -27
+	map_y_offsets[]: -200
+	map_y_offsets[]: -50
+	map_y_offsets[]: -12
+	map_y_offsets[]: -22
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	license_plate[]: .katowice.lp.car
 	license_plate[]: .katowice.lp.truck
@@ -40,6 +50,7 @@ license_plate_data : .katowice.lp.car
 	templates[]:"SK54441"    # III
 	templates[]:"SK54441"    # III
 
+	# "SK" II
 #	def0[]:"A"
 #	def0[]:"B"
 #	def0[]:"C"
@@ -62,6 +73,7 @@ license_plate_data : .katowice.lp.car
 	def0[]:"X"
 	def0[]:"Y"
 
+	# "SK" III
 	def1[]:"AA"
 	def1[]:"AC"
 	def1[]:"AE"
@@ -363,25 +375,105 @@ license_plate_data : .katowice.lp.car
 #	def1[]:"TX"  # Partially used for trailers
 	def1[]:"TY"
 	def1[]:"UA"
-	def1[]:"UC"
+#	def1[]:"UC"  # Partially used for trailers
 	def1[]:"UE"
 	def1[]:"UF"
 	def1[]:"UG"
-	def1[]:"UH"
+#	def1[]:"UH"  # Partially used for trailers
 	def1[]:"UJ"
-	def1[]:"UK"  # "SK" III latest issued (April 2021)
-#	def1[]:"UL"
-#	def1[]:"UM"
-#	def1[]:"UN"
-#	def1[]:"UP"
-#	def1[]:"UR"
-#	def1[]:"US"
-#	def1[]:"UT"
-#	def1[]:"UU"
-#	def1[]:"UV"
-#	def1[]:"UW"
-#	def1[]:"UX"
-#	def1[]:"UY"
+	def1[]:"UK"
+	def1[]:"UL"
+#	def1[]:"UM"  # Partially used for trailers
+	def1[]:"UN"
+	def1[]:"UP"
+	def1[]:"UR"
+#	def1[]:"US"  # Partially used for trailers
+	def1[]:"UT"
+	def1[]:"UU"
+	def1[]:"UV"
+#	def1[]:"UW"  # Partially used for trailers
+	def1[]:"UX"
+	def1[]:"UY"
+	def1[]:"VA"
+	def1[]:"VC"
+	def1[]:"VE"
+#	def1[]:"VF"  # Partially used for trailers
+	def1[]:"VG"
+	def1[]:"VH"
+#	def1[]:"VJ"  # Partially used for trailers
+	def1[]:"VK"
+	def1[]:"VL"
+	def1[]:"VM"
+#	def1[]:"VN"  # Partially used for trailers
+	def1[]:"VP"
+#	def1[]:"VR"  # Partially used for trailers
+	def1[]:"VS"
+	def1[]:"VT"
+	def1[]:"VU"
+	def1[]:"VV"
+	def1[]:"VW"
+	def1[]:"VX"
+#	def1[]:"VY"  # Partially used for trailers
+	def1[]:"WA"
+	def1[]:"WC"
+	def1[]:"WE"
+#	def1[]:"WF"  # Partially used for trailers
+	def1[]:"WG"
+#	def1[]:"WH"  # Partially used for trailers
+	def1[]:"WJ"
+#	def1[]:"WK"  # Partially used for trailers
+	def1[]:"WL"
+#	def1[]:"WM"  # Partially used for trailers
+	def1[]:"WN"
+	def1[]:"WP"
+	def1[]:"WR"
+#	def1[]:"WS"  # Partially used for trailers
+	def1[]:"WT"
+	def1[]:"WU"
+	def1[]:"WV"
+	def1[]:"WW"  # "SK" III latest issued (October 2022)
+#	def1[]:"WX"
+#	def1[]:"WY"
+#	def1[]:"XA"
+#	def1[]:"XC"
+#	def1[]:"XE"
+#	def1[]:"XF"
+#	def1[]:"XG"
+#	def1[]:"XH"
+#	def1[]:"XJ"
+#	def1[]:"XK"
+#	def1[]:"XL"
+#	def1[]:"XM"
+#	def1[]:"XN"
+#	def1[]:"XP"
+#	def1[]:"XR"
+#	def1[]:"XS"
+#	def1[]:"XT"
+#	def1[]:"XU"
+#	def1[]:"XV"
+#	def1[]:"XW"
+#	def1[]:"XX"
+#	def1[]:"XY"
+#	def1[]:"YA"
+#	def1[]:"YC"
+#	def1[]:"YE"
+#	def1[]:"YF"
+#	def1[]:"YG"
+#	def1[]:"YH"
+#	def1[]:"YJ"
+#	def1[]:"YK"
+#	def1[]:"YL"
+#	def1[]:"YM"
+#	def1[]:"YN"
+#	def1[]:"YP"
+#	def1[]:"YR"
+#	def1[]:"YS"
+#	def1[]:"YT"
+#	def1[]:"YU"
+#	def1[]:"YV"
+#	def1[]:"YW"
+#	def1[]:"YX"
+#	def1[]:"YY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -401,11 +493,14 @@ license_plate_data : .katowice.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"SK544444"   # I    before EU stars
 #	templates[]:"SK544440"   # II   some before EU stars
 	templates[]:"SK54441"    # III
 
+	# "SK" II
 ##	def0[]:"A"
 ##	def0[]:"B"
 ##	def0[]:"C"
@@ -428,6 +523,7 @@ license_plate_data : .katowice.lp.truck
 #	def0[]:"X"
 #	def0[]:"Y"
 
+	# "SK" III
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -729,25 +825,105 @@ license_plate_data : .katowice.lp.truck
 ##	def1[]:"TX"  # Partially used for trailers
 #	def1[]:"TY"
 #	def1[]:"UA"
-#	def1[]:"UC"
+##	def1[]:"UC"  # Partially used for trailers
 #	def1[]:"UE"
 #	def1[]:"UF"
 #	def1[]:"UG"
-	def1[]:"UH"
-	def1[]:"UJ"
-	def1[]:"UK"  # "SK" III latest issued (April 2021)
+##	def1[]:"UH"  # Partially used for trailers
+#	def1[]:"UJ"
+#	def1[]:"UK"
 #	def1[]:"UL"
-#	def1[]:"UM"
+##	def1[]:"UM"  # Partially used for trailers
 #	def1[]:"UN"
 #	def1[]:"UP"
 #	def1[]:"UR"
-#	def1[]:"US"
+##	def1[]:"US"  # Partially used for trailers
 #	def1[]:"UT"
 #	def1[]:"UU"
 #	def1[]:"UV"
-#	def1[]:"UW"
+##	def1[]:"UW"  # Partially used for trailers
 #	def1[]:"UX"
 #	def1[]:"UY"
+#	def1[]:"VA"
+#	def1[]:"VC"
+#	def1[]:"VE"
+##	def1[]:"VF"  # Partially used for trailers
+#	def1[]:"VG"
+#	def1[]:"VH"
+##	def1[]:"VJ"  # Partially used for trailers
+#	def1[]:"VK"
+#	def1[]:"VL"
+#	def1[]:"VM"
+##	def1[]:"VN"  # Partially used for trailers
+#	def1[]:"VP"
+##	def1[]:"VR"  # Partially used for trailers
+#	def1[]:"VS"
+#	def1[]:"VT"
+#	def1[]:"VU"
+#	def1[]:"VV"
+#	def1[]:"VW"
+#	def1[]:"VX"
+##	def1[]:"VY"  # Partially used for trailers
+#	def1[]:"WA"
+#	def1[]:"WC"
+#	def1[]:"WE"
+##	def1[]:"WF"  # Partially used for trailers
+#	def1[]:"WG"
+##	def1[]:"WH"  # Partially used for trailers
+#	def1[]:"WJ"
+##	def1[]:"WK"  # Partially used for trailers
+#	def1[]:"WL"
+##	def1[]:"WM"  # Partially used for trailers
+#	def1[]:"WN"
+#	def1[]:"WP"
+#	def1[]:"WR"
+##	def1[]:"WS"  # Partially used for trailers
+#	def1[]:"WT"
+	def1[]:"WU"
+	def1[]:"WV"
+	def1[]:"WW"  # "SK" III latest issued (October 2022)
+#	def1[]:"WX"
+#	def1[]:"WY"
+#	def1[]:"XA"
+#	def1[]:"XC"
+#	def1[]:"XE"
+#	def1[]:"XF"
+#	def1[]:"XG"
+#	def1[]:"XH"
+#	def1[]:"XJ"
+#	def1[]:"XK"
+#	def1[]:"XL"
+#	def1[]:"XM"
+#	def1[]:"XN"
+#	def1[]:"XP"
+#	def1[]:"XR"
+#	def1[]:"XS"
+#	def1[]:"XT"
+#	def1[]:"XU"
+#	def1[]:"XV"
+#	def1[]:"XW"
+#	def1[]:"XX"
+#	def1[]:"XY"
+#	def1[]:"YA"
+#	def1[]:"YC"
+#	def1[]:"YE"
+#	def1[]:"YF"
+#	def1[]:"YG"
+#	def1[]:"YH"
+#	def1[]:"YJ"
+#	def1[]:"YK"
+#	def1[]:"YL"
+#	def1[]:"YM"
+#	def1[]:"YN"
+#	def1[]:"YP"
+#	def1[]:"YR"
+#	def1[]:"YS"
+#	def1[]:"YT"
+#	def1[]:"YU"
+#	def1[]:"YV"
+#	def1[]:"YW"
+#	def1[]:"YX"
+#	def1[]:"YY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -767,18 +943,18 @@ license_plate_data : .katowice.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"SK544444"   # I    before EU stars
 #	templates[]:"SK544442"   # II   some before EU stars
-	templates[]:"SK59441"    # III
+#	templates[]:"SK59441"    # III
 #	templates[]:"SK58442"    # III
-	templates[]:"SK50443"    # III
-	templates[]:"SK50443"    # III
 	templates[]:"SK50443"    # III
 
 	def0[]:"0"
 
-	# III 9xx
+	# "SK" III 9....
 #	def1[]:"AJ"
 #	def1[]:"AK"
 #	def1[]:"CG"
@@ -808,9 +984,9 @@ license_plate_data : .katowice.lp.trailer
 #	def1[]:"PU"
 #	def1[]:"RC"
 #	def1[]:"RG"
-	def1[]:"SY"
+#	def1[]:"SY"
 
-	# III 8xx
+	# "SK" III 8....
 #	def2[]:"AJ"
 #	def2[]:"CE"
 #	def2[]:"CK"
@@ -837,19 +1013,32 @@ license_plate_data : .katowice.lp.trailer
 #	def2[]:"RC"
 #	def2[]:"RG"
 
-	# III 0xx
+	# "SK" III 0....
 #	def3[]:"AF"
 #	def3[]:"HA"
 #	def3[]:"MV"
-	def3[]:"RW"
-	def3[]:"SR"
-	def3[]:"SS"
-	def3[]:"SU"
-	def3[]:"SX"
-	def3[]:"TC"
-	def3[]:"TN"
-	def3[]:"TU"
-	def3[]:"TX"  # "SK" III latest issued (April 2021)
+#	def3[]:"RW"
+#	def3[]:"SR"
+#	def3[]:"SS"
+#	def3[]:"SU"
+#	def3[]:"SX"
+#	def3[]:"TC"
+#	def3[]:"TN"
+#	def3[]:"TU"
+#	def3[]:"TX"
+#	def3[]:"UC"
+#	def3[]:"UH"
+#	def3[]:"UM"
+	def3[]:"US"
+	def3[]:"UW"
+	def3[]:"VF"
+	def3[]:"VN"
+	def3[]:"VR"
+	def3[]:"VY"
+	def3[]:"WF"
+	def3[]:"WH"
+	def3[]:"WM"
+	def3[]:"WS"  # "SK" III 0.... latest issued (October 2022)
 
 	def4[]:"0"
 	def4[]:"1"
@@ -868,6 +1057,8 @@ license_plate_data : .katowice.lp.trailer
 license_plate_data : .katowice.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# P = Silesian (Śląskie) Voivodeship Headquarters
 	templates[]:"HPP51222"

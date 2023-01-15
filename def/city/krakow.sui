@@ -8,19 +8,19 @@ city_data: city.krakow
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -30
-	map_x_offsets[]: -31
-	map_x_offsets[]: -32
-	map_x_offsets[]: -30
+	map_x_offsets[]: 40
+	map_x_offsets[]: -20
+	map_x_offsets[]: -25
+	map_x_offsets[]: -6
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: 6
-	map_y_offsets[]: 4
-	map_y_offsets[]: -20
-	map_y_offsets[]: 5
+	map_y_offsets[]: -200
+	map_y_offsets[]: -50
+	map_y_offsets[]: -15
+	map_y_offsets[]: -18
 
 	vehicle_brands[]:"man"
 
@@ -40,9 +40,12 @@ license_plate_data : .krakow.lp.car
 	templates[]:"KR544422"   # III
 	templates[]:"KR532444"   # IV
 	templates[]:"KR53044"    # V
-	templates[]:"KR53044"    # V
-	templates[]:"KR53044"    # V
-	templates[]:"KR53044"    # V
+
+	# Two letter powiat codes
+	templates[]:"KK51444"    # I
+	templates[]:"KK51444"    # I
+	templates[]:"KK51444"    # I
+	templates[]:"KK51444"    # I
 
 	# Three letter powiat codes
 #	templates[]:"KRA52444"   # I    before EU stars
@@ -53,8 +56,10 @@ license_plate_data : .krakow.lp.car
 	templates[]:"KRA544444"  # VII
 	templates[]:"KRA5R244"   # VI
 	templates[]:"KRA5U244"   # VI
-	templates[]:"KRA544441"  # VIII
+	templates[]:"KRA544442"  # VIII
+	templates[]:"KRA5444A2"  # IX
 
+	# "KR" V
 	def0[]:"AA"
 	def0[]:"AC"
 	def0[]:"AE"
@@ -271,7 +276,7 @@ license_plate_data : .krakow.lp.car
 	def0[]:"NS"  # Podgórze
 	def0[]:"NT"  # Podgórze
 	def0[]:"NU"  # Podgórze
-	def0[]:"NV"  # Bonarka "KR" V latest issued (March 2021)
+	def0[]:"NV"  # Bonarka
 	def0[]:"NW"  # Podgórze
 	def0[]:"NX"  # Podgórze
 	def0[]:"NY"  # Podgórze
@@ -303,22 +308,22 @@ license_plate_data : .krakow.lp.car
 	def0[]:"RH"  # Nowa Huta
 	def0[]:"RJ"  # Nowa Huta
 	def0[]:"RK"  # Serenada
-	def0[]:"RL"  # Serenada "KR" V latest issued (March 2021)
-	def0[]:"RM"  # Nowa Huta "KR" V latest issued (April 2021)
-#	def0[]:"RN"
-#	def0[]:"RP"
-#	def0[]:"RR"
-#	def0[]:"RS"
-#	def0[]:"RT"
-#	def0[]:"RU"
-#	def0[]:"RV"
-#	def0[]:"RW"
-#	def0[]:"RX"
-#	def0[]:"RY"
+	def0[]:"RL"  # Serenada
+	def0[]:"RM"  # Nowa Huta
+	def0[]:"RN"  # Nowa Huta
+	def0[]:"RP"  # Nowa Huta
+	def0[]:"RR"  # Nowa Huta
+	def0[]:"RS"  # Nowa Huta
+	def0[]:"RT"  # Nowa Huta
+	def0[]:"RU"  # Serenada
+	def0[]:"RV"  # Nowa Huta
+	def0[]:"RW"  # Nowa Huta
+	def0[]:"RX"  # Nowa Huta
+	def0[]:"RY"  # Nowa Huta
 	def0[]:"SA"  # Bronowice
 	def0[]:"SC"  # Śródmieście
-#	def0[]:"SE"  # "KR" V used for electric cars
-#	def0[]:"SF"  # "KR" V used for double-row plates
+#	def0[]:"SE"  # Used for electric vehicles
+#	def0[]:"SF"  # Used for electric vehicle double-row plates
 	def0[]:"SG"  # Śródmieście
 	def0[]:"SH"  # Śródmieście
 	def0[]:"SJ"  # Śródmieście
@@ -334,7 +339,7 @@ license_plate_data : .krakow.lp.car
 	def0[]:"SV"  # Śródmieście
 	def0[]:"SW"  # Śródmieście
 	def0[]:"SX"  # Śródmieście
-	def0[]:"SY"  # Bronowice "KR" V latest issued (March 2021)
+	def0[]:"SY"  # Bronowice
 	def0[]:"TA"  # Śródmieście
 	def0[]:"TC"  # Śródmieście
 	def0[]:"TE"  # Śródmieście
@@ -354,27 +359,27 @@ license_plate_data : .krakow.lp.car
 	def0[]:"TV"  # Śródmieście
 	def0[]:"TW"  # Śródmieście
 	def0[]:"TX"  # Śródmieście
-	def0[]:"TY"  # Śródmieście
+#	def0[]:"TY"  # Used for electric vehicles
 	def0[]:"UA"  # Podgórze
 	def0[]:"UC"  # Podgórze
 	def0[]:"UE"  # Podgórze
-	def0[]:"UF"  # Podgórze "KR" V latest issued (April 2021)
-#	def0[]:"UG"
-#	def0[]:"UH"
-#	def0[]:"UJ"
-#	def0[]:"UK"
-#	def0[]:"UL"
-#	def0[]:"UM"
-#	def0[]:"UN"
-#	def0[]:"UP"
-#	def0[]:"UR"
-#	def0[]:"US"
-#	def0[]:"UT"
-#	def0[]:"UU"
-#	def0[]:"UV"
-#	def0[]:"UW"
-#	def0[]:"UX"
-#	def0[]:"UY"
+	def0[]:"UF"  # Podgórze
+	def0[]:"UG"  # Bonarka
+	def0[]:"UH"  # Podgórze
+	def0[]:"UJ"  # Podgórze
+	def0[]:"UK"  # Podgórze
+	def0[]:"UL"  # Podgórze
+	def0[]:"UM"  # Podgórze
+	def0[]:"UN"  # Podgórze
+	def0[]:"UP"  # Podgórze
+	def0[]:"UR"  # Podgórze
+	def0[]:"US"  # Podgórze
+	def0[]:"UT"  # Bonarka
+	def0[]:"UU"  # Podgórze
+	def0[]:"UV"  # Podgórze
+	def0[]:"UW"  # Podgórze "KR" V last issued (February 2022)
+	def0[]:"UX"  # Bonarka
+	def0[]:"UY"  # Bonarka "KR" V last issued (August 2022)
 	def0[]:"VA"  # Śródmieście
 	def0[]:"VC"  # Śródmieście
 	def0[]:"VE"  # Śródmieście
@@ -384,38 +389,179 @@ license_plate_data : .krakow.lp.car
 	def0[]:"VJ"  # Śródmieście
 	def0[]:"VK"  # Śródmieście
 	def0[]:"VL"  # Śródmieście
-	def0[]:"VM"  # Śródmieście "KR" V latest issued (April 2021)
-#	def0[]:"VN"
-#	def0[]:"VP"
-#	def0[]:"VR"
-#	def0[]:"VS"
-#	def0[]:"VT"
-#	def0[]:"VU"
-#	def0[]:"VV"
-#	def0[]:"VW"
-#	def0[]:"VX"
-#	def0[]:"VY"
+	def0[]:"VM"  # Śródmieście
+	def0[]:"VN"  # Bronowice
+	def0[]:"VP"  # Śródmieście
+	def0[]:"VR"  # Śródmieście
+	def0[]:"VS"  # Śródmieście
+	def0[]:"VT"  # Śródmieście
+	def0[]:"VU"  # Śródmieście
+	def0[]:"VV"  # Śródmieście
+	def0[]:"VW"  # Śródmieście
+	def0[]:"VX"  # Śródmieście
+	def0[]:"VY"  # Śródmieście
+	def0[]:"WA"  # Śródmieście
+	def0[]:"WC"  # Śródmieście
+	def0[]:"WE"  # Śródmieście
+	def0[]:"WF"  # Śródmieście
+	def0[]:"WG"  # Śródmieście
+	def0[]:"WH"  # Śródmieście
+	def0[]:"WJ"  # Śródmieście
+	def0[]:"WK"  # Śródmieście
+	def0[]:"WL"  # Śródmieście
+	def0[]:"WM"  # Śródmieście
+	def0[]:"WN"  # Śródmieście
+	def0[]:"WP"  # Śródmieście
+	def0[]:"WR"  # Śródmieście
+	def0[]:"WS"  # Śródmieście
+	def0[]:"WT"  # Bronowice
+	def0[]:"WU"  # Śródmieście
+	def0[]:"WV"  # Śródmieście
+	def0[]:"WW"  # Śródmieście
+	def0[]:"WX"  # Śródmieście
+	def0[]:"WY"  # Śródmieście
+	def0[]:"XA"  # Śródmieście
+	def0[]:"XC"  # Śródmieście
+	def0[]:"XE"  # Śródmieście
+	def0[]:"XF"  # Śródmieście
+	def0[]:"XG"  # Bronowice
+	def0[]:"XH"  # Śródmieście
+	def0[]:"XJ"  # Śródmieście
+	def0[]:"XK"  # Śródmieście
+	def0[]:"XL"  # Śródmieście
+	def0[]:"XM"  # Śródmieście
+	def0[]:"XN"  # Bronowice "KR" V last issued (June 2022)
+	def0[]:"XP"  # Śródmieście
+	def0[]:"XR"  # Śródmieście
+	def0[]:"XS"  # Śródmieście
+	def0[]:"XT"  # Śródmieście
+	def0[]:"XU"  # Śródmieście
+	def0[]:"XV"  # Śródmieście
+	def0[]:"XW"  # Śródmieście
+	def0[]:"XX"  # Śródmieście "KR" V last issued (April 2022)
+#	def0[]:"XY"  # Śródmieście/Bronowice Used for electric vehicles
+	def0[]:"YA"  # Nowa Huta/Serenada
+	def0[]:"YC"  # Nowa Huta
+	def0[]:"YE"  # Nowa Huta
+	def0[]:"YF"  # Serenada
+	def0[]:"YG"  # Nowa Huta
+	def0[]:"YH"  # Nowa Huta
+	def0[]:"YJ"  # Nowa Huta
+	def0[]:"YK"  # Nowa Huta
+	def0[]:"YL"  # Serenada "KR" V latest issued (September 2022)
+	def0[]:"YM"  # Nowa Huta
+	def0[]:"YN"  # Nowa Huta? "KR" V latest issued (September 2022)
+#	def0[]:"YP"  # Not issued
+#	def0[]:"YR"  # Not issued
+#	def0[]:"YS"  # Not issued
+#	def0[]:"YT"  # Not issued
+#	def0[]:"YU"  # Not issued
+#	def0[]:"YV"  # Not issued
+#	def0[]:"YW"  # Not issued
+#	def0[]:"YX"  # Not issued
+#	def0[]:"YY"  # Not issued
 
-	def1[]:"A"
-	def1[]:"C"
-	def1[]:"E"
-	def1[]:"F"
-	def1[]:"G"
-	def1[]:"H"
-	def1[]:"J"
-	def1[]:"K"
-	def1[]:"L"
-	def1[]:"M"
-	def1[]:"N"
-#	def1[]:"P"  # "KRA" VIII used for trailers
-	def1[]:"R"
-	def1[]:"S"
-	def1[]:"T"
-	def1[]:"U"
-	def1[]:"W"  # Węgrzce "KRA" VIII latest issued (April 2021)
-	def1[]:"V"  # Krzeszowice/Skawina "KRA" VIII latest issued (April 2021)
-#	def1[]:"X"
-#	def1[]:"Y"
+	# "KK" I
+	def1[]:"00"  # Podgórze
+	def1[]:"01"  # Podgórze
+	def1[]:"02"  # Podgórze
+	def1[]:"03"  # Podgórze
+	def1[]:"04"  # Podgórze
+	def1[]:"05"  # Podgórze
+	def1[]:"06"  # Podgórze "KK" I latest issued (October 2022)
+	def1[]:"07"  # Bonarka "KK" I latest issued (October 2022)
+#	def1[]:"08"
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
+#	def1[]:"12"
+#	def1[]:"13"
+#	def1[]:"14"
+#	def1[]:"15"
+#	def1[]:"16"
+#	def1[]:"17"
+#	def1[]:"18"
+#	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
+#	def1[]:"30"  # Reserved for Nowa Huta
+#	def1[]:"31"  # Reserved for Nowa Huta
+#	def1[]:"32"  # Reserved for Nowa Huta
+#	def1[]:"33"  # Reserved for Nowa Huta
+#	def1[]:"34"  # Reserved for Nowa Huta
+#	def1[]:"35"  # Reserved for Nowa Huta
+#	def1[]:"36"  # Reserved for Nowa Huta
+#	def1[]:"37"  # Reserved for Nowa Huta
+#	def1[]:"38"  # Reserved for Nowa Huta
+#	def1[]:"39"  # Reserved for Nowa Huta
+#	def1[]:"40"  # Reserved for Nowa Huta
+#	def1[]:"41"  # Reserved for Nowa Huta
+#	def1[]:"42"  # Reserved for Nowa Huta
+#	def1[]:"43"  # Reserved for Nowa Huta
+#	def1[]:"44"  # Reserved for Nowa Huta
+#	def1[]:"45"  # Reserved for Nowa Huta
+#	def1[]:"46"  # Reserved for Nowa Huta
+#	def1[]:"47"  # Reserved for Nowa Huta
+#	def1[]:"48"  # Reserved for Nowa Huta
+#	def1[]:"49"  # Reserved for Nowa Huta
+	def1[]:"50"  # Śródmieście
+	def1[]:"51"  # Śródmieście
+	def1[]:"52"  # Śródmieście
+	def1[]:"53"  # Śródmieście
+	def1[]:"54"  # Śródmieście
+	def1[]:"55"  # Śródmieście
+	def1[]:"56"  # Śródmieście
+	def1[]:"57"  # Śródmieście
+	def1[]:"58"  # Bronowice "KK" I latest issued (October 2022)
+	def1[]:"59"  # Śródmieście
+	def1[]:"60"  # Śródmieście
+	def1[]:"61"  # Śródmieście
+	def1[]:"62"  # Śródmieście
+	def1[]:"63"  # Śródmieście
+	def1[]:"64"  # Śródmieście "KK" I latest issued (October 2022)
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+#	def1[]:"70"
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+#	def1[]:"77"
+#	def1[]:"78"
+#	def1[]:"79"
+#	def1[]:"80"
+#	def1[]:"81"
+#	def1[]:"82"
+#	def1[]:"83"
+#	def1[]:"84"
+#	def1[]:"85"
+#	def1[]:"86"
+#	def1[]:"87"
+#	def1[]:"88"
+#	def1[]:"89"
+#	def1[]:"90"
+#	def1[]:"91"
+#	def1[]:"92"
+#	def1[]:"93"
+#	def1[]:"94"
+#	def1[]:"95"
+#	def1[]:"96"
+#	def1[]:"97"
+#	def1[]:"98"
+#	def1[]:"99"
 
 	def2[]:"A"
 	def2[]:"C"
@@ -428,7 +574,7 @@ license_plate_data : .krakow.lp.car
 	def2[]:"L"
 	def2[]:"M"
 	def2[]:"N"
-#	def2[]:"P"  # "KR" used for trailers
+#	def2[]:"P"  # "KR"/"KRA" used for trailers
 	def2[]:"R"
 	def2[]:"S"
 	def2[]:"T"
@@ -466,6 +612,8 @@ license_plate_data : .krakow.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"KR544444"   # I    before EU stars
 #	templates[]:"KR544442"   # II   most before EU stars
@@ -473,125 +621,230 @@ license_plate_data : .krakow.lp.truck
 #	templates[]:"KR532444"   # IV
 	templates[]:"KR5044"     # V
 
-#	def0[]:"1RJ"
-#	def0[]:"2RJ"
-#	def0[]:"3RJ"
-#	def0[]:"4RJ"
-#	def0[]:"5RJ"
-#	def0[]:"6RJ"
-	def0[]:"7RJ"
-	def0[]:"8RJ"
-	def0[]:"9RJ"
-	def0[]:"1RM"
-	def0[]:"2RM"  # Nowa Huta "KR" V latest issued (April 2021)
-#	def0[]:"3RM"
-#	def0[]:"4RM"
-#	def0[]:"5RM"
-#	def0[]:"6RM"
-#	def0[]:"7RM"
-#	def0[]:"8RM"
-#	def0[]:"9RM"
+	# Two letter powiat codes
+	templates[]:"KK51444"    # I
 
-#	def0[]:"1NL"
-#	def0[]:"2NL"
-#	def0[]:"3NL"
-#	def0[]:"4NL"
-#	def0[]:"5NL"
-#	def0[]:"6NL"
-#	def0[]:"7NL"
-#	def0[]:"8NL"
-#	def0[]:"9NL"
-#	def0[]:"1NV"
-	def0[]:"2NV"
-	def0[]:"3NV"
-	def0[]:"4NV"  # Bonarka "KR" V latest issued (March 2021)
-#	def0[]:"5NV"
-#	def0[]:"6NV"
-#	def0[]:"7NV"
-#	def0[]:"8NV"
-#	def0[]:"9NV"
+	# "KR" V Nowa Huta
+#	def0[]:"1YM"
+#	def0[]:"2YM"
+#	def0[]:"3YM"
+#	def0[]:"4YM"
+#	def0[]:"5YM"
+	def0[]:"6YM"
+	def0[]:"7YM"
+	def0[]:"8YM"
+	def0[]:"9YM"
+	def0[]:"1YN"  # Nowa Huta "KR" V latest issued (September 2022)
+#	def0[]:"2YN"
+#	def0[]:"3YN"
+#	def0[]:"4YN"
+#	def0[]:"5YN"
+#	def0[]:"6YN"
+#	def0[]:"7YN"
+#	def0[]:"8YN"
+#	def0[]:"9YN"
 
-#	def0[]:"1UE"
-#	def0[]:"2UE"
-#	def0[]:"3UE"
-#	def0[]:"4UE"
-#	def0[]:"5UE"
-#	def0[]:"6UE"
-	def0[]:"7UE"
-	def0[]:"8UE"
-	def0[]:"9UE"
-	def0[]:"1UF"
-	def0[]:"2UF"  # Podgórze "KR" V latest issued (April 2021)
-#	def0[]:"3UF"
-#	def0[]:"4UF"
-#	def0[]:"5UF"
-#	def0[]:"6UF"
-#	def0[]:"7UF"
-#	def0[]:"8UF"
-#	def0[]:"9UF"
+	# "KR" V Bonarka
+#	def0[]:"1UX"
+#	def0[]:"2UX"
+#	def0[]:"3UX"
+#	def0[]:"4UX"
+#	def0[]:"5UX"
+#	def0[]:"6UX"
+#	def0[]:"7UX"
+#	def0[]:"8UX"
+#	def0[]:"9UX"
+#	def0[]:"9UY"
+#	def0[]:"8UY"
+#	def0[]:"7UY"
+#	def0[]:"6UY"
+#	def0[]:"5UY"
+#	def0[]:"4UY"
+#	def0[]:"3UY"
+#	def0[]:"2UY"
+#	def0[]:"1UY"  # Bonarka "KR" V last issued (August 2022)
 
-#	def0[]:"1RA"
-#	def0[]:"2RA"
-#	def0[]:"3RA"
-#	def0[]:"4RA"
-#	def0[]:"5RA"
-#	def0[]:"6RA"
-#	def0[]:"1RK"
-#	def0[]:"2RK"
-#	def0[]:"3RK"
-#	def0[]:"4RK"
-#	def0[]:"5RK"
-#	def0[]:"6RK"
-#	def0[]:"7RK"
-	def0[]:"8RK"
-	def0[]:"9RK"
-	def0[]:"1RL"  # Serenada "KR" V latest issued (March 2021)
-#	def0[]:"2RL"
-#	def0[]:"3RL"
-#	def0[]:"4RL"
-#	def0[]:"5RL"
-#	def0[]:"6RL"
-#	def0[]:"7RL"
-#	def0[]:"8RL"
-#	def0[]:"9RL"
+	# "KR" V Podgórze
+#	def0[]:"1UV"
+#	def0[]:"2UV"
+#	def0[]:"3UV"
+#	def0[]:"4UV"
+#	def0[]:"5UV"
+#	def0[]:"6UV"
+#	def0[]:"7UV"
+#	def0[]:"8UV"
+#	def0[]:"9UV"
+#	def0[]:"1UW"
+#	def0[]:"2UW"
+#	def0[]:"3UW"
+#	def0[]:"4UW"
+#	def0[]:"5UW"
+#	def0[]:"6UW"
+#	def0[]:"7UW"
+#	def0[]:"8UW"
+#	def0[]:"9UW"  # Podgórze "KR" V last issued (February 2022)
 
-#	def0[]:"1SA"
-#	def0[]:"2SA"
-#	def0[]:"3SA"
-#	def0[]:"4SA"
-#	def0[]:"5SA"
-#	def0[]:"6SA"
-#	def0[]:"7SA"
-#	def0[]:"8SA"
-#	def0[]:"9SA"
-#	def0[]:"1SY"
-	def0[]:"2SY"
-	def0[]:"3SY"
-	def0[]:"4SY"  # Bronowice "KR" V latest issued (March 2021)
-#	def0[]:"5SY"
-#	def0[]:"6SY"
-#	def0[]:"7SY"
-#	def0[]:"8SY"
-#	def0[]:"9SY"
+	# "KR" V Serenada
+#	def0[]:"1YF"
+#	def0[]:"2YF"
+#	def0[]:"3YF"
+#	def0[]:"4YF"
+#	def0[]:"5YF"
+#	def0[]:"6YF"
+	def0[]:"7YF"
+	def0[]:"8YF"
+	def0[]:"9YF"
+	def0[]:"1YL"
+	def0[]:"2YL"  # Serenada "KR" V latest issued (September 2022)
+#	def0[]:"3YL"
+#	def0[]:"4YL"
+#	def0[]:"5YL"
+#	def0[]:"6YL"
+#	def0[]:"7YL"
+#	def0[]:"8YL"
+#	def0[]:"9YL"
 
-#	def0[]:"1VL"
-#	def0[]:"2VL"
-#	def0[]:"3VL"
-	def0[]:"4VL"
-	def0[]:"5VL"
-	def0[]:"6VL"
-	def0[]:"7VL"
-	def0[]:"8VL"
-	def0[]:"9VL"
-	def0[]:"1VM"
-	def0[]:"2VM"
-	def0[]:"3VM"
-	def0[]:"4VM"
-	def0[]:"5VM"  # Śródmieście "KR" V latest issued (April 2021)
-#	def0[]:"6VM"
-#	def0[]:"7VM"
-#	def0[]:"8VM"
-#	def0[]:"9VM"
+	# "KR" V Bronowice
+#	def0[]:"1XG"
+#	def0[]:"2XG"
+#	def0[]:"3XG"
+#	def0[]:"4XG"
+#	def0[]:"5XG"
+#	def0[]:"6XG"
+#	def0[]:"7XG"
+#	def0[]:"8XG"
+#	def0[]:"9XG"
+#	def0[]:"1XN"
+#	def0[]:"2XN"
+#	def0[]:"3XN"  # Bronowice "KR" V last issued (June 2022)
+##	def0[]:"4XN"
+##	def0[]:"5XN"
+##	def0[]:"6XN"
+##	def0[]:"7XN"
+##	def0[]:"8XN"
+##	def0[]:"9XN"
+
+	# "KR" V Śródmieście
+#	def0[]:"1XW"
+#	def0[]:"2XW"
+#	def0[]:"3XW"
+#	def0[]:"4XW"
+#	def0[]:"5XW"
+#	def0[]:"6XW"
+#	def0[]:"7XW"
+#	def0[]:"8XW"
+#	def0[]:"9XW"
+#	def0[]:"1XX"
+#	def0[]:"2XX"
+#	def0[]:"3XX"
+#	def0[]:"4XX"
+#	def0[]:"5XX"
+#	def0[]:"6XX"
+#	def0[]:"7XX"
+#	def0[]:"8XX"
+#	def0[]:"9XX"  # Śródmieście "KR" V last issued (April 2022)
+
+	# "KK" I
+#	def1[]:"00"  # Podgórze
+#	def1[]:"01"  # Podgórze
+#	def1[]:"02"  # Podgórze
+#	def1[]:"03"  # Podgórze
+#	def1[]:"04"  # Podgórze
+#	def1[]:"05"  # Podgórze
+	def1[]:"06"  # Podgórze "KK" I latest issued (October 2022)
+	def1[]:"07"  # Bonarka "KK" I latest issued (October 2022)
+#	def1[]:"08"
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
+#	def1[]:"12"
+#	def1[]:"13"
+#	def1[]:"14"
+#	def1[]:"15"
+#	def1[]:"16"
+#	def1[]:"17"
+#	def1[]:"18"
+#	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
+#	def1[]:"30"  # Reserved for Nowa Huta
+#	def1[]:"31"  # Reserved for Nowa Huta
+#	def1[]:"32"  # Reserved for Nowa Huta
+#	def1[]:"33"  # Reserved for Nowa Huta
+#	def1[]:"34"  # Reserved for Nowa Huta
+#	def1[]:"35"  # Reserved for Nowa Huta
+#	def1[]:"36"  # Reserved for Nowa Huta
+#	def1[]:"37"  # Reserved for Nowa Huta
+#	def1[]:"38"  # Reserved for Nowa Huta
+#	def1[]:"39"  # Reserved for Nowa Huta
+#	def1[]:"40"  # Reserved for Nowa Huta
+#	def1[]:"41"  # Reserved for Nowa Huta
+#	def1[]:"42"  # Reserved for Nowa Huta
+#	def1[]:"43"  # Reserved for Nowa Huta
+#	def1[]:"44"  # Reserved for Nowa Huta
+#	def1[]:"45"  # Reserved for Nowa Huta
+#	def1[]:"46"  # Reserved for Nowa Huta
+#	def1[]:"47"  # Reserved for Nowa Huta
+#	def1[]:"48"  # Reserved for Nowa Huta
+#	def1[]:"49"  # Reserved for Nowa Huta
+#	def1[]:"50"  # Śródmieście
+#	def1[]:"51"  # Śródmieście
+#	def1[]:"52"  # Śródmieście
+#	def1[]:"53"  # Śródmieście
+#	def1[]:"54"  # Śródmieście
+#	def1[]:"55"  # Śródmieście
+#	def1[]:"56"  # Śródmieście
+#	def1[]:"57"  # Śródmieście
+	def1[]:"58"  # Bronowice "KK" I latest issued (October 2022)
+#	def1[]:"59"  # Śródmieście
+#	def1[]:"60"  # Śródmieście
+#	def1[]:"61"  # Śródmieście
+#	def1[]:"62"  # Śródmieście
+#	def1[]:"63"  # Śródmieście
+	def1[]:"64"  # Śródmieście "KK" I latest issued (October 2022)
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+#	def1[]:"70"
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+#	def1[]:"77"
+#	def1[]:"78"
+#	def1[]:"79"
+#	def1[]:"80"
+#	def1[]:"81"
+#	def1[]:"82"
+#	def1[]:"83"
+#	def1[]:"84"
+#	def1[]:"85"
+#	def1[]:"86"
+#	def1[]:"87"
+#	def1[]:"88"
+#	def1[]:"89"
+#	def1[]:"90"
+#	def1[]:"91"
+#	def1[]:"92"
+#	def1[]:"93"
+#	def1[]:"94"
+#	def1[]:"95"
+#	def1[]:"96"
+#	def1[]:"97"
+#	def1[]:"98"
+#	def1[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -611,15 +864,19 @@ license_plate_data : .krakow.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"KR544444"   # I    before EU stars
 #	templates[]:"KR54444P"   # II   most before EU stars
 #	templates[]:"KR54440"    # III
-	templates[]:"KR51444"    # IV
-	templates[]:"KK5244P"    # II
+#	templates[]:"KR51444"    # IV
+
+	# Two letter powiat codes
 	templates[]:"KK5244P"    # II
 
-#	def0[]:"FP"  # "KR" III
+	# "KR" III
+#	def0[]:"FP"
 #	def0[]:"GP"
 #	def0[]:"HP"
 #	def0[]:"JP"
@@ -631,7 +888,8 @@ license_plate_data : .krakow.lp.trailer
 #	def0[]:"VP"
 #	def0[]:"XP"
 
-#	def1[]:"1P"  # "KR" IV
+	# "KR" IV
+#	def1[]:"1P"
 #	def1[]:"2P"
 #	def1[]:"3P"
 #	def1[]:"4P"
@@ -639,10 +897,11 @@ license_plate_data : .krakow.lp.trailer
 #	def1[]:"6P"
 #	def1[]:"7P"
 #	def1[]:"8P"
-	def1[]:"9P"
+#	def1[]:"9P"  # "KR" IV last issued (May 2020)
 
-	def2[]:"00"
-	def2[]:"01"  # "KK" II latest issued (April 2021)
+	# "KK" II ....P
+#	def2[]:"00"
+#	def2[]:"01"
 #	def2[]:"02"
 #	def2[]:"03"
 #	def2[]:"04"
@@ -672,16 +931,16 @@ license_plate_data : .krakow.lp.trailer
 #	def2[]:"28"
 #	def2[]:"29"
 #	def2[]:"30"
-#	def2[]:"31"
-#	def2[]:"32"
-#	def2[]:"33"
-#	def2[]:"34"
-#	def2[]:"35"
-#	def2[]:"36"
-#	def2[]:"37"
-#	def2[]:"38"
-#	def2[]:"39"
-#	def2[]:"40"
+	def2[]:"31"
+	def2[]:"32"
+	def2[]:"33"
+	def2[]:"34"
+	def2[]:"35"
+	def2[]:"36"
+	def2[]:"37"
+	def2[]:"38"
+	def2[]:"39"
+	def2[]:"40"  # "KK" II ....P latest issued (July 2022)
 #	def2[]:"41"
 #	def2[]:"42"
 #	def2[]:"43"
@@ -759,6 +1018,8 @@ license_plate_data : .krakow.lp.trailer
 license_plate_data : .krakow.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# G = Lesser Poland (Małopolskie) Provincial Headquarters
 	templates[]:"HPG51222"

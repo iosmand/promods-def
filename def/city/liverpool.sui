@@ -8,19 +8,19 @@ city_data: city.liverpool
 	map_x_offsets[]: 0
 	map_x_offsets[]: 50
 	map_x_offsets[]: -10
-	map_x_offsets[]: -4
-	map_x_offsets[]: -39
-	map_x_offsets[]: -46
+	map_x_offsets[]: 150
+	map_x_offsets[]: 0
+	map_x_offsets[]: -40
 	map_x_offsets[]: -41
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 65
 	map_y_offsets[]: 0
-	map_y_offsets[]: -12
-	map_y_offsets[]: -19
-	map_y_offsets[]: -17
-	map_y_offsets[]: -29
+	map_y_offsets[]: 40
+	map_y_offsets[]: -10
+	map_y_offsets[]: 0
+	map_y_offsets[]: -27
 
 	license_plate[]: .liverpool.lp.car
 	license_plate[]: .liverpool.lp.truck

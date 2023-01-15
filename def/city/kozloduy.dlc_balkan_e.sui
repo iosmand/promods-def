@@ -4,35 +4,33 @@ city_data : city.kozloduy
 	city_name_localized: "@@kozloduy@@"
 	country: bulgaria
 
-	## City pin and name scale factor sets size of city pin and name text on UI map.
-	## Valid values: (0;2> default value 1.0. Default pin size on UI map 24px X 24px.
-	#
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 1.0f  
-	city_pin_scale_factor[]: 0.6f  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6f  // far zoom for monimap
-	city_pin_scale_factor[]: 1.0f  // city zoom for world map
-	city_pin_scale_factor[]: 0.8f  // closest zoom for world map
-	city_pin_scale_factor[]: 0.8f  // middle zoom for world map
-	city_pin_scale_factor[]: 0.5f  // whole world map zoom
-
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -40
-	map_x_offsets[]: -42
-	map_x_offsets[]: -40
-	map_x_offsets[]: -44
+	map_x_offsets[]: -45
+	map_x_offsets[]: -38
+	map_x_offsets[]: -30
+	map_x_offsets[]: -24
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -82
-	map_y_offsets[]: -46
-	map_y_offsets[]: -30
-	map_y_offsets[]: 6
+	map_y_offsets[]: -65
+	map_y_offsets[]: -25
+	map_y_offsets[]: -10
+	map_y_offsets[]: -16
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
 
 	license_plate[]: .kozloduy.lp.car
 	license_plate[]: .kozloduy.lp.truck
@@ -117,7 +115,7 @@ license_plate_data : .kozloduy.lp.car
 license_plate_data : .kozloduy.lp.truck
 {
 	type: truck
-	
+
 	templates[]:"BP 0111 CX"
 	templates[]:"BP 1011 CX"
 	templates[]:"BP 1101 CX"

@@ -8,19 +8,19 @@ city_data: city.koper
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: 120
+	map_x_offsets[]: 10
+	map_x_offsets[]: -15
+	map_x_offsets[]: -17
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -12
+	map_y_offsets[]: -10
+	map_y_offsets[]: -1
 
 	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0

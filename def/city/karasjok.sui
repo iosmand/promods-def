@@ -1,28 +1,28 @@
-﻿city_data: city.kjollefjord
+﻿city_data: city.karasjok
 {
-	city_name: "Kjøllefjord"
-	city_name_localized: "@@kjollefjord@@"
+	city_name: "Karasjok"
+	city_name_localized: "@@karasjok@@"
 	country: norway
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -30
-	map_x_offsets[]: -45
-	map_x_offsets[]: -35
-	map_x_offsets[]: -24
+	map_x_offsets[]: -70
+	map_x_offsets[]: -40
+	map_x_offsets[]: -25
+	map_x_offsets[]: -20
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -140
-	map_y_offsets[]: -30
-	map_y_offsets[]: -5
-	map_y_offsets[]: -2
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -15
+	map_y_offsets[]: -14
 
-	### VILLAGE ###
+	### SERVICE CITY ###
 	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 0.6  // close zoom for minimap
@@ -34,30 +34,23 @@
 
 	#vehicle_brands[]:"daf"
 
-	license_plate[]: .kjollefjord.lp.car
-	license_plate[]: .kjollefjord.lp.truck
-	license_plate[]: .kjollefjord.lp.trailer
+	license_plate[]: .karasjok.lp.car
+	license_plate[]: .karasjok.lp.truck
+	license_plate[]: .karasjok.lp.trailer
 }
 
-license_plate_data : .kjollefjord.lp.car
+license_plate_data : .karasjok.lp.car
 {
 	type: car
 
 @include "city_lp_no_car.sui"
-
-	# Vadsø
-#	def0[]:"FR"  # 2015 (limited issue)
-#	def0[]:"JW"
-#	def0[]:"LE"
-	def0[]:"ZP"  # 1940 - present
-#	def0[]:"ZR"
 
 	# Lakselv
 #	def0[]:"CW"
 	def0[]:"ZZ"  # 1955 - present
 }
 
-license_plate_data : .kjollefjord.lp.truck
+license_plate_data : .karasjok.lp.truck
 {
 	type: truck
 
@@ -68,7 +61,7 @@ license_plate_data : .kjollefjord.lp.truck
 	def0[]:"ZZ"  # 1955 - present
 }
 
-license_plate_data : .kjollefjord.lp.trailer
+license_plate_data : .karasjok.lp.trailer
 {
 	type: trailer
 

@@ -8,29 +8,29 @@ city_data: city.koszalin
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: 80
+	map_x_offsets[]: -30
+	map_x_offsets[]: -35
+	map_x_offsets[]: -32
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
-	map_y_offsets[]: -15
+	map_y_offsets[]: -40
+	map_y_offsets[]: -10
+	map_y_offsets[]: -12
+	map_y_offsets[]: -22
 
-	### SMALL CITY ###
+	### MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
-	city_pin_scale_factor[]: 0.8  // closest zoom for world map
-	city_pin_scale_factor[]: 0.8  // middle zoom for world map
-	city_pin_scale_factor[]: 0.5  // whole world map zoom
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]:"daf"
 
@@ -58,18 +58,19 @@ license_plate_data : .koszalin.lp.car
 	templates[]:"ZKO54423"   # IV
 	templates[]:"ZKO5313"    # V
 
+	# "ZK" II
 	def0[]:"A"
 	def0[]:"C"
 	def0[]:"E"
 	def0[]:"F"
 	def0[]:"G"
-	def0[]:"H"  # "ZK" II latest issued (April 2021)
-#	def0[]:"J"
+	def0[]:"H"
+	def0[]:"J"  # "ZK" II latest issued (October 2022)
 #	def0[]:"K"
 #	def0[]:"L"
 #	def0[]:"M"
 #	def0[]:"N"
-##	def0[]:"P"  # "ZK" II used for trailers
+##	def0[]:"P"  # Used for trailers
 #	def0[]:"R"
 #	def0[]:"S"
 #	def0[]:"T"
@@ -79,6 +80,7 @@ license_plate_data : .koszalin.lp.car
 #	def0[]:"X"
 #	def0[]:"Y"
 
+	# "ZKO" V
 	def1[]:"AA"
 	def1[]:"AC"
 	def1[]:"AE"
@@ -139,7 +141,7 @@ license_plate_data : .koszalin.lp.car
 	def1[]:"EW"
 	def1[]:"EX"
 	def1[]:"EY"
-#	def1[]:"FA"  "ZKO" V used for double-row plates
+#	def1[]:"FA"  # Used for double-row plates
 	def1[]:"FC"
 	def1[]:"FE"
 	def1[]:"FF"
@@ -241,7 +243,7 @@ license_plate_data : .koszalin.lp.car
 	def1[]:"KW"
 	def1[]:"KX"
 	def1[]:"KY"
-	def1[]:"LA"
+#	def1[]:"LA"  # Used for double-row plates
 	def1[]:"LC"
 	def1[]:"LE"
 	def1[]:"LF"
@@ -263,45 +265,206 @@ license_plate_data : .koszalin.lp.car
 	def1[]:"LY"
 	def1[]:"NA"
 	def1[]:"NC"
-	def1[]:"NE"  # "ZKO" V latest issued (April 2021)
-#	def1[]:"NF"
-#	def1[]:"NG"
-#	def1[]:"NH"
-#	def1[]:"NJ"
-#	def1[]:"NK"
-#	def1[]:"NL"
-#	def1[]:"NM"
-#	def1[]:"NN"
-#	def1[]:"NP"
-#	def1[]:"NR"
-#	def1[]:"NS"
-#	def1[]:"NT"
-#	def1[]:"NU"
-#	def1[]:"NV"
-#	def1[]:"NW"
-#	def1[]:"NX"
-#	def1[]:"NY"
+	def1[]:"NE"
+	def1[]:"NF"
+	def1[]:"NG"
+	def1[]:"NH"
+	def1[]:"NJ"
+	def1[]:"NK"
+	def1[]:"NL"
+	def1[]:"NM"
+	def1[]:"NN"
+	def1[]:"NP"
+	def1[]:"NR"
+	def1[]:"NS"
+	def1[]:"NT"
+	def1[]:"NU"
+	def1[]:"NV"
+	def1[]:"NW"
+	def1[]:"NX"
+	def1[]:"NY"
+	def1[]:"PA"
+	def1[]:"PC"
+	def1[]:"PE"
+	def1[]:"PF"
+	def1[]:"PG"
+	def1[]:"PH"
+	def1[]:"PJ"
+	def1[]:"PK"
+	def1[]:"PL"
+	def1[]:"PM"
+	def1[]:"PN"
+	def1[]:"PP"
+	def1[]:"PR"
+	def1[]:"PS"
+	def1[]:"PT"
+	def1[]:"PU"
+	def1[]:"PV"
+	def1[]:"PW"
+	def1[]:"PX"
+	def1[]:"PY"
+	def1[]:"RA"
+	def1[]:"RC"
+	def1[]:"RE"
+	def1[]:"RF"
+	def1[]:"RG"
+	def1[]:"RH"
+	def1[]:"RJ"
+	def1[]:"RK"
+	def1[]:"RL"
+	def1[]:"RM"
+	def1[]:"RN"
+	def1[]:"RP"
+	def1[]:"RR"
+	def1[]:"RS"
+	def1[]:"RT"
+	def1[]:"RU"
+	def1[]:"RV"
+	def1[]:"RW"
+	def1[]:"RX"
+	def1[]:"RY"
+	def1[]:"SA"
+	def1[]:"SC"
+	def1[]:"SE"
+	def1[]:"SF"
+	def1[]:"SG"
+	def1[]:"SH"
+	def1[]:"SJ"
+	def1[]:"SK"
+	def1[]:"SL"
+	def1[]:"SM"
+	def1[]:"SN"
+	def1[]:"SP"
+	def1[]:"SR"
+	def1[]:"SS"
+	def1[]:"ST"
+	def1[]:"SU"
+	def1[]:"SV"
+	def1[]:"SW"
+	def1[]:"SX"
+	def1[]:"SY"
+	def1[]:"TA"
+	def1[]:"TC"
+	def1[]:"TE"
+	def1[]:"TF"
+	def1[]:"TG"
+	def1[]:"TH"
+	def1[]:"TJ"
+	def1[]:"TK"
+	def1[]:"TL"
+	def1[]:"TM"
+	def1[]:"TN"  # "ZKO" V latest issued (October 2022)
+#	def1[]:"TP"
+#	def1[]:"TR"
+#	def1[]:"TS"
+#	def1[]:"TT"
+#	def1[]:"TU"
+#	def1[]:"TV"
+#	def1[]:"TW"
+#	def1[]:"TX"
+#	def1[]:"TY"
+#	def1[]:"VA"
+#	def1[]:"VC"
+#	def1[]:"VE"
+#	def1[]:"VF"
+#	def1[]:"VG"
+#	def1[]:"VH"
+#	def1[]:"VJ"
+#	def1[]:"VK"
+#	def1[]:"VL"
+#	def1[]:"VM"
+#	def1[]:"VN"
+#	def1[]:"VP"
+#	def1[]:"VR"
+#	def1[]:"VS"
+#	def1[]:"VT"
+#	def1[]:"VU"
+#	def1[]:"VV"
+#	def1[]:"VW"
+#	def1[]:"VX"
+#	def1[]:"VY"
+#	def1[]:"WA"
+#	def1[]:"WC"
+#	def1[]:"WE"
+#	def1[]:"WF"
+#	def1[]:"WG"
+#	def1[]:"WH"
+#	def1[]:"WJ"
+#	def1[]:"WK"
+#	def1[]:"WL"
+#	def1[]:"WM"
+#	def1[]:"WN"
+#	def1[]:"WP"
+#	def1[]:"WR"
+#	def1[]:"WS"
+#	def1[]:"WT"
+#	def1[]:"WU"
+#	def1[]:"WV"
+#	def1[]:"WW"
+#	def1[]:"WX"
+#	def1[]:"WY"
+#	def1[]:"XA"
+#	def1[]:"XC"
+#	def1[]:"XE"
+#	def1[]:"XF"
+#	def1[]:"XG"
+#	def1[]:"XH"
+#	def1[]:"XJ"
+#	def1[]:"XK"
+#	def1[]:"XL"
+#	def1[]:"XM"
+#	def1[]:"XN"
+#	def1[]:"XP"
+#	def1[]:"XR"
+#	def1[]:"XS"
+#	def1[]:"XT"
+#	def1[]:"XU"
+#	def1[]:"XV"
+#	def1[]:"XW"
+#	def1[]:"XX"
+#	def1[]:"XY"
+#	def1[]:"YA"
+#	def1[]:"YC"
+#	def1[]:"YE"
+#	def1[]:"YF"
+#	def1[]:"YG"
+#	def1[]:"YH"
+#	def1[]:"YJ"
+#	def1[]:"YK"
+#	def1[]:"YL"
+#	def1[]:"YM"
+#	def1[]:"YN"
+#	def1[]:"YP"
+#	def1[]:"YR"
+#	def1[]:"YS"
+#	def1[]:"YT"
+#	def1[]:"YU"
+#	def1[]:"YV"
+#	def1[]:"YW"
+#	def1[]:"YX"
+#	def1[]:"YY"
 
-#	def2[]:"A"  # Used for "ZKO" trailers
-#	def2[]:"C"  # Used for "ZKO" tractors and motorcycles
+	# "ZKO" II, III, IV
+#	def2[]:"A"  # III Used for trailers
+#	def2[]:"C"  # II Used for tractors and motorcycles
 	def2[]:"E"
-#	def2[]:"F"  # Used for "ZKO" trailers
+#	def2[]:"F"  # IV Used for trailers
 	def2[]:"G"
 	def2[]:"H"
-#	def2[]:"J"  # Used for "ZKO" trailers
+#	def2[]:"J"  # III Used for trailers
 	def2[]:"K"
 	def2[]:"L"
-#	def2[]:"M"  # Used for "ZKO" motorcycles
-#	def2[]:"N"  # Used for "ZKO" mopeds
-#	def2[]:"P"  # Used for "ZKO" trailers
+	def2[]:"M"
+#	def2[]:"N"  # II Used for mopeds
+	def2[]:"P"
 	def2[]:"R"
 	def2[]:"S"
 	def2[]:"T"
-#	def2[]:"U"  # Used for "ZKO" trailers
+#	def2[]:"U"  # II & IV Used for trailers
 	def2[]:"V"
 	def2[]:"W"
-#	def2[]:"X"  # Used for "ZKO" motorcycles and tractors
-#	def2[]:"Y"  # Used for "ZKO" mopeds
+#	def2[]:"X"  # III & IV Used for motorcycles and tractors
+#	def2[]:"Y"  # III & IV Used for mopeds
 
 	def3[]:"1"
 	def3[]:"2"
@@ -331,15 +494,19 @@ license_plate_data : .koszalin.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"ZK50444"    # I    some before EU stars
 #	templates[]:"ZK54444A"   # II
 #	templates[]:"ZK54444C"   # II
 #	templates[]:"ZK54444E"   # II
 #	templates[]:"ZK54444F"   # II
-#	templates[]:"ZK5144G"    # II
-	templates[]:"ZK5244H"    # II
+#	templates[]:"ZK54444G"   # II
+#	templates[]:"ZK5144H"    # II
+	templates[]:"ZK5244J"    # II
 
+	# "ZK" I
 ##	def0[]:"00"  # Partially used for double-row plates
 ##	def0[]:"01"  # Partially used for trailers
 ##	def0[]:"02"  # Partially used for trailers
@@ -441,7 +608,8 @@ license_plate_data : .koszalin.lp.truck
 #	def0[]:"98"
 #	def0[]:"99"
 
-#	def1[]:"00"  # "ZK" II ....G
+	# "ZK" II ....H
+#	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
 #	def1[]:"03"
@@ -542,7 +710,8 @@ license_plate_data : .koszalin.lp.truck
 #	def1[]:"98"
 #	def1[]:"99"
 
-#	def2[]:"00"  # "ZK" II ....H
+  # "ZK" II ....J
+#	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
 #	def2[]:"03"
@@ -572,17 +741,17 @@ license_plate_data : .koszalin.lp.truck
 #	def2[]:"27"
 #	def2[]:"28"
 #	def2[]:"29"
-	def2[]:"30"
-	def2[]:"31"
-	def2[]:"32"
-	def2[]:"33"
-	def2[]:"34"
-	def2[]:"35"
-	def2[]:"36"
-	def2[]:"37"
-	def2[]:"38"
-	def2[]:"39"
-	def2[]:"40"
+#	def2[]:"30"
+#	def2[]:"31"
+#	def2[]:"32"
+#	def2[]:"33"
+#	def2[]:"34"
+#	def2[]:"35"
+#	def2[]:"36"
+#	def2[]:"37"
+#	def2[]:"38"
+#	def2[]:"39"
+#	def2[]:"40"
 	def2[]:"41"
 	def2[]:"42"
 	def2[]:"43"
@@ -601,18 +770,18 @@ license_plate_data : .koszalin.lp.truck
 	def2[]:"56"
 	def2[]:"57"
 	def2[]:"58"
-	def2[]:"59"  # "ZK" II H latest issued (April 2021)
-#	def2[]:"60"
-#	def2[]:"61"
-#	def2[]:"62"
-#	def2[]:"63"
-#	def2[]:"64"
-#	def2[]:"65"
-#	def2[]:"66"
-#	def2[]:"67"
-#	def2[]:"68"
-#	def2[]:"69"
-#	def2[]:"70"
+	def2[]:"59"
+	def2[]:"60"
+	def2[]:"61"
+	def2[]:"62"
+	def2[]:"63"
+	def2[]:"64"
+	def2[]:"65"
+	def2[]:"66"
+	def2[]:"67"
+	def2[]:"68"
+	def2[]:"69"
+	def2[]:"70"  # "ZK" II ....J latest issued (October 2022)
 #	def2[]:"71"
 #	def2[]:"72"
 #	def2[]:"73"
@@ -661,10 +830,13 @@ license_plate_data : .koszalin.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"ZK5044"     # I    some before EU stars
 	templates[]:"ZK5144P"    # II
 
+	# "ZK" I
 ##	def0[]:"010"  # Partially used
 #	def0[]:"012"
 ##	def0[]:"013"  # Used for double-row plates
@@ -708,6 +880,7 @@ license_plate_data : .koszalin.lp.trailer
 #	def0[]:"421"  # Used for double-row plates
 #	def0[]:"422"  # Used for double-row plates
 
+	# "ZK" II ....P
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
@@ -743,21 +916,71 @@ license_plate_data : .koszalin.lp.trailer
 #	def1[]:"32"
 #	def1[]:"33"
 #	def1[]:"34"
-	def1[]:"35"
-	def1[]:"36"
-	def1[]:"37"
-	def1[]:"38"
-	def1[]:"39"
-	def1[]:"40"
-	def1[]:"41"
+#	def1[]:"35"
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
 	def1[]:"42"
 	def1[]:"43"
-	def1[]:"44"  # "ZK" II latest issued (April 2021)
-#	def1[]:"45"
-#	def1[]:"46"
-#	def1[]:"47"
-#	def1[]:"48"
-#	def1[]:"49"
+	def1[]:"44"
+	def1[]:"45"
+	def1[]:"46"
+	def1[]:"47"
+	def1[]:"48"
+	def1[]:"49"
+	def1[]:"50"
+	def1[]:"51"  # "ZK" II ....P latest issued (October 2022)
+#	def1[]:"52"
+#	def1[]:"53"
+#	def1[]:"54"
+#	def1[]:"55"
+#	def1[]:"56"
+#	def1[]:"57"
+#	def1[]:"58"
+#	def1[]:"59"
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
+#	def1[]:"64"
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+#	def1[]:"70"
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+#	def1[]:"77"
+#	def1[]:"78"
+#	def1[]:"79"
+#	def1[]:"80"
+#	def1[]:"81"
+#	def1[]:"82"
+#	def1[]:"83"
+#	def1[]:"84"
+#	def1[]:"85"
+#	def1[]:"86"
+#	def1[]:"87"
+#	def1[]:"88"
+#	def1[]:"89"
+#	def1[]:"90"
+#	def1[]:"91"
+#	def1[]:"92"
+#	def1[]:"93"
+#	def1[]:"94"
+#	def1[]:"95"
+#	def1[]:"96"
+#	def1[]:"97"
+#	def1[]:"98"
+#	def1[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -776,6 +999,8 @@ license_plate_data : .koszalin.lp.trailer
 license_plate_data : .koszalin.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# W = West Pomeranian (Zachodniopomorskie) Voivodeship Headquarters
 	templates[]:"HPW51222"

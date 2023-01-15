@@ -1,42 +1,42 @@
-city_data : city.lleida
+city_data : city.llivia
 {
-	city_name: "Lleida"
-	city_name_localized: "@@lleida@@"
+	city_name: "Llívia"
+	city_name_localized: "@@llivia@@"
 	country: spain
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: -90
 	map_x_offsets[]: -25
-	map_x_offsets[]: -30
-	map_x_offsets[]: -27
-	map_x_offsets[]: -25
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: -50
-	map_y_offsets[]: -28
-	map_y_offsets[]: 10
-	map_y_offsets[]: -15
+	map_y_offsets[]: 0
+	map_y_offsets[]: -5
+	map_y_offsets[]: 20
 	map_y_offsets[]: -10
-	map_y_offsets[]: -22
+	map_y_offsets[]: -10
+	map_y_offsets[]: -1
 
-	### MEDIUM CITY ###
+	### SERVICE CITY ###
 	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
-	city_pin_scale_factor[]: 1.0  // closest zoom for world map
-	city_pin_scale_factor[]: 1.0  // middle zoom for world map
-	city_pin_scale_factor[]: 0.8  // whole world map zoom
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
 
-	license_plate[]: .lleida.lp.truck
-	license_plate[]: .lleida.lp.trailer
+	license_plate[]: .llivia.lp.truck
+	license_plate[]: .llivia.lp.trailer
 }
 
-license_plate_data : .lleida.lp.truck
+license_plate_data : .llivia.lp.truck
 {
 	type: truck
 
@@ -95,7 +95,7 @@ license_plate_data : .lleida.lp.truck
 	def1[]:"LWZ"
 }
 
-license_plate_data : .lleida.lp.trailer
+license_plate_data : .llivia.lp.trailer
 {
 	type: trailer
 

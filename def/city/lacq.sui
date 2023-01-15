@@ -4,35 +4,33 @@ city_data : city.lacq
 	city_name_localized: "@@lacq@@"
 	country: france
 
-	## City pin and name scale factor sets size of city pin and name text on UI map.
-	## Valid values: (0;2> default value 1.0. Default pin size on UI map 24px X 24px.
-	#
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 1.0f
-	city_pin_scale_factor[]: 0.9f
-	city_pin_scale_factor[]: 0.85f
-	city_pin_scale_factor[]: 0.75f
-
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -72
+	map_x_offsets[]: -75
 	map_x_offsets[]: -33
-	map_x_offsets[]: -31
-	map_x_offsets[]: -19
+	map_x_offsets[]: -20
+	map_x_offsets[]: 0
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -109
-	map_y_offsets[]: -37
-	map_y_offsets[]: -24
-	map_y_offsets[]: -25
+	map_y_offsets[]: -130
+	map_y_offsets[]: -30
+	map_y_offsets[]: -10
+	map_y_offsets[]: -8
+
+	### VILLAGE ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.6  // middle zoom for world map
+	city_pin_scale_factor[]: 0.4  // whole world map zoom
 
 	license_plate[]: .lacq.lp.car
 	license_plate[]: .lacq.lp.truck

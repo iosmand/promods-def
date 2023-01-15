@@ -8,8 +8,8 @@ city_data: city.leipzig
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -37
-	map_x_offsets[]: -37
+	map_x_offsets[]: 40
+	map_x_offsets[]: -10
 	map_x_offsets[]: -32
 	map_x_offsets[]: -33
 
@@ -17,10 +17,10 @@ city_data: city.leipzig
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -44
+	map_y_offsets[]: -180
 	map_y_offsets[]: -37
-	map_y_offsets[]: -23
-	map_y_offsets[]: -29
+	map_y_offsets[]: -15
+	map_y_offsets[]: 3
 
 	vehicle_brands[]:"daf"
 
