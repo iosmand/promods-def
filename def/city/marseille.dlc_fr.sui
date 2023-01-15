@@ -8,21 +8,21 @@ city_data: city.marseille
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -27
-	map_x_offsets[]: -28
-	map_x_offsets[]: -25
-	map_x_offsets[]: -27
+	map_x_offsets[]: -10
+	map_x_offsets[]: -10
+	map_x_offsets[]: -35
+	map_x_offsets[]: -43
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -47
-	map_y_offsets[]: -34
+	map_y_offsets[]: 20
+	map_y_offsets[]: 10
+	map_y_offsets[]: 0
 	map_y_offsets[]: -26
-	map_y_offsets[]: -27
 
-	vehicle_brands[]: "man"	
+	vehicle_brands[]: "man"
 
 	license_plate[]: .marseille.lp.car
 	license_plate[]: .marseille.lp.truck

@@ -9,18 +9,28 @@ city_data: city.lublin
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
 	map_x_offsets[]: -30
-	map_x_offsets[]: -33
-	map_x_offsets[]: -29
-	map_x_offsets[]: -29
+	map_x_offsets[]: -40
+	map_x_offsets[]: -27
+	map_x_offsets[]: -26
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
 	map_y_offsets[]: -72
-	map_y_offsets[]: -58
-	map_y_offsets[]: -28
-	map_y_offsets[]: -27
+	map_y_offsets[]: -40
+	map_y_offsets[]: -25
+	map_y_offsets[]: -22
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	license_plate[]: .lublin.lp.car
 	license_plate[]: .lublin.lp.truck
@@ -43,11 +53,12 @@ license_plate_data : .lublin.lp.car
 	# Three letter powiat codes
 #	templates[]:"LUB52444"   # I    before EU stars
 #	templates[]:"LUB54422"   # II   before EU stars
-	templates[]:"LUB52444"   # VII
+	templates[]:"LUB52444"   # VII  Starostwo 
 	templates[]:"LUB544443"  # VIII
 
-#	def0[]:"A"  # "LU" II before EU stars
-	def0[]:"C"  # "LU" II some before EU stars
+	# "LU" II
+#	def0[]:"A"  # Before EU stars
+	def0[]:"C"  # Some before EU stars
 	def0[]:"E"
 	def0[]:"F"
 	def0[]:"G"
@@ -57,16 +68,17 @@ license_plate_data : .lublin.lp.car
 	def0[]:"L"
 	def0[]:"M"
 	def0[]:"N"
-#	def0[]:"P"  # "LU" II partially used for trailers and double-row plates
+#	def0[]:"P"  # Partially used for trailers and double-row plates
 	def0[]:"R"
 	def0[]:"S"
 	def0[]:"T"
 	def0[]:"U"
 	def0[]:"V"
 	def0[]:"W"
-#	def0[]:"X"  # "LU" II used for trailers
+#	def0[]:"X"  # Used for trailers
 	def0[]:"Y"
 
+	# "LU" III
 	def1[]:"AA"
 	def1[]:"AC"
 	def1[]:"AE"
@@ -120,7 +132,7 @@ license_plate_data : .lublin.lp.car
 	def1[]:"EN"
 	def1[]:"EP"
 	def1[]:"ER"
-#	def1[]:"ES"  # "LU" III partially used for double-row plates
+#	def1[]:"ES"  # Partially used for double-row plates
 	def1[]:"ET"
 	def1[]:"EU"
 	def1[]:"EV"
@@ -135,7 +147,7 @@ license_plate_data : .lublin.lp.car
 	def1[]:"FH"
 	def1[]:"FJ"
 	def1[]:"FK"
-#	def1[]:"FL"  # "LU" III partially used for double-row plates
+#	def1[]:"FL"  # Partially used for double-row plates
 	def1[]:"FM"
 	def1[]:"FN"
 	def1[]:"FP"
@@ -157,7 +169,7 @@ license_plate_data : .lublin.lp.car
 	def1[]:"GK"
 	def1[]:"GL"
 	def1[]:"GM"
-#	def1[]:"GN"  # "LU" III partially used for double-row plates
+#	def1[]:"GN"  # Partially used for double-row plates
 	def1[]:"GP"
 	def1[]:"GR"
 	def1[]:"GS"
@@ -167,7 +179,7 @@ license_plate_data : .lublin.lp.car
 	def1[]:"GW"
 	def1[]:"GX"
 	def1[]:"GY"
-#	def1[]:"HA"  # "LU" III partially used for double-row plates
+#	def1[]:"HA"  # Partially used for double-row plates
 	def1[]:"HC"
 	def1[]:"HE"
 	def1[]:"HF"
@@ -180,7 +192,7 @@ license_plate_data : .lublin.lp.car
 	def1[]:"HN"
 	def1[]:"HP"
 	def1[]:"HR"
-#	def1[]:"HS"  # "LU" III partially used for double-row plates
+#	def1[]:"HS"  # Partially used for double-row plates
 	def1[]:"HT"
 	def1[]:"HU"
 	def1[]:"HV"
@@ -242,33 +254,74 @@ license_plate_data : .lublin.lp.car
 	def1[]:"LR"
 	def1[]:"LS"
 	def1[]:"LT"
-	def1[]:"LU"  # "LU" III latest issued (April 2021)
-#	def1[]:"LV"
-#	def1[]:"LW"
-#	def1[]:"LX"
-#	def1[]:"LY"
-#	def1[]:"MA"
-#	def1[]:"MC"
-#	def1[]:"ME"
-#	def1[]:"MF"
-#	def1[]:"MG"
-#	def1[]:"MH"
-#	def1[]:"MJ"
-#	def1[]:"MK"
-#	def1[]:"ML"
-#	def1[]:"MM"
-#	def1[]:"MN"
-#	def1[]:"MP"
-#	def1[]:"MR"
-#	def1[]:"MS"
-#	def1[]:"MT"
-#	def1[]:"MU"
-#	def1[]:"MV"
-#	def1[]:"MW"
-#	def1[]:"MX"
-#	def1[]:"MY"
+	def1[]:"LU"
+	def1[]:"LV"
+	def1[]:"LW"
+	def1[]:"LX"
+	def1[]:"LY"
+	def1[]:"MA"
+	def1[]:"MC"
+	def1[]:"ME"
+	def1[]:"MF"
+	def1[]:"MG"
+	def1[]:"MH"
+	def1[]:"MJ"
+	def1[]:"MK"
+	def1[]:"ML"
+	def1[]:"MM"
+	def1[]:"MN"
+	def1[]:"MP"
+	def1[]:"MR"
+	def1[]:"MS"
+	def1[]:"MT"
+	def1[]:"MU"
+	def1[]:"MV"
+	def1[]:"MW"
+	def1[]:"MX"
+	def1[]:"MY"
+	def1[]:"NA"
+	def1[]:"NC"
+	def1[]:"NE"
+	def1[]:"NF"
+	def1[]:"NG"
+	def1[]:"NH"
+	def1[]:"NJ"
+	def1[]:"NK"
+	def1[]:"NL"
+	def1[]:"NM"
+	def1[]:"NN"
+	def1[]:"NP"
+	def1[]:"NR"  # "LU" III latest issued (April 2021)
+#	def1[]:"NS"
+#	def1[]:"NT"
+#	def1[]:"NU"
+#	def1[]:"NV"
+#	def1[]:"NW"
+#	def1[]:"NX"
+#	def1[]:"NY"
+#	def1[]:"RA"
+#	def1[]:"RC"
+#	def1[]:"RE"
+#	def1[]:"RF"
+#	def1[]:"RG"
+#	def1[]:"RH"
+#	def1[]:"RJ"
+#	def1[]:"RK"
+#	def1[]:"RL"
+#	def1[]:"RM"
+#	def1[]:"RN"
+#	def1[]:"RP"
+#	def1[]:"RR"
+#	def1[]:"RS"
+#	def1[]:"RT"
+#	def1[]:"RU"
+#	def1[]:"RV"
+#	def1[]:"RW"
+#	def1[]:"RX"
+#	def1[]:"RY"
 
-	def2[]:"00"  # Starostwo "LUB" VII
+	# "LUB" VII (Starostwo)
+	def2[]:"00"
 	def2[]:"01"
 	def2[]:"02"
 	def2[]:"03"
@@ -356,12 +409,12 @@ license_plate_data : .lublin.lp.car
 	def2[]:"85"
 	def2[]:"86"
 	def2[]:"87"
-	def2[]:"88"  # Starostwo "LUB" VII latest issued (April 2021)
-#	def2[]:"89"
-#	def2[]:"90"
-#	def2[]:"91"
-#	def2[]:"92"
-#	def2[]:"93"
+	def2[]:"88"
+	def2[]:"89"
+	def2[]:"90"
+	def2[]:"91"
+	def2[]:"92"
+	def2[]:"93"  # "LUB" VII (Starostwo) latest issued (October 2022)
 #	def2[]:"94"
 #	def2[]:"95"
 #	def2[]:"96"
@@ -369,19 +422,20 @@ license_plate_data : .lublin.lp.car
 #	def2[]:"98"
 #	def2[]:"99"
 
+	# "LUB" VIII
 	def3[]:"A"  # Bychawa
 	def3[]:"C"  # Bełżyce
 	def3[]:"E"  # Niedrzwica
 	def3[]:"F"  # Bychawa
 	def3[]:"G"  # Bychawa
 	def3[]:"H"  # Bełżyce
-	def3[]:"J"  # Niedrzwica "LUB" VIII latest issued (April 2021)
-	def3[]:"K"  # Bychawa "LUB" VIII latest issued (April 2021)
-	def3[]:"L"  # Bełżyce "LUB" VIII latest issued (April 2021)
-#	def3[]:"M"
-	def3[]:"N"  # Niemce "LUB" VIII latest issued (April 2021)
-#	def3[]:"P"
-#	def3[]:"R"
+	def3[]:"J"  # Niedrzwica "LUB" VIII latest issued (October 2022)
+	def3[]:"K"  # Bychawa
+	def3[]:"L"  # Bełżyce "LUB" VIII latest issued (October 2022)
+	def3[]:"M"  # Garbów "LUB" VIII latest issued (October 2022)
+	def3[]:"N"  # Niemce "LUB" VIII latest issued (October 2022)
+	def3[]:"P"  # Głusk "LUB" VIII latest issued (October 2022)
+	def3[]:"R"  # Bychawa "LUB" VIII latest issued (October 2022)
 #	def3[]:"S"
 #	def3[]:"T"
 #	def3[]:"U"
@@ -408,11 +462,14 @@ license_plate_data : .lublin.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"LU544444"   # I    before EU stars
 #	templates[]:"LU544440"   # II   some before EU stars
 	templates[]:"LU54441"    # III
 
+	# "LU" II
 #	def0[]:"A"  # Before EU stars
 #	def0[]:"C"  # Some before EU stars
 #	def0[]:"E"
@@ -434,6 +491,7 @@ license_plate_data : .lublin.lp.truck
 ##	def0[]:"X"  # Used for trailers
 #	def0[]:"Y"
 
+	# "LU" III
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -607,9 +665,9 @@ license_plate_data : .lublin.lp.truck
 #	def1[]:"LN"
 #	def1[]:"LP"
 #	def1[]:"LR"
-	def1[]:"LS"
-	def1[]:"LT"
-	def1[]:"LU"  # "LU" III latest issued (April 2021)
+#	def1[]:"LS"
+#	def1[]:"LT"
+#	def1[]:"LU"
 #	def1[]:"LV"
 #	def1[]:"LW"
 #	def1[]:"LX"
@@ -634,6 +692,46 @@ license_plate_data : .lublin.lp.truck
 #	def1[]:"MW"
 #	def1[]:"MX"
 #	def1[]:"MY"
+#	def1[]:"NA"
+#	def1[]:"NC"
+#	def1[]:"NE"
+#	def1[]:"NF"
+#	def1[]:"NG"
+#	def1[]:"NH"
+#	def1[]:"NJ"
+#	def1[]:"NK"
+#	def1[]:"NL"
+#	def1[]:"NM"
+	def1[]:"NN"
+	def1[]:"NP"
+	def1[]:"NR"  # "LU" III latest issued (October 2022)
+#	def1[]:"NS"
+#	def1[]:"NT"
+#	def1[]:"NU"
+#	def1[]:"NV"
+#	def1[]:"NW"
+#	def1[]:"NX"
+#	def1[]:"NY"
+#	def1[]:"RA"
+#	def1[]:"RC"
+#	def1[]:"RE"
+#	def1[]:"RF"
+#	def1[]:"RG"
+#	def1[]:"RH"
+#	def1[]:"RJ"
+#	def1[]:"RK"
+#	def1[]:"RL"
+#	def1[]:"RM"
+#	def1[]:"RN"
+#	def1[]:"RP"
+#	def1[]:"RR"
+#	def1[]:"RS"
+#	def1[]:"RT"
+#	def1[]:"RU"
+#	def1[]:"RV"
+#	def1[]:"RW"
+#	def1[]:"RX"
+#	def1[]:"RY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -653,12 +751,15 @@ license_plate_data : .lublin.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"LU5044P"    # II   most before EU stars
 #	templates[]:"LU5144X"    # II
 	templates[]:"LU54442"    # III
 
-#	def0[]:"00"  # ....P
+	# "LU" II ....P
+#	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
 #	def0[]:"03"
@@ -759,7 +860,8 @@ license_plate_data : .lublin.lp.trailer
 #	def0[]:"98"
 #	def0[]:"99"
 
-#	def1[]:"00"  # ....X
+	# "LU" II ....X
+#	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
 #	def1[]:"03"
@@ -860,13 +962,14 @@ license_plate_data : .lublin.lp.trailer
 #	def1[]:"98"
 #	def1[]:"99"
 
+	# "LU" III
 #	def2[]:"PA"
 #	def2[]:"PC"
 #	def2[]:"PE"
 #	def2[]:"PF"
-	def2[]:"PG"  # "LU" III latest issued (April 2021)
-#	def2[]:"PH"
-#	def2[]:"PJ"
+#	def2[]:"PG"
+	def2[]:"PH"
+	def2[]:"PJ"  # "LU" III latest issued (October 2022)
 #	def2[]:"PK"
 #	def2[]:"PL"
 #	def2[]:"PM"
@@ -898,6 +1001,8 @@ license_plate_data : .lublin.lp.trailer
 license_plate_data : .lublin.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# D = Lublin (Lubelskie) Voivodeship Headquarters
 	templates[]:"HPD51222"

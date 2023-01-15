@@ -8,29 +8,29 @@ city_data: city.ostroleka
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -50
+	map_x_offsets[]: -25
+	map_x_offsets[]: -30
+	map_x_offsets[]: -30
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
+	map_y_offsets[]: 20
+	map_y_offsets[]: -20
 	map_y_offsets[]: -15
+	map_y_offsets[]: -18
 
-	### SMALL CITY ###
+	### SMALL-MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
-	city_pin_scale_factor[]: 0.5  // whole world map zoom
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
 
 	license_plate[]: .ostroleka.lp.car
 	license_plate[]: .ostroleka.lp.truck
@@ -50,20 +50,22 @@ license_plate_data : .ostroleka.lp.car
 
 	# Three letter powiat codes
 #	templates[]:"WOS52444"   # I    before EU stars
-	templates[]:"WOS53244"   # III  most before EU stars
+#	templates[]:"WOS53244"   # III  most before EU stars
+	templates[]:"WOS53T44"   # III
 	templates[]:"WOS51444"   # VII
 
-##	def0[]:"00"  # Partially used for double-row plates
+	# "WO" I
+#	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
 #	def0[]:"03"
-#	def0[]:"04"
+##	def0[]:"04"  # Partially used for double-row plates
 #	def0[]:"05"
 #	def0[]:"06"
 #	def0[]:"07"
-##	def0[]:"08"  # Partially used for double-row plates
+#	def0[]:"08"
 #	def0[]:"09"
-##	def0[]:"10"  # Partially used for double-row plates
+#	def0[]:"10"
 #	def0[]:"11"
 #	def0[]:"12"
 #	def0[]:"13"
@@ -71,17 +73,17 @@ license_plate_data : .ostroleka.lp.car
 ##	def0[]:"15"  # Partially used for double-row plates
 #	def0[]:"16"
 #	def0[]:"17"  # Most before EU stars
-##	def0[]:"18"  # Partially used for double-row plates
+	def0[]:"18"
 	def0[]:"19"
-#	def0[]:"20"  # Partially used for double-row plates
+	def0[]:"20"
 	def0[]:"21"
-#	def0[]:"22"  # Partially used for double-row plates
+	def0[]:"22"
 	def0[]:"23"
 	def0[]:"24"
-#	def0[]:"25"  # Partially used for double-row plates
-#	def0[]:"26"  # Partially used for double-row plates
+	def0[]:"25"
+	def0[]:"26"
 	def0[]:"27"
-#	def0[]:"28"  # Partially used for double-row plates
+	def0[]:"28"
 	def0[]:"29"
 #	def0[]:"30"  # Partially used for double-row plates
 	def0[]:"31"
@@ -117,7 +119,7 @@ license_plate_data : .ostroleka.lp.car
 	def0[]:"61"
 	def0[]:"62"
 	def0[]:"63"
-	def0[]:"64"
+#	def0[]:"64"  # Partially used for double-row plates
 	def0[]:"65"
 	def0[]:"66"
 	def0[]:"67"
@@ -128,12 +130,12 @@ license_plate_data : .ostroleka.lp.car
 	def0[]:"72"
 	def0[]:"73"
 	def0[]:"74"
-	def0[]:"75"  # "WO" I latest issued (April 2021)
-#	def0[]:"76"
-#	def0[]:"77"
-#	def0[]:"78"
-#	def0[]:"79"
-#	def0[]:"80"
+	def0[]:"75"
+	def0[]:"76"
+	def0[]:"77"
+	def0[]:"78"
+	def0[]:"79"
+	def0[]:"80"  # "WO" I latest issued (September 2022)
 #	def0[]:"81"
 #	def0[]:"82"
 #	def0[]:"83"
@@ -154,6 +156,7 @@ license_plate_data : .ostroleka.lp.car
 #	def0[]:"98"
 #	def0[]:"99"
 
+	# "WOS" VII
 	def1[]:"00"
 	def1[]:"01"
 	def1[]:"02"
@@ -242,39 +245,18 @@ license_plate_data : .ostroleka.lp.car
 	def1[]:"85"
 	def1[]:"86"
 	def1[]:"87"
-	def1[]:"88"  # "WOS" VII latest issued (April 2021)
-#	def1[]:"89"
-#	def1[]:"90"
-#	def1[]:"91"
-#	def1[]:"92"
-#	def1[]:"93"
-#	def1[]:"94"
-#	def1[]:"95"
-#	def1[]:"96"
+	def1[]:"88"
+	def1[]:"89"
+	def1[]:"90"
+	def1[]:"91"
+	def1[]:"92"
+	def1[]:"93"
+	def1[]:"94"
+	def1[]:"95"
+	def1[]:"96"  # "WOS" VII latest issued (October 2022)
 #	def1[]:"97"
 #	def1[]:"98"
 #	def1[]:"99"
-
-#	def2[]:"S"
-#	def2[]:"A"
-##	def2[]:"C"  # "WOS" used for trailers
-##	def2[]:"E"  # "WOS" used for motorcycles and tractors
-##	def2[]:"F"  # "WOS" used for motorcycles and tractors
-#	def2[]:"G"
-#	def2[]:"H"
-#	def2[]:"J"
-#	def2[]:"K"
-#	def2[]:"L"
-##	def2[]:"M"  # "WOS" used for mopeds
-#	def2[]:"N"
-#	def2[]:"P"
-#	def2[]:"R"  # Before EU stars
-	def2[]:"T"
-#	def2[]:"U"
-#	def2[]:"V"
-#	def2[]:"W"
-#	def2[]:"X"
-#	def2[]:"Y"
 
 	def3[]:"1"
 	def3[]:"2"
@@ -304,20 +286,23 @@ license_plate_data : .ostroleka.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 	templates[]:"WO50444"    # I    some before EU stars
 
-##	def0[]:"00"  # Partially used for double-row plates
+	# "WO" I
+#	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
 #	def0[]:"03"
-#	def0[]:"04"
+##	def0[]:"04"  # Partially used for double-row plates
 #	def0[]:"05"
 #	def0[]:"06"
 #	def0[]:"07"
-##	def0[]:"08"  # Partially used for double-row plates
+#	def0[]:"08"
 #	def0[]:"09"
-##	def0[]:"10"  # Partially used for double-row plates
+#	def0[]:"10"
 #	def0[]:"11"
 #	def0[]:"12"
 #	def0[]:"13"
@@ -325,17 +310,17 @@ license_plate_data : .ostroleka.lp.truck
 ##	def0[]:"15"  # Partially used for double-row plates
 #	def0[]:"16"
 #	def0[]:"17"  # Most before EU stars
-##	def0[]:"18"  # Partially used for double-row plates
+#	def0[]:"18"
 #	def0[]:"19"
-##	def0[]:"20"  # Partially used for double-row plates
+#	def0[]:"20"
 #	def0[]:"21"
-##	def0[]:"22"  # Partially used for double-row plates
+#	def0[]:"22"
 #	def0[]:"23"
 #	def0[]:"24"
-##	def0[]:"25"  # Partially used for double-row plates
-##	def0[]:"26"  # Partially used for double-row plates
+#	def0[]:"25"
+#	def0[]:"26"
 #	def0[]:"27"
-##	def0[]:"28"  # Partially used for double-row plates
+#	def0[]:"28"
 #	def0[]:"29"
 ##	def0[]:"30"  # Partially used for double-row plates
 #	def0[]:"31"
@@ -371,7 +356,7 @@ license_plate_data : .ostroleka.lp.truck
 #	def0[]:"61"
 #	def0[]:"62"
 #	def0[]:"63"
-#	def0[]:"64"
+##	def0[]:"64"  # Partially used for double-row plates
 #	def0[]:"65"
 #	def0[]:"66"
 #	def0[]:"67"
@@ -380,14 +365,14 @@ license_plate_data : .ostroleka.lp.truck
 #	def0[]:"70"
 #	def0[]:"71"
 #	def0[]:"72"
-	def0[]:"73"
-	def0[]:"74"
-	def0[]:"75"  # "WO" I latest issued (April 2021)
+#	def0[]:"73"
+#	def0[]:"74"
+#	def0[]:"75"
 #	def0[]:"76"
 #	def0[]:"77"
-#	def0[]:"78"
-#	def0[]:"79"
-#	def0[]:"80"
+	def0[]:"78"
+	def0[]:"79"
+	def0[]:"80"  # "WO" I latest issued (September 2022)
 #	def0[]:"81"
 #	def0[]:"82"
 #	def0[]:"83"
@@ -426,17 +411,20 @@ license_plate_data : .ostroleka.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 	templates[]:"WO5044A"    # II   some before EU stars
 
+	# "WO" II ....A
 #	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
 #	def0[]:"03"
 #	def0[]:"04"
-##	def0[]:"05"  # Used for double-row plates
-##	def0[]:"06"  # Used for double-row plates
-##	def0[]:"07"  # Used for double-row plates
+##	def0[]:"05"  # Used for trailer double-row plates
+##	def0[]:"06"  # Used for trailer double-row plates
+##	def0[]:"07"  # Used for trailer double-row plates
 #	def0[]:"08"
 #	def0[]:"09"
 #	def0[]:"10"
@@ -452,7 +440,7 @@ license_plate_data : .ostroleka.lp.trailer
 #	def0[]:"20"
 #	def0[]:"21"
 #	def0[]:"22"
-##	def0[]:"23"  # Partially used for double-row plates
+##	def0[]:"23"  # Partially used for trailer double-row plates
 #	def0[]:"24"
 #	def0[]:"25"
 #	def0[]:"26"
@@ -462,7 +450,7 @@ license_plate_data : .ostroleka.lp.trailer
 #	def0[]:"30"
 #	def0[]:"31"
 #	def0[]:"32"
-##	def0[]:"33"  # Partially used for double-row plates
+##	def0[]:"33"  # Partially used for trailer double-row plates
 #	def0[]:"34"
 #	def0[]:"35"
 #	def0[]:"36"
@@ -496,22 +484,22 @@ license_plate_data : .ostroleka.lp.trailer
 #	def0[]:"64"
 #	def0[]:"65"
 #	def0[]:"66"
-	def0[]:"67"
-	def0[]:"68"
-	def0[]:"69"
-	def0[]:"70"
-	def0[]:"71"
-	def0[]:"72"
+#	def0[]:"67"
+#	def0[]:"68"
+#	def0[]:"69"
+#	def0[]:"70"
+#	def0[]:"71"
+#	def0[]:"72"
 	def0[]:"73"
 	def0[]:"74"
 	def0[]:"75"
-	def0[]:"76"  # "WO" II latest issued (March 2021)
-#	def0[]:"77"
-#	def0[]:"78"
-#	def0[]:"79"
-#	def0[]:"80"
-#	def0[]:"81"
-#	def0[]:"82"
+	def0[]:"76"
+	def0[]:"77"
+	def0[]:"78"
+	def0[]:"79"
+	def0[]:"80"
+	def0[]:"81"
+	def0[]:"82"  # "WO" II ....A latest issued (July 2022)
 #	def0[]:"83"
 #	def0[]:"84"
 #	def0[]:"85"
@@ -547,6 +535,8 @@ license_plate_data : .ostroleka.lp.trailer
 license_plate_data : .ostroleka.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# H = Masovian (Mazowieckie) Provincial Headquarters
 	templates[]:"HPH51222"

@@ -8,19 +8,29 @@ city_data : city.messina
 	map_x_offsets[]: 0
 	map_x_offsets[]: -20
 	map_x_offsets[]: -20
-	map_x_offsets[]: -31
+	map_x_offsets[]: 80
 	map_x_offsets[]: -34
-	map_x_offsets[]: -51
-	map_x_offsets[]: -37
+	map_x_offsets[]: -45
+	map_x_offsets[]: -55
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -15
-	map_y_offsets[]: -6
+	map_y_offsets[]: 60
 	map_y_offsets[]: 12
-	map_y_offsets[]: 23
-	map_y_offsets[]: 6
+	map_y_offsets[]: 0
+	map_y_offsets[]: -4
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	license_plate[]: .messina.lp.car
 	license_plate[]: .messina.lp.truck
@@ -221,9 +231,9 @@ license_plate_data : .messina.lp.trailer
 	type: trailer
 
 	templates[]:"0XA 12"
-	
+
 	def0[]:"<align left=-15>"
-	
+
 @include "it_lp_me_trailer.sui"
 
 	def2[]:"</align>"

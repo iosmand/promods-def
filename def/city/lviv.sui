@@ -9,18 +9,18 @@ city_data: city.lviv
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -15
+	map_x_offsets[]: -20
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -200
+	map_y_offsets[]: -30
+	map_y_offsets[]: -15
+	map_y_offsets[]: -24
 
 	vehicle_brands[]:"scania"
 

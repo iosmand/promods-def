@@ -9,19 +9,19 @@ city_data: city.oslo
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -21
-	map_x_offsets[]: -20
-	map_x_offsets[]: -19
-	map_x_offsets[]: -20
+	map_x_offsets[]: -30
+	map_x_offsets[]: -60
+	map_x_offsets[]: -35
+	map_x_offsets[]: -22
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -66
-	map_y_offsets[]: -52
-	map_y_offsets[]: -29
+	map_y_offsets[]: -150
+	map_y_offsets[]: -40
 	map_y_offsets[]: -28
+	map_y_offsets[]: -25
 
 	vehicle_brands[]:"renault"
 

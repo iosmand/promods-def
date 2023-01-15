@@ -10,26 +10,26 @@ city_data: city.ostrowm
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
 	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -55
+	map_x_offsets[]: -65
+	map_x_offsets[]: -47
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
+	map_y_offsets[]: -80
 	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
-	map_y_offsets[]: -15
+	map_y_offsets[]: -10
+	map_y_offsets[]: 0
 
 	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
 	city_pin_scale_factor[]: 0.5  // whole world map zoom
@@ -52,6 +52,7 @@ license_plate_data : .ostrowm.lp.car
 	templates[]:"WOR52444"   # VII
 	templates[]:"WOR52444"   # VII
 
+	# "WOR" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -73,7 +74,8 @@ license_plate_data : .ostrowm.lp.car
 #	def0[]:"X"
 #	def0[]:"Y"
 
-#	def1[]:"1A"  # III
+	# "WOR" III
+#	def1[]:"1A"
 #	def1[]:"2A"
 #	def1[]:"3A"
 #	def1[]:"4A"
@@ -200,6 +202,7 @@ license_plate_data : .ostrowm.lp.car
 	def1[]:"8V"
 	def1[]:"9V"
 
+	# "WOR" VII
 	def2[]:"00"
 	def2[]:"01"
 	def2[]:"02"
@@ -269,15 +272,15 @@ license_plate_data : .ostrowm.lp.car
 	def2[]:"66"
 	def2[]:"67"
 	def2[]:"68"
-	def2[]:"69"  # "WOR" VII latest issued (April 2021)
-#	def2[]:"70"
-#	def2[]:"71"
-#	def2[]:"72"
-#	def2[]:"73"
-#	def2[]:"74"
-#	def2[]:"75"
-#	def2[]:"76"
-#	def2[]:"77"
+	def2[]:"69"
+	def2[]:"70"
+	def2[]:"71"
+	def2[]:"72"
+	def2[]:"73"
+	def2[]:"74"
+	def2[]:"75"
+	def2[]:"76"
+	def2[]:"77"  # "WOR" VII latest issued (October 2022)
 #	def2[]:"78"
 #	def2[]:"79"
 #	def2[]:"80"
@@ -319,11 +322,14 @@ license_plate_data : .ostrowm.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"WOR50444"   # I    before EU stars
 #	templates[]:"WOR5144"    # III  most before EU stars
 	templates[]:"WOR52444"   # VII
 
+	# "WOR" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -345,7 +351,8 @@ license_plate_data : .ostrowm.lp.truck
 #	def0[]:"X"
 #	def0[]:"Y"
 
-#	def1[]:"1A"  # III
+	# "WOR" III
+#	def1[]:"1A"
 #	def1[]:"2A"
 #	def1[]:"3A"
 #	def1[]:"4A"
@@ -472,6 +479,7 @@ license_plate_data : .ostrowm.lp.truck
 #	def1[]:"8V"
 #	def1[]:"9V"
 
+	# "WOR" VII
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
@@ -539,17 +547,17 @@ license_plate_data : .ostrowm.lp.truck
 #	def2[]:"64"
 #	def2[]:"65"
 #	def2[]:"66"
-	def2[]:"67"
-	def2[]:"68"
-	def2[]:"69"  # "WOR" VII latest issued (April 2021)
+#	def2[]:"67"
+#	def2[]:"68"
+#	def2[]:"69"
 #	def2[]:"70"
 #	def2[]:"71"
 #	def2[]:"72"
 #	def2[]:"73"
 #	def2[]:"74"
-#	def2[]:"75"
-#	def2[]:"76"
-#	def2[]:"77"
+	def2[]:"75"
+	def2[]:"76"
+	def2[]:"77"  # "WOR" VII latest issued (October 2022)
 #	def2[]:"78"
 #	def2[]:"79"
 #	def2[]:"80"
@@ -591,12 +599,15 @@ license_plate_data : .ostrowm.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"WOR5J444"   # I    before EU stars
 #	templates[]:"WOR53J44"   # III  before EU stars
 #	templates[]:"WOR544J0"   # IV   some before EU stars
 	templates[]:"WOR5144P"   # VIII
 
+	# "WOR" IV ..J.
 #	def0[]:"1"
 #	def0[]:"2"
 #	def0[]:"3"  # Most before EU stars
@@ -607,6 +618,7 @@ license_plate_data : .ostrowm.lp.trailer
 #	def0[]:"8"
 #	def0[]:"9"
 
+	# "WOR" VIII ....P
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
@@ -674,27 +686,27 @@ license_plate_data : .ostrowm.lp.trailer
 #	def1[]:"64"
 #	def1[]:"65"
 #	def1[]:"66"
-	def1[]:"67"
-	def1[]:"68"
-	def1[]:"69"
-#	def1[]:"70"  # Used for double-row plates
-	def1[]:"71"
-	def1[]:"72"
-	def1[]:"73"
-	def1[]:"74"
-	def1[]:"75"
-	def1[]:"76"
-	def1[]:"77"  # "WOR" VIII P latest issued (April 2021)
-#	def1[]:"78"
-#	def1[]:"79"
-#	def1[]:"80"
-#	def1[]:"81"
-#	def1[]:"82"
-#	def1[]:"83"
-#	def1[]:"84"
-#	def1[]:"85"
-#	def1[]:"86"
-#	def1[]:"87"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+##	def1[]:"70"  # Used for double-row plates
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+	def1[]:"77"
+	def1[]:"78"
+#	def1[]:"79"  # Used for double-row plates
+	def1[]:"80"
+	def1[]:"81"
+	def1[]:"82"
+	def1[]:"83"
+	def1[]:"84"
+	def1[]:"85"
+	def1[]:"86"
+	def1[]:"87"  # "WOR" VIII ....P latest issued (October 2022)
 #	def1[]:"88"
 #	def1[]:"89"
 #	def1[]:"90"
@@ -735,6 +747,8 @@ license_plate_data : .ostrowm.lp.trailer
 license_plate_data : .ostrowm.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# H = Masovian (Mazowieckie) Provincial Headquarters
 	templates[]:"HPH51222"

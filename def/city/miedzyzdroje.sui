@@ -22,6 +22,16 @@ city_data: city.miedzyzdroje
 	map_y_offsets[]: -18
 	map_y_offsets[]: -15
 
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
 	license_plate[]: .miedzyzdroje.lp.car
 	license_plate[]: .miedzyzdroje.lp.truck
 	license_plate[]: .miedzyzdroje.lp.trailer
@@ -36,6 +46,7 @@ license_plate_data : .miedzyzdroje.lp.car
 #	templates[]:"ZKA50444"   # I    most before EU stars
 	templates[]:"ZKA51444"   # VII
 
+	# "ZKA" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -57,6 +68,7 @@ license_plate_data : .miedzyzdroje.lp.car
 #	def0[]:"X"
 #	def0[]:"Y"  # Some before EU stars
 
+	# "ZKA" VII
 	def1[]:"00"
 #	def1[]:"01"  # Partially used for double-row plates
 	def1[]:"02"
@@ -95,11 +107,11 @@ license_plate_data : .miedzyzdroje.lp.car
 	def1[]:"35"
 	def1[]:"36"
 	def1[]:"37"
-	def1[]:"38"  # "ZKA" VII latest issued (April 2021)
-#	def1[]:"39"
-#	def1[]:"40"
-#	def1[]:"41"
-#	def1[]:"42"
+	def1[]:"38"
+	def1[]:"39"
+	def1[]:"40"
+	def1[]:"41"
+	def1[]:"42"  # "ZKA" VII latest issued (September 2022)
 #	def1[]:"43"
 #	def1[]:"44"
 #	def1[]:"45"
@@ -126,10 +138,13 @@ license_plate_data : .miedzyzdroje.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"ZKA50444"   # I    most before EU stars
 	templates[]:"ZKA51444"   # VII
 
+	# "ZKA" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -151,6 +166,7 @@ license_plate_data : .miedzyzdroje.lp.truck
 #	def0[]:"X"
 #	def0[]:"Y"  # Some before EU stars
 
+	# "ZKA" VII
 #	def1[]:"00"
 ##	def1[]:"01"  # Partially used for double-row plates
 #	def1[]:"02"
@@ -187,13 +203,13 @@ license_plate_data : .miedzyzdroje.lp.truck
 #	def1[]:"33"
 #	def1[]:"34"
 #	def1[]:"35"
-	def1[]:"36"
-	def1[]:"37"
-	def1[]:"38"  # "ZKA" VII latest issued (April 2021)
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
 #	def1[]:"39"
-#	def1[]:"40"
-#	def1[]:"41"
-#	def1[]:"42"
+	def1[]:"40"
+	def1[]:"41"
+	def1[]:"42"  # "ZKA" VII latest issued (September 2022)
 #	def1[]:"43"
 #	def1[]:"44"
 #	def1[]:"45"
@@ -220,10 +236,13 @@ license_plate_data : .miedzyzdroje.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"ZKA5P04"    # I    most before EU stars
 	templates[]:"ZKA5441"    # II
 
+	# "ZKA" I P...
 #	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
@@ -325,28 +344,29 @@ license_plate_data : .miedzyzdroje.lp.trailer
 #	def0[]:"98"
 #	def0[]:"99"
 
-#	def1[]:"AA"
-#	def1[]:"AC"
+	# "ZKA" II
+##	def1[]:"AA"  # Partially used for double-row plates
+##	def1[]:"AC"  # Partially used for double-row plates
 #	def1[]:"AE"
-#	def1[]:"AF"
-#	def1[]:"AG"
+##	def1[]:"AF"  # Partially used for double-row plates
+##	def1[]:"AG"  # Partially used for double-row plates
 ##	def1[]:"AH"  # Partially used for cars
 ##	def1[]:"AJ"  # Partially used for cars
 #	def1[]:"AK"
 #	def1[]:"AL"
-#	def1[]:"AM"
+##	def1[]:"AM"  # Partially used for double-row plates
 #	def1[]:"AN"
 #	def1[]:"AP"
-#	def1[]:"AR"
+##	def1[]:"AR"  # Partially used for double-row plates
 #	def1[]:"AS"
 #	def1[]:"AT"
 #	def1[]:"AU"
-#	def1[]:"AV"
+##	def1[]:"AV"  # Partially used for double-row plates
 #	def1[]:"AW"
 #	def1[]:"AX"
 #	def1[]:"AY"
 ##	def1[]:"CA"  # Partially used for cars
-	def1[]:"CC"
+#	def1[]:"CC"
 	def1[]:"CE"
 	def1[]:"CF"
 	def1[]:"CG"
@@ -355,8 +375,8 @@ license_plate_data : .miedzyzdroje.lp.trailer
 	def1[]:"CK"
 	def1[]:"CL"
 	def1[]:"CM"
-	def1[]:"CN"  # "ZKA" II latest issued (December 2020)
-#	def1[]:"CP"
+	def1[]:"CN"
+	def1[]:"CP"  # "ZKA" II latest issued (November 2021)
 #	def1[]:"CR"
 #	def1[]:"CS"
 #	def1[]:"CT"
@@ -383,6 +403,8 @@ license_plate_data : .miedzyzdroje.lp.trailer
 license_plate_data : .miedzyzdroje.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# W = West Pomeranian (Zachodniopomorskie) Voivodeship Headquarters
 	templates[]:"HPW51222"
