@@ -5,14 +5,14 @@ economy_data : economy.data.storage
 	truck_refund: 		0.35	# 35% of original price
 
 	# Base revenue per km in game native currency.
-	revenue_per_km_base: 1.0
+	revenue_per_km_base: 2
 
 	price_small_garage: 300000
 	price_garage_upgrade: 800000
 
-	garage_prod_plan_tiny: 1275
+	garage_prod_plan_tiny: 2000
 	garage_prod_plan_small: 15000
-	garage_prod_plan_large: 35000
+	garage_prod_plan_large: 30000
 
 	fuel_discount_in_garage: 0.15	# 15%
 
@@ -35,17 +35,17 @@ economy_data : economy.data.storage
 	maximum_driving_time: 660	# how long the driver can drive (in minutes)
 	sleeping_time: 540		# length of sleep (in minutes)
 
-	delivery_window[0]: 400	# easy
-	delivery_window[1]: 250	# medium
-	delivery_window[2]: 90	# hard
+	delivery_window[0]: 400		# easy
+	delivery_window[1]: 250		# medium
+	delivery_window[2]: 90		# hard
 
 	delivery_window_coef[0]: 1.0	# easy 
 	delivery_window_coef[1]: 1.15	# medium  revenue coef
 	delivery_window_coef[2]: 1.4	# hard
 
-	hurry_up_timer: 1	# how long the hurry up music will play (in game minutes)
+	hurry_up_timer: 1		# how long the hurry up music will play (in game minutes)
 
-	no_cargo_prob:	0.1			# 10% prob. of empty cargo slot
+	no_cargo_prob:	0.1		# 10% prob. of empty cargo slot
 	cargo_validity_min: 180		# 3 hours
 	cargo_validity_max: 1800	# 30 hours
 
@@ -79,9 +79,9 @@ economy_data : economy.data.storage
 	free_driver_level_cap: 30	# don't grow offered drivers higher than this level
 	driver_offer_scrap_prob: 0.5
 
-	driver_quitwarn_time: 3			# days
-	driver_quit_time: 5				# days
-	driver_no_return_job_prob: 0.05	# 5% of no return job, decrease with skill
+	driver_quitwarn_time: 3		# days
+	driver_quit_time: 5		# days
+	driver_no_return_job_prob: 0.05	# 10% of no return job, decrease with skill
 
 	driver_skilled_job_prob: 0.8
 
@@ -185,6 +185,7 @@ economy_data : economy.data.storage
 
 	adr_info_icon[]:	"8|/material/ui/icon/adr_8.mat"
 
+
 #
 #	Delivery reward levels
 #
@@ -245,13 +246,13 @@ economy_data : economy.data.storage
 	currency_sign3[]: " Kč"
 
 	currency_code[]: "GBP"
-	currency_ratio[]: 0.86
+	currency_ratio[]: 0.875
 	currency_sign1[]: ""
 	currency_sign2[]: "£"
 	currency_sign3[]: ""
 
 	currency_code[]: "PLN"
-	currency_ratio[]: 4.64
+	currency_ratio[]: 4.317
 	currency_sign1[]: ""
 	currency_sign2[]: ""
 	currency_sign3[]: " zł"
