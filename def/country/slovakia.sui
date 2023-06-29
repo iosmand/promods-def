@@ -10,7 +10,7 @@ country_data : country.data.slovakia
 
 	pos: (32055, 0, 12500)
 
-	fuel_price: 1.550
+	fuel_price: 1.433
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -23,47 +23,6 @@ country_data : country.data.slovakia
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 40000
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

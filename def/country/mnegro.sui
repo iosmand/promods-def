@@ -9,7 +9,7 @@ country_data : country.data.mnegro
 
 	pos: (36000, 0, 44000)
 
-	fuel_price: 1.480
+	fuel_price: 1.747
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -22,47 +22,6 @@ country_data : country.data.mnegro
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 40000
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

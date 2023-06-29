@@ -10,7 +10,7 @@ country_data : country.data.turkey
 
 	pos: (103184, 0, 55303)
 
-	fuel_price: 1.065
+	fuel_price: 0.846
 
 	lights_mandatory: false
 	driving_tired_offence: true
@@ -23,47 +23,6 @@ country_data : country.data.turkey
 	mass_limit_per_axle_count[]: 38000
 	mass_limit_per_axle_count[]: 40000	# 44t containers
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
