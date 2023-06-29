@@ -1,7 +1,0 @@
-SiiNunit
-{
-country_traffic_info : .country.info.traffic.et_loco {
-	object: traffic.et_loco
-	spawn_ratio: 2.00
-}
-}

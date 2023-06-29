@@ -1,6 +1,0 @@
-SiiNunit
-{
-
-@include "ai/promods/rail/euro_tunnel_cars.sui"
-
-}
