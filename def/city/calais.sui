@@ -6,26 +6,26 @@ city_data: city.calais
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -10
-	map_x_offsets[]: 90
-	map_x_offsets[]: -10
-	map_x_offsets[]: -12
+	map_x_offsets[]: -26
+	map_x_offsets[]: -21
+	map_x_offsets[]: -100
+	map_x_offsets[]: -40
+	map_x_offsets[]: -26
 	map_x_offsets[]: -22
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 25
-	map_y_offsets[]: -28
-	map_y_offsets[]: -70
-	map_y_offsets[]: 0
-	map_y_offsets[]: -8
+	map_y_offsets[]: 70
+	map_y_offsets[]: 12
+	map_y_offsets[]: 250
+	map_y_offsets[]: 45
+	map_y_offsets[]: 9
 	map_y_offsets[]: -19
 
 	### SMALL-MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.85 // close zoom for minimap
 	city_pin_scale_factor[]: 0.7  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.9  // closest zoom for world map

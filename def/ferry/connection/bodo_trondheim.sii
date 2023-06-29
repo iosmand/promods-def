@@ -1,0 +1,27 @@
+SiiNunit
+{
+ferry_connection : conn.bodo.trondheim{
+	price: 512
+	time: 1620
+	distance: 570
+
+	# NODE POSITIONS #######    x*256 , 0,   z*256
+	connection_positions[0]:  (3913498, 0, -24385050)
+	connection_positions[1]:  ( 790106, 0, -18732340)
+	connection_positions[2]:  ( 816994, 0, -18644660)
+	connection_positions[3]:  ( 908096, 0, -18675764)
+	connection_positions[4]:  ( 978344, 0, -18783976)
+	connection_positions[5]:  (1038464, 0, -18797850)
+	connection_positions[6]:  (1064040, 0, -18750824)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  (-0.70711, 0,  0.70711)
+	connection_directions[1]:  (-0.57358, 0,  0.81915)
+	connection_directions[2]:  ( 0.86603, 0,  0.50000)
+	connection_directions[3]:  ( 0.64279, 0, -0.76604)
+	connection_directions[4]:  ( 0.64279, 0, -0.76604)
+	connection_directions[5]:  ( 0.93969, 0,  0.34202)
+	connection_directions[6]:  (-0.17365, 0,  0.98481)
+}
+}
+

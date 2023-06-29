@@ -8,30 +8,30 @@ city_data: city.clermont
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -10
-	map_x_offsets[]: 150
-	map_x_offsets[]: 0
-	map_x_offsets[]: -50
+	map_x_offsets[]: -170
+	map_x_offsets[]: -84
+	map_x_offsets[]: -420
+	map_x_offsets[]: -145
+	map_x_offsets[]: -87
 	map_x_offsets[]: -60
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 25
-	map_y_offsets[]: -28
-	map_y_offsets[]: 250
-	map_y_offsets[]: 45
-	map_y_offsets[]: 5
+	map_y_offsets[]: 70
+	map_y_offsets[]: 10
+	map_y_offsets[]: 225
+	map_y_offsets[]: 40
+	map_y_offsets[]: 6
 	map_y_offsets[]: -18
 
 	### MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.9  // close zoom for minimap
 	city_pin_scale_factor[]: 0.8  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 1.0  // closest zoom for world map
-	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.9  // middle zoom for world map
 	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	license_plate[]: .clermont.lp.car

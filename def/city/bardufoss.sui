@@ -1,0 +1,79 @@
+﻿city_data: city.bardufoss
+{
+	city_name: "Bardufoss"
+	city_name_localized: "@@bardufoss@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -35
+	map_x_offsets[]: -25
+	map_x_offsets[]: -110
+	map_x_offsets[]: -38
+	map_x_offsets[]: -30
+	map_x_offsets[]: 1
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -10
+	map_y_offsets[]: -6
+	map_y_offsets[]: -50
+	map_y_offsets[]: -10
+	map_y_offsets[]: -6
+	map_y_offsets[]: -8
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.9
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.55 // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.65 // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
+
+	#vehicle_brands[]:"daf"
+
+	license_plate[]: .bardufoss.lp.car
+	license_plate[]: .bardufoss.lp.truck
+	license_plate[]: .bardufoss.lp.trailer
+}
+
+license_plate_data : .bardufoss.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Finnsnes
+#	def0[]:"EX"  # 2010 - 2019 (limited issue)
+	def0[]:"ZD"  # 1958 - present
+	def0[]:"ZF"  # 1940 - 2006
+#	def0[]:"ZJ"
+}
+
+license_plate_data : .bardufoss.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Finnsnes
+#	def0[]:"EX"  # 2010 - 2019 (limited issue)
+	def0[]:"ZD"  # 1958 - present
+#	def0[]:"ZF"  # 1940 - 2006
+#	def0[]:"ZJ"
+}
+
+license_plate_data : .bardufoss.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Finnsnes
+	def0[]:"EX"  # 1972 - 2021
+#	def0[]:"ZD"  # 1943 - 2018
+#	def0[]:"ZF"  # 1938 - 2001
+#	def0[]:"ZJ"  # 1942 - 2012
+}

@@ -40,8 +40,7 @@ country_traffic_info : .country.info.traffic.passat_2014.police.un {
 
 ########## Fire Departement
 
-country_traffic_info : .country.info.traffic.atego_fire.nl
-{
+country_traffic_info : .country.info.traffic.atego_fire.nl {
 	object: traffic.atego_fire.nl
 	spawn_ratio: 1.0
 }

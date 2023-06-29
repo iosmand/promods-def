@@ -1,0 +1,85 @@
+﻿city_data: city.bodo
+{
+	city_name: "Bodø"
+	city_name_localized: "@@bodo@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -40
+	map_x_offsets[]: -20
+	map_x_offsets[]: -110
+	map_x_offsets[]: -35
+	map_x_offsets[]: -20
+	map_x_offsets[]: -16
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -4
+	map_y_offsets[]: 0
+	map_y_offsets[]: -2
+	map_y_offsets[]: -3
+	map_y_offsets[]: -16
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.9
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	#vehicle_brands[]:"daf"
+
+	license_plate[]: .bodo.lp.car
+	license_plate[]: .bodo.lp.truck
+	license_plate[]: .bodo.lp.trailer
+}
+
+license_plate_data : .bodo.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Bodø
+#	def0[]:"EZ"  # 1974 - 2015 (limited issue)
+#	def0[]:"FD"
+	def0[]:"YE"  # 1939 - 2018
+	def0[]:"YF"  # 1965 - present
+#	def0[]:"YH"
+#	def0[]:"YJ"
+}
+
+license_plate_data : .bodo.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Bodø
+#	def0[]:"EZ"  # 1974 - 2015 (limited issue)
+#	def0[]:"FD"
+#	def0[]:"YE"  # 1939 - 2018
+	def0[]:"YF"  # 1965 - present
+#	def0[]:"YH"
+#	def0[]:"YJ"
+}
+
+license_plate_data : .bodo.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Bodø
+	def0[]:"EZ"  # 1956 - 2021
+	def0[]:"FD"  # 1961 - 2019
+#	def0[]:"YE"  # 1943 - 2001
+#	def0[]:"YF"  # 1950 - 1989
+#	def0[]:"YH"  # 1939 - 2001 (limited issue)
+#	def0[]:"YJ"  # 1959 - 2008
+}

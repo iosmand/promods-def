@@ -1,0 +1,138 @@
+	# 5 digit combinations for trailers
+
+	# AG = Aargau
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ag.mat color=FFFFFFFF></align><ret><align left=-13>AG.81"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ag.mat color=FFFFFFFF></align><ret><align left=-13>AG.82"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ag.mat color=FFFFFFFF></align><ret><align left=-13>AG.83"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ag.mat color=FFFFFFFF></align><ret><align left=-13>AG.84"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ag.mat color=FFFFFFFF></align><ret><align left=-13>AG.85"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ag.mat color=FFFFFFFF></align><ret><align left=-13>AG.86"
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ag.mat color=FFFFFFFF></align><ret><align left=-13>AG.87"  # Reserved but not issued yet
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ag.mat color=FFFFFFFF></align><ret><align left=-13>AG.88"  # Reserved but not issued yet
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ag.mat color=FFFFFFFF></align><ret><align left=-13>AG.89"  # Reserved but not issued yet
+
+	# AI = Appenzell Innerrhoden
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ai.mat color=FFFFFFFF></align><ret><align left=-13>AI."
+
+	# AR = Appenzell Ausserrhoden
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ar.mat color=FFFFFFFF></align><ret><align left=-13>AR.11"
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ar.mat color=FFFFFFFF></align><ret><align left=-13>AR.40"  # Possibly limited issue
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ar.mat color=FFFFFFFF></align><ret><align left=-13>AR.85"
+
+	# BE = Bern
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_be.mat color=FFFFFFFF></align><ret><align left=-13>BE."
+
+	# BL = Basel-Landschaft
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_bl.mat color=FFFFFFFF></align><ret><align left=-13>BL."
+
+	# BS = Basel-Stadt
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_bs.mat color=FFFFFFFF></align><ret><align left=-13>BS."
+
+	# FR = Freiburg (Fribourg)
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_fr.mat color=FFFFFFFF></align><ret><align left=-13>FR."
+
+	# GE = Genf (Geneva)
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ge.mat color=FFFFFFFF></align><ret><align left=-13>GE."
+
+	# GL = Glarus
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_gl.mat color=FFFFFFFF></align><ret><align left=-13>GL.30"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_gl.mat color=FFFFFFFF></align><ret><align left=-13>GL.31"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_gl.mat color=FFFFFFFF></align><ret><align left=-13>GL.32"
+
+	# GR = Graubünden (Grisons)
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_gr.mat color=FFFFFFFF></align><ret><align left=-13>GR."
+
+	# JU = Jura
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ju.mat color=FFFFFFFF></align><ret><align left=-13>JU.90"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ju.mat color=FFFFFFFF></align><ret><align left=-13>JU.91"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ju.mat color=FFFFFFFF></align><ret><align left=-13>JU.92"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ju.mat color=FFFFFFFF></align><ret><align left=-13>JU.93"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ju.mat color=FFFFFFFF></align><ret><align left=-13>JU.94"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ju.mat color=FFFFFFFF></align><ret><align left=-13>JU.95"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ju.mat color=FFFFFFFF></align><ret><align left=-13>JU.96"
+
+	# LU = Luzern (Lucerne)
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_lu.mat color=FFFFFFFF></align><ret><align left=-13>LU."
+
+	# NE = Neuchâtel
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ne.mat color=FFFFFFFF></align><ret><align left=-13>NE.33"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ne.mat color=FFFFFFFF></align><ret><align left=-13>NE.34"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ne.mat color=FFFFFFFF></align><ret><align left=-13>NE.35"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ne.mat color=FFFFFFFF></align><ret><align left=-13>NE.36"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ne.mat color=FFFFFFFF></align><ret><align left=-13>NE.37"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ne.mat color=FFFFFFFF></align><ret><align left=-13>NE.38"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ne.mat color=FFFFFFFF></align><ret><align left=-13>NE.39"
+
+	# NW = Nidwalden
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_nw.mat color=FFFFFFFF></align><ret><align left=-13>NW.40"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_nw.mat color=FFFFFFFF></align><ret><align left=-13>NW.41"
+
+	# OW = Obwalden
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ow.mat color=FFFFFFFF></align><ret><align left=-13>OW.11"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ow.mat color=FFFFFFFF></align><ret><align left=-13>OW.12"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ow.mat color=FFFFFFFF></align><ret><align left=-13>OW.36"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ow.mat color=FFFFFFFF></align><ret><align left=-13>OW.37"
+
+	# SG = St. Gallen
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sg.mat color=FFFFFFFF></align><ret><align left=-13>SG."
+
+	# SH = Schaffhausen
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sh.mat color=FFFFFFFF></align><ret><align left=-13>SH.20"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sh.mat color=FFFFFFFF></align><ret><align left=-13>SH.21"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sh.mat color=FFFFFFFF></align><ret><align left=-13>SH.22"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sh.mat color=FFFFFFFF></align><ret><align left=-13>SH.23"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sh.mat color=FFFFFFFF></align><ret><align left=-13>SH.24"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sh.mat color=FFFFFFFF></align><ret><align left=-13>SH.75"
+
+	# SO = Solothurn
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_so.mat color=FFFFFFFF></align><ret><align left=-13>SO."
+
+	# SZ = Schwyz
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sz.mat color=FFFFFFFF></align><ret><align left=-13>SZ.87"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sz.mat color=FFFFFFFF></align><ret><align left=-13>SZ.88"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sz.mat color=FFFFFFFF></align><ret><align left=-13>SZ.89"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sz.mat color=FFFFFFFF></align><ret><align left=-13>SZ.90"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sz.mat color=FFFFFFFF></align><ret><align left=-13>SZ.91"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sz.mat color=FFFFFFFF></align><ret><align left=-13>SZ.92"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sz.mat color=FFFFFFFF></align><ret><align left=-13>SZ.93"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_sz.mat color=FFFFFFFF></align><ret><align left=-13>SZ.94"
+
+	# TG = Thurgau
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_tg.mat color=FFFFFFFF></align><ret><align left=-13>TG.86"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_tg.mat color=FFFFFFFF></align><ret><align left=-13>TG.88"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_tg.mat color=FFFFFFFF></align><ret><align left=-13>TG.89"
+
+	# TI = Tessin (Ticino)
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ti.mat color=FFFFFFFF></align><ret><align left=-13>TI.80"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ti.mat color=FFFFFFFF></align><ret><align left=-13>TI.81"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ti.mat color=FFFFFFFF></align><ret><align left=-13>TI.82"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ti.mat color=FFFFFFFF></align><ret><align left=-13>TI.83"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ti.mat color=FFFFFFFF></align><ret><align left=-13>TI.84"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ti.mat color=FFFFFFFF></align><ret><align left=-13>TI.85"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ti.mat color=FFFFFFFF></align><ret><align left=-13>TI.86"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ti.mat color=FFFFFFFF></align><ret><align left=-13>TI.88"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ti.mat color=FFFFFFFF></align><ret><align left=-13>TI.89"
+
+	# UR = Uri
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ur.mat color=FFFFFFFF></align><ret><align left=-13>UR.10"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_ur.mat color=FFFFFFFF></align><ret><align left=-13>UR.11"
+
+	# VD = Waadt (Vaud)
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_vd.mat color=FFFFFFFF></align><ret><align left=-13>VD."
+
+	# VS = Wallis (Valais)
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_vs.mat color=FFFFFFFF></align><ret><align left=-13>VS.50"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_vs.mat color=FFFFFFFF></align><ret><align left=-13>VS.51"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_vs.mat color=FFFFFFFF></align><ret><align left=-13>VS.52"
+
+	# ZG = Zug
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_zg.mat color=FFFFFFFF></align><ret><align left=-13>ZG.80"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_zg.mat color=FFFFFFFF></align><ret><align left=-13>ZG.81"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_zg.mat color=FFFFFFFF></align><ret><align left=-13>ZG.82"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_zg.mat color=FFFFFFFF></align><ret><align left=-13>ZG.83"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_zg.mat color=FFFFFFFF></align><ret><align left=-13>ZG.84"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_zg.mat color=FFFFFFFF></align><ret><align left=-13>ZG.85"
+	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_zg.mat color=FFFFFFFF></align><ret><align left=-13>ZG.86"
+
+	# ZH = Zürich
+#	def3[]:"<offset vshift=-3><align left=122><img src=/material/ui/lp/switzerland/pm_$SIDE$_zh.mat color=FFFFFFFF></align><ret><align left=-13>ZH."
