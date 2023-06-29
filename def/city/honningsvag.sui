@@ -1,0 +1,74 @@
+﻿city_data: city.honningsvag
+{
+	city_name: "Honningsvåg"
+	city_name_localized: "@@honningsvag@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -200
+	map_x_offsets[]: -115
+	map_x_offsets[]: -45
+	map_x_offsets[]: -30
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -120
+	map_y_offsets[]: -33
+	map_y_offsets[]: -18
+	map_y_offsets[]: -14
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.6  // middle zoom for world map
+	city_pin_scale_factor[]: 0.4  // whole world map zoom
+
+	license_plate[]: .honningsvag.lp.car
+	license_plate[]: .honningsvag.lp.truck
+	license_plate[]: .honningsvag.lp.trailer
+}
+
+license_plate_data : .honningsvag.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Hammerfest
+#	def0[]:"FF"
+	def0[]:"ZX"  # 1960 - present
+
+	# Lakselv
+#	def0[]:"CW"
+	def0[]:"ZZ"  # 1955 - present
+}
+
+license_plate_data : .honningsvag.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+#	def0[]:"FF"  # Hammerfest
+	def0[]:"ZX"
+}
+
+license_plate_data : .honningsvag.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Hammerfest
+	def0[]:"FF"  # 1939 - 2021
+	def0[]:"ZX"  # 1948 - 2020
+}

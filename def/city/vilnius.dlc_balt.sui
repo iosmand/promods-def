@@ -1,0 +1,55 @@
+﻿city_data: city.vilnius
+{
+	city_name: "Vilnius"
+	city_name_localized: "@@vilnius@@"
+	country: lithuania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -230
+	map_x_offsets[]: -90
+	map_x_offsets[]: -45
+	map_x_offsets[]: 7
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 180
+	map_y_offsets[]: 35
+	map_y_offsets[]: 0
+	map_y_offsets[]: -9
+
+	vehicle_brands[]: "volvo"
+
+	license_plate[]: .vilnius.lp.car
+	license_plate[]: .vilnius.lp.truck
+	license_plate[]: .vilnius.lp.trailer
+}
+
+license_plate_data : .vilnius.lp.car
+{
+	type: car
+
+@include "city_lp_lt_car.sui"
+}
+
+license_plate_data : .vilnius.lp.truck
+{
+	type: truck
+
+	probability: 0.1
+
+@include "city_lp_lt_truck.sui"
+}
+
+license_plate_data : .vilnius.lp.trailer
+{
+	type: trailer
+
+	probability: 0.1
+
+@include "city_lp_lt_trailer.sui"
+}

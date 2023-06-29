@@ -1,0 +1,77 @@
+﻿city_data: city.kristiansund
+{
+	city_name: "Kristiansund"
+	city_name_localized: "@@kristiansund@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -50
+	map_x_offsets[]: -40
+	map_x_offsets[]: -30
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -2
+	map_y_offsets[]: -15
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .kristiansund.lp.car
+	license_plate[]: .kristiansund.lp.truck
+	license_plate[]: .kristiansund.lp.trailer
+}
+
+license_plate_data : .kristiansund.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Kristiansund
+	def0[]:"UX"  # 1929 - present
+#	def0[]:"UY"
+#	def0[]:"UZ"
+#	def0[]:"VA"
+}
+
+license_plate_data : .kristiansund.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Kristiansund
+	def0[]:"UX"  # 1929 - present
+#	def0[]:"UY"
+#	def0[]:"UZ"
+#	def0[]:"VA"
+}
+
+license_plate_data : .kristiansund.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Kristiansund
+#	def0[]:"UX"  # 1935 - 2010
+#	def0[]:"UY"  # 1935 - 2017
+	def0[]:"UZ"  # 1939 - 2020
+#	def0[]:"VA"
+}

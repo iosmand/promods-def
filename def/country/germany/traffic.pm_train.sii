@@ -1,0 +1,16 @@
+SiiNunit
+{
+
+country_traffic_info : .country.info.traffic.bombar_traxx {
+	object: traffic.bombar_traxx
+	spawn_ratio: 0.00
+}
+country_traffic_info : .country.info.traffic.traxx_f140 {
+	object: traffic.traxx_f140
+	spawn_ratio: 1.00
+}
+country_traffic_info : .country.info.traffic.traxx_f140.db {
+	object: traffic.traxx_f140.db
+	spawn_ratio: 2.00
+}
+}

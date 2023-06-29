@@ -1,0 +1,66 @@
+﻿city_data: city.padborg
+{
+	city_name: "Padborg"
+	city_name_localized: "@@padborg@@"
+	country: denmark
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -100
+	map_x_offsets[]: -18
+	map_x_offsets[]: -30
+	map_x_offsets[]: -21
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -40
+	map_y_offsets[]: -12
+	map_y_offsets[]: -12
+	map_y_offsets[]: -15
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
+
+	vehicle_brands[]:"volvo"
+
+	license_plate[]: .padborg.lp.car
+	license_plate[]: .padborg.lp.truck
+	license_plate[]: .padborg.lp.trailer
+}
+
+license_plate_data : .padborg.lp.car
+{
+	type: car
+
+@include "city_lp_dk_car.sui"
+}
+
+license_plate_data : .padborg.lp.truck
+{
+	type: truck
+
+	background_front: truck_front
+	background_rear: truck_rear
+
+@include "city_lp_dk_truck.sui"
+}
+
+license_plate_data : .padborg.lp.trailer
+{
+	type: trailer
+
+	background_rear: trailer
+
+@include "city_lp_dk_trailer.sui"
+}

@@ -1,0 +1,82 @@
+﻿city_data: city.batsfjord
+{
+	city_name: "Båtsfjord"
+	city_name_localized: "@@batsfjord@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -35
+	map_x_offsets[]: -35
+	map_x_offsets[]: -30
+	map_x_offsets[]: -20
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 10
+	map_y_offsets[]: -20
+	map_y_offsets[]: -10
+	map_y_offsets[]: -1
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
+
+	#vehicle_brands[]:"daf"
+
+	license_plate[]: .batsfjord.lp.car
+	license_plate[]: .batsfjord.lp.truck
+	license_plate[]: .batsfjord.lp.trailer
+}
+
+license_plate_data : .batsfjord.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Vadsø
+#	def0[]:"FR"  # 2015 (limited issue)
+#	def0[]:"JW"
+#	def0[]:"LE"
+	def0[]:"ZP"  # 1940 - present
+#	def0[]:"ZR"
+}
+
+license_plate_data : .batsfjord.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Vadsø
+#	def0[]:"FR"  # 2015 (limited issue)
+#	def0[]:"JW"
+#	def0[]:"LE"
+	def0[]:"ZP"  # 1940 - present
+#	def0[]:"ZR"
+}
+
+license_plate_data : .batsfjord.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Vadsø
+#	def0[]:"FR"  # 1944 - 2003
+	def0[]:"JW"  # 1949 - 2021
+	def0[]:"LE"  # 1951 - 2021
+#	def0[]:"ZP"  # 1939 - 1998
+#	def0[]:"ZR"  # 1943 - 2006
+}

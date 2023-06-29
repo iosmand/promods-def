@@ -1,0 +1,64 @@
+city_data: city.esbjerg
+{
+	city_name: "Esbjerg"
+	city_name_localized: "@@esbjerg@@"
+	country: denmark
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 40
+	map_x_offsets[]: 10
+	map_x_offsets[]: -22
+	map_x_offsets[]: -26
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -10
+	map_y_offsets[]: -20
+	map_y_offsets[]: -10
+	map_y_offsets[]: 1
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
+
+	license_plate[]: .esbjerg.lp.car
+	license_plate[]: .esbjerg.lp.truck
+	license_plate[]: .esbjerg.lp.trailer
+}
+
+license_plate_data : .esbjerg.lp.car
+{
+	type: car
+
+@include "city_lp_dk_car.sui"
+}
+
+license_plate_data : .esbjerg.lp.truck
+{
+	type: truck
+
+	background_front: truck_front
+	background_rear: truck_rear
+
+@include "city_lp_dk_truck.sui"
+}
+
+license_plate_data : .esbjerg.lp.trailer
+{
+	type: trailer
+
+	background_rear: trailer
+
+@include "city_lp_dk_trailer.sui"
+}

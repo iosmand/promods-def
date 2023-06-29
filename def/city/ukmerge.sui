@@ -1,0 +1,63 @@
+﻿city_data: city.ukmerge
+{
+	city_name: "Ukmergė"
+	city_name_localized: "@@ukmerge@@"
+	country: lithuania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -50
+	map_x_offsets[]: -35
+	map_x_offsets[]: -30
+	map_x_offsets[]: -22
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 30
+	map_y_offsets[]: 0
+	map_y_offsets[]: -15
+	map_y_offsets[]: -1
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .ukmerge.lp.car
+	license_plate[]: .ukmerge.lp.truck
+	license_plate[]: .ukmerge.lp.trailer
+}
+
+license_plate_data : .ukmerge.lp.car
+{
+	type: car
+
+@include "city_lp_lt_car.sui"
+}
+
+license_plate_data : .ukmerge.lp.truck
+{
+	type: truck
+
+	probability: 0.1
+
+@include "city_lp_lt_truck.sui"
+}
+
+license_plate_data : .ukmerge.lp.trailer
+{
+	type: trailer
+
+	probability: 0.1
+
+@include "city_lp_lt_trailer.sui"
+}

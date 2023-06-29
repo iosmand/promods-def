@@ -1,0 +1,45 @@
+traffic_vehicle : traffic.ford_taurus.police.ge
+{
+	accessories[]: .ford_taurus.police.ge.chassis
+	accessories[]: .ford_taurus.police.ge.fwheel
+	accessories[]: .ford_taurus.police.ge.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	
+	lod_dist[]: 53
+	lod_dist[]: 70
+	spawn_ratio: 0
+	
+	vehicle_mass: 1700
+	
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+
+}
+vehicle_accessory: .ford_taurus.police.ge.chassis
+{
+	data_path: "/def/vehicle/ai/promods/road/ford_taurus/chassis_police_ge.sii"
+}
+vehicle_wheel_accessory: .ford_taurus.police.ge.fwheel
+{
+	data_path: "/def/vehicle/ai_wheel/front_18in_p.sii"
+}
+vehicle_wheel_accessory: .ford_taurus.police.ge.rwheel
+{
+	data_path: "/def/vehicle/ai_wheel/rear_18in_p.sii"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

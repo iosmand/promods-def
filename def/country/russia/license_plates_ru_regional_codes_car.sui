@@ -1,0 +1,315 @@
+	# Note: Region code is specified first so that specific letter combinations could be associated with each region code (not implemented here)
+
+	# Republic of Adygea
+	def4[]:"01 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Bashkortostan
+	def4[]:"02 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"102</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"702</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Buryatia
+	def4[]:"03 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Altai Republic
+	def4[]:"04 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Dagestan
+	def4[]:"05 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Ingushetia
+	def4[]:"06 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Kabardino-Balkar Republic
+	def4[]:"07 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Kalmykia
+	def4[]:"08 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Karachay-Cherkess Republic
+	def4[]:"09 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Karelia
+	def4[]:"10 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Komi Republic
+	def4[]:"11 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Mari El Republic
+	def4[]:"12 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Mordovia
+	def4[]:"13 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"113</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Sakha Republic
+	def4[]:"14 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of North Ossetia–Alania
+	def4[]:"15 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Tatarstan
+	def4[]:"16 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"116</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"716</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Tuva Republic
+	def4[]:"17 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Udmurt Republic
+	def4[]:"18 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Khakassia
+	def4[]:"19 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Chechen Republic
+#	def4[]:"20 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "    # (code 20 discontinued)
+	def4[]:"95 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Chuvash Republic
+	def4[]:"21 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"121</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Altai Krai
+	def4[]:"22 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"122</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Krasnodar Krai
+	def4[]:"23 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"93 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"123</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"193</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Krasnoyarsk Krai
+	def4[]:"24 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"84 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"88 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"124</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Primorsky Krai
+	def4[]:"25 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"125</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Stavropol Krai
+	def4[]:"26 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"126</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Khabarovsk Krai
+	def4[]:"27 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Amur Oblast
+	def4[]:"28 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Arkhangelsk Oblast
+	def4[]:"29 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Astrakhan Oblast
+	def4[]:"30 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Belgorod Oblast
+	def4[]:"31 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Bryansk Oblast
+	def4[]:"32 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Vladimir Oblast
+	def4[]:"33 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Volgograd Oblast
+	def4[]:"34 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"134</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Vologda Oblast
+	def4[]:"35 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Voronezh Oblast
+	def4[]:"36 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"136</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Ivanovo Oblast
+	def4[]:"37 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Irkutsk Oblast
+	def4[]:"38 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"85 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"138</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Kaliningrad Oblast
+	def4[]:"39 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+#	def4[]:"91 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "    # Only used for export transit plates
+
+	# Kaluga Oblast
+	def4[]:"40 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Kamchatka Krai
+	def4[]:"41 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Kemerovo Oblast
+	def4[]:"42 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"142</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Kirov Oblast
+	def4[]:"43 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Kostroma Oblast
+	def4[]:"44 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Kurgan Oblast
+	def4[]:"45 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Kursk Oblast
+	def4[]:"46 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Leningrad Oblast
+	def4[]:"47 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"147</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Lipetsk Oblast
+	def4[]:"48 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Magadan Oblast
+	def4[]:"49 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Moscow Oblast
+	def4[]:"50 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"90 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"150</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"190</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"750</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"790</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Murmansk Oblast
+	def4[]:"51 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Nizhny Novgorod Oblast
+	def4[]:"52 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"152</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Novgorod Oblast
+	def4[]:"53 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Novosibirsk Oblast
+	def4[]:"54 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"154</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Omsk Oblast
+	def4[]:"55 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Orenburg Oblast
+	def4[]:"56 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"156</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Oryol Oblast
+	def4[]:"57 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Penza Oblast
+	def4[]:"58 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Perm Krai
+	def4[]:"59 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"81 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"159</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Pskov Oblast
+	def4[]:"60 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Rostov Oblast
+	def4[]:"61 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"161</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"761</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Ryazan Oblast
+	def4[]:"62 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Samara Oblast
+	def4[]:"63 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"163</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"763</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Saratov Oblast
+	def4[]:"64 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"164</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Sakhalin Oblast
+	def4[]:"65 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Sverdlovsk Oblast
+	def4[]:"66 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"96 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"196</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Smolensk Oblast
+	def4[]:"67 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Tambov Oblast
+	def4[]:"68 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Tver Oblast
+	def4[]:"69 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Tomsk Oblast
+	def4[]:"70 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Tula Oblast
+	def4[]:"71 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Tyumen Oblast
+	def4[]:"72 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Ulyanovsk Oblast
+	def4[]:"73 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"173</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Chelyabinsk Oblast
+	def4[]:"74 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"174</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"774</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Transbaikal (Zabaykalsky) Krai
+	def4[]:"75 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"80 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Yaroslavl Oblast
+	def4[]:"76 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Moscow
+	def4[]:"77 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"99 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"97 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"177</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"199</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"197</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"777</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"799</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"797</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# St. Petersburg
+	def4[]:"78 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"98 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"178</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"198</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Jewish Autonomous Oblast
+	def4[]:"79 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Republic of Crimea
+	def4[]:"82 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Nenets Autonomous Okrug
+	def4[]:"83 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Khanty-Mansi Autonomous Okrug
+	def4[]:"86 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+	def4[]:"186</align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Chukotka Autonomous Okrug
+	def4[]:"87 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Yamalo-Nenets Autonomous Okrug
+	def4[]:"89 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Sevastopol
+	def4[]:"92 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "
+
+	# Territories outside of the Russian Federation
+	def4[]:"94 </align></font><ret><align vstyle=center hstyle=center right=92><font xscale=0.7 yscale=0.8> "

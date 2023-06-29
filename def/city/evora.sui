@@ -1,0 +1,79 @@
+city_data : city.evora
+{
+	city_name: "Évora"
+	city_name_localized: "@@evora@@"
+	country: portugal
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -40
+	map_x_offsets[]: -40
+	map_x_offsets[]: -28
+	map_x_offsets[]: 3
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -50
+	map_y_offsets[]: -28
+	map_y_offsets[]: 60
+	map_y_offsets[]: 5
+	map_y_offsets[]: -8
+	map_y_offsets[]: -9
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.9  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
+
+	license_plate[]: .evora.lp.car
+	license_plate[]: .evora.lp.truck
+	license_plate[]: .evora.lp.trailer
+}
+
+license_plate_data : .evora.lp.car
+{
+	type: car
+
+@include "city_lp_pt_car.sui"
+}
+
+license_plate_data : .evora.lp.truck
+{
+	type: truck
+	probability: 0.1
+
+@include "city_lp_pt_truck.sui"
+}
+
+license_plate_data : .evora.lp.trailer
+{
+	type: trailer
+	background_rear: "trailer"
+	probability: 0.1
+
+	templates[]: "0-1222"
+
+	def0[]:"E"   # Évora
+
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"  # Latest issue as of April 2021
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}

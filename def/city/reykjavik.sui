@@ -1,0 +1,53 @@
+﻿city_data: city.reykjavik
+{
+	city_name: "Reykjavík"
+	city_name_localized: "@@reykjavik@@"
+	country: iceland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: 3
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 30
+	map_y_offsets[]: 20
+	map_y_offsets[]: 0
+	map_y_offsets[]: -9
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
+
+	vehicle_brands[]:"scania"
+
+	license_plate[]: .reykjavik.lp.truck
+	license_plate[]: .reykjavik.lp.trailer
+}
+
+license_plate_data : .reykjavik.lp.truck
+{
+	type: truck
+
+@include "city_lp_is_truck.sui"
+}
+
+license_plate_data : .reykjavik.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_is_trailer.sui"
+}

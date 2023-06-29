@@ -1,0 +1,73 @@
+﻿city_data: city.kirkenes
+{
+	city_name: "Kirkenes"
+	city_name_localized: "@@kirkenes@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 10
+	map_x_offsets[]: -20
+	map_x_offsets[]: -28
+	map_x_offsets[]: -20
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -70
+	map_y_offsets[]: -15
+	map_y_offsets[]: -10
+	map_y_offsets[]: -1
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
+
+	vehicle_brands[]:"daf"
+
+	license_plate[]: .kirkenes.lp.car
+	license_plate[]: .kirkenes.lp.truck
+	license_plate[]: .kirkenes.lp.trailer
+}
+
+license_plate_data : .kirkenes.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Kirkenes
+#	def0[]:"EY"  # 2015 (limited issue)
+	def0[]:"ZS"  # 1956 - present
+}
+
+license_plate_data : .kirkenes.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Kirkenes
+#	def0[]:"EY"  # 2015 (limited issue)
+	def0[]:"ZS"  # 1956 - present
+}
+
+license_plate_data : .kirkenes.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Kirkenes
+	def0[]:"EY"  # 1947 - 2021
+#	def0[]:"ZS"  # 1943 - 2014
+}

@@ -1,0 +1,65 @@
+city_data: city.szeged
+{
+	city_name: "Szeged"
+	city_name_localized: "@@szeged@@"
+	country: hungary
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -20
+	map_x_offsets[]: -41
+	map_x_offsets[]: -38
+	map_x_offsets[]: -29
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 20
+	map_y_offsets[]: -20
+	map_y_offsets[]: -18
+	map_y_offsets[]: -22
+
+	vehicle_brands[]:"renault"
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	license_plate[]: .szeged.lp.car
+	license_plate[]: .szeged.lp.truck
+	license_plate[]: .szeged.lp.trailer
+}
+
+license_plate_data : .szeged.lp.car
+{
+	type: car
+
+@include "city_lp_hu_car.sui"
+}
+
+license_plate_data : .szeged.lp.truck
+{
+	type: truck
+
+	probability: 0.1
+
+@include "city_lp_hu_truck.sui"
+}
+
+license_plate_data : .szeged.lp.trailer
+{
+	type: trailer
+
+	probability: 0.1
+
+@include "city_lp_hu_trailer.sui"
+}

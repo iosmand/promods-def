@@ -1,0 +1,171 @@
+city_data : city.pleven
+{
+	city_name: "Плевен"
+	city_name_localized: "@@pleven@@"
+	country: bulgaria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -30
+	map_x_offsets[]: -20
+	map_x_offsets[]: -22
+	map_x_offsets[]: -22
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -110
+	map_y_offsets[]: -40
+	map_y_offsets[]: -8
+	map_y_offsets[]: -19
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
+
+	license_plate[]: .pleven.lp.car
+	license_plate[]: .pleven.lp.truck
+	license_plate[]: .pleven.lp.trailer
+}
+
+license_plate_data : .pleven.lp.car
+{
+	type: car
+
+	templates[]:"EH 0111 BH"
+	templates[]:"EH 1011 BH"
+	templates[]:"EH 1101 BH"
+	templates[]:"EH 1110 BH"
+	templates[]:"EH 0111 BP"
+	templates[]:"EH 1011 BP"
+	templates[]:"EH 1101 BP"
+	templates[]:"EH 1110 BP"
+	templates[]:"EH 0111 BT"
+	templates[]:"EH 1011 BT"
+	templates[]:"EH 1101 BT"
+	templates[]:"EH 1110 BT"
+	templates[]:"EH 0111 BX"
+	templates[]:"EH 1011 BX"
+	templates[]:"EH 1101 BX"
+	templates[]:"EH 1110 BX"
+	templates[]:"EH 0111 KA"
+	templates[]:"EH 1011 KA"
+	templates[]:"EH 1101 KA"
+	templates[]:"EH 1110 KA"
+	templates[]:"EH 0111 KB"
+	templates[]:"EH 1011 KB"
+	templates[]:"EH 1101 KB"
+	templates[]:"EH 1110 KB"
+	templates[]:"EH 0111 KK"
+	templates[]:"EH 1011 KK"
+	templates[]:"EH 1101 KK"
+	templates[]:"EH 1110 KK"
+	templates[]:"EH 0111 KM"
+	templates[]:"EH 1011 KM"
+	templates[]:"EH 1101 KM"
+	templates[]:"EH 1110 KM"
+	templates[]:"EH 0111 KH"
+	templates[]:"EH 1011 KH"
+	templates[]:"EH 1101 KH"
+	templates[]:"EH 1110 KH"
+	templates[]:"EH 0111 KP"
+	templates[]:"EH 1011 KP"
+	templates[]:"EH 1101 KP"
+	templates[]:"EH 1110 KP"
+	templates[]:"EH 0111 KC"
+	templates[]:"EH 1011 KC"
+	templates[]:"EH 1101 KC"
+	templates[]:"EH 1110 KC"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+}
+
+license_plate_data : .pleven.lp.truck
+{
+	type: truck
+
+	templates[]:"EH 0111 KC"
+	templates[]:"EH 1011 KC"
+	templates[]:"EH 1101 KC"
+	templates[]:"EH 1110 KC"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+}
+
+license_plate_data : .pleven.lp.trailer
+{
+	type: trailer
+
+	templates[]:"EH 0111 EA"
+	templates[]:"EH 1011 EA"
+	templates[]:"EH 1101 EA"
+	templates[]:"EH 1110 EA"
+
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+}

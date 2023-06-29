@@ -1,0 +1,1108 @@
+city_data: city.katowice
+{
+	city_name: "Katowice"
+	city_name_localized: "@@katowice@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 20
+	map_x_offsets[]: -20
+	map_x_offsets[]: -33
+	map_x_offsets[]: -34
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -200
+	map_y_offsets[]: -50
+	map_y_offsets[]: -12
+	map_y_offsets[]: -22
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	license_plate[]: .katowice.lp.car
+	license_plate[]: .katowice.lp.truck
+	license_plate[]: .katowice.lp.trailer
+	license_plate[]: .katowice.lp.police
+}
+
+license_plate_data : .katowice.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+#	templates[]:"SK544444"   # I    before EU stars
+	templates[]:"SK544440"   # II   some before EU stars
+	templates[]:"SK54441"    # III
+	templates[]:"SK54441"    # III
+	templates[]:"SK54441"    # III
+	templates[]:"SK54441"    # III
+
+	# "SK" II
+#	def0[]:"A"
+#	def0[]:"B"
+#	def0[]:"C"
+#	def0[]:"E"
+#	def0[]:"F"  # Most before EU stars
+	def0[]:"G"
+	def0[]:"H"
+	def0[]:"J"
+	def0[]:"K"
+	def0[]:"L"
+	def0[]:"M"
+	def0[]:"N"
+	def0[]:"P"
+	def0[]:"R"
+	def0[]:"S"
+	def0[]:"T"
+	def0[]:"U"
+	def0[]:"W"
+	def0[]:"V"
+	def0[]:"X"
+	def0[]:"Y"
+
+	# "SK" III
+	def1[]:"AA"
+	def1[]:"AC"
+	def1[]:"AE"
+#	def1[]:"AF"  # Partially used for trailers
+	def1[]:"AG"
+	def1[]:"AH"
+#	def1[]:"AJ"  # Partially used for trailers
+#	def1[]:"AK"  # Partially used for trailers
+	def1[]:"AL"
+	def1[]:"AM"
+	def1[]:"AN"
+	def1[]:"AP"
+	def1[]:"AR"
+	def1[]:"AS"
+	def1[]:"AT"
+	def1[]:"AU"
+	def1[]:"AV"
+	def1[]:"AW"
+	def1[]:"AX"
+	def1[]:"AY"
+	def1[]:"CA"
+	def1[]:"CC"
+#	def1[]:"CE"  # Partially used for trailers
+	def1[]:"CF"
+#	def1[]:"CG"  # Partially used for trailers
+	def1[]:"CH"
+	def1[]:"CJ"
+#	def1[]:"CK"  # Partially used for trailers
+	def1[]:"CL"
+	def1[]:"CM"
+	def1[]:"CN"
+	def1[]:"CP"
+	def1[]:"CR"
+#	def1[]:"CS"  # Partially used for trailers
+	def1[]:"CT"
+	def1[]:"CU"
+	def1[]:"CV"
+	def1[]:"CW"
+	def1[]:"CX"
+	def1[]:"CY"
+	def1[]:"EA"
+	def1[]:"EC"
+	def1[]:"EE"
+#	def1[]:"EF"  # Partially used for trailers
+	def1[]:"EG"
+	def1[]:"EH"
+#	def1[]:"EJ"  # Partially used for trailers
+	def1[]:"EK"
+	def1[]:"EL"
+	def1[]:"EM"
+	def1[]:"EN"
+	def1[]:"EP"
+	def1[]:"ER"
+#	def1[]:"ES"  # Partially used for trailers
+	def1[]:"ET"
+	def1[]:"EU"
+	def1[]:"EV"
+	def1[]:"EW"
+	def1[]:"EX"
+	def1[]:"EY"
+	def1[]:"FA"
+	def1[]:"FC"
+#	def1[]:"FE"  # Partially used for trailers
+	def1[]:"FF"
+	def1[]:"FG"
+	def1[]:"FH"
+	def1[]:"FJ"
+	def1[]:"FK"
+#	def1[]:"FL"  # Partially used for trailers
+	def1[]:"FM"
+	def1[]:"FN"
+	def1[]:"FP"
+	def1[]:"FR"
+	def1[]:"FS"
+	def1[]:"FT"
+	def1[]:"FU"
+	def1[]:"FV"
+#	def1[]:"FW"  # Partially used for trailers
+	def1[]:"FX"
+	def1[]:"FY"
+	def1[]:"GA"
+	def1[]:"GC"
+	def1[]:"GE"
+	def1[]:"GF"
+#	def1[]:"GG"  # Partially used for trailers
+	def1[]:"GH"
+	def1[]:"GJ"
+	def1[]:"GK"
+	def1[]:"GL"
+	def1[]:"GM"
+#	def1[]:"GN"  # Possibly used for trailers
+	def1[]:"GP"
+	def1[]:"GR"
+	def1[]:"GS"
+	def1[]:"GT"
+	def1[]:"GU"
+	def1[]:"GV"
+	def1[]:"GW"
+	def1[]:"GX"
+	def1[]:"GY"
+#	def1[]:"HA"  # Partially used for trailers
+	def1[]:"HC"
+	def1[]:"HE"
+	def1[]:"HF"
+#	def1[]:"HG"  # Partially used for trailers
+	def1[]:"HH"
+	def1[]:"HJ"
+	def1[]:"HK"
+	def1[]:"HL"
+	def1[]:"HM"
+#	def1[]:"HN"  # Partially used for trailers
+	def1[]:"HP"
+	def1[]:"HR"
+	def1[]:"HS"
+	def1[]:"HT"
+	def1[]:"HU"
+	def1[]:"HV"
+#	def1[]:"HW"  # Partially used for trailers
+	def1[]:"HX"
+	def1[]:"HY"
+	def1[]:"JA"
+#	def1[]:"JC"  # Partially used for trailers
+	def1[]:"JE"
+	def1[]:"JF"
+	def1[]:"JG"
+	def1[]:"JH"
+	def1[]:"JJ"
+	def1[]:"JK"
+	def1[]:"JL"
+	def1[]:"JM"
+#	def1[]:"JN"  # Partially used for trailers
+	def1[]:"JP"
+	def1[]:"JR"
+	def1[]:"JS"
+	def1[]:"JT"
+#	def1[]:"JU"  # Partially used for trailers
+	def1[]:"JV"
+#	def1[]:"JW"  # Partially used for trailers
+	def1[]:"JX"
+	def1[]:"JY"
+	def1[]:"KA"
+	def1[]:"KC"
+	def1[]:"KE"
+	def1[]:"KF"
+	def1[]:"KG"
+	def1[]:"KH"
+#	def1[]:"KJ"  # Partially used for trailers
+	def1[]:"KK"
+#	def1[]:"KL"  # Partially used for trailers
+	def1[]:"KM"
+#	def1[]:"KN"  # Possibly used for trailers
+	def1[]:"KP"
+	def1[]:"KR"
+	def1[]:"KS"
+#	def1[]:"KT"  # Partially used for trailers
+	def1[]:"KU"
+	def1[]:"KV"
+#	def1[]:"KW"  # Partially used for trailers
+	def1[]:"KX"
+	def1[]:"KY"
+	def1[]:"LA"
+	def1[]:"LC"
+#	def1[]:"LE"  # Partially used for trailers
+	def1[]:"LF"
+	def1[]:"LG"
+	def1[]:"LH"
+#	def1[]:"LJ"  # Partially used for trailers
+	def1[]:"LK"
+	def1[]:"LL"
+	def1[]:"LM"
+	def1[]:"LN"
+	def1[]:"LP"
+#	def1[]:"LR"  # Partially used for trailers
+	def1[]:"LS"
+#	def1[]:"LT"  # Partially used for trailers
+	def1[]:"LU"
+	def1[]:"LV"
+#	def1[]:"LW"  # Partially used for trailers
+	def1[]:"LX"
+	def1[]:"LY"
+	def1[]:"MA"
+	def1[]:"MC"
+	def1[]:"ME"
+#	def1[]:"MF"  # Partially used for trailers
+	def1[]:"MG"
+	def1[]:"MH"
+	def1[]:"MJ"
+	def1[]:"MK"
+	def1[]:"ML"
+	def1[]:"MM"
+#	def1[]:"MN"  # Partially used for trailers
+	def1[]:"MP"
+	def1[]:"MR"
+	def1[]:"MS"
+	def1[]:"MT"
+	def1[]:"MU"
+#	def1[]:"MV"  # Partially used for trailers
+	def1[]:"MW"
+	def1[]:"MX"
+	def1[]:"MY"
+	def1[]:"NA"
+	def1[]:"NC"
+	def1[]:"NE"
+	def1[]:"NF"
+	def1[]:"NG"
+	def1[]:"NH"
+	def1[]:"NJ"
+	def1[]:"NK"
+#	def1[]:"NL"  # Partially used for trailers
+	def1[]:"NM"
+	def1[]:"NN"
+	def1[]:"NP"
+	def1[]:"NR"
+#	def1[]:"NS"  # Partially used for trailers
+	def1[]:"NT"
+	def1[]:"NU"
+	def1[]:"NV"
+	def1[]:"NW"
+#	def1[]:"NX"  # Partially used for trailers
+	def1[]:"NY"
+	def1[]:"PA"
+	def1[]:"PC"
+	def1[]:"PE"
+#	def1[]:"PF"  # Partially used for trailers
+	def1[]:"PG"
+	def1[]:"PH"
+	def1[]:"PJ"
+	def1[]:"PK"
+	def1[]:"PL"
+	def1[]:"PM"
+	def1[]:"PN"
+	def1[]:"PP"
+	def1[]:"PR"
+	def1[]:"PS"
+	def1[]:"PT"
+#	def1[]:"PU"  # Partially used for trailers
+	def1[]:"PV"
+	def1[]:"PW"
+	def1[]:"PX"
+	def1[]:"PY"
+	def1[]:"RA"
+#	def1[]:"RC"  # Partially used for trailers
+	def1[]:"RE"
+	def1[]:"RF"
+#	def1[]:"RG"  # Partially used for trailers
+	def1[]:"RH"
+	def1[]:"RJ"
+	def1[]:"RK"
+	def1[]:"RL"
+	def1[]:"RM"
+	def1[]:"RN"
+#	def1[]:"RP"  # Partially used for double-row plates
+	def1[]:"RR"
+	def1[]:"RS"
+	def1[]:"RT"
+	def1[]:"RU"
+	def1[]:"RV"
+#	def1[]:"RW"  # Partially used for trailers
+	def1[]:"RX"
+	def1[]:"RY"
+	def1[]:"SA"
+	def1[]:"SC"
+	def1[]:"SE"
+	def1[]:"SF"
+	def1[]:"SG"
+	def1[]:"SH"
+	def1[]:"SJ"
+	def1[]:"SK"
+	def1[]:"SL"
+#	def1[]:"SM"  # Partially used for trailers
+	def1[]:"SN"
+	def1[]:"SP"
+#	def1[]:"SR"  # Partially used for trailers
+#	def1[]:"SS"  # Partially used for trailers
+	def1[]:"ST"
+#	def1[]:"SU"  # Partially used for trailers
+	def1[]:"SV"
+	def1[]:"SW"
+#	def1[]:"SX"  # Partially used for trailers
+#	def1[]:"SY"  # Partially used for trailers
+	def1[]:"TA"
+#	def1[]:"TC"  # Partially used for trailers
+	def1[]:"TE"
+	def1[]:"TF"
+	def1[]:"TG"
+	def1[]:"TH"
+	def1[]:"TJ"
+	def1[]:"TK"
+	def1[]:"TL"
+	def1[]:"TM"
+#	def1[]:"TN"  # Partially used for trailers
+	def1[]:"TP"
+	def1[]:"TR"
+	def1[]:"TS"
+	def1[]:"TT"
+#	def1[]:"TU"  # Partially used for trailers
+	def1[]:"TV"
+	def1[]:"TW"
+#	def1[]:"TX"  # Partially used for trailers
+	def1[]:"TY"
+	def1[]:"UA"
+#	def1[]:"UC"  # Partially used for trailers
+	def1[]:"UE"
+	def1[]:"UF"
+	def1[]:"UG"
+#	def1[]:"UH"  # Partially used for trailers
+	def1[]:"UJ"
+	def1[]:"UK"
+	def1[]:"UL"
+#	def1[]:"UM"  # Partially used for trailers
+	def1[]:"UN"
+	def1[]:"UP"
+	def1[]:"UR"
+#	def1[]:"US"  # Partially used for trailers
+	def1[]:"UT"
+	def1[]:"UU"
+	def1[]:"UV"
+#	def1[]:"UW"  # Partially used for trailers
+	def1[]:"UX"
+	def1[]:"UY"
+	def1[]:"VA"
+	def1[]:"VC"
+	def1[]:"VE"
+#	def1[]:"VF"  # Partially used for trailers
+	def1[]:"VG"
+	def1[]:"VH"
+#	def1[]:"VJ"  # Partially used for trailers
+	def1[]:"VK"
+	def1[]:"VL"
+	def1[]:"VM"
+#	def1[]:"VN"  # Partially used for trailers
+	def1[]:"VP"
+#	def1[]:"VR"  # Partially used for trailers
+	def1[]:"VS"
+	def1[]:"VT"
+	def1[]:"VU"
+	def1[]:"VV"
+	def1[]:"VW"
+	def1[]:"VX"
+#	def1[]:"VY"  # Partially used for trailers
+	def1[]:"WA"
+	def1[]:"WC"
+	def1[]:"WE"
+#	def1[]:"WF"  # Partially used for trailers
+	def1[]:"WG"
+#	def1[]:"WH"  # Partially used for trailers
+	def1[]:"WJ"
+#	def1[]:"WK"  # Partially used for trailers
+	def1[]:"WL"
+#	def1[]:"WM"  # Partially used for trailers
+	def1[]:"WN"
+	def1[]:"WP"
+	def1[]:"WR"
+#	def1[]:"WS"  # Partially used for trailers
+	def1[]:"WT"
+	def1[]:"WU"
+	def1[]:"WV"
+	def1[]:"WW"  # "SK" III latest issued (October 2022)
+#	def1[]:"WX"
+#	def1[]:"WY"
+#	def1[]:"XA"
+#	def1[]:"XC"
+#	def1[]:"XE"
+#	def1[]:"XF"
+#	def1[]:"XG"
+#	def1[]:"XH"
+#	def1[]:"XJ"
+#	def1[]:"XK"
+#	def1[]:"XL"
+#	def1[]:"XM"
+#	def1[]:"XN"
+#	def1[]:"XP"
+#	def1[]:"XR"
+#	def1[]:"XS"
+#	def1[]:"XT"
+#	def1[]:"XU"
+#	def1[]:"XV"
+#	def1[]:"XW"
+#	def1[]:"XX"
+#	def1[]:"XY"
+#	def1[]:"YA"
+#	def1[]:"YC"
+#	def1[]:"YE"
+#	def1[]:"YF"
+#	def1[]:"YG"
+#	def1[]:"YH"
+#	def1[]:"YJ"
+#	def1[]:"YK"
+#	def1[]:"YL"
+#	def1[]:"YM"
+#	def1[]:"YN"
+#	def1[]:"YP"
+#	def1[]:"YR"
+#	def1[]:"YS"
+#	def1[]:"YT"
+#	def1[]:"YU"
+#	def1[]:"YV"
+#	def1[]:"YW"
+#	def1[]:"YX"
+#	def1[]:"YY"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .katowice.lp.truck
+{
+	type: truck
+
+	probability: 0.3
+
+	# Two letter powiat codes
+#	templates[]:"SK544444"   # I    before EU stars
+#	templates[]:"SK544440"   # II   some before EU stars
+	templates[]:"SK54441"    # III
+
+	# "SK" II
+##	def0[]:"A"
+##	def0[]:"B"
+##	def0[]:"C"
+##	def0[]:"E"
+##	def0[]:"F"  # Most before EU stars
+#	def0[]:"G"
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+#	def0[]:"L"
+#	def0[]:"M"
+#	def0[]:"N"
+#	def0[]:"P"
+#	def0[]:"R"
+#	def0[]:"S"
+#	def0[]:"T"
+#	def0[]:"U"
+#	def0[]:"W"
+#	def0[]:"V"
+#	def0[]:"X"
+#	def0[]:"Y"
+
+	# "SK" III
+#	def1[]:"AA"
+#	def1[]:"AC"
+#	def1[]:"AE"
+##	def1[]:"AF"  # Partially used for trailers
+#	def1[]:"AG"
+#	def1[]:"AH"
+##	def1[]:"AJ"  # Partially used for trailers
+##	def1[]:"AK"  # Partially used for trailers
+#	def1[]:"AL"
+#	def1[]:"AM"
+#	def1[]:"AN"
+#	def1[]:"AP"
+#	def1[]:"AR"
+#	def1[]:"AS"
+#	def1[]:"AT"
+#	def1[]:"AU"
+#	def1[]:"AV"
+#	def1[]:"AW"
+#	def1[]:"AX"
+#	def1[]:"AY"
+#	def1[]:"CA"
+#	def1[]:"CC"
+##	def1[]:"CE"  # Partially used for trailers
+#	def1[]:"CF"
+##	def1[]:"CG"  # Partially used for trailers
+#	def1[]:"CH"
+#	def1[]:"CJ"
+##	def1[]:"CK"  # Partially used for trailers
+#	def1[]:"CL"
+#	def1[]:"CM"
+#	def1[]:"CN"
+#	def1[]:"CP"
+#	def1[]:"CR"
+##	def1[]:"CS"  # Partially used for trailers
+#	def1[]:"CT"
+#	def1[]:"CU"
+#	def1[]:"CV"
+#	def1[]:"CW"
+#	def1[]:"CX"
+#	def1[]:"CY"
+#	def1[]:"EA"
+#	def1[]:"EC"
+#	def1[]:"EE"
+##	def1[]:"EF"  # Partially used for trailers
+#	def1[]:"EG"
+#	def1[]:"EH"
+##	def1[]:"EJ"  # Partially used for trailers
+#	def1[]:"EK"
+#	def1[]:"EL"
+#	def1[]:"EM"
+#	def1[]:"EN"
+#	def1[]:"EP"
+#	def1[]:"ER"
+##	def1[]:"ES"  # Partially used for trailers
+#	def1[]:"ET"
+#	def1[]:"EU"
+#	def1[]:"EV"
+#	def1[]:"EW"
+#	def1[]:"EX"
+#	def1[]:"EY"
+#	def1[]:"FA"
+#	def1[]:"FC"
+##	def1[]:"FE"  # Partially used for trailers
+#	def1[]:"FF"
+#	def1[]:"FG"
+#	def1[]:"FH"
+#	def1[]:"FJ"
+#	def1[]:"FK"
+##	def1[]:"FL"  # Partially used for trailers
+#	def1[]:"FM"
+#	def1[]:"FN"
+#	def1[]:"FP"
+#	def1[]:"FR"
+#	def1[]:"FS"
+#	def1[]:"FT"
+#	def1[]:"FU"
+#	def1[]:"FV"
+##	def1[]:"FW"  # Partially used for trailers
+#	def1[]:"FX"
+#	def1[]:"FY"
+#	def1[]:"GA"
+#	def1[]:"GC"
+#	def1[]:"GE"
+#	def1[]:"GF"
+##	def1[]:"GG"  # Partially used for trailers
+#	def1[]:"GH"
+#	def1[]:"GJ"
+#	def1[]:"GK"
+#	def1[]:"GL"
+#	def1[]:"GM"
+##	def1[]:"GN"  # Possibly used for trailers
+#	def1[]:"GP"
+#	def1[]:"GR"
+#	def1[]:"GS"
+#	def1[]:"GT"
+#	def1[]:"GU"
+#	def1[]:"GV"
+#	def1[]:"GW"
+#	def1[]:"GX"
+#	def1[]:"GY"
+##	def1[]:"HA"  # Partially used for trailers
+#	def1[]:"HC"
+#	def1[]:"HE"
+#	def1[]:"HF"
+##	def1[]:"HG"  # Partially used for trailers
+#	def1[]:"HH"
+#	def1[]:"HJ"
+#	def1[]:"HK"
+#	def1[]:"HL"
+#	def1[]:"HM"
+##	def1[]:"HN"  # Partially used for trailers
+#	def1[]:"HP"
+#	def1[]:"HR"
+#	def1[]:"HS"
+#	def1[]:"HT"
+#	def1[]:"HU"
+#	def1[]:"HV"
+##	def1[]:"HW"  # Partially used for trailers
+#	def1[]:"HX"
+#	def1[]:"HY"
+#	def1[]:"JA"
+##	def1[]:"JC"  # Partially used for trailers
+#	def1[]:"JE"
+#	def1[]:"JF"
+#	def1[]:"JG"
+#	def1[]:"JH"
+#	def1[]:"JJ"
+#	def1[]:"JK"
+#	def1[]:"JL"
+#	def1[]:"JM"
+##	def1[]:"JN"  # Partially used for trailers
+#	def1[]:"JP"
+#	def1[]:"JR"
+#	def1[]:"JS"
+#	def1[]:"JT"
+##	def1[]:"JU"  # Partially used for trailers
+#	def1[]:"JV"
+##	def1[]:"JW"  # Partially used for trailers
+#	def1[]:"JX"
+#	def1[]:"JY"
+#	def1[]:"KA"
+#	def1[]:"KC"
+#	def1[]:"KE"
+#	def1[]:"KF"
+#	def1[]:"KG"
+#	def1[]:"KH"
+##	def1[]:"KJ"  # Partially used for trailers
+#	def1[]:"KK"
+##	def1[]:"KL"  # Partially used for trailers
+#	def1[]:"KM"
+##	def1[]:"KN"  # Possibly used for trailers
+#	def1[]:"KP"
+#	def1[]:"KR"
+#	def1[]:"KS"
+##	def1[]:"KT"  # Partially used for trailers
+#	def1[]:"KU"
+#	def1[]:"KV"
+##	def1[]:"KW"  # Partially used for trailers
+#	def1[]:"KX"
+#	def1[]:"KY"
+#	def1[]:"LA"
+#	def1[]:"LC"
+##	def1[]:"LE"  # Partially used for trailers
+#	def1[]:"LF"
+#	def1[]:"LG"
+#	def1[]:"LH"
+##	def1[]:"LJ"  # Partially used for trailers
+#	def1[]:"LK"
+#	def1[]:"LL"
+#	def1[]:"LM"
+#	def1[]:"LN"
+#	def1[]:"LP"
+##	def1[]:"LR"  # Partially used for trailers
+#	def1[]:"LS"
+##	def1[]:"LT"  # Partially used for trailers
+#	def1[]:"LU"
+#	def1[]:"LV"
+##	def1[]:"LW"  # Partially used for trailers
+#	def1[]:"LX"
+#	def1[]:"LY"
+#	def1[]:"MA"
+#	def1[]:"MC"
+#	def1[]:"ME"
+##	def1[]:"MF"  # Partially used for trailers
+#	def1[]:"MG"
+#	def1[]:"MH"
+#	def1[]:"MJ"
+#	def1[]:"MK"
+#	def1[]:"ML"
+#	def1[]:"MM"
+##	def1[]:"MN"  # Partially used for trailers
+#	def1[]:"MP"
+#	def1[]:"MR"
+#	def1[]:"MS"
+#	def1[]:"MT"
+#	def1[]:"MU"
+##	def1[]:"MV"  # Partially used for trailers
+#	def1[]:"MW"
+#	def1[]:"MX"
+#	def1[]:"MY"
+#	def1[]:"NA"
+#	def1[]:"NC"
+#	def1[]:"NE"
+#	def1[]:"NF"
+#	def1[]:"NG"
+#	def1[]:"NH"
+#	def1[]:"NJ"
+#	def1[]:"NK"
+##	def1[]:"NL"  # Partially used for trailers
+#	def1[]:"NM"
+#	def1[]:"NN"
+#	def1[]:"NP"
+#	def1[]:"NR"
+##	def1[]:"NS"  # Partially used for trailers
+#	def1[]:"NT"
+#	def1[]:"NU"
+#	def1[]:"NV"
+#	def1[]:"NW"
+##	def1[]:"NX"  # Partially used for trailers
+#	def1[]:"NY"
+#	def1[]:"PA"
+#	def1[]:"PC"
+#	def1[]:"PE"
+##	def1[]:"PF"  # Partially used for trailers
+#	def1[]:"PG"
+#	def1[]:"PH"
+#	def1[]:"PJ"
+#	def1[]:"PK"
+#	def1[]:"PL"
+#	def1[]:"PM"
+#	def1[]:"PN"
+#	def1[]:"PP"
+#	def1[]:"PR"
+#	def1[]:"PS"
+#	def1[]:"PT"
+##	def1[]:"PU"  # Partially used for trailers
+#	def1[]:"PV"
+#	def1[]:"PW"
+#	def1[]:"PX"
+#	def1[]:"PY"
+#	def1[]:"RA"
+##	def1[]:"RC"  # Partially used for trailers
+#	def1[]:"RE"
+#	def1[]:"RF"
+##	def1[]:"RG"  # Partially used for trailers
+#	def1[]:"RH"
+#	def1[]:"RJ"
+#	def1[]:"RK"
+#	def1[]:"RL"
+#	def1[]:"RM"
+#	def1[]:"RN"
+##	def1[]:"RP"  # Partially used for double-row plates
+#	def1[]:"RR"
+#	def1[]:"RS"
+#	def1[]:"RT"
+#	def1[]:"RU"
+#	def1[]:"RV"
+##	def1[]:"RW"  # Partially used for trailers
+#	def1[]:"RX"
+#	def1[]:"RY"
+#	def1[]:"SA"
+#	def1[]:"SC"
+#	def1[]:"SE"
+#	def1[]:"SF"
+#	def1[]:"SG"
+#	def1[]:"SH"
+#	def1[]:"SJ"
+#	def1[]:"SK"
+#	def1[]:"SL"
+##	def1[]:"SM"  # Partially used for trailers
+#	def1[]:"SN"
+#	def1[]:"SP"
+##	def1[]:"SR"  # Partially used for trailers
+##	def1[]:"SS"  # Partially used for trailers
+#	def1[]:"ST"
+##	def1[]:"SU"  # Partially used for trailers
+#	def1[]:"SV"
+#	def1[]:"SW"
+##	def1[]:"SX"  # Partially used for trailers
+##	def1[]:"SY"  # Partially used for trailers
+#	def1[]:"TA"
+##	def1[]:"TC"  # Partially used for trailers
+#	def1[]:"TE"
+#	def1[]:"TF"
+#	def1[]:"TG"
+#	def1[]:"TH"
+#	def1[]:"TJ"
+#	def1[]:"TK"
+#	def1[]:"TL"
+#	def1[]:"TM"
+##	def1[]:"TN"  # Partially used for trailers
+#	def1[]:"TP"
+#	def1[]:"TR"
+#	def1[]:"TS"
+#	def1[]:"TT"
+##	def1[]:"TU"  # Partially used for trailers
+#	def1[]:"TV"
+#	def1[]:"TW"
+##	def1[]:"TX"  # Partially used for trailers
+#	def1[]:"TY"
+#	def1[]:"UA"
+##	def1[]:"UC"  # Partially used for trailers
+#	def1[]:"UE"
+#	def1[]:"UF"
+#	def1[]:"UG"
+##	def1[]:"UH"  # Partially used for trailers
+#	def1[]:"UJ"
+#	def1[]:"UK"
+#	def1[]:"UL"
+##	def1[]:"UM"  # Partially used for trailers
+#	def1[]:"UN"
+#	def1[]:"UP"
+#	def1[]:"UR"
+##	def1[]:"US"  # Partially used for trailers
+#	def1[]:"UT"
+#	def1[]:"UU"
+#	def1[]:"UV"
+##	def1[]:"UW"  # Partially used for trailers
+#	def1[]:"UX"
+#	def1[]:"UY"
+#	def1[]:"VA"
+#	def1[]:"VC"
+#	def1[]:"VE"
+##	def1[]:"VF"  # Partially used for trailers
+#	def1[]:"VG"
+#	def1[]:"VH"
+##	def1[]:"VJ"  # Partially used for trailers
+#	def1[]:"VK"
+#	def1[]:"VL"
+#	def1[]:"VM"
+##	def1[]:"VN"  # Partially used for trailers
+#	def1[]:"VP"
+##	def1[]:"VR"  # Partially used for trailers
+#	def1[]:"VS"
+#	def1[]:"VT"
+#	def1[]:"VU"
+#	def1[]:"VV"
+#	def1[]:"VW"
+#	def1[]:"VX"
+##	def1[]:"VY"  # Partially used for trailers
+#	def1[]:"WA"
+#	def1[]:"WC"
+#	def1[]:"WE"
+##	def1[]:"WF"  # Partially used for trailers
+#	def1[]:"WG"
+##	def1[]:"WH"  # Partially used for trailers
+#	def1[]:"WJ"
+##	def1[]:"WK"  # Partially used for trailers
+#	def1[]:"WL"
+##	def1[]:"WM"  # Partially used for trailers
+#	def1[]:"WN"
+#	def1[]:"WP"
+#	def1[]:"WR"
+##	def1[]:"WS"  # Partially used for trailers
+#	def1[]:"WT"
+	def1[]:"WU"
+	def1[]:"WV"
+	def1[]:"WW"  # "SK" III latest issued (October 2022)
+#	def1[]:"WX"
+#	def1[]:"WY"
+#	def1[]:"XA"
+#	def1[]:"XC"
+#	def1[]:"XE"
+#	def1[]:"XF"
+#	def1[]:"XG"
+#	def1[]:"XH"
+#	def1[]:"XJ"
+#	def1[]:"XK"
+#	def1[]:"XL"
+#	def1[]:"XM"
+#	def1[]:"XN"
+#	def1[]:"XP"
+#	def1[]:"XR"
+#	def1[]:"XS"
+#	def1[]:"XT"
+#	def1[]:"XU"
+#	def1[]:"XV"
+#	def1[]:"XW"
+#	def1[]:"XX"
+#	def1[]:"XY"
+#	def1[]:"YA"
+#	def1[]:"YC"
+#	def1[]:"YE"
+#	def1[]:"YF"
+#	def1[]:"YG"
+#	def1[]:"YH"
+#	def1[]:"YJ"
+#	def1[]:"YK"
+#	def1[]:"YL"
+#	def1[]:"YM"
+#	def1[]:"YN"
+#	def1[]:"YP"
+#	def1[]:"YR"
+#	def1[]:"YS"
+#	def1[]:"YT"
+#	def1[]:"YU"
+#	def1[]:"YV"
+#	def1[]:"YW"
+#	def1[]:"YX"
+#	def1[]:"YY"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .katowice.lp.trailer
+{
+	type: trailer
+
+	probability: 0.3
+
+	# Two letter powiat codes
+#	templates[]:"SK544444"   # I    before EU stars
+#	templates[]:"SK544442"   # II   some before EU stars
+#	templates[]:"SK59441"    # III
+#	templates[]:"SK58442"    # III
+	templates[]:"SK50443"    # III
+
+	def0[]:"0"
+
+	# "SK" III 9....
+#	def1[]:"AJ"
+#	def1[]:"AK"
+#	def1[]:"CG"
+#	def1[]:"CK"
+#	def1[]:"CS"
+#	def1[]:"EF"
+#	def1[]:"EJ"
+#	def1[]:"ES"
+#	def1[]:"FE"
+#	def1[]:"FL"
+#	def1[]:"FW"
+#	def1[]:"GG"
+#	def1[]:"HN"
+#	def1[]:"HW"
+#	def1[]:"KJ"
+#	def1[]:"KL"
+#	def1[]:"KT"
+#	def1[]:"LE"
+#	def1[]:"LJ"
+#	def1[]:"LT"
+#	def1[]:"LW"
+#	def1[]:"MF"
+#	def1[]:"MN"
+#	def1[]:"NL"
+#	def1[]:"NX"
+#	def1[]:"PF"
+#	def1[]:"PU"
+#	def1[]:"RC"
+#	def1[]:"RG"
+#	def1[]:"SY"
+
+	# "SK" III 8....
+#	def2[]:"AJ"
+#	def2[]:"CE"
+#	def2[]:"CK"
+#	def2[]:"CS"
+#	def2[]:"EF"
+#	def2[]:"ES"
+#	def2[]:"FE"
+#	def2[]:"FL"
+#	def2[]:"FW"
+#	def2[]:"GG"
+#	def2[]:"HN"
+#	def2[]:"JC"
+#	def2[]:"JN"
+#	def2[]:"JW"
+#	def2[]:"KW"
+#	def2[]:"LE"
+#	def2[]:"LJ"
+#	def2[]:"LR"
+#	def2[]:"MN"
+#	def2[]:"NS"
+#	def2[]:"NX"
+#	def2[]:"PF"
+#	def2[]:"PU"
+#	def2[]:"RC"
+#	def2[]:"RG"
+
+	# "SK" III 0....
+#	def3[]:"AF"
+#	def3[]:"HA"
+#	def3[]:"MV"
+#	def3[]:"RW"
+#	def3[]:"SR"
+#	def3[]:"SS"
+#	def3[]:"SU"
+#	def3[]:"SX"
+#	def3[]:"TC"
+#	def3[]:"TN"
+#	def3[]:"TU"
+#	def3[]:"TX"
+#	def3[]:"UC"
+#	def3[]:"UH"
+#	def3[]:"UM"
+	def3[]:"US"
+	def3[]:"UW"
+	def3[]:"VF"
+	def3[]:"VN"
+	def3[]:"VR"
+	def3[]:"VY"
+	def3[]:"WF"
+	def3[]:"WH"
+	def3[]:"WM"
+	def3[]:"WS"  # "SK" III 0.... latest issued (October 2022)
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .katowice.lp.police
+{
+	type: police
+
+	probability: 0.9
+
+	# P = Silesian (Śląskie) Voivodeship Headquarters
+	templates[]:"HPP51222"
+#	templates[]:"HPP51222"
+#	templates[]:"HPP51222"
+#	templates[]:"HPP51222"
+#	templates[]:"HPP52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

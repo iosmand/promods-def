@@ -1,0 +1,53 @@
+﻿city_data: city.bolungarvik
+{
+	city_name: "Bolungarvík"
+	city_name_localized: "@@bolungarvik@@"
+	country: iceland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 40
+	map_x_offsets[]: -40
+	map_x_offsets[]: -35
+	map_x_offsets[]: 1
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 100
+	map_y_offsets[]: 5
+	map_y_offsets[]: -5
+	map_y_offsets[]: -8
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
+
+	vehicle_brands[]:"volvo"
+
+	license_plate[]: .bolungarvik.lp.truck
+	license_plate[]: .bolungarvik.lp.trailer
+}
+
+license_plate_data : .bolungarvik.lp.truck
+{
+	type: truck
+
+@include "city_lp_is_truck.sui"
+}
+
+license_plate_data : .bolungarvik.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_is_trailer.sui"
+}

@@ -1,0 +1,767 @@
+city_data: city.rzeszow
+{
+	city_name: "Rzeszów"
+	city_name_localized: "@@rzeszow@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: 30
+	map_x_offsets[]: -40
+	map_x_offsets[]: -35
+	map_x_offsets[]: -31
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -180
+	map_y_offsets[]: -40
+	map_y_offsets[]: -18
+	map_y_offsets[]: -22
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	license_plate[]: .rzeszow.lp.car
+	license_plate[]: .rzeszow.lp.truck
+	license_plate[]: .rzeszow.lp.trailer
+	license_plate[]: .rzeszow.lp.police
+}
+
+license_plate_data : .rzeszow.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+#	templates[]:"RZ544444"   # I    most before EU stars
+	templates[]:"RZ544442"   # II
+	templates[]:"RZ54440"    # III
+	templates[]:"RZ54440"    # III
+	templates[]:"RZ54440"    # III
+	templates[]:"RZ54440"    # III
+
+	# Three letter powiat codes
+#	templates[]:"RZE52444"   # I    before EU stars
+#	templates[]:"RZE54422"   # II   before EU stars
+	templates[]:"RZE53244"   # III  some before EU stars
+	templates[]:"RZE54423"   # IV
+	templates[]:"RZE52244"   # VI
+	templates[]:"RZE53223"   # V
+	templates[]:"RZE544444"  # VII
+	templates[]:"RZE54444A"  # VIII
+	templates[]:"RZE5144C"   # VIII
+
+	# "RZ" III
+	def0[]:"AA"
+	def0[]:"AC"
+	def0[]:"AE"
+	def0[]:"AF"
+	def0[]:"AG"
+	def0[]:"AH"
+	def0[]:"AJ"
+	def0[]:"AK"
+	def0[]:"AL"
+	def0[]:"AM"
+	def0[]:"AN"
+#	def0[]:"AP"  # Used for trailers
+	def0[]:"AR"
+	def0[]:"AS"
+	def0[]:"AT"
+	def0[]:"AU"
+	def0[]:"AV"
+	def0[]:"AW"
+	def0[]:"AX"
+	def0[]:"AY"
+	def0[]:"CA"
+	def0[]:"CC"
+	def0[]:"CE"
+	def0[]:"CF"
+	def0[]:"CG"
+	def0[]:"CH"
+	def0[]:"CJ"
+	def0[]:"CK"
+	def0[]:"CL"
+	def0[]:"CM"
+	def0[]:"CN"
+#	def0[]:"CP"  # Used for trailers
+	def0[]:"CR"
+	def0[]:"CS"
+	def0[]:"CT"
+	def0[]:"CU"
+	def0[]:"CV"
+	def0[]:"CW"
+	def0[]:"CX"
+	def0[]:"CY"
+	def0[]:"EA"
+	def0[]:"EC"
+	def0[]:"EE"  # "RZ" III latest issued (October 2022)
+#	def0[]:"EF"
+#	def0[]:"EG"
+#	def0[]:"EH"
+#	def0[]:"EJ"
+#	def0[]:"EK"
+#	def0[]:"EL"
+#	def0[]:"EM"
+#	def0[]:"EN"
+#	def0[]:"EP"
+#	def0[]:"ER"
+#	def0[]:"ES"
+#	def0[]:"ET"
+#	def0[]:"EU"
+#	def0[]:"EV"
+#	def0[]:"EW"
+#	def0[]:"EX"
+#	def0[]:"EY"
+#	def0[]:"FA"
+#	def0[]:"FC"
+#	def0[]:"FE"
+#	def0[]:"FF"
+#	def0[]:"FG"
+#	def0[]:"FH"
+#	def0[]:"FJ"
+#	def0[]:"FK"
+#	def0[]:"FL"
+#	def0[]:"FM"
+#	def0[]:"FN"
+#	def0[]:"FP"
+#	def0[]:"FR"
+#	def0[]:"FS"
+#	def0[]:"FT"
+#	def0[]:"FU"
+#	def0[]:"FV"
+#	def0[]:"FW"
+#	def0[]:"FX"
+#	def0[]:"FY"
+
+	# "RZE" VIII ....C
+	def1[]:"00"  # Dynów
+	def1[]:"01"  # Dynów
+	def1[]:"02"  # Dynów "RZE" VIII ....C latest issued (October 2022)
+	def1[]:"03"  # Rzeszów
+	def1[]:"04"  # Rzeszów
+	def1[]:"05"  # Rzeszów
+	def1[]:"06"  # Rzeszów
+	def1[]:"07"  # Rzeszów
+	def1[]:"08"  # Rzeszów
+	def1[]:"09"  # Rzeszów
+	def1[]:"10"  # Rzeszów
+	def1[]:"11"  # Rzeszów
+	def1[]:"12"  # Rzeszów
+	def1[]:"13"  # Rzeszów
+	def1[]:"14"  # Rzeszów
+	def1[]:"15"  # Rzeszów
+	def1[]:"16"  # Rzeszów
+	def1[]:"17"  # Rzeszów
+	def1[]:"18"  # Rzeszów
+	def1[]:"19"  # Rzeszów
+	def1[]:"20"  # Rzeszów
+	def1[]:"21"  # Rzeszów
+	def1[]:"22"  # Rzeszów
+	def1[]:"23"  # Rzeszów
+	def1[]:"24"  # Rzeszów
+	def1[]:"25"  # Rzeszów
+	def1[]:"26"  # Rzeszów
+	def1[]:"27"  # Rzeszów
+	def1[]:"28"  # Rzeszów
+#	def1[]:"29"
+#	def1[]:"30"
+#	def1[]:"31"
+#	def1[]:"32"
+#	def1[]:"33"
+	def1[]:"34"  # Rzeszów
+	def1[]:"35"  # Rzeszów
+	def1[]:"36"  # Rzeszów
+	def1[]:"37"  # Rzeszów
+	def1[]:"38"  # Rzeszów
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+	def1[]:"43"  # Rzeszów
+	def1[]:"44"  # Rzeszów "RZE" VIII ....C latest issued (October 2022)
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"50"
+#	def1[]:"51"
+#	def1[]:"52"
+#	def1[]:"53"
+#	def1[]:"54"
+#	def1[]:"55"
+#	def1[]:"56"
+#	def1[]:"57"
+#	def1[]:"58"
+#	def1[]:"59"
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
+#	def1[]:"64"
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+#	def1[]:"70"
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+#	def1[]:"77"
+#	def1[]:"78"
+#	def1[]:"79"
+#	def1[]:"80"
+#	def1[]:"81"
+#	def1[]:"82"
+#	def1[]:"83"
+#	def1[]:"84"
+#	def1[]:"85"
+#	def1[]:"86"
+#	def1[]:"87"
+#	def1[]:"88"
+#	def1[]:"89"
+#	def1[]:"90"
+#	def1[]:"91"
+#	def1[]:"92"
+#	def1[]:"93"
+#	def1[]:"94"
+#	def1[]:"95"
+#	def1[]:"96"
+#	def1[]:"97"
+#	def1[]:"98"
+#	def1[]:"99"
+
+	# "RZ" II, "RZE" III/IV/VI/V
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+#	def2[]:"P"  # "RZ" II used for trailers and tractors
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+#	def2[]:"U"  # "RZE" used for mopeds (V)
+#	def2[]:"V"  # "RZE" used for mopeds (III/IV/VI)
+#	def2[]:"W"  # "RZE" used for tractors
+#	def2[]:"X"  # "RZE" used for motorcycles
+#	def2[]:"Y"  # "RZE" used for trailers
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .rzeszow.lp.truck
+{
+	type: truck
+
+	probability: 0.3
+
+	# Two letter powiat codes
+#	templates[]:"RZ50444"    # I    most before EU stars
+#	templates[]:"RZ544441"   # II
+	templates[]:"RZ54442"    # III
+
+	# "RZ" I
+#	def0[]:"00"
+#	def0[]:"01"
+##	def0[]:"02"  # Partially used for double-row plates
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+##	def0[]:"06"  # Partially used for double-row plates
+#	def0[]:"07"
+#	def0[]:"08"
+#	def0[]:"09"
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"12"
+#	def0[]:"13"
+#	def0[]:"14"
+##	def0[]:"15"  # Partially used for double-row plates
+#	def0[]:"16"
+##	def0[]:"17"  # Partially used for double-row plates
+#	def0[]:"18"
+#	def0[]:"19"
+#	def0[]:"20"
+#	def0[]:"21"
+#	def0[]:"22"
+#	def0[]:"23"
+#	def0[]:"24"
+#	def0[]:"25"
+#	def0[]:"26"
+##	def0[]:"27"  # Partially used for double-row plates
+#	def0[]:"28"
+#	def0[]:"29"
+##	def0[]:"30"  # Partially used for double-row plates
+#	def0[]:"31"
+##	def0[]:"32"  # Partially used for double-row plates
+#	def0[]:"33"
+#	def0[]:"34"
+#	def0[]:"35"
+#	def0[]:"36"
+#	def0[]:"37"
+#	def0[]:"38"
+#	def0[]:"39"
+#	def0[]:"40"
+#	def0[]:"41"
+#	def0[]:"42"
+##	def0[]:"43"  # Partially used for double-row plates
+#	def0[]:"44"
+#	def0[]:"45"
+#	def0[]:"46"
+#	def0[]:"47"
+##	def0[]:"48"  # Partially used for double-row plates
+#	def0[]:"49"
+#	def0[]:"50"
+#	def0[]:"51"
+#	def0[]:"52"
+#	def0[]:"53"
+#	def0[]:"54"
+#	def0[]:"55"
+#	def0[]:"56"
+#	def0[]:"57"
+#	def0[]:"58"  # Half before EU stars
+#	def0[]:"59"
+#	def0[]:"60"
+#	def0[]:"61"
+#	def0[]:"62"
+#	def0[]:"63"
+#	def0[]:"64"
+#	def0[]:"65"
+#	def0[]:"66"
+#	def0[]:"67"
+#	def0[]:"68"
+#	def0[]:"69"
+#	def0[]:"70"
+#	def0[]:"71"
+#	def0[]:"72"
+#	def0[]:"73"
+#	def0[]:"74"
+#	def0[]:"75"
+#	def0[]:"76"
+#	def0[]:"77"
+#	def0[]:"78"
+#	def0[]:"79"
+#	def0[]:"80"
+##	def0[]:"81"  # Partially used for double-row plates
+#	def0[]:"82"
+#	def0[]:"83"
+#	def0[]:"84"
+#	def0[]:"85"
+#	def0[]:"86"
+#	def0[]:"87"
+#	def0[]:"88"
+#	def0[]:"89"
+##	def0[]:"90"  # Partially used for double-row plates
+#	def0[]:"91"
+##	def0[]:"92"  # Partially used for double-row plates
+#	def0[]:"93"
+##	def0[]:"94"  # Partially used for double-row plates
+#	def0[]:"95"
+##	def0[]:"96"  # Partially used for double-row plates
+##	def0[]:"97"  # Used for trailers
+##	def0[]:"98"  # Used for trailers
+##	def0[]:"99"  # Used for trailers
+
+	# "RZ" II
+#	def1[]:"A"
+#	def1[]:"C"
+#	def1[]:"E"
+#	def1[]:"F"
+#	def1[]:"G"
+#	def1[]:"H"
+#	def1[]:"J"
+#	def1[]:"K"
+#	def1[]:"L"
+#	def1[]:"M"
+#	def1[]:"N"
+##	def1[]:"P"  # Used for trailers and tractors
+#	def1[]:"R"
+#	def1[]:"S"
+#	def1[]:"T"
+#	def1[]:"U"
+#	def1[]:"V"
+#	def1[]:"W"
+#	def1[]:"X"
+#	def1[]:"Y"
+
+	# "RZ" III
+#	def2[]:"AA"
+#	def2[]:"AC"
+#	def2[]:"AE"
+#	def2[]:"AF"
+#	def2[]:"AG"
+#	def2[]:"AH"
+#	def2[]:"AJ"
+#	def2[]:"AK"
+#	def2[]:"AL"
+#	def2[]:"AM"
+#	def2[]:"AN"
+##	def2[]:"AP"  # Used for trailers
+#	def2[]:"AR"
+#	def2[]:"AS"
+#	def2[]:"AT"
+#	def2[]:"AU"
+#	def2[]:"AV"
+#	def2[]:"AW"
+#	def2[]:"AX"
+#	def2[]:"AY"
+#	def2[]:"CA"
+#	def2[]:"CC"
+#	def2[]:"CE"
+#	def2[]:"CF"
+#	def2[]:"CG"
+#	def2[]:"CH"
+#	def2[]:"CJ"
+#	def2[]:"CK"
+#	def2[]:"CL"
+#	def2[]:"CM"
+#	def2[]:"CN"
+##	def2[]:"CP"  # Used for trailers
+#	def2[]:"CR"
+#	def2[]:"CS"
+#	def2[]:"CT"
+#	def2[]:"CU"
+#	def2[]:"CV"
+#	def2[]:"CW"
+#	def2[]:"CX"
+#	def2[]:"CY"
+	def2[]:"EA"
+	def2[]:"EC"
+	def2[]:"EE"  # "RZ" III latest issued (October 2022)
+#	def2[]:"EF"
+#	def2[]:"EG"
+#	def2[]:"EH"
+#	def2[]:"EJ"
+#	def2[]:"EK"
+#	def2[]:"EL"
+#	def2[]:"EM"
+#	def2[]:"EN"
+#	def2[]:"EP"
+#	def2[]:"ER"
+#	def2[]:"ES"
+#	def2[]:"ET"
+#	def2[]:"EU"
+#	def2[]:"EV"
+#	def2[]:"EW"
+#	def2[]:"EX"
+#	def2[]:"EY"
+#	def2[]:"FA"
+#	def2[]:"FC"
+#	def2[]:"FE"
+#	def2[]:"FF"
+#	def2[]:"FG"
+#	def2[]:"FH"
+#	def2[]:"FJ"
+#	def2[]:"FK"
+#	def2[]:"FL"
+#	def2[]:"FM"
+#	def2[]:"FN"
+#	def2[]:"FP"
+#	def2[]:"FR"
+#	def2[]:"FS"
+#	def2[]:"FT"
+#	def2[]:"FU"
+#	def2[]:"FV"
+#	def2[]:"FW"
+#	def2[]:"FX"
+#	def2[]:"FY"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .rzeszow.lp.trailer
+{
+	type: trailer
+
+	probability: 0.3
+
+	# Two letter powiat codes
+#	templates[]:"RZ5044"     # I    most before EU stars
+#	templates[]:"RZ59444A"   # II
+#	templates[]:"RZ59444C"   # II
+#	templates[]:"RZ59444E"   # II
+#	templates[]:"RZ59444F"   # II
+#	templates[]:"RZ59444G"   # II
+#	templates[]:"RZ59444H"   # II
+#	templates[]:"RZ59444J"   # II
+#	templates[]:"RZ59444K"   # II
+	templates[]:"RZ5144P"    # II
+	templates[]:"RZ54442"    # III
+	templates[]:"RZ54442"    # III
+	templates[]:"RZ54442"    # III
+
+	# "RZ" I
+#	def0[]:"990"
+#	def0[]:"991"
+#	def0[]:"992"
+#	def0[]:"993"
+#	def0[]:"994"
+#	def0[]:"995"
+#	def0[]:"996"
+#	def0[]:"997"
+#	def0[]:"998"
+#	def0[]:"999"
+#	def0[]:"980"
+#	def0[]:"981"
+#	def0[]:"982"
+#	def0[]:"983"
+#	def0[]:"984"
+#	def0[]:"985"
+#	def0[]:"986"
+#	def0[]:"987"
+#	def0[]:"988"
+#	def0[]:"989"
+#	def0[]:"970"
+#	def0[]:"971"  # Most before EU stars
+#	def0[]:"972"
+#	def0[]:"973"
+#	def0[]:"974"
+#	def0[]:"975"
+#	def0[]:"976"
+#	def0[]:"977"
+#	def0[]:"978"
+#	def0[]:"979"
+
+	# "RZ" II ....P
+#	def1[]:"00"
+#	def1[]:"01"
+#	def1[]:"02"
+#	def1[]:"03"
+#	def1[]:"04"
+#	def1[]:"05"
+#	def1[]:"06"
+#	def1[]:"07"
+#	def1[]:"08"
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
+#	def1[]:"12"
+#	def1[]:"13"
+#	def1[]:"14"
+#	def1[]:"15"
+#	def1[]:"16"
+#	def1[]:"17"
+#	def1[]:"18"
+#	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
+#	def1[]:"30"
+#	def1[]:"31"
+#	def1[]:"32"
+#	def1[]:"33"
+#	def1[]:"34"
+#	def1[]:"35"
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"50"
+#	def1[]:"51"
+#	def1[]:"52"
+#	def1[]:"53"
+#	def1[]:"54"
+#	def1[]:"55"
+#	def1[]:"56"
+#	def1[]:"57"
+#	def1[]:"58"
+#	def1[]:"59"
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
+#	def1[]:"64"
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+#	def1[]:"70"
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+#	def1[]:"77"
+#	def1[]:"78"
+#	def1[]:"79"
+#	def1[]:"80"
+#	def1[]:"81"
+#	def1[]:"82"
+#	def1[]:"83"
+#	def1[]:"84"
+#	def1[]:"85"
+#	def1[]:"86"
+#	def1[]:"87"
+#	def1[]:"88"
+#	def1[]:"89"
+	def1[]:"90"
+	def1[]:"91"
+	def1[]:"92"
+	def1[]:"93"
+	def1[]:"94"
+	def1[]:"95"
+	def1[]:"96"
+	def1[]:"97"
+	def1[]:"98"
+	def1[]:"99"
+
+	# "RZ" III
+	def2[]:"AP"
+	def2[]:"CP"  # "RZ" III latest issued (October 2022)
+#	def2[]:"EP"
+#	def2[]:"FP"
+#	def2[]:"GP"
+#	def2[]:"HP"
+#	def2[]:"JP"
+#	def2[]:"KP"
+#	def2[]:"LP"
+#	def2[]:"MP"
+#	def2[]:"NP"
+#	def2[]:"PP"
+#	def2[]:"RP"
+#	def2[]:"SP"
+#	def2[]:"TP"
+#	def2[]:"UP"
+#	def2[]:"VP"
+#	def2[]:"WP"
+#	def2[]:"XP"
+#	def2[]:"YP"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .rzeszow.lp.police
+{
+	type: police
+
+	probability: 0.9
+
+	# K = Podkarpackie Voivodeship Headquarters
+	templates[]:"HPK51222"
+#	templates[]:"HPK51222"
+#	templates[]:"HPK51222"
+#	templates[]:"HPK51222"
+#	templates[]:"HPK52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

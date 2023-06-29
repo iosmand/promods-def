@@ -1,0 +1,329 @@
+city_data : city.edirne
+{
+	city_name: "Edirne"
+	city_name_localized: "@@edirne@@"
+	country: turkey
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -20
+	map_x_offsets[]: -60
+	map_x_offsets[]: -35
+	map_x_offsets[]: -28
+	map_x_offsets[]: -26
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -12
+	map_y_offsets[]: -11
+	map_y_offsets[]: -140
+	map_y_offsets[]: -20
+	map_y_offsets[]: -13
+	map_y_offsets[]: -22
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.9  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 0.9  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]: "renault"
+
+	license_plate[]: .edirne.lp.car
+	license_plate[]: .edirne.lp.truck
+	license_plate[]: .edirne.lp.trailer
+	license_plate[]: .edirne.lp.police
+	license_plate[]: .edirne.lp.official
+	license_plate[]: .edirne.lp.truck_city
+	license_plate[]: .edirne.lp.bus
+}
+
+license_plate_data : .edirne.lp.car
+{
+	type: car
+
+@include "tr_lp_22_car_templates.sui"
+
+	def0[]: "22"
+
+	def1[]: "0"
+	def1[]: "1"
+	def1[]: "2"
+	def1[]: "3"
+	def1[]: "4"
+	def1[]: "5"
+	def1[]: "6"
+	def1[]: "7"
+	def1[]: "8"
+	def1[]: "9"
+
+	def2[]: "1"
+	def2[]: "2"
+	def2[]: "3"
+	def2[]: "4"
+	def2[]: "5"
+	def2[]: "6"
+	def2[]: "7"
+	def2[]: "8"
+	def2[]: "9"
+
+	def3[]:"<font face=/font/license_plate/turkey_narrow.font>"
+	def4[]:"</font>"
+}
+
+license_plate_data : .edirne.lp.truck
+{
+	type: truck
+	
+@include "tr_lp_edirne_truck_trailer_templates.sui"
+
+	def0[]: "22"
+
+	def1[]: "0"
+	def1[]: "1"
+	def1[]: "2"
+	def1[]: "3"
+	def1[]: "4"
+	def1[]: "5"
+	def1[]: "6"
+	def1[]: "7"
+	def1[]: "8"
+	def1[]: "9"
+
+	def2[]: "1"
+	def2[]: "2"
+	def2[]: "3"
+	def2[]: "4"
+	def2[]: "5"
+	def2[]: "6"
+	def2[]: "7"
+	def2[]: "8"
+	def2[]: "9"
+
+	def3[]:"<font face=/font/license_plate/turkey_narrow.font>"
+	def4[]:"</font>"
+
+	def5[]: "M 0"
+	def5[]: "M 1"
+	def5[]: "M 2"
+	def5[]: "M 3"
+	def5[]: "M 6"
+	def5[]: "M 7"
+	def5[]: "M 9"
+	def5[]: "S 0"
+	def5[]: "S 1"
+	def5[]: "S 2"
+	def5[]: "S 6"
+	def5[]: "S 7"
+	def5[]: "S 8"
+	def5[]: "S 9"
+}
+
+license_plate_data : .edirne.lp.trailer
+{
+	type: trailer
+
+@include "tr_lp_edirne_truck_trailer_templates.sui"
+
+	def0[]: "22"
+
+	def1[]: "0"
+	def1[]: "1"
+	def1[]: "2"
+	def1[]: "3"
+	def1[]: "4"
+	def1[]: "5"
+	def1[]: "6"
+	def1[]: "7"
+	def1[]: "8"
+	def1[]: "9"
+
+	def2[]: "1"
+	def2[]: "2"
+	def2[]: "3"
+	def2[]: "4"
+	def2[]: "5"
+	def2[]: "6"
+	def2[]: "7"
+	def2[]: "8"
+	def2[]: "9"
+
+	def3[]:"<font face=/font/license_plate/turkey_narrow.font>"
+	def4[]:"</font>"
+
+	def5[]: "M 0"
+	def5[]: "M 1"
+	def5[]: "M 2"
+	def5[]: "M 3"
+	def5[]: "M 6"
+	def5[]: "M 7"
+	def5[]: "M 9"
+	def5[]: "S 0"
+	def5[]: "S 1"
+	def5[]: "S 2"
+	def5[]: "S 6"
+	def5[]: "S 7"
+	def5[]: "S 8"
+	def5[]: "S 9"
+}
+
+license_plate_data : .edirne.lp.police
+{
+	type: police
+
+	background_front: "police_rear"
+	background_rear: "police_rear"
+
+	templates[]: "30  A  21114"  # No zero for first numeral
+	templates[]: "30  A  12114"  # No zero for second numeral
+	templates[]: "30  A  11214"  # No zero for third numeral
+	templates[]: "30  A  11124"  # No zero for fourth numeral
+
+	def0[]: "22"
+
+	def1[]: "0"
+	def1[]: "1"
+	def1[]: "2"
+	def1[]: "3"
+	def1[]: "4"
+	def1[]: "5"
+	def1[]: "6"
+	def1[]: "7"
+	def1[]: "8"
+	def1[]: "9"
+
+	def2[]: "1"
+	def2[]: "2"
+	def2[]: "3"
+	def2[]: "4"
+	def2[]: "5"
+	def2[]: "6"
+	def2[]: "7"
+	def2[]: "8"
+	def2[]: "9"
+
+	def3[]: "<color value=A0EEEEEE><align hstyle=center left=-15>"
+	def4[]: "</align>"
+}
+
+license_plate_data : .edirne.lp.official
+{
+	type: official
+
+	background_front: "duty_rear"
+	background_rear: "duty_rear"
+
+@include "tr_lp_edirne_public_admin_templates.sui"
+
+	def0[]:"22"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]: "<font face=/font/license_plate/turkey.font><color value=A0EEEEEE><align hstyle=center left=-17>"
+	def3[]: "<font face=/font/license_plate/turkey_narrow.font><color value=A0EEEEEE><align hstyle=center left=-17>"
+
+	def4[]: "</align></font>"
+}
+
+license_plate_data : .edirne.lp.truck_city
+{
+	type: truck_city
+
+	background_front: "duty_rear"
+	background_rear: "duty_rear"
+
+@include "tr_lp_edirne_public_admin_templates.sui"
+
+	def0[]:"22"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]: "<font face=/font/license_plate/turkey.font><color value=A0EEEEEE><align hstyle=center left=-17>"
+	def3[]: "<font face=/font/license_plate/turkey_narrow.font><color value=A0EEEEEE><align hstyle=center left=-17>"
+
+	def4[]: "</align></font>"
+}
+
+license_plate_data : .edirne.lp.bus
+{
+	type: bus
+
+	background_front: "duty_rear"
+	background_rear: "duty_rear"
+
+@include "tr_lp_edirne_public_admin_templates.sui"
+
+	def0[]:"22"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]: "<font face=/font/license_plate/turkey.font><color value=A0EEEEEE><align hstyle=center left=-17>"
+	def3[]: "<font face=/font/license_plate/turkey_narrow.font><color value=A0EEEEEE><align hstyle=center left=-17>"
+
+	def4[]: "</align></font>"
+}

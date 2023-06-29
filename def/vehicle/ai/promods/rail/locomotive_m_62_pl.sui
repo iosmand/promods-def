@@ -1,0 +1,110 @@
+traffic_vehicle : traffic.m_62.pl_1
+{
+	accessories[]: .m_62.chassis.pl_1
+	accessories[]: .m_62.fwheel.pl_1
+	accessories[]: .m_62.rwheel.pl_1
+	accessories[]: .m_62.rwheel1.pl_1
+	accessories[]: .m_62.rwheel2.pl_1
+
+	max_speed: 70
+
+	vehicle_mass: 72000
+	engine_power: 1435
+
+	spawn_ratio: 0.0
+
+	sound_move[]: "/sound/traffic/train_diesel.soundref"
+	
+	trailer_chains[]: "train_cargo 20-35"
+	trailer_chains[]: "train_cargo 15-25 | train_cargo 15-25"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+}
+
+vehicle_accessory: .m_62.chassis.pl_1
+{
+	data_path: "/def/vehicle/ai/promods/rail/locomotive_m_62/chassis_pl.sii"
+}
+
+vehicle_wheel_accessory: .m_62.fwheel.pl_1
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .m_62.rwheel.pl_1
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .m_62.rwheel1.pl_1
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .m_62.rwheel2.pl_1
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+traffic_vehicle : traffic.m_62.pl_2
+{
+	accessories[]: .m_62.chassis.pl_2
+	accessories[]: .m_62.fwheel.pl_2
+	accessories[]: .m_62.rwheel.pl_2
+	accessories[]: .m_62.rwheel1.pl_2
+	accessories[]: .m_62.rwheel2.pl_2
+
+	max_speed: 70
+
+	vehicle_mass: 72000
+	engine_power: 1435
+
+	spawn_ratio: 0.0
+
+	sound_move[]: "/sound/traffic/train_diesel.soundref"
+	
+	trailer_chains[]: "train_cargo 15-20"
+	trailer_chains[]: "train_cargo 20-30 | train_cargo 20-30"
+
+	displacement_limit: 0.0
+
+	lod_dist[]: 70
+	lod_dist[]: 130
+	lod_dist[]: 200
+
+}
+
+vehicle_accessory: .m_62.chassis.pl_2
+{
+	data_path: "/def/vehicle/ai/promods/rail/locomotive_m_62/chassis.sii"
+}
+
+vehicle_wheel_accessory: .m_62.fwheel.pl_2
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .m_62.rwheel.pl_2
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .m_62.rwheel1.pl_2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+vehicle_wheel_accessory: .m_62.rwheel2.pl_2
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+

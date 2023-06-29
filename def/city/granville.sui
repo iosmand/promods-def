@@ -1,0 +1,65 @@
+city_data: city.granville
+{
+	city_name: "Granville"
+	city_name_localized: "@@granville@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 100
+	map_x_offsets[]: 0
+	map_x_offsets[]: -32
+	map_x_offsets[]: 1
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -5
+	map_y_offsets[]: -80
+	map_y_offsets[]: -15
+	map_y_offsets[]: -10
+	map_y_offsets[]: -8
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .granville.lp.car
+	license_plate[]: .granville.lp.truck
+	license_plate[]: .granville.lp.trailer
+}
+
+license_plate_data : .granville.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=273><offset vshift=-5><img src=/material/ui/lp/france/50.mat color=FFFFFFFF></align>"
+}
+
+license_plate_data : .granville.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=273><offset vshift=-5><img src=/material/ui/lp/france/50.mat color=FFFFFFFF></align>"
+}
+
+license_plate_data : .granville.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=273><offset vshift=-5><img src=/material/ui/lp/france/50.mat color=FFFFFFFF></align>"
+}

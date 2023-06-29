@@ -1,0 +1,246 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+license_plate_data : .lp.car
+{
+	type: car
+
+@include "/def/country/poland/license_plates_poland_2001_car_templates.sui"
+
+	def0[]:"0"
+
+	def1[]:"1"
+
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .lp.truck
+{
+	type: truck
+
+@include "/def/country/poland/license_plates_poland_2001_car_templates.sui"
+
+	def0[]:"0"
+
+	def1[]:"1"
+
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .lp.trailer
+{
+	type: trailer
+
+@include "/def/country/poland/license_plates_poland_2001_trailer_templates.sui"
+
+	def0[]:"0"
+
+	def1[]:"1"
+
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .lp.police
+{
+	type: police
+
+	templates[]:"HP051222"
+#	templates[]:"HP051222"
+#	templates[]:"HP051222"
+#	templates[]:"HP051222"
+#	templates[]:"HP052211"
+
+	def0[]:"A"  # General Headquarters
+	def0[]:"B"  # Lower Silesian (Dolnośląskie) Voivodeship Headquarters
+	def0[]:"C"  # Kuyavian-Pomerania (Kujawsko-Pomorskie) Voivodeship Headquarters
+	def0[]:"D"  # Lublin (Lubelskie) Voivodeship Headquarters
+	def0[]:"E"  # Lubusz (Lubuskie) Provincial Headquarters
+	def0[]:"F"  # Łódź (Łódzkie) Voivodeship Headquarters
+	def0[]:"G"  # Lesser Poland (Małopolskie) Provincial Headquarters
+	def0[]:"H"  # Masovian (Mazowieckie) Provincial Headquarters
+	def0[]:"J"  # Opole (Opolskie) Voivodeship Headquarters
+	def0[]:"K"  # Podkarpackie Voivodeship Headquarters
+#	def0[]:"L"  # Police schools
+	def0[]:"M"  # Podlaskie Provincial Headquarters
+	def0[]:"N"  # Pomeranian (Pomorskie) Voivodeship Headquarters
+	def0[]:"P"  # Silesian (Śląskie) Voivodeship Headquarters
+	def0[]:"S"  # Świętokrzyskie Provincial Headquarters
+	def0[]:"T"  # Warmian-Masurian (Warmińsko-Mazurskie) Voivodeship Headquarters
+	def0[]:"U"  # Greater Poland (Wielkopolskie) Provincial Headquarters
+	def0[]:"W"  # West Pomeranian (Zachodniopomorskie) Voivodeship Headquarters
+	def0[]:"Z"  # Metropolitan Police Headquarters
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+}

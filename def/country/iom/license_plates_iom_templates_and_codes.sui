@@ -1,0 +1,150 @@
+	# All codes (1906-2022) listed below.
+	# Only codes which have been observed in pictures of modern plates with the IoM emblem are activated.
+
+	# 1906-1935, 1971-1974: MN-9999
+#	templates[]: "MN-2"
+#	templates[]: "MN-23"
+	templates[]: "MN-233"
+#	templates[]: "MN-2333"
+
+	# 1935-1936: MAN-999
+#	templates[]: "MAN-2"
+#	templates[]: "MAN-23"
+	templates[]: "MAN-233"
+
+	# 1936-1959: XMN-999
+	templates[]: "0MN-2"
+	templates[]: "0MN-23"
+	templates[]: "0MN-233"
+
+	# 1959-1964: 9999-MN
+#	templates[]: "2-MN"
+#	templates[]: "23-MN"
+#	templates[]: "233-MN"
+#	templates[]: "2333-MN"
+
+	# 1964-1964: 9999-MAN
+#	templates[]: "2-MAN"
+#	templates[]: "23-MAN"
+	templates[]: "233-MAN"
+
+	# 1964-1971: 999-XMN
+#	templates[]: "2-0MN"
+	templates[]: "23-0MN"
+	templates[]: "233-0MN"
+
+	# 1974-1978: MAN-999-X
+#	templates[]: "MAN-2-4"
+	templates[]: "MAN-23-4"
+	templates[]: "MAN-233-4"
+
+	# 1979-1983: X-999-MAN
+	templates[]: "4-2-MAN"
+	templates[]: "4-23-MAN"
+	templates[]: "4-233-MAN"
+
+	# 1983-1985: MAN-9999
+#	templates[]: "MAN-2333"
+
+	# 1985-1987: 9999-MAN
+	templates[]: "2333-MAN"
+
+	# 1987-present: XMN-999-X
+	templates[]: "1MN-2-4"
+	templates[]: "1MN-23-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+	templates[]: "1MN-233-4"
+
+	def0[]:"B"
+	def0[]:"C"
+	def0[]:"D"
+	def0[]:"E"
+	def0[]:"F"
+	def0[]:"G"
+	def0[]:"H"
+	def0[]:"J"
+	def0[]:"K"
+	def0[]:"L"
+	def0[]:"M"
+	def0[]:"N"
+	def0[]:"O"
+	def0[]:"P"
+	def0[]:"R"
+	def0[]:"T"
+	def0[]:"U"
+	def0[]:"V"
+	def0[]:"W"
+	def0[]:"X"
+	def0[]:"Y"
+
+	# 1987-2022 issued prefix codes
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+#	def1[]:"O"  # skipped?
+	def1[]:"P"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"A"
+	def4[]:"B"
+	def4[]:"C"
+	def4[]:"D"
+	def4[]:"E"
+	def4[]:"F"
+	def4[]:"G"
+	def4[]:"H"
+	def4[]:"J"
+	def4[]:"K"
+	def4[]:"L"
+	def4[]:"M"
+	def4[]:"N"
+	def4[]:"P"
+	def4[]:"R"
+	def4[]:"T"
+	def4[]:"U"
+	def4[]:"V"
+	def4[]:"W"
+	def4[]:"X"
+	def4[]:"Y"

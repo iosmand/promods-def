@@ -1,0 +1,28 @@
+
+country_data : country.data.macedonia
+{
+	country_id: 234
+
+	name:"Македонија"
+	name_localized: "@@fyrom@@"
+	country_code: "MK"
+	iso_country_code: mkd
+
+	pos: (46500, 0, 50000)
+
+	fuel_price: 1.613
+
+	lights_mandatory: true
+	driving_tired_offence: true
+		
+	time_zone: 120		# +2 hours in minutes
+	time_zone_name: "@@tz_cest@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 24000
+	mass_limit_per_axle_count[]: 31000
+	mass_limit_per_axle_count[]: 40000	
+}
+
+
+

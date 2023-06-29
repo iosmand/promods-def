@@ -1,0 +1,74 @@
+city_data: city.orkanger
+{
+	city_name: "Orkanger"
+	city_name_localized: "@@orkanger@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -25
+	map_x_offsets[]: -20
+	map_x_offsets[]: -25
+	map_x_offsets[]: -22
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -5
+	map_y_offsets[]: -55
+	map_y_offsets[]: -10
+	map_y_offsets[]: -5
+	map_y_offsets[]: -2
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .orkanger.lp.car
+	license_plate[]: .orkanger.lp.truck
+	license_plate[]: .orkanger.lp.trailer
+}
+
+license_plate_data : .orkanger.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Orkdal
+	def0[]:"VX"  # 1927 - present
+#	def0[]:"VY"
+#	def0[]:"VZ"
+}
+
+license_plate_data : .orkanger.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Orkdal
+	def0[]:"VX"  # 1927 - present
+#	def0[]:"VY"
+#	def0[]:"VZ"
+}
+
+license_plate_data : .orkanger.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Orkdal
+#	def0[]:"VX"  # 1920 - 2002 (limited issue)
+	def0[]:"VY"  # 1960 - 2019
+	def0[]:"VZ"  # 1955 - 2020
+}

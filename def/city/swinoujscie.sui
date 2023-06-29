@@ -1,0 +1,568 @@
+city_data: city.swinoujscie
+{
+	city_name: "Świnoujście"
+	city_name_localized: "@@swinoujscie@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 80
+	map_x_offsets[]: 0
+	map_x_offsets[]: -40
+	map_x_offsets[]: -31
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -70
+	map_y_offsets[]: -10
+	map_y_offsets[]: -5
+	map_y_offsets[]: -16
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .swinoujscie.lp.car
+	license_plate[]: .swinoujscie.lp.truck
+	license_plate[]: .swinoujscie.lp.trailer
+	license_plate[]: .swinoujscie.lp.police
+}
+
+license_plate_data : .swinoujscie.lp.car
+{
+	type: car
+
+	# Three letter powiat codes
+	templates[]:"ZSW50444"   # I    most before EU stars
+	templates[]:"ZSW51444"   # VII
+	templates[]:"ZSW51444"   # VII
+	templates[]:"ZSW51444"   # VII
+	templates[]:"ZSW51444"   # VII
+
+	# "ZSW" I
+#	def0[]:"A"
+##	def0[]:"C"  # Used for double-row plates
+##	def0[]:"F"  # Used for trailers and mopeds
+##	def0[]:"G"  # Used for trailers
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+##	def0[]:"E"  # Partially used for motorcycles and tractors
+#	def0[]:"L"
+#	def0[]:"M"
+#	def0[]:"N"
+#	def0[]:"P"
+#	def0[]:"R"
+#	def0[]:"S"
+#	def0[]:"T"  # Most before EU stars
+	def0[]:"U"
+	def0[]:"V"
+	def0[]:"W"
+	def0[]:"X"
+#	def0[]:"Y"  # Partially used for motorcycles and tractors
+
+	# "ZSW" VII
+	def1[]:"00"
+	def1[]:"01"
+	def1[]:"02"
+	def1[]:"03"
+	def1[]:"04"
+	def1[]:"05"
+	def1[]:"06"
+	def1[]:"07"
+	def1[]:"08"
+	def1[]:"09"
+	def1[]:"10"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"
+	def1[]:"19"
+	def1[]:"20"
+	def1[]:"21"
+	def1[]:"22"
+	def1[]:"23"
+	def1[]:"24"
+	def1[]:"25"
+	def1[]:"26"
+	def1[]:"27"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"  # "ZSW" VII latest issued (September 2022)
+#	def1[]:"33"
+#	def1[]:"34"
+#	def1[]:"35"
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"50"
+#	def1[]:"51"
+#	def1[]:"52"
+#	def1[]:"53"
+#	def1[]:"54"
+#	def1[]:"55"
+#	def1[]:"56"
+#	def1[]:"57"
+#	def1[]:"58"
+#	def1[]:"59"
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
+#	def1[]:"64"
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+#	def1[]:"70"
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+#	def1[]:"77"
+#	def1[]:"78"
+#	def1[]:"79"
+#	def1[]:"80"
+#	def1[]:"81"
+#	def1[]:"82"
+#	def1[]:"83"
+#	def1[]:"84"
+#	def1[]:"85"
+#	def1[]:"86"
+#	def1[]:"87"
+#	def1[]:"88"
+#	def1[]:"89"
+#	def1[]:"90"
+#	def1[]:"91"
+#	def1[]:"92"
+#	def1[]:"93"
+#	def1[]:"94"
+#	def1[]:"95"
+#	def1[]:"96"
+#	def1[]:"97"
+#	def1[]:"98"
+#	def1[]:"99"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .swinoujscie.lp.truck
+{
+	type: truck
+
+	probability: 0.3
+
+#	templates[]:"ZSW50444"   # I    most before EU stars
+	templates[]:"ZSW51444"   # VII
+
+	# "ZSW" I
+#	def0[]:"A"
+##	def0[]:"C"  # Used for double-row plates
+##	def0[]:"F"  # Used for trailers and mopeds
+##	def0[]:"G"  # Used for trailers
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+##	def0[]:"E"  # Partially used for motorcycles and tractors
+#	def0[]:"L"
+#	def0[]:"M"
+#	def0[]:"N"
+#	def0[]:"P"
+#	def0[]:"R"
+#	def0[]:"S"
+#	def0[]:"T"  # Most before EU stars
+#	def0[]:"U"
+#	def0[]:"V"
+#	def0[]:"W"
+#	def0[]:"X"
+##	def0[]:"Y"  # Partially used for motorcycles and tractors
+
+	# "ZSW" VII
+#	def1[]:"00"
+#	def1[]:"01"
+#	def1[]:"02"
+#	def1[]:"03"
+#	def1[]:"04"
+#	def1[]:"05"
+#	def1[]:"06"
+#	def1[]:"07"
+#	def1[]:"08"
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
+#	def1[]:"12"
+#	def1[]:"13"
+#	def1[]:"14"
+#	def1[]:"15"
+#	def1[]:"16"
+#	def1[]:"17"
+#	def1[]:"18"
+#	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"  # "ZSW" VII latest issued (September 2022)
+#	def1[]:"33"
+#	def1[]:"34"
+#	def1[]:"35"
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"50"
+#	def1[]:"51"
+#	def1[]:"52"
+#	def1[]:"53"
+#	def1[]:"54"
+#	def1[]:"55"
+#	def1[]:"56"
+#	def1[]:"57"
+#	def1[]:"58"
+#	def1[]:"59"
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
+#	def1[]:"64"
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+#	def1[]:"70"
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+#	def1[]:"77"
+#	def1[]:"78"
+#	def1[]:"79"
+#	def1[]:"80"
+#	def1[]:"81"
+#	def1[]:"82"
+#	def1[]:"83"
+#	def1[]:"84"
+#	def1[]:"85"
+#	def1[]:"86"
+#	def1[]:"87"
+#	def1[]:"88"
+#	def1[]:"89"
+#	def1[]:"90"
+#	def1[]:"91"
+#	def1[]:"92"
+#	def1[]:"93"
+#	def1[]:"94"
+#	def1[]:"95"
+#	def1[]:"96"
+#	def1[]:"97"
+#	def1[]:"98"
+#	def1[]:"99"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .swinoujscie.lp.trailer
+{
+	type: trailer
+
+	probability: 0.3
+
+	# Three letter powiat codes
+	templates[]:"ZSW504"     # I    most before EU stars
+	templates[]:"ZSW5144"    # VI
+	templates[]:"ZSW5144"    # VI
+	templates[]:"ZSW5144"    # VI
+	templates[]:"ZSW5144"    # VI
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+
+	# "ZSW" I
+#	def0[]:"F65"
+#	def0[]:"F66"
+#	def0[]:"F67"
+#	def0[]:"F68"
+#	def0[]:"F69"
+#	def0[]:"F70"
+#	def0[]:"F71"
+#	def0[]:"F72"
+#	def0[]:"F73"
+#	def0[]:"F74"
+#	def0[]:"F75"
+#	def0[]:"F76"
+#	def0[]:"F77"
+#	def0[]:"F78"
+#	def0[]:"F79"
+#	def0[]:"G00"
+#	def0[]:"G01"
+#	def0[]:"G02"
+#	def0[]:"G03"
+#	def0[]:"G04"
+#	def0[]:"G05"
+#	def0[]:"G06"
+#	def0[]:"G07"
+#	def0[]:"G08"
+#	def0[]:"G09"
+#	def0[]:"G10"
+#	def0[]:"G11"
+#	def0[]:"G12"
+#	def0[]:"G13"
+#	def0[]:"G14"
+#	def0[]:"G15"
+#	def0[]:"G16"
+#	def0[]:"G17"
+#	def0[]:"G18"
+#	def0[]:"G19"
+#	def0[]:"G20"
+#	def0[]:"G21"
+#	def0[]:"G22"
+#	def0[]:"G23"
+#	def0[]:"G24"
+#	def0[]:"G25"
+#	def0[]:"G26"
+#	def0[]:"G27"
+#	def0[]:"G28"
+#	def0[]:"G29"
+#	def0[]:"G30"
+#	def0[]:"G31"
+#	def0[]:"G32"
+#	def0[]:"G33"
+#	def0[]:"G34"
+#	def0[]:"G35"
+#	def0[]:"G36"
+#	def0[]:"G37"
+#	def0[]:"G38"
+#	def0[]:"G39"
+#	def0[]:"G40"  # Before EU stars
+#	def0[]:"G41"
+#	def0[]:"G42"
+#	def0[]:"G43"
+#	def0[]:"G44"
+#	def0[]:"G45"
+#	def0[]:"G46"
+#	def0[]:"G47"
+#	def0[]:"G48"
+#	def0[]:"G49"
+#	def0[]:"G50"
+#	def0[]:"G51"
+#	def0[]:"G52"
+#	def0[]:"G53"
+#	def0[]:"G54"
+#	def0[]:"G55"
+#	def0[]:"G56"
+#	def0[]:"G57"
+#	def0[]:"G58"
+#	def0[]:"G59"
+	def0[]:"G60"
+	def0[]:"G61"
+	def0[]:"G62"
+	def0[]:"G63"
+	def0[]:"G64"
+	def0[]:"G65"
+	def0[]:"G66"
+	def0[]:"G67"
+	def0[]:"G68"
+	def0[]:"G69"
+	def0[]:"G70"
+	def0[]:"G71"
+	def0[]:"G72"
+	def0[]:"G73"
+	def0[]:"G74"
+	def0[]:"G75"
+	def0[]:"G76"
+	def0[]:"G77"
+	def0[]:"G78"
+	def0[]:"G79"
+	def0[]:"G80"
+	def0[]:"G81"
+	def0[]:"G82"
+	def0[]:"G83"
+	def0[]:"G84"
+	def0[]:"G85"
+	def0[]:"G86"
+	def0[]:"G87"
+	def0[]:"G88"
+	def0[]:"G89"
+	def0[]:"G90"
+	def0[]:"G91"
+	def0[]:"G92"
+	def0[]:"G93"
+	def0[]:"G94"
+	def0[]:"G95"
+	def0[]:"G96"
+	def0[]:"G97"
+	def0[]:"G98"
+	def0[]:"G99"
+
+	# "ZSW" VI
+	def1[]:"AG"
+	def1[]:"AH"
+	def1[]:"AJ"
+	def1[]:"AN"
+
+	# "ZSW" II
+	def2[]:"PA"
+	def2[]:"PC"  # "ZSW" II latest issued (July 2022)
+#	def2[]:"PE"
+#	def2[]:"PF"
+#	def2[]:"PG"
+#	def2[]:"PH"
+#	def2[]:"PJ"
+#	def2[]:"PK"
+#	def2[]:"PL"
+#	def2[]:"PM"
+#	def2[]:"PN"
+#	def2[]:"PP"
+#	def2[]:"PR"
+#	def2[]:"PS"
+#	def2[]:"PT"
+#	def2[]:"PU"
+#	def2[]:"PV"
+#	def2[]:"PW"
+#	def2[]:"PX"
+#	def2[]:"PY"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .swinoujscie.lp.police
+{
+	type: police
+
+	probability: 0.9
+
+	# W = West Pomeranian (Zachodniopomorskie) Voivodeship Headquarters
+	templates[]:"HPW51222"
+#	templates[]:"HPW51222"
+#	templates[]:"HPW51222"
+#	templates[]:"HPW51222"
+#	templates[]:"HPW52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

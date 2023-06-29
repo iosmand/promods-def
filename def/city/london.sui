@@ -1,0 +1,165 @@
+city_data: city.london
+{
+	city_name: "London"
+	city_name_localized: "@@london@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -50
+	map_x_offsets[]: -45
+	map_x_offsets[]: -50
+	map_x_offsets[]: -40
+	map_x_offsets[]: -50
+	map_x_offsets[]: -44
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 30
+	map_y_offsets[]: -10
+	map_y_offsets[]: 50
+	map_y_offsets[]: 5
+	map_y_offsets[]: -10
+	map_y_offsets[]: -12
+
+	### VERY LARGE CITY ###
+	city_pin_scale_factor[]: 1.3
+	city_pin_scale_factor[]: 1.3
+	city_pin_scale_factor[]: 1.2  // close zoom for minimap
+	city_pin_scale_factor[]: 1.2  // far zoom for minimap
+	city_pin_scale_factor[]: 1.5  // city zoom for world map
+	city_pin_scale_factor[]: 1.4  // closest zoom for world map
+	city_pin_scale_factor[]: 1.3  // middle zoom for world map
+	city_pin_scale_factor[]: 1.2  // whole world map zoom
+
+	vehicle_brands[]:"volvo"
+
+	license_plate[]: .london.lp.car
+	license_plate[]: .london.lp.truck
+	license_plate[]: .london.lp.trailer
+}
+
+license_plate_data : .london.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# London
+	def0[]:"LA"  # Wimbledon
+	def0[]:"LB"
+	def0[]:"LC"
+	def0[]:"LD"
+	def0[]:"LE"
+	def0[]:"LF"
+	def0[]:"LG"
+	def0[]:"LH"
+	def0[]:"LJ"
+	def0[]:"LK"  # Borehamwood
+	def0[]:"LL"
+	def0[]:"LM"
+	def0[]:"LN"
+	def0[]:"LO"
+	def0[]:"LP"
+	def0[]:"LR"
+	def0[]:"LS"
+	def0[]:"LT"
+	def0[]:"LU"  # Sidcup
+	def0[]:"LV"
+	def0[]:"LW"
+	def0[]:"LX"
+	def0[]:"LY"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .london.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# London
+	def0[]:"LA"  # Wimbledon
+	def0[]:"LB"
+	def0[]:"LC"
+	def0[]:"LD"
+	def0[]:"LE"
+	def0[]:"LF"
+	def0[]:"LG"
+	def0[]:"LH"
+	def0[]:"LJ"
+	def0[]:"LK"  # Borehamwood
+	def0[]:"LL"
+	def0[]:"LM"
+	def0[]:"LN"
+	def0[]:"LO"
+	def0[]:"LP"
+	def0[]:"LR"
+	def0[]:"LS"
+	def0[]:"LT"
+	def0[]:"LU"  # Sidcup
+	def0[]:"LV"
+	def0[]:"LW"
+	def0[]:"LX"
+	def0[]:"LY"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .london.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_uk_trailer.sui"
+}

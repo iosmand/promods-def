@@ -1,0 +1,109 @@
+city_data: city.trondheim
+{
+	city_name: "Trondheim"
+	city_name_localized: "@@trondheim@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -21
+	map_x_offsets[]: -45
+	map_x_offsets[]: -45
+	map_x_offsets[]: -38
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -140
+	map_y_offsets[]: -52
+	map_y_offsets[]: -20
+	map_y_offsets[]: -21
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"daf"
+
+	license_plate[]: .trondheim.lp.car
+	license_plate[]: .trondheim.lp.truck
+	license_plate[]: .trondheim.lp.trailer
+}
+
+license_plate_data : .trondheim.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Trondheim
+#	def0[]:"FP"
+#	def0[]:"NW"
+	def0[]:"VD"  # 1912 - 2008
+	def0[]:"VE"  # 1925 - 2001
+	def0[]:"VF"  # 1947 - 2012
+	def0[]:"VH"  # 1928 - 2021
+	def0[]:"VJ"  # 1940 - present
+#	def0[]:"VK"
+#	def0[]:"VL"
+#	def0[]:"VN"
+#	def0[]:"VP"
+#	def0[]:"VR"
+	# Støren/Trondheim
+#	def0[]:"VS"  # 1995 - 2006 (limited issue)
+}
+
+license_plate_data : .trondheim.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Trondheim
+#	def0[]:"FP"
+#	def0[]:"NW"
+#	def0[]:"VD"  # 1912 - 2008
+#	def0[]:"VE"  # 1925 - 2001
+#	def0[]:"VF"  # 1947 - 2012
+	def0[]:"VH"  # 1928 - 2021
+	def0[]:"VJ"  # 1940 - present
+#	def0[]:"VK"
+#	def0[]:"VL"
+#	def0[]:"VN"
+#	def0[]:"VP"
+#	def0[]:"VR"
+	# Støren/Trondheim
+#	def0[]:"VS"  # 1995 - 2006 (limited issue)
+}
+
+license_plate_data : .trondheim.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Trondheim
+#	def0[]:"FP"  # 1943 - 2007
+	def0[]:"NW"  # 1968 - 2020
+#	def0[]:"VD"  # 1943 - 2007
+#	def0[]:"VE"  # 1938 - 1987
+#	def0[]:"VF"  # 1926 - 1989
+#	def0[]:"VH"  # 1937 - 1980
+#	def0[]:"VJ"  # 1934 - 1983
+#	def0[]:"VK"  # 1928 - 2002 (limited issue)
+#	def0[]:"VL"  # 1936 - 1989
+#	def0[]:"VN"  # 1936 - 2002 (limited issue)
+#	def0[]:"VP"  # 1946 - 2001
+#	def0[]:"VR"  # 1956 - 2008
+	# Støren/Trondheim
+#	def0[]:"VS"  # 1948 - 2019
+}

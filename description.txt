@@ -1,0 +1,11 @@
+[orange]ProMods 2.64 - Definition Package
+
+[normal]This package contains all the definition files of the ProMods Map Expansion. 
+
+[red]Requires all seven ProMods packages to function properly!
+[red]7 DLCs (Going East!, Scandinavia, Vive La France !, Italia, Beyond the Baltic Sea, Road to the Black Sea and Iberia) are required to run this mod.
+[orange]The Special Transport DLC is compatible but not required
+
+
+[normal]For more information, check our website:
+[blue]http://www.promods.net

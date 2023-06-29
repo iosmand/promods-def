@@ -1,0 +1,5 @@
+ferry_data: ferry.miastoswino
+{
+	ferry_name: "@@miastoswino@@"
+	cutscene: sferry2
+}

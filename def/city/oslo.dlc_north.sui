@@ -1,0 +1,139 @@
+city_data: city.oslo
+{
+	city_name: "Oslo"
+	city_name_localized: "@@oslo@@"
+	country: norway
+	key_city: true
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -30
+	map_x_offsets[]: -60
+	map_x_offsets[]: -35
+	map_x_offsets[]: -22
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -150
+	map_y_offsets[]: -40
+	map_y_offsets[]: -28
+	map_y_offsets[]: -25
+
+	vehicle_brands[]:"renault"
+
+	license_plate[]: .oslo.lp.car
+	license_plate[]: .oslo.lp.truck
+	license_plate[]: .oslo.lp.trailer
+}
+
+license_plate_data : .oslo.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Oslo
+#	def0[]:"DA"  # 1928 - 1973
+#	def0[]:"DB"  # 1927 - 1983
+#	def0[]:"DC"  # 1927 - 1985
+#	def0[]:"DD"  # 1928 - 1986
+#	def0[]:"DE"  # 1910 - 1988
+#	def0[]:"DF"  # 1904 - 1999
+#	def0[]:"DH"  # 1938 - 1998
+	def0[]:"DJ"  # 1953 - 2007
+	def0[]:"DK"  # 1953 - 2006
+	def0[]:"DL"  # 1958 - 2011
+	def0[]:"DN"  # 1949 - 2014
+	def0[]:"DP"  # 1951 - 2020
+	def0[]:"DR"  # 1949 - present
+	def0[]:"DS"  # 2002 - present
+#	def0[]:"DT"
+#	def0[]:"DU"
+#	def0[]:"DV"
+#	def0[]:"DX"
+#	def0[]:"DY"
+#	def0[]:"DZ"
+#	def0[]:"EA"
+#	def0[]:"EH"
+#	def0[]:"EJ"
+#	def0[]:"EN"
+#	def0[]:"EP"
+#	def0[]:"ER"
+#	def0[]:"EU"
+}
+
+license_plate_data : .oslo.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Oslo
+#	def0[]:"DA"  # 1928 - 1973
+#	def0[]:"DB"  # 1927 - 1983
+#	def0[]:"DC"  # 1927 - 1985
+#	def0[]:"DD"  # 1928 - 1986
+#	def0[]:"DE"  # 1910 - 1988
+#	def0[]:"DF"  # 1904 - 1999
+#	def0[]:"DH"  # 1938 - 1998
+#	def0[]:"DJ"  # 1953 - 2007
+#	def0[]:"DK"  # 1953 - 2006
+#	def0[]:"DL"  # 1958 - 2011
+#	def0[]:"DN"  # 1949 - 2014
+	def0[]:"DP"  # 1951 - 2020
+	def0[]:"DR"  # 1949 - present
+	def0[]:"DS"  # 2002 - present
+#	def0[]:"DT"
+#	def0[]:"DU"
+#	def0[]:"DV"
+#	def0[]:"DX"
+#	def0[]:"DY"
+#	def0[]:"DZ"
+#	def0[]:"EA"
+#	def0[]:"EH"
+#	def0[]:"EJ"
+#	def0[]:"EN"
+#	def0[]:"EP"
+#	def0[]:"ER"
+#	def0[]:"EU"
+}
+
+license_plate_data : .oslo.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Oslo
+#	def0[]:"DA"  # 1921 - 2008
+#	def0[]:"DB"  # 1923 - 1987
+#	def0[]:"DC"  # 1930 - 1982
+#	def0[]:"DD"  # 1934 - 2008
+#	def0[]:"DE"  # 1937 - 1988
+#	def0[]:"DF"  # 1937 - 1993
+#	def0[]:"DH"  # 1911 - 1992
+#	def0[]:"DJ"  # 1919 - 1997
+#	def0[]:"DK"  # 1940 - 2000
+#	def0[]:"DL"  # 1952 - 2004
+#	def0[]:"DN"  # 1955 - 2003
+#	def0[]:"DP"  # 1955 - 2006
+#	def0[]:"DR"  # 1959 - 2008
+#	def0[]:"DS"  # 1957 - 2009
+#	def0[]:"DT"  # 1956 - 2016
+#	def0[]:"DU"  # 1958 - 2019
+#	def0[]:"DV"  # 1957 - 2018
+	def0[]:"DX"  # 1962 - 2020
+	def0[]:"DY"  # 1955 - 2021
+	def0[]:"DZ"  # 1955 - 2021
+	def0[]:"EA"  # 1977 - 2021
+#	def0[]:"EH"  # 1967
+#	def0[]:"EJ"  # 1962
+#	def0[]:"EN"
+#	def0[]:"EP"
+#	def0[]:"ER"
+#	def0[]:"EU"
+}

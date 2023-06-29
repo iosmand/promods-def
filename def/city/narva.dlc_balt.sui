@@ -1,0 +1,302 @@
+city_data: city.narva
+{
+	city_name: "Narva"
+	city_name_localized: "@@narva@@"
+	country: estonia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -230
+	map_x_offsets[]: -60
+	map_x_offsets[]: -35
+	map_x_offsets[]: -19
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -20
+	map_y_offsets[]: -15
+	map_y_offsets[]: -25
+	map_y_offsets[]: 0
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
+
+	license_plate[]: .narva.lp.car
+	license_plate[]: .narva.lp.truck
+	license_plate[]: .narva.lp.trailer
+}
+
+license_plate_data : .narva.lp.car
+{
+	type: car
+
+	# 2004 - September 2019, most of Estonia prefixes
+	templates[]:"100 42"  # No zero for first numeral
+	templates[]:"010 42"  # No zero for second numeral
+	templates[]:"001 42"  # No zero for third numeral
+	templates[]:"100 53"
+	templates[]:"010 53"
+	templates[]:"001 53"
+
+	# August 2019 - present, random letter combinations
+	templates[]:"100 222"
+	templates[]:"010 222"
+	templates[]:"001 222"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	# All used letters
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	# Letters without vowels
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"V"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	# All of Estonia prefixes (except Harju and Tartu)
+	def4[]:"AA"  # 1991-Aug 2007 (AAA-AZZ)
+	def4[]:"AB"
+	def4[]:"AC"
+	def4[]:"AD"
+	def4[]:"AE"
+	def4[]:"AF"
+	def4[]:"AG"
+	def4[]:"AH"
+	def4[]:"AI"
+	def4[]:"AJ"
+	def4[]:"AK"
+	def4[]:"AL"
+	def4[]:"AM"
+	def4[]:"AN"
+	def4[]:"AO"
+	def4[]:"AP"
+	def4[]:"AR"
+	def4[]:"AS"
+	def4[]:"AT"
+	def4[]:"AU"
+	def4[]:"AV"
+	def4[]:"AX"
+	def4[]:"AY"
+	def4[]:"AZ"
+	def4[]:"BA"  # Aug 2007-Dec 2009 (BAA-BCI)
+	def4[]:"BB"
+	def5[]:"BC"  # Jan 2010-Dec 2018 (BCJ-BYY) (no more vowels issued)
+	def5[]:"BD"
+	def5[]:"BF"
+	def5[]:"BG"
+	def5[]:"BH"
+	def5[]:"BJ"
+	def5[]:"BK"
+	def5[]:"BL"
+	def5[]:"BM"
+	def5[]:"BN"
+	def5[]:"BP"
+	def5[]:"BR"
+	def5[]:"BS"
+	def5[]:"BT"
+	def5[]:"BV"
+	def5[]:"BX"
+	def5[]:"BY"
+#	def5[]:"BZ"  # skipped
+	def5[]:"DB"  # Jan 2019-Sep 2019 (DBB-DCK) (no vowels)
+	def5[]:"DC"
+}
+
+license_plate_data : .narva.lp.truck
+{
+	type: truck
+
+	probability: 0.1
+
+	# August 2019 - present, random letter combinations
+	templates[]:"100 222"  # No zero for first numeral
+	templates[]:"010 222"  # No zero for second numeral
+	templates[]:"001 222"  # No zero for third numeral
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .narva.lp.trailer
+{
+	type: trailer
+
+	probability: 0.1
+
+	# October 2008-present (YLL NNN)
+	templates[]: "100 3"  # No zero for first numeral
+	templates[]: "010 3"  # No zero for second numeral
+	templates[]: "001 3"  # No zero for third numeral
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def3[]:"YLB"  # Likely started in 2019
+	def3[]:"YLC"
+	def3[]:"YLD"
+	def3[]:"YLF"
+	def3[]:"YLG"
+	def3[]:"YLH"
+	def3[]:"YLJ"
+	def3[]:"YLK"
+	def3[]:"YLL"
+	def3[]:"YLM"
+	def3[]:"YLN"
+	def3[]:"YLP"
+	def3[]:"YLR"
+	def3[]:"YLS"
+	def3[]:"YLT"
+	def3[]:"YLV"
+	def3[]:"YLX"
+	def3[]:"YLY"
+	def3[]:"YLZ"
+	def3[]:"YMB"  # Likely started in 2021
+	def3[]:"YMC"
+	def3[]:"YMD"
+	def3[]:"YMF"
+	def3[]:"YMG"
+	def3[]:"YMH"
+	def3[]:"YMJ"
+	def3[]:"YMK"
+	def3[]:"YML"
+#	def3[]:"YMM"
+#	def3[]:"YMN"
+#	def3[]:"YMP"
+#	def3[]:"YMR"
+#	def3[]:"YMS"
+#	def3[]:"YMT"
+#	def3[]:"YMV"
+#	def3[]:"YMX"
+#	def3[]:"YMY"
+#	def3[]:"YMZ"
+}

@@ -1,0 +1,10 @@
+SiiNunit
+{
+accessory_wheel_data : volvo_xc9017.rwheel
+{
+	model: "/vehicle/wheel/20in_x90/xc90.pmd"
+
+}
+}
+
+

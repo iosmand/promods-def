@@ -1,0 +1,2272 @@
+city_data: city.wadowice
+{
+	city_name: "Wadowice"
+	city_name_localized: "@@wadowice@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 10
+	map_x_offsets[]: -30
+	map_x_offsets[]: -25
+	map_x_offsets[]: 1
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: 0
+	map_y_offsets[]: -15
+	map_y_offsets[]: -30
+	map_y_offsets[]: -8
+	map_y_offsets[]: -8
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .wadowice.lp.car
+	license_plate[]: .wadowice.lp.truck
+	license_plate[]: .wadowice.lp.trailer
+	license_plate[]: .wadowice.lp.police
+}
+
+license_plate_data : .wadowice.lp.car
+{
+	type: car
+
+	# Three letter powiat codes
+#	templates[]:"KWA52444"   # I    before EU stars
+#	templates[]:"KWA54422"   # II   most before EU stars
+	templates[]:"KWA50244"   # III
+	templates[]:"KWA54403"   # IV
+	templates[]:"KWA53023"   # V
+	templates[]:"KWA50244"   # VI
+	templates[]:"KWA5144"    # VII
+	templates[]:"KWA5144"    # VII
+	templates[]:"KWA5144"    # VII
+	templates[]:"KWA5144"    # VII
+
+	# "KWA" III/IV/V/VI
+	def0[]:"A"
+	def0[]:"C"
+	def0[]:"E"
+	def0[]:"F"
+	def0[]:"G"
+	def0[]:"H"
+	def0[]:"J"
+	def0[]:"K"
+	def0[]:"L"
+#	def0[]:"M"  # Used for motorcycles/tractors/machines
+#	def0[]:"N"  # Partially used for motorcycles/tractors/machines (V/VI)
+#	def0[]:"P"  # Used for trailers
+	def0[]:"R"
+	def0[]:"S"
+	def0[]:"T"
+#	def0[]:"U"  # Used for motorcycles/tractors/machines (III)
+	def0[]:"V"
+	def0[]:"W"
+	def0[]:"X"
+#	def0[]:"Y"  # Used for motorcycles and tractors (IV/VI)
+
+	# "KWA" VII
+	def1[]:"000"  # Wadowice
+	def1[]:"001"  # Wadowice
+	def1[]:"002"  # Wadowice
+	def1[]:"003"  # Wadowice
+	def1[]:"004"  # Wadowice
+	def1[]:"005"  # Wadowice
+	def1[]:"006"  # Wadowice
+	def1[]:"007"  # Wadowice
+	def1[]:"008"  # Wadowice
+	def1[]:"009"  # Wadowice
+	def1[]:"010"  # Wadowice
+	def1[]:"011"  # Wadowice
+	def1[]:"012"  # Wadowice
+	def1[]:"013"  # Wadowice
+	def1[]:"014"  # Wadowice
+	def1[]:"015"  # Wadowice
+	def1[]:"016"  # Wadowice
+	def1[]:"017"  # Wadowice
+	def1[]:"018"  # Wadowice
+	def1[]:"019"  # Wadowice
+	def1[]:"020"  # Andrychów
+	def1[]:"021"  # Andrychów
+	def1[]:"022"  # Andrychów
+	def1[]:"023"  # Andrychów
+	def1[]:"024"  # Andrychów
+	def1[]:"025"  # Andrychów
+	def1[]:"026"  # Andrychów
+	def1[]:"027"  # Andrychów
+	def1[]:"028"  # Andrychów
+	def1[]:"029"  # Andrychów
+#	def1[]:"030"  # Andrychów used for double-row plates
+	def1[]:"031"  # Andrychów
+	def1[]:"032"  # Andrychów
+	def1[]:"033"  # Andrychów
+	def1[]:"034"  # Andrychów
+	def1[]:"035"  # Andrychów
+	def1[]:"036"  # Andrychów
+	def1[]:"037"  # Andrychów
+	def1[]:"038"  # Andrychów
+	def1[]:"039"  # Andrychów
+	def1[]:"040"  # Wadowice
+	def1[]:"041"  # Wadowice
+	def1[]:"042"  # Wadowice
+	def1[]:"043"  # Wadowice
+	def1[]:"044"  # Wadowice
+	def1[]:"045"  # Wadowice
+	def1[]:"046"  # Wadowice
+	def1[]:"047"  # Wadowice
+	def1[]:"048"  # Wadowice
+	def1[]:"049"  # Wadowice
+	def1[]:"050"  # Wadowice
+	def1[]:"051"  # Wadowice
+	def1[]:"052"  # Wadowice
+	def1[]:"053"  # Wadowice
+	def1[]:"054"  # Wadowice
+	def1[]:"055"  # Wadowice
+	def1[]:"056"  # Wadowice
+	def1[]:"057"  # Wadowice
+	def1[]:"058"  # Wadowice
+	def1[]:"059"  # Wadowice
+	def1[]:"060"  # Wadowice
+	def1[]:"061"  # Wadowice
+	def1[]:"062"  # Wadowice
+	def1[]:"063"  # Wadowice
+	def1[]:"064"  # Wadowice
+	def1[]:"065"  # Wadowice
+	def1[]:"066"  # Wadowice
+	def1[]:"067"  # Wadowice
+	def1[]:"068"  # Wadowice
+	def1[]:"069"  # Wadowice
+	def1[]:"070"  # Wadowice
+	def1[]:"071"  # Wadowice
+	def1[]:"072"  # Wadowice
+	def1[]:"073"  # Wadowice
+	def1[]:"074"  # Wadowice
+	def1[]:"075"  # Wadowice
+	def1[]:"076"  # Wadowice
+	def1[]:"077"  # Wadowice
+	def1[]:"078"  # Wadowice
+	def1[]:"079"  # Wadowice
+	def1[]:"080"  # Andrychów
+	def1[]:"081"  # Andrychów
+	def1[]:"082"  # Andrychów
+	def1[]:"083"  # Andrychów
+	def1[]:"084"  # Andrychów
+	def1[]:"085"  # Andrychów
+	def1[]:"086"  # Andrychów
+	def1[]:"087"  # Andrychów
+	def1[]:"088"  # Andrychów
+	def1[]:"089"  # Andrychów
+	def1[]:"000"  # Andrychów
+	def1[]:"091"  # Andrychów
+	def1[]:"092"  # Andrychów
+	def1[]:"093"  # Andrychów
+	def1[]:"094"  # Andrychów
+	def1[]:"095"  # Andrychów
+	def1[]:"096"  # Andrychów
+	def1[]:"097"  # Andrychów
+	def1[]:"098"  # Andrychów
+	def1[]:"099"  # Andrychów
+	def1[]:"100"  # Wadowice
+	def1[]:"101"  # Wadowice
+	def1[]:"102"  # Wadowice
+	def1[]:"103"  # Wadowice
+	def1[]:"104"  # Wadowice
+	def1[]:"105"  # Wadowice
+	def1[]:"106"  # Wadowice
+	def1[]:"107"  # Wadowice
+	def1[]:"108"  # Wadowice
+	def1[]:"109"  # Wadowice
+	def1[]:"110"  # Wadowice
+	def1[]:"111"  # Wadowice
+	def1[]:"112"  # Wadowice
+	def1[]:"113"  # Wadowice
+	def1[]:"114"  # Wadowice
+	def1[]:"115"  # Wadowice
+	def1[]:"116"  # Wadowice
+	def1[]:"117"  # Wadowice
+	def1[]:"118"  # Wadowice
+	def1[]:"119"  # Wadowice
+	def1[]:"120"  # Andrychów
+	def1[]:"121"  # Andrychów
+	def1[]:"122"  # Andrychów
+	def1[]:"123"  # Andrychów
+	def1[]:"124"  # Andrychów
+	def1[]:"125"  # Andrychów
+#	def1[]:"126"  # Andrychów half used for double-row plates
+	def1[]:"127"  # Andrychów
+	def1[]:"128"  # Andrychów
+	def1[]:"129"  # Andrychów
+	def1[]:"130"  # Andrychów
+	def1[]:"131"  # Andrychów
+	def1[]:"132"  # Andrychów
+	def1[]:"133"  # Andrychów
+	def1[]:"134"  # Andrychów
+	def1[]:"135"  # Andrychów
+	def1[]:"136"  # Andrychów
+	def1[]:"137"  # Andrychów
+	def1[]:"138"  # Andrychów
+#	def1[]:"139"  # Wadowice used for trailers
+	def1[]:"140"  # Kalwaria
+	def1[]:"141"  # Kalwaria
+	def1[]:"142"  # Kalwaria
+	def1[]:"143"  # Kalwaria
+	def1[]:"144"  # Kalwaria
+	def1[]:"145"  # Kalwaria
+	def1[]:"146"  # Kalwaria
+	def1[]:"147"  # Kalwaria
+	def1[]:"148"  # Kalwaria
+	def1[]:"149"  # Kalwaria
+	def1[]:"150"  # Kalwaria
+	def1[]:"151"  # Kalwaria
+	def1[]:"152"  # Kalwaria
+	def1[]:"153"  # Kalwaria
+	def1[]:"154"  # Kalwaria
+	def1[]:"155"  # Kalwaria
+	def1[]:"156"  # Kalwaria
+	def1[]:"157"  # Kalwaria
+	def1[]:"158"  # Kalwaria
+#	def1[]:"159"  # Kalwaria used for trailers
+	def1[]:"160"  # Wadowice
+	def1[]:"161"  # Wadowice
+	def1[]:"162"  # Wadowice
+	def1[]:"163"  # Wadowice
+	def1[]:"164"  # Wadowice
+	def1[]:"165"  # Wadowice
+	def1[]:"166"  # Wadowice
+	def1[]:"167"  # Wadowice
+	def1[]:"168"  # Wadowice
+	def1[]:"169"  # Wadowice
+	def1[]:"170"  # Wadowice
+	def1[]:"171"  # Wadowice
+	def1[]:"172"  # Wadowice
+	def1[]:"173"  # Wadowice
+	def1[]:"174"  # Wadowice
+	def1[]:"175"  # Wadowice
+	def1[]:"176"  # Wadowice
+	def1[]:"177"  # Wadowice
+	def1[]:"178"  # Wadowice
+#	def1[]:"179"  # Andrychów used for trailers
+	def1[]:"180"  # Andrychów
+	def1[]:"181"  # Andrychów
+	def1[]:"182"  # Andrychów
+	def1[]:"183"  # Andrychów
+	def1[]:"184"  # Andrychów
+	def1[]:"185"  # Andrychów
+	def1[]:"186"  # Andrychów
+	def1[]:"187"  # Andrychów
+	def1[]:"188"  # Andrychów
+	def1[]:"189"  # Andrychów
+	def1[]:"100"  # Andrychów
+	def1[]:"191"  # Andrychów
+	def1[]:"192"  # Andrychów
+	def1[]:"193"  # Andrychów
+	def1[]:"194"  # Andrychów
+	def1[]:"195"  # Andrychów
+	def1[]:"196"  # Andrychów
+	def1[]:"197"  # Andrychów
+	def1[]:"198"  # Andrychów
+#	def1[]:"199"  # Wadowice used for trailers
+	def1[]:"200"  # Wadowice
+	def1[]:"201"  # Wadowice
+	def1[]:"202"  # Wadowice
+	def1[]:"203"  # Wadowice
+	def1[]:"204"  # Wadowice
+	def1[]:"205"  # Wadowice
+	def1[]:"206"  # Wadowice
+	def1[]:"207"  # Wadowice
+	def1[]:"208"  # Wadowice
+	def1[]:"209"  # Wadowice
+	def1[]:"210"  # Wadowice
+	def1[]:"211"  # Wadowice
+	def1[]:"212"  # Wadowice
+	def1[]:"213"  # Wadowice
+	def1[]:"214"  # Wadowice
+	def1[]:"215"  # Wadowice
+	def1[]:"216"  # Wadowice
+	def1[]:"217"  # Wadowice
+	def1[]:"218"  # Wadowice
+#	def1[]:"219"  # Wadowice used for trailers
+	def1[]:"220"  # Wadowice
+	def1[]:"221"  # Wadowice
+	def1[]:"222"  # Wadowice
+	def1[]:"223"  # Wadowice
+	def1[]:"224"  # Wadowice
+	def1[]:"225"  # Wadowice
+	def1[]:"226"  # Wadowice
+	def1[]:"227"  # Wadowice
+	def1[]:"228"  # Wadowice
+	def1[]:"229"  # Wadowice
+	def1[]:"230"  # Wadowice
+	def1[]:"231"  # Wadowice
+	def1[]:"232"  # Wadowice
+	def1[]:"233"  # Wadowice
+	def1[]:"234"  # Wadowice
+	def1[]:"235"  # Wadowice
+	def1[]:"236"  # Wadowice
+	def1[]:"237"  # Wadowice
+#	def1[]:"238"  # Wadowice used for trailers and double-row plates
+#	def1[]:"239"  # Wadowice used for trailers
+	def1[]:"240"  # Wadowice
+	def1[]:"241"  # Wadowice
+	def1[]:"242"  # Wadowice
+	def1[]:"243"  # Wadowice
+	def1[]:"244"  # Wadowice
+	def1[]:"245"  # Wadowice
+	def1[]:"246"  # Wadowice
+	def1[]:"247"  # Wadowice
+	def1[]:"248"  # Wadowice
+	def1[]:"249"  # Wadowice
+	def1[]:"250"  # Wadowice
+	def1[]:"251"  # Wadowice
+	def1[]:"252"  # Wadowice
+	def1[]:"253"  # Wadowice
+	def1[]:"254"  # Wadowice
+	def1[]:"255"  # Wadowice
+	def1[]:"256"  # Wadowice
+	def1[]:"257"  # Wadowice
+	def1[]:"258"  # Wadowice
+	def1[]:"259"  # Wadowice
+	def1[]:"260"  # Wadowice
+	def1[]:"261"  # Wadowice
+	def1[]:"262"  # Wadowice
+	def1[]:"263"  # Wadowice
+	def1[]:"264"  # Wadowice
+	def1[]:"265"  # Wadowice
+	def1[]:"266"  # Wadowice
+	def1[]:"267"  # Wadowice
+	def1[]:"268"  # Wadowice
+	def1[]:"269"  # Wadowice
+	def1[]:"270"  # Wadowice
+	def1[]:"271"  # Wadowice
+	def1[]:"272"  # Wadowice
+	def1[]:"273"  # Wadowice
+	def1[]:"274"  # Wadowice
+	def1[]:"275"  # Wadowice
+	def1[]:"276"  # Wadowice
+	def1[]:"277"  # Wadowice
+	def1[]:"278"  # Wadowice
+#	def1[]:"279"  # Wadowice used for trailers
+	def1[]:"280"  # Andrychów
+	def1[]:"281"  # Andrychów
+	def1[]:"282"  # Andrychów
+	def1[]:"283"  # Andrychów
+	def1[]:"284"  # Andrychów
+	def1[]:"285"  # Andrychów
+	def1[]:"286"  # Andrychów
+	def1[]:"287"  # Andrychów
+	def1[]:"288"  # Andrychów
+	def1[]:"289"  # Andrychów
+	def1[]:"200"  # Andrychów
+	def1[]:"291"  # Andrychów
+#	def1[]:"292"  # Andrychów used for trailers
+	def1[]:"293"  # Andrychów
+	def1[]:"294"  # Andrychów
+	def1[]:"295"  # Andrychów
+	def1[]:"296"  # Andrychów
+	def1[]:"297"  # Andrychów
+	def1[]:"298"  # Andrychów
+	def1[]:"299"  # Andrychów
+	def1[]:"300"  # Kalwaria
+	def1[]:"301"  # Kalwaria
+	def1[]:"302"  # Kalwaria
+	def1[]:"303"  # Kalwaria
+	def1[]:"304"  # Kalwaria
+	def1[]:"305"  # Kalwaria
+	def1[]:"306"  # Kalwaria
+	def1[]:"307"  # Kalwaria
+	def1[]:"308"  # Kalwaria
+	def1[]:"309"  # Kalwaria
+	def1[]:"310"  # Kalwaria
+	def1[]:"311"  # Kalwaria
+	def1[]:"312"  # Kalwaria
+	def1[]:"313"  # Kalwaria
+	def1[]:"314"  # Kalwaria
+	def1[]:"315"  # Kalwaria
+	def1[]:"316"  # Kalwaria
+	def1[]:"317"  # Kalwaria
+	def1[]:"318"  # Kalwaria
+	def1[]:"319"  # Kalwaria
+	def1[]:"320"  # Kalwaria
+	def1[]:"321"  # Kalwaria
+	def1[]:"322"  # Kalwaria
+	def1[]:"323"  # Kalwaria
+	def1[]:"324"  # Kalwaria
+	def1[]:"325"  # Kalwaria
+	def1[]:"326"  # Kalwaria
+	def1[]:"327"  # Kalwaria
+	def1[]:"328"  # Kalwaria
+	def1[]:"329"  # Kalwaria
+	def1[]:"330"  # Kalwaria
+	def1[]:"331"  # Kalwaria
+	def1[]:"332"  # Kalwaria
+	def1[]:"333"  # Kalwaria
+	def1[]:"334"  # Kalwaria
+	def1[]:"335"  # Kalwaria
+	def1[]:"336"  # Kalwaria
+	def1[]:"337"  # Kalwaria
+	def1[]:"338"  # Kalwaria
+#	def1[]:"339"  # Kalwaria used for trailers
+	def1[]:"340"  # Andrychów
+	def1[]:"341"  # Andrychów
+	def1[]:"342"  # Andrychów
+	def1[]:"343"  # Andrychów
+	def1[]:"344"  # Andrychów
+	def1[]:"345"  # Andrychów
+	def1[]:"346"  # Andrychów
+	def1[]:"347"  # Andrychów
+	def1[]:"348"  # Andrychów
+	def1[]:"349"  # Andrychów
+	def1[]:"350"  # Andrychów
+	def1[]:"351"  # Andrychów
+	def1[]:"352"  # Andrychów
+	def1[]:"353"  # Andrychów
+	def1[]:"354"  # Andrychów
+	def1[]:"355"  # Andrychów
+	def1[]:"356"  # Andrychów
+	def1[]:"357"  # Andrychów
+	def1[]:"358"  # Andrychów
+#	def1[]:"359"  # Andrychów used for trailers and double-row plates
+	def1[]:"360"  # Andrychów
+	def1[]:"361"  # Andrychów
+	def1[]:"362"  # Andrychów
+	def1[]:"363"  # Andrychów
+	def1[]:"364"  # Andrychów
+	def1[]:"365"  # Andrychów
+	def1[]:"366"  # Andrychów
+	def1[]:"367"  # Andrychów
+	def1[]:"368"  # Andrychów
+	def1[]:"369"  # Andrychów
+	def1[]:"370"  # Andrychów
+	def1[]:"371"  # Andrychów
+	def1[]:"372"  # Andrychów
+	def1[]:"373"  # Andrychów
+	def1[]:"374"  # Andrychów
+	def1[]:"375"  # Andrychów
+	def1[]:"376"  # Andrychów
+	def1[]:"377"  # Andrychów
+	def1[]:"378"  # Andrychów
+#	def1[]:"379"  # Andrychów used for trailers
+	def1[]:"380"  # Andrychów
+	def1[]:"381"  # Andrychów
+	def1[]:"382"  # Andrychów
+	def1[]:"383"  # Andrychów
+	def1[]:"384"  # Andrychów
+	def1[]:"385"  # Andrychów
+	def1[]:"386"  # Andrychów
+	def1[]:"387"  # Andrychów
+	def1[]:"388"  # Andrychów
+	def1[]:"389"  # Andrychów
+	def1[]:"300"  # Andrychów
+	def1[]:"391"  # Andrychów
+	def1[]:"392"  # Andrychów
+	def1[]:"393"  # Andrychów
+	def1[]:"394"  # Andrychów
+#	def1[]:"395"  # Andrychów half used for double-row plates
+#	def1[]:"396"  # Andrychów used for trailers
+#	def1[]:"397"  # Andrychów used for trailers
+#	def1[]:"398"  # Andrychów used for trailers
+	def1[]:"399"  # Andrychów
+	def1[]:"400"  # Wadowice
+	def1[]:"401"  # Wadowice
+	def1[]:"402"  # Wadowice
+	def1[]:"403"  # Wadowice
+	def1[]:"404"  # Wadowice
+	def1[]:"405"  # Wadowice
+	def1[]:"406"  # Wadowice
+	def1[]:"407"  # Wadowice
+	def1[]:"408"  # Wadowice
+	def1[]:"409"  # Wadowice
+	def1[]:"410"  # Wadowice
+	def1[]:"411"  # Wadowice
+	def1[]:"412"  # Wadowice
+	def1[]:"413"  # Wadowice
+	def1[]:"414"  # Wadowice
+	def1[]:"415"  # Wadowice
+	def1[]:"416"  # Wadowice
+	def1[]:"417"  # Wadowice
+	def1[]:"418"  # Wadowice
+#	def1[]:"419"  # Wadowice used for trailers and trailer double-row plates
+	def1[]:"420"  # Wadowice
+	def1[]:"421"  # Wadowice
+	def1[]:"422"  # Wadowice
+	def1[]:"423"  # Wadowice
+	def1[]:"424"  # Wadowice
+	def1[]:"425"  # Wadowice
+	def1[]:"426"  # Wadowice
+	def1[]:"427"  # Wadowice
+	def1[]:"428"  # Wadowice
+	def1[]:"429"  # Wadowice
+	def1[]:"430"  # Wadowice
+	def1[]:"431"  # Wadowice
+	def1[]:"432"  # Wadowice
+	def1[]:"433"  # Wadowice
+	def1[]:"434"  # Wadowice
+	def1[]:"435"  # Wadowice
+	def1[]:"436"  # Wadowice
+	def1[]:"437"  # Wadowice
+#	def1[]:"438"  # Wadowice used for trailers
+#	def1[]:"439"  # Wadowice used for trailers
+	def1[]:"440"  # Wadowice
+	def1[]:"441"  # Wadowice
+	def1[]:"442"  # Wadowice
+	def1[]:"443"  # Wadowice
+	def1[]:"444"  # Wadowice
+	def1[]:"445"  # Wadowice
+	def1[]:"446"  # Wadowice
+	def1[]:"447"  # Wadowice
+	def1[]:"448"  # Wadowice
+	def1[]:"449"  # Wadowice
+	def1[]:"450"  # Wadowice
+	def1[]:"451"  # Wadowice
+	def1[]:"452"  # Wadowice
+	def1[]:"453"  # Wadowice
+	def1[]:"454"  # Wadowice
+	def1[]:"455"  # Wadowice
+	def1[]:"456"  # Wadowice
+	def1[]:"457"  # Wadowice
+	def1[]:"458"  # Wadowice
+#	def1[]:"459"  # Wadowice used for trailers
+	def1[]:"460"  # Wadowice
+	def1[]:"461"  # Wadowice
+	def1[]:"462"  # Wadowice
+	def1[]:"463"  # Wadowice
+	def1[]:"464"  # Wadowice
+	def1[]:"465"  # Wadowice
+	def1[]:"466"  # Wadowice
+	def1[]:"467"  # Wadowice
+	def1[]:"468"  # Wadowice
+	def1[]:"469"  # Wadowice
+	def1[]:"470"  # Wadowice
+	def1[]:"471"  # Wadowice
+	def1[]:"472"  # Wadowice
+	def1[]:"473"  # Wadowice
+	def1[]:"474"  # Wadowice
+	def1[]:"475"  # Wadowice
+	def1[]:"476"  # Wadowice
+	def1[]:"477"  # Wadowice
+	def1[]:"478"  # Wadowice
+#	def1[]:"479"  # Wadowice used for double-row plates
+	def1[]:"480"  # Wadowice
+	def1[]:"481"  # Wadowice
+	def1[]:"482"  # Wadowice
+	def1[]:"483"  # Wadowice
+	def1[]:"484"  # Wadowice
+	def1[]:"485"  # Wadowice
+	def1[]:"486"  # Wadowice
+	def1[]:"487"  # Wadowice
+	def1[]:"488"  # Wadowice
+	def1[]:"489"  # Wadowice
+	def1[]:"400"  # Wadowice
+	def1[]:"491"  # Wadowice
+	def1[]:"492"  # Wadowice
+	def1[]:"493"  # Wadowice
+	def1[]:"494"  # Wadowice
+	def1[]:"495"  # Wadowice
+	def1[]:"496"  # Wadowice
+	def1[]:"497"  # Wadowice
+	def1[]:"498"  # Wadowice
+	def1[]:"499"  # Wadowice
+	def1[]:"500"  # Wadowice
+	def1[]:"501"  # Wadowice
+	def1[]:"502"  # Wadowice
+	def1[]:"503"  # Wadowice
+	def1[]:"504"  # Wadowice
+	def1[]:"505"  # Wadowice
+	def1[]:"506"  # Wadowice
+	def1[]:"507"  # Wadowice
+	def1[]:"508"  # Wadowice
+	def1[]:"509"  # Wadowice
+	def1[]:"510"  # Wadowice
+	def1[]:"511"  # Wadowice
+	def1[]:"512"  # Wadowice
+	def1[]:"513"  # Wadowice
+	def1[]:"514"  # Wadowice
+	def1[]:"515"  # Wadowice
+	def1[]:"516"  # Wadowice
+	def1[]:"517"  # Wadowice
+#	def1[]:"518"  # Wadowice used for trailers
+#	def1[]:"519"  # Wadowice used for trailers
+	def1[]:"520"  # Wadowice
+	def1[]:"521"  # Wadowice
+	def1[]:"522"  # Wadowice
+	def1[]:"523"  # Wadowice
+	def1[]:"524"  # Wadowice
+	def1[]:"525"  # Wadowice
+	def1[]:"526"  # Wadowice
+	def1[]:"527"  # Wadowice
+	def1[]:"528"  # Wadowice
+	def1[]:"529"  # Wadowice
+	def1[]:"530"  # Wadowice
+	def1[]:"531"  # Wadowice
+	def1[]:"532"  # Wadowice
+	def1[]:"533"  # Wadowice
+	def1[]:"534"  # Wadowice
+	def1[]:"535"  # Wadowice
+	def1[]:"536"  # Wadowice
+	def1[]:"537"  # Wadowice
+	def1[]:"538"  # Wadowice
+#	def1[]:"539"  # Wadowice used for trailers
+	def1[]:"540"  # Wadowice
+	def1[]:"541"  # Wadowice
+	def1[]:"542"  # Wadowice
+	def1[]:"543"  # Wadowice
+	def1[]:"544"  # Wadowice
+	def1[]:"545"  # Wadowice
+	def1[]:"546"  # Wadowice
+	def1[]:"547"  # Wadowice
+	def1[]:"548"  # Wadowice
+	def1[]:"549"  # Wadowice
+	def1[]:"550"  # Wadowice
+	def1[]:"551"  # Wadowice
+	def1[]:"552"  # Wadowice
+	def1[]:"553"  # Wadowice
+	def1[]:"554"  # Wadowice
+	def1[]:"555"  # Wadowice
+	def1[]:"556"  # Wadowice
+	def1[]:"557"  # Wadowice
+	def1[]:"558"  # Wadowice
+	def1[]:"559"  # Wadowice
+	def1[]:"560"  # Wadowice
+	def1[]:"561"  # Wadowice
+	def1[]:"562"  # Wadowice
+	def1[]:"563"  # Wadowice
+	def1[]:"564"  # Wadowice
+	def1[]:"565"  # Wadowice
+	def1[]:"566"  # Wadowice
+#	def1[]:"567"  # Wadowice used for trailers
+#	def1[]:"568"  # Wadowice used for trailers
+	def1[]:"569"  # Wadowice
+	def1[]:"570"  # Wadowice
+	def1[]:"571"  # Wadowice
+	def1[]:"572"  # Wadowice
+	def1[]:"573"  # Wadowice
+	def1[]:"574"  # Wadowice
+	def1[]:"575"  # Wadowice
+	def1[]:"576"  # Wadowice
+	def1[]:"577"  # Wadowice
+	def1[]:"578"  # Wadowice
+	def1[]:"579"  # Wadowice
+	def1[]:"580"  # Wadowice
+	def1[]:"581"  # Wadowice
+	def1[]:"582"  # Wadowice
+	def1[]:"583"  # Wadowice
+	def1[]:"584"  # Wadowice
+	def1[]:"585"  # Wadowice
+	def1[]:"586"  # Wadowice
+	def1[]:"587"  # Wadowice
+	def1[]:"588"  # Wadowice
+	def1[]:"589"  # Wadowice
+	def1[]:"500"  # Wadowice
+	def1[]:"591"  # Wadowice
+	def1[]:"592"  # Wadowice
+	def1[]:"593"  # Wadowice
+	def1[]:"594"  # Wadowice
+	def1[]:"595"  # Wadowice
+	def1[]:"596"  # Wadowice
+	def1[]:"597"  # Wadowice
+#	def1[]:"598"  # Wadowice used for trailers
+#	def1[]:"599"  # Wadowice half used for double-row plates
+	def1[]:"600"  # Andrychów
+	def1[]:"601"  # Andrychów
+	def1[]:"602"  # Andrychów
+	def1[]:"603"  # Andrychów
+	def1[]:"604"  # Andrychów
+	def1[]:"605"  # Andrychów
+	def1[]:"606"  # Andrychów
+	def1[]:"607"  # Andrychów
+	def1[]:"608"  # Andrychów
+	def1[]:"609"  # Andrychów
+	def1[]:"610"  # Andrychów
+	def1[]:"611"  # Andrychów
+	def1[]:"612"  # Andrychów
+	def1[]:"613"  # Andrychów
+	def1[]:"614"  # Andrychów
+	def1[]:"615"  # Andrychów
+	def1[]:"616"  # Andrychów
+	def1[]:"617"  # Andrychów
+	def1[]:"618"  # Andrychów
+#	def1[]:"619"  # Andrychów used for trailers and trailer double-row plates
+	def1[]:"620"  # Andrychów
+	def1[]:"621"  # Andrychów
+	def1[]:"622"  # Andrychów
+	def1[]:"623"  # Andrychów
+	def1[]:"624"  # Andrychów
+	def1[]:"625"  # Andrychów
+	def1[]:"626"  # Andrychów
+	def1[]:"627"  # Andrychów
+	def1[]:"628"  # Andrychów
+	def1[]:"629"  # Andrychów
+	def1[]:"630"  # Andrychów
+	def1[]:"631"  # Andrychów
+	def1[]:"632"  # Andrychów
+	def1[]:"633"  # Andrychów
+	def1[]:"634"  # Andrychów
+	def1[]:"635"  # Andrychów
+	def1[]:"636"  # Andrychów
+	def1[]:"637"  # Andrychów
+	def1[]:"638"  # Andrychów
+	def1[]:"639"  # Andrychów
+	def1[]:"640"  # Andrychów
+	def1[]:"641"  # Andrychów
+	def1[]:"642"  # Andrychów
+	def1[]:"643"  # Andrychów
+	def1[]:"644"  # Andrychów
+	def1[]:"645"  # Andrychów
+	def1[]:"646"  # Andrychów
+	def1[]:"647"  # Andrychów
+	def1[]:"648"  # Andrychów
+	def1[]:"649"  # Andrychów
+	def1[]:"650"  # Andrychów
+	def1[]:"651"  # Andrychów
+	def1[]:"652"  # Andrychów
+	def1[]:"653"  # Andrychów
+	def1[]:"654"  # Andrychów
+	def1[]:"655"  # Andrychów
+	def1[]:"656"  # Andrychów
+#	def1[]:"657"  # Andrychów used for trailers
+#	def1[]:"658"  # Andrychów used for trailers
+#	def1[]:"659"  # Andrychów used for trailers
+	def1[]:"660"  # Andrychów
+	def1[]:"661"  # Andrychów
+	def1[]:"662"  # Andrychów "KWA" VII latest issued (August 2022)
+#	def1[]:"663"
+#	def1[]:"664"
+#	def1[]:"665"
+#	def1[]:"666"
+#	def1[]:"667"
+#	def1[]:"668"
+#	def1[]:"669"
+#	def1[]:"670"
+#	def1[]:"671"
+#	def1[]:"672"
+#	def1[]:"673"
+#	def1[]:"674"
+#	def1[]:"675"
+#	def1[]:"676"
+#	def1[]:"677"
+#	def1[]:"678"
+#	def1[]:"679"
+#	def1[]:"680"
+#	def1[]:"681"
+#	def1[]:"682"
+#	def1[]:"683"
+#	def1[]:"684"
+#	def1[]:"685"
+#	def1[]:"686"
+#	def1[]:"687"
+#	def1[]:"688"
+#	def1[]:"689"
+#	def1[]:"600"
+#	def1[]:"691"
+#	def1[]:"692"
+#	def1[]:"693"
+#	def1[]:"694"
+#	def1[]:"695"
+#	def1[]:"696"
+#	def1[]:"697"
+#	def1[]:"698"
+#	def1[]:"699"
+	def1[]:"700"  # Wadowice
+	def1[]:"701"  # Wadowice
+	def1[]:"702"  # Wadowice
+	def1[]:"703"  # Wadowice
+	def1[]:"704"  # Wadowice
+	def1[]:"705"  # Wadowice
+	def1[]:"706"  # Wadowice
+	def1[]:"707"  # Wadowice
+	def1[]:"708"  # Wadowice
+	def1[]:"709"  # Wadowice
+	def1[]:"710"  # Wadowice
+	def1[]:"711"  # Wadowice
+	def1[]:"712"  # Wadowice
+	def1[]:"713"  # Wadowice
+	def1[]:"714"  # Wadowice
+	def1[]:"715"  # Wadowice
+	def1[]:"716"  # Wadowice
+	def1[]:"717"  # Wadowice
+#	def1[]:"718"  # Wadowice used for trailers
+#	def1[]:"719"  # Wadowice used for trailers
+	def1[]:"720"  # Wadowice
+	def1[]:"721"  # Wadowice
+	def1[]:"722"  # Wadowice
+	def1[]:"723"  # Wadowice
+	def1[]:"724"  # Wadowice "KWA" VII latest issued (September 2022)
+#	def1[]:"725"
+#	def1[]:"726"
+#	def1[]:"727"
+#	def1[]:"728"
+#	def1[]:"729"
+#	def1[]:"730"
+#	def1[]:"731"
+#	def1[]:"732"
+#	def1[]:"733"
+#	def1[]:"734"
+#	def1[]:"735"
+#	def1[]:"736"
+#	def1[]:"737"
+#	def1[]:"738"
+#	def1[]:"739"
+#	def1[]:"740"
+#	def1[]:"741"
+#	def1[]:"742"
+#	def1[]:"743"
+#	def1[]:"744"
+#	def1[]:"745"
+#	def1[]:"746"
+#	def1[]:"747"
+#	def1[]:"748"
+#	def1[]:"749"
+#	def1[]:"750"
+#	def1[]:"751"
+#	def1[]:"752"
+#	def1[]:"753"
+#	def1[]:"754"
+#	def1[]:"755"
+#	def1[]:"756"
+#	def1[]:"757"
+#	def1[]:"758"
+#	def1[]:"759"
+#	def1[]:"760"
+#	def1[]:"761"
+#	def1[]:"762"
+#	def1[]:"763"
+#	def1[]:"764"
+#	def1[]:"765"
+#	def1[]:"766"
+#	def1[]:"767"
+#	def1[]:"768"
+#	def1[]:"769"
+#	def1[]:"770"
+#	def1[]:"771"
+#	def1[]:"772"
+#	def1[]:"773"
+#	def1[]:"774"
+#	def1[]:"775"
+#	def1[]:"776"
+#	def1[]:"777"
+#	def1[]:"778"
+#	def1[]:"779"
+#	def1[]:"780"
+#	def1[]:"781"
+#	def1[]:"782"
+#	def1[]:"783"
+#	def1[]:"784"
+#	def1[]:"785"
+#	def1[]:"786"
+#	def1[]:"787"
+#	def1[]:"788"
+#	def1[]:"789"
+#	def1[]:"700"
+#	def1[]:"791"
+#	def1[]:"792"
+#	def1[]:"793"
+#	def1[]:"794"
+#	def1[]:"795"
+#	def1[]:"796"
+#	def1[]:"797"
+#	def1[]:"798"
+#	def1[]:"799"
+#	def1[]:"800"
+#	def1[]:"801"
+#	def1[]:"802"
+#	def1[]:"803"
+#	def1[]:"804"
+#	def1[]:"805"
+#	def1[]:"806"
+#	def1[]:"807"
+#	def1[]:"808"
+#	def1[]:"809"
+#	def1[]:"810"
+#	def1[]:"811"
+#	def1[]:"812"
+#	def1[]:"813"
+#	def1[]:"814"
+#	def1[]:"815"
+#	def1[]:"816"
+#	def1[]:"817"
+#	def1[]:"818"
+#	def1[]:"819"
+#	def1[]:"820"
+#	def1[]:"821"
+#	def1[]:"822"
+#	def1[]:"823"
+#	def1[]:"824"
+#	def1[]:"825"
+#	def1[]:"826"
+#	def1[]:"827"
+#	def1[]:"828"
+#	def1[]:"829"
+#	def1[]:"830"
+#	def1[]:"831"
+#	def1[]:"832"
+#	def1[]:"833"
+#	def1[]:"834"
+#	def1[]:"835"
+#	def1[]:"836"
+#	def1[]:"837"
+#	def1[]:"838"
+#	def1[]:"839"
+#	def1[]:"840"
+#	def1[]:"841"
+#	def1[]:"842"
+#	def1[]:"843"
+#	def1[]:"844"
+#	def1[]:"845"
+#	def1[]:"846"
+#	def1[]:"847"
+#	def1[]:"848"
+#	def1[]:"849"
+#	def1[]:"850"
+#	def1[]:"851"
+#	def1[]:"852"
+#	def1[]:"853"
+#	def1[]:"854"
+#	def1[]:"855"
+#	def1[]:"856"
+#	def1[]:"857"
+#	def1[]:"858"
+#	def1[]:"859"
+#	def1[]:"860"
+#	def1[]:"861"
+#	def1[]:"862"
+#	def1[]:"863"
+#	def1[]:"864"
+#	def1[]:"865"
+#	def1[]:"866"
+#	def1[]:"867"
+#	def1[]:"868"
+#	def1[]:"869"
+#	def1[]:"870"
+#	def1[]:"871"
+#	def1[]:"872"
+#	def1[]:"873"
+#	def1[]:"874"
+#	def1[]:"875"
+#	def1[]:"876"
+#	def1[]:"877"
+#	def1[]:"878"
+#	def1[]:"879"
+#	def1[]:"880"
+#	def1[]:"881"
+#	def1[]:"882"
+#	def1[]:"883"
+#	def1[]:"884"
+#	def1[]:"885"
+#	def1[]:"886"
+#	def1[]:"887"
+#	def1[]:"888"
+#	def1[]:"889"
+#	def1[]:"800"
+#	def1[]:"891"
+#	def1[]:"892"
+#	def1[]:"893"
+#	def1[]:"894"
+#	def1[]:"895"
+#	def1[]:"896"
+#	def1[]:"897"
+#	def1[]:"898"
+#	def1[]:"899"
+#	def1[]:"900"
+#	def1[]:"901"
+#	def1[]:"902"
+#	def1[]:"903"
+#	def1[]:"904"
+#	def1[]:"905"
+#	def1[]:"906"
+#	def1[]:"907"
+#	def1[]:"908"
+#	def1[]:"909"
+#	def1[]:"910"
+#	def1[]:"911"
+#	def1[]:"912"
+#	def1[]:"913"
+#	def1[]:"914"
+#	def1[]:"915"
+#	def1[]:"916"
+#	def1[]:"917"
+#	def1[]:"918"
+#	def1[]:"919"
+#	def1[]:"920"
+#	def1[]:"921"
+#	def1[]:"922"
+#	def1[]:"923"
+#	def1[]:"924"
+#	def1[]:"925"
+#	def1[]:"926"
+#	def1[]:"927"
+#	def1[]:"928"
+#	def1[]:"929"
+#	def1[]:"930"
+#	def1[]:"931"
+#	def1[]:"932"
+#	def1[]:"933"
+#	def1[]:"934"
+#	def1[]:"935"
+#	def1[]:"936"
+#	def1[]:"937"
+#	def1[]:"938"
+#	def1[]:"939"
+#	def1[]:"940"
+#	def1[]:"941"
+#	def1[]:"942"
+#	def1[]:"943"
+#	def1[]:"944"
+#	def1[]:"945"
+#	def1[]:"946"
+#	def1[]:"947"
+#	def1[]:"948"
+#	def1[]:"949"
+#	def1[]:"950"
+#	def1[]:"951"
+#	def1[]:"952"
+#	def1[]:"953"
+#	def1[]:"954"
+#	def1[]:"955"
+#	def1[]:"956"
+#	def1[]:"957"
+#	def1[]:"958"
+#	def1[]:"959"
+	def1[]:"960"  # Kalwaria
+	def1[]:"961"  # Kalwaria
+	def1[]:"962"  # Kalwaria
+	def1[]:"963"  # Kalwaria
+	def1[]:"964"  # Kalwaria
+	def1[]:"965"  # Kalwaria
+	def1[]:"966"  # Kalwaria
+	def1[]:"967"  # Kalwaria
+	def1[]:"968"  # Kalwaria
+	def1[]:"969"  # Kalwaria
+	def1[]:"970"  # Kalwaria
+	def1[]:"971"  # Kalwaria
+	def1[]:"972"  # Kalwaria
+	def1[]:"973"  # Kalwaria
+	def1[]:"974"  # Kalwaria
+	def1[]:"975"  # Kalwaria "KWA" VII latest issued (August 2022)
+#	def1[]:"976"  # Kalwaria
+#	def1[]:"977"  # Kalwaria
+#	def1[]:"978"  # Kalwaria
+#	def1[]:"979"  # Kalwaria
+#	def1[]:"980"  # Kalwaria
+#	def1[]:"981"  # Kalwaria
+#	def1[]:"982"  # Kalwaria
+#	def1[]:"983"  # Kalwaria
+#	def1[]:"984"  # Kalwaria
+#	def1[]:"985"  # Kalwaria
+#	def1[]:"986"  # Kalwaria
+#	def1[]:"987"  # Kalwaria
+#	def1[]:"988"  # Kalwaria
+#	def1[]:"989"  # Kalwaria
+#	def1[]:"900"  # Kalwaria
+#	def1[]:"991"  # Kalwaria
+#	def1[]:"992"  # Kalwaria
+#	def1[]:"993"  # Kalwaria
+#	def1[]:"994"  # Kalwaria
+#	def1[]:"995"  # Kalwaria
+#	def1[]:"996"  # Kalwaria
+#	def1[]:"997"  # Kalwaria
+#	def1[]:"998"  # Kalwaria
+#	def1[]:"999"
+
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .wadowice.lp.truck
+{
+	type: truck
+
+	probability: 0.3
+
+	# Three letter powiat codes
+#	templates[]:"KWA52444"   # I    before EU stars
+#	templates[]:"KWA54422"   # II   most before EU stars
+#	templates[]:"KWA53244"   # III
+#	templates[]:"KWA54423"   # IV
+#	templates[]:"KWA53223"   # V
+#	templates[]:"KWA52244"   # VI
+	templates[]:"KWA5144"    # VII
+
+	# "KWA" VII
+#	def1[]:"000"  # Wadowice
+#	def1[]:"001"  # Wadowice
+#	def1[]:"002"  # Wadowice
+#	def1[]:"003"  # Wadowice
+#	def1[]:"004"  # Wadowice
+#	def1[]:"005"  # Wadowice
+#	def1[]:"006"  # Wadowice
+#	def1[]:"007"  # Wadowice
+#	def1[]:"008"  # Wadowice
+#	def1[]:"009"  # Wadowice
+#	def1[]:"010"  # Wadowice
+#	def1[]:"011"  # Wadowice
+#	def1[]:"012"  # Wadowice
+#	def1[]:"013"  # Wadowice
+#	def1[]:"014"  # Wadowice
+#	def1[]:"015"  # Wadowice
+#	def1[]:"016"  # Wadowice
+#	def1[]:"017"  # Wadowice
+#	def1[]:"018"  # Wadowice
+#	def1[]:"019"  # Wadowice
+#	def1[]:"020"  # Andrychów
+#	def1[]:"021"  # Andrychów
+#	def1[]:"022"  # Andrychów
+#	def1[]:"023"  # Andrychów
+#	def1[]:"024"  # Andrychów
+#	def1[]:"025"  # Andrychów
+#	def1[]:"026"  # Andrychów
+#	def1[]:"027"  # Andrychów
+#	def1[]:"028"  # Andrychów
+#	def1[]:"029"  # Andrychów
+##	def1[]:"030"  # Andrychów used for double-row plates
+#	def1[]:"031"  # Andrychów
+#	def1[]:"032"  # Andrychów
+#	def1[]:"033"  # Andrychów
+#	def1[]:"034"  # Andrychów
+#	def1[]:"035"  # Andrychów
+#	def1[]:"036"  # Andrychów
+#	def1[]:"037"  # Andrychów
+#	def1[]:"038"  # Andrychów
+#	def1[]:"039"  # Andrychów
+#	def1[]:"040"  # Wadowice
+#	def1[]:"041"  # Wadowice
+#	def1[]:"042"  # Wadowice
+#	def1[]:"043"  # Wadowice
+#	def1[]:"044"  # Wadowice
+#	def1[]:"045"  # Wadowice
+#	def1[]:"046"  # Wadowice
+#	def1[]:"047"  # Wadowice
+#	def1[]:"048"  # Wadowice
+#	def1[]:"049"  # Wadowice
+#	def1[]:"050"  # Wadowice
+#	def1[]:"051"  # Wadowice
+#	def1[]:"052"  # Wadowice
+#	def1[]:"053"  # Wadowice
+#	def1[]:"054"  # Wadowice
+#	def1[]:"055"  # Wadowice
+#	def1[]:"056"  # Wadowice
+#	def1[]:"057"  # Wadowice
+#	def1[]:"058"  # Wadowice
+#	def1[]:"059"  # Wadowice
+#	def1[]:"060"  # Wadowice
+#	def1[]:"061"  # Wadowice
+#	def1[]:"062"  # Wadowice
+#	def1[]:"063"  # Wadowice
+#	def1[]:"064"  # Wadowice
+#	def1[]:"065"  # Wadowice
+#	def1[]:"066"  # Wadowice
+#	def1[]:"067"  # Wadowice
+#	def1[]:"068"  # Wadowice
+#	def1[]:"069"  # Wadowice
+#	def1[]:"070"  # Wadowice
+#	def1[]:"071"  # Wadowice
+#	def1[]:"072"  # Wadowice
+#	def1[]:"073"  # Wadowice
+#	def1[]:"074"  # Wadowice
+#	def1[]:"075"  # Wadowice
+#	def1[]:"076"  # Wadowice
+#	def1[]:"077"  # Wadowice
+#	def1[]:"078"  # Wadowice
+#	def1[]:"079"  # Wadowice
+#	def1[]:"080"  # Andrychów
+#	def1[]:"081"  # Andrychów
+#	def1[]:"082"  # Andrychów
+#	def1[]:"083"  # Andrychów
+#	def1[]:"084"  # Andrychów
+#	def1[]:"085"  # Andrychów
+#	def1[]:"086"  # Andrychów
+#	def1[]:"087"  # Andrychów
+#	def1[]:"088"  # Andrychów
+#	def1[]:"089"  # Andrychów
+#	def1[]:"000"  # Andrychów
+#	def1[]:"091"  # Andrychów
+#	def1[]:"092"  # Andrychów
+#	def1[]:"093"  # Andrychów
+#	def1[]:"094"  # Andrychów
+#	def1[]:"095"  # Andrychów
+#	def1[]:"096"  # Andrychów
+#	def1[]:"097"  # Andrychów
+#	def1[]:"098"  # Andrychów
+#	def1[]:"099"  # Andrychów
+#	def1[]:"100"  # Wadowice
+#	def1[]:"101"  # Wadowice
+#	def1[]:"102"  # Wadowice
+#	def1[]:"103"  # Wadowice
+#	def1[]:"104"  # Wadowice
+#	def1[]:"105"  # Wadowice
+#	def1[]:"106"  # Wadowice
+#	def1[]:"107"  # Wadowice
+#	def1[]:"108"  # Wadowice
+#	def1[]:"109"  # Wadowice
+#	def1[]:"110"  # Wadowice
+#	def1[]:"111"  # Wadowice
+#	def1[]:"112"  # Wadowice
+#	def1[]:"113"  # Wadowice
+#	def1[]:"114"  # Wadowice
+#	def1[]:"115"  # Wadowice
+#	def1[]:"116"  # Wadowice
+#	def1[]:"117"  # Wadowice
+#	def1[]:"118"  # Wadowice
+#	def1[]:"119"  # Wadowice
+#	def1[]:"120"  # Andrychów
+#	def1[]:"121"  # Andrychów
+#	def1[]:"122"  # Andrychów
+#	def1[]:"123"  # Andrychów
+#	def1[]:"124"  # Andrychów
+#	def1[]:"125"  # Andrychów
+##	def1[]:"126"  # Andrychów half used for double-row plates
+#	def1[]:"127"  # Andrychów
+#	def1[]:"128"  # Andrychów
+#	def1[]:"129"  # Andrychów
+#	def1[]:"130"  # Andrychów
+#	def1[]:"131"  # Andrychów
+#	def1[]:"132"  # Andrychów
+#	def1[]:"133"  # Andrychów
+#	def1[]:"134"  # Andrychów
+#	def1[]:"135"  # Andrychów
+#	def1[]:"136"  # Andrychów
+#	def1[]:"137"  # Andrychów
+#	def1[]:"138"  # Andrychów
+##	def1[]:"139"  # Wadowice used for trailers
+#	def1[]:"140"  # Kalwaria
+#	def1[]:"141"  # Kalwaria
+#	def1[]:"142"  # Kalwaria
+#	def1[]:"143"  # Kalwaria
+#	def1[]:"144"  # Kalwaria
+#	def1[]:"145"  # Kalwaria
+#	def1[]:"146"  # Kalwaria
+#	def1[]:"147"  # Kalwaria
+#	def1[]:"148"  # Kalwaria
+#	def1[]:"149"  # Kalwaria
+#	def1[]:"150"  # Kalwaria
+#	def1[]:"151"  # Kalwaria
+#	def1[]:"152"  # Kalwaria
+#	def1[]:"153"  # Kalwaria
+#	def1[]:"154"  # Kalwaria
+#	def1[]:"155"  # Kalwaria
+#	def1[]:"156"  # Kalwaria
+#	def1[]:"157"  # Kalwaria
+#	def1[]:"158"  # Kalwaria
+##	def1[]:"159"  # Kalwaria used for trailers
+#	def1[]:"160"  # Wadowice
+#	def1[]:"161"  # Wadowice
+#	def1[]:"162"  # Wadowice
+#	def1[]:"163"  # Wadowice
+#	def1[]:"164"  # Wadowice
+#	def1[]:"165"  # Wadowice
+#	def1[]:"166"  # Wadowice
+#	def1[]:"167"  # Wadowice
+#	def1[]:"168"  # Wadowice
+#	def1[]:"169"  # Wadowice
+#	def1[]:"170"  # Wadowice
+#	def1[]:"171"  # Wadowice
+#	def1[]:"172"  # Wadowice
+#	def1[]:"173"  # Wadowice
+#	def1[]:"174"  # Wadowice
+#	def1[]:"175"  # Wadowice
+#	def1[]:"176"  # Wadowice
+#	def1[]:"177"  # Wadowice
+#	def1[]:"178"  # Wadowice
+##	def1[]:"179"  # Andrychów used for trailers
+#	def1[]:"180"  # Andrychów
+#	def1[]:"181"  # Andrychów
+#	def1[]:"182"  # Andrychów
+#	def1[]:"183"  # Andrychów
+#	def1[]:"184"  # Andrychów
+#	def1[]:"185"  # Andrychów
+#	def1[]:"186"  # Andrychów
+#	def1[]:"187"  # Andrychów
+#	def1[]:"188"  # Andrychów
+#	def1[]:"189"  # Andrychów
+#	def1[]:"100"  # Andrychów
+#	def1[]:"191"  # Andrychów
+#	def1[]:"192"  # Andrychów
+#	def1[]:"193"  # Andrychów
+#	def1[]:"194"  # Andrychów
+#	def1[]:"195"  # Andrychów
+#	def1[]:"196"  # Andrychów
+#	def1[]:"197"  # Andrychów
+#	def1[]:"198"  # Andrychów
+##	def1[]:"199"  # Wadowice used for trailers
+#	def1[]:"200"  # Wadowice
+#	def1[]:"201"  # Wadowice
+#	def1[]:"202"  # Wadowice
+#	def1[]:"203"  # Wadowice
+#	def1[]:"204"  # Wadowice
+#	def1[]:"205"  # Wadowice
+#	def1[]:"206"  # Wadowice
+#	def1[]:"207"  # Wadowice
+#	def1[]:"208"  # Wadowice
+#	def1[]:"209"  # Wadowice
+#	def1[]:"210"  # Wadowice
+#	def1[]:"211"  # Wadowice
+#	def1[]:"212"  # Wadowice
+#	def1[]:"213"  # Wadowice
+#	def1[]:"214"  # Wadowice
+#	def1[]:"215"  # Wadowice
+#	def1[]:"216"  # Wadowice
+#	def1[]:"217"  # Wadowice
+#	def1[]:"218"  # Wadowice
+##	def1[]:"219"  # Wadowice used for trailers
+#	def1[]:"220"  # Wadowice
+#	def1[]:"221"  # Wadowice
+#	def1[]:"222"  # Wadowice
+#	def1[]:"223"  # Wadowice
+#	def1[]:"224"  # Wadowice
+#	def1[]:"225"  # Wadowice
+#	def1[]:"226"  # Wadowice
+#	def1[]:"227"  # Wadowice
+#	def1[]:"228"  # Wadowice
+#	def1[]:"229"  # Wadowice
+#	def1[]:"230"  # Wadowice
+#	def1[]:"231"  # Wadowice
+#	def1[]:"232"  # Wadowice
+#	def1[]:"233"  # Wadowice
+#	def1[]:"234"  # Wadowice
+#	def1[]:"235"  # Wadowice
+#	def1[]:"236"  # Wadowice
+#	def1[]:"237"  # Wadowice
+##	def1[]:"238"  # Wadowice used for trailers and double-row plates
+##	def1[]:"239"  # Wadowice used for trailers
+#	def1[]:"240"  # Wadowice
+#	def1[]:"241"  # Wadowice
+#	def1[]:"242"  # Wadowice
+#	def1[]:"243"  # Wadowice
+#	def1[]:"244"  # Wadowice
+#	def1[]:"245"  # Wadowice
+#	def1[]:"246"  # Wadowice
+#	def1[]:"247"  # Wadowice
+#	def1[]:"248"  # Wadowice
+#	def1[]:"249"  # Wadowice
+#	def1[]:"250"  # Wadowice
+#	def1[]:"251"  # Wadowice
+#	def1[]:"252"  # Wadowice
+#	def1[]:"253"  # Wadowice
+#	def1[]:"254"  # Wadowice
+#	def1[]:"255"  # Wadowice
+#	def1[]:"256"  # Wadowice
+#	def1[]:"257"  # Wadowice
+#	def1[]:"258"  # Wadowice
+#	def1[]:"259"  # Wadowice
+#	def1[]:"260"  # Wadowice
+#	def1[]:"261"  # Wadowice
+#	def1[]:"262"  # Wadowice
+#	def1[]:"263"  # Wadowice
+#	def1[]:"264"  # Wadowice
+#	def1[]:"265"  # Wadowice
+#	def1[]:"266"  # Wadowice
+#	def1[]:"267"  # Wadowice
+#	def1[]:"268"  # Wadowice
+#	def1[]:"269"  # Wadowice
+#	def1[]:"270"  # Wadowice
+#	def1[]:"271"  # Wadowice
+#	def1[]:"272"  # Wadowice
+#	def1[]:"273"  # Wadowice
+#	def1[]:"274"  # Wadowice
+#	def1[]:"275"  # Wadowice
+#	def1[]:"276"  # Wadowice
+#	def1[]:"277"  # Wadowice
+#	def1[]:"278"  # Wadowice
+##	def1[]:"279"  # Wadowice used for trailers
+#	def1[]:"280"  # Andrychów
+#	def1[]:"281"  # Andrychów
+#	def1[]:"282"  # Andrychów
+#	def1[]:"283"  # Andrychów
+#	def1[]:"284"  # Andrychów
+#	def1[]:"285"  # Andrychów
+#	def1[]:"286"  # Andrychów
+#	def1[]:"287"  # Andrychów
+#	def1[]:"288"  # Andrychów
+#	def1[]:"289"  # Andrychów
+#	def1[]:"200"  # Andrychów
+#	def1[]:"291"  # Andrychów
+##	def1[]:"292"  # Andrychów used for trailers
+#	def1[]:"293"  # Andrychów
+#	def1[]:"294"  # Andrychów
+#	def1[]:"295"  # Andrychów
+#	def1[]:"296"  # Andrychów
+#	def1[]:"297"  # Andrychów
+#	def1[]:"298"  # Andrychów
+#	def1[]:"299"  # Andrychów
+#	def1[]:"300"  # Kalwaria
+#	def1[]:"301"  # Kalwaria
+#	def1[]:"302"  # Kalwaria
+#	def1[]:"303"  # Kalwaria
+#	def1[]:"304"  # Kalwaria
+#	def1[]:"305"  # Kalwaria
+#	def1[]:"306"  # Kalwaria
+#	def1[]:"307"  # Kalwaria
+#	def1[]:"308"  # Kalwaria
+#	def1[]:"309"  # Kalwaria
+#	def1[]:"310"  # Kalwaria
+#	def1[]:"311"  # Kalwaria
+#	def1[]:"312"  # Kalwaria
+#	def1[]:"313"  # Kalwaria
+#	def1[]:"314"  # Kalwaria
+#	def1[]:"315"  # Kalwaria
+#	def1[]:"316"  # Kalwaria
+#	def1[]:"317"  # Kalwaria
+#	def1[]:"318"  # Kalwaria
+#	def1[]:"319"  # Kalwaria
+#	def1[]:"320"  # Kalwaria
+#	def1[]:"321"  # Kalwaria
+#	def1[]:"322"  # Kalwaria
+#	def1[]:"323"  # Kalwaria
+#	def1[]:"324"  # Kalwaria
+#	def1[]:"325"  # Kalwaria
+#	def1[]:"326"  # Kalwaria
+#	def1[]:"327"  # Kalwaria
+#	def1[]:"328"  # Kalwaria
+#	def1[]:"329"  # Kalwaria
+#	def1[]:"330"  # Kalwaria
+#	def1[]:"331"  # Kalwaria
+#	def1[]:"332"  # Kalwaria
+#	def1[]:"333"  # Kalwaria
+#	def1[]:"334"  # Kalwaria
+#	def1[]:"335"  # Kalwaria
+#	def1[]:"336"  # Kalwaria
+#	def1[]:"337"  # Kalwaria
+#	def1[]:"338"  # Kalwaria
+##	def1[]:"339"  # Kalwaria used for trailers
+#	def1[]:"340"  # Andrychów
+#	def1[]:"341"  # Andrychów
+#	def1[]:"342"  # Andrychów
+#	def1[]:"343"  # Andrychów
+#	def1[]:"344"  # Andrychów
+#	def1[]:"345"  # Andrychów
+#	def1[]:"346"  # Andrychów
+#	def1[]:"347"  # Andrychów
+#	def1[]:"348"  # Andrychów
+#	def1[]:"349"  # Andrychów
+#	def1[]:"350"  # Andrychów
+#	def1[]:"351"  # Andrychów
+#	def1[]:"352"  # Andrychów
+#	def1[]:"353"  # Andrychów
+#	def1[]:"354"  # Andrychów
+#	def1[]:"355"  # Andrychów
+#	def1[]:"356"  # Andrychów
+#	def1[]:"357"  # Andrychów
+#	def1[]:"358"  # Andrychów
+##	def1[]:"359"  # Andrychów used for trailers and double-row plates
+#	def1[]:"360"  # Andrychów
+#	def1[]:"361"  # Andrychów
+#	def1[]:"362"  # Andrychów
+#	def1[]:"363"  # Andrychów
+#	def1[]:"364"  # Andrychów
+#	def1[]:"365"  # Andrychów
+#	def1[]:"366"  # Andrychów
+#	def1[]:"367"  # Andrychów
+#	def1[]:"368"  # Andrychów
+#	def1[]:"369"  # Andrychów
+#	def1[]:"370"  # Andrychów
+#	def1[]:"371"  # Andrychów
+#	def1[]:"372"  # Andrychów
+#	def1[]:"373"  # Andrychów
+#	def1[]:"374"  # Andrychów
+#	def1[]:"375"  # Andrychów
+#	def1[]:"376"  # Andrychów
+#	def1[]:"377"  # Andrychów
+#	def1[]:"378"  # Andrychów
+##	def1[]:"379"  # Andrychów used for trailers
+#	def1[]:"380"  # Andrychów
+#	def1[]:"381"  # Andrychów
+#	def1[]:"382"  # Andrychów
+#	def1[]:"383"  # Andrychów
+#	def1[]:"384"  # Andrychów
+#	def1[]:"385"  # Andrychów
+#	def1[]:"386"  # Andrychów
+#	def1[]:"387"  # Andrychów
+#	def1[]:"388"  # Andrychów
+#	def1[]:"389"  # Andrychów
+#	def1[]:"300"  # Andrychów
+#	def1[]:"391"  # Andrychów
+#	def1[]:"392"  # Andrychów
+#	def1[]:"393"  # Andrychów
+#	def1[]:"394"  # Andrychów
+##	def1[]:"395"  # Andrychów half used for double-row plates
+##	def1[]:"396"  # Andrychów used for trailers
+##	def1[]:"397"  # Andrychów used for trailers
+##	def1[]:"398"  # Andrychów used for trailers
+#	def1[]:"399"  # Andrychów
+#	def1[]:"400"  # Wadowice
+#	def1[]:"401"  # Wadowice
+#	def1[]:"402"  # Wadowice
+#	def1[]:"403"  # Wadowice
+#	def1[]:"404"  # Wadowice
+#	def1[]:"405"  # Wadowice
+#	def1[]:"406"  # Wadowice
+#	def1[]:"407"  # Wadowice
+#	def1[]:"408"  # Wadowice
+#	def1[]:"409"  # Wadowice
+#	def1[]:"410"  # Wadowice
+#	def1[]:"411"  # Wadowice
+#	def1[]:"412"  # Wadowice
+#	def1[]:"413"  # Wadowice
+#	def1[]:"414"  # Wadowice
+#	def1[]:"415"  # Wadowice
+#	def1[]:"416"  # Wadowice
+#	def1[]:"417"  # Wadowice
+#	def1[]:"418"  # Wadowice
+##	def1[]:"419"  # Wadowice used for trailers and trailer double-row plates
+#	def1[]:"420"  # Wadowice
+#	def1[]:"421"  # Wadowice
+#	def1[]:"422"  # Wadowice
+#	def1[]:"423"  # Wadowice
+#	def1[]:"424"  # Wadowice
+#	def1[]:"425"  # Wadowice
+#	def1[]:"426"  # Wadowice
+#	def1[]:"427"  # Wadowice
+#	def1[]:"428"  # Wadowice
+#	def1[]:"429"  # Wadowice
+#	def1[]:"430"  # Wadowice
+#	def1[]:"431"  # Wadowice
+#	def1[]:"432"  # Wadowice
+#	def1[]:"433"  # Wadowice
+#	def1[]:"434"  # Wadowice
+#	def1[]:"435"  # Wadowice
+#	def1[]:"436"  # Wadowice
+#	def1[]:"437"  # Wadowice
+##	def1[]:"438"  # Wadowice used for trailers
+##	def1[]:"439"  # Wadowice used for trailers
+#	def1[]:"440"  # Wadowice
+#	def1[]:"441"  # Wadowice
+#	def1[]:"442"  # Wadowice
+#	def1[]:"443"  # Wadowice
+#	def1[]:"444"  # Wadowice
+#	def1[]:"445"  # Wadowice
+#	def1[]:"446"  # Wadowice
+#	def1[]:"447"  # Wadowice
+#	def1[]:"448"  # Wadowice
+#	def1[]:"449"  # Wadowice
+#	def1[]:"450"  # Wadowice
+#	def1[]:"451"  # Wadowice
+#	def1[]:"452"  # Wadowice
+#	def1[]:"453"  # Wadowice
+#	def1[]:"454"  # Wadowice
+#	def1[]:"455"  # Wadowice
+#	def1[]:"456"  # Wadowice
+#	def1[]:"457"  # Wadowice
+#	def1[]:"458"  # Wadowice
+##	def1[]:"459"  # Wadowice used for trailers
+#	def1[]:"460"  # Wadowice
+#	def1[]:"461"  # Wadowice
+#	def1[]:"462"  # Wadowice
+#	def1[]:"463"  # Wadowice
+#	def1[]:"464"  # Wadowice
+#	def1[]:"465"  # Wadowice
+#	def1[]:"466"  # Wadowice
+#	def1[]:"467"  # Wadowice
+#	def1[]:"468"  # Wadowice
+#	def1[]:"469"  # Wadowice
+#	def1[]:"470"  # Wadowice
+#	def1[]:"471"  # Wadowice
+#	def1[]:"472"  # Wadowice
+#	def1[]:"473"  # Wadowice
+#	def1[]:"474"  # Wadowice
+#	def1[]:"475"  # Wadowice
+#	def1[]:"476"  # Wadowice
+#	def1[]:"477"  # Wadowice
+#	def1[]:"478"  # Wadowice
+##	def1[]:"479"  # Wadowice used for double-row plates
+#	def1[]:"480"  # Wadowice
+#	def1[]:"481"  # Wadowice
+#	def1[]:"482"  # Wadowice
+#	def1[]:"483"  # Wadowice
+#	def1[]:"484"  # Wadowice
+#	def1[]:"485"  # Wadowice
+#	def1[]:"486"  # Wadowice
+#	def1[]:"487"  # Wadowice
+#	def1[]:"488"  # Wadowice
+#	def1[]:"489"  # Wadowice
+#	def1[]:"400"  # Wadowice
+#	def1[]:"491"  # Wadowice
+#	def1[]:"492"  # Wadowice
+#	def1[]:"493"  # Wadowice
+#	def1[]:"494"  # Wadowice
+#	def1[]:"495"  # Wadowice
+#	def1[]:"496"  # Wadowice
+#	def1[]:"497"  # Wadowice
+#	def1[]:"498"  # Wadowice
+#	def1[]:"499"  # Wadowice
+#	def1[]:"500"  # Wadowice
+#	def1[]:"501"  # Wadowice
+#	def1[]:"502"  # Wadowice
+#	def1[]:"503"  # Wadowice
+#	def1[]:"504"  # Wadowice
+#	def1[]:"505"  # Wadowice
+#	def1[]:"506"  # Wadowice
+#	def1[]:"507"  # Wadowice
+#	def1[]:"508"  # Wadowice
+#	def1[]:"509"  # Wadowice
+#	def1[]:"510"  # Wadowice
+#	def1[]:"511"  # Wadowice
+#	def1[]:"512"  # Wadowice
+#	def1[]:"513"  # Wadowice
+#	def1[]:"514"  # Wadowice
+#	def1[]:"515"  # Wadowice
+#	def1[]:"516"  # Wadowice
+#	def1[]:"517"  # Wadowice
+##	def1[]:"518"  # Wadowice used for trailers
+##	def1[]:"519"  # Wadowice used for trailers
+#	def1[]:"520"  # Wadowice
+#	def1[]:"521"  # Wadowice
+#	def1[]:"522"  # Wadowice
+#	def1[]:"523"  # Wadowice
+#	def1[]:"524"  # Wadowice
+#	def1[]:"525"  # Wadowice
+#	def1[]:"526"  # Wadowice
+#	def1[]:"527"  # Wadowice
+#	def1[]:"528"  # Wadowice
+#	def1[]:"529"  # Wadowice
+#	def1[]:"530"  # Wadowice
+#	def1[]:"531"  # Wadowice
+#	def1[]:"532"  # Wadowice
+#	def1[]:"533"  # Wadowice
+#	def1[]:"534"  # Wadowice
+#	def1[]:"535"  # Wadowice
+#	def1[]:"536"  # Wadowice
+#	def1[]:"537"  # Wadowice
+#	def1[]:"538"  # Wadowice
+##	def1[]:"539"  # Wadowice used for trailers
+#	def1[]:"540"  # Wadowice
+#	def1[]:"541"  # Wadowice
+#	def1[]:"542"  # Wadowice
+#	def1[]:"543"  # Wadowice
+#	def1[]:"544"  # Wadowice
+#	def1[]:"545"  # Wadowice
+#	def1[]:"546"  # Wadowice
+#	def1[]:"547"  # Wadowice
+#	def1[]:"548"  # Wadowice
+#	def1[]:"549"  # Wadowice
+#	def1[]:"550"  # Wadowice
+#	def1[]:"551"  # Wadowice
+#	def1[]:"552"  # Wadowice
+#	def1[]:"553"  # Wadowice
+#	def1[]:"554"  # Wadowice
+#	def1[]:"555"  # Wadowice
+#	def1[]:"556"  # Wadowice
+#	def1[]:"557"  # Wadowice
+#	def1[]:"558"  # Wadowice
+#	def1[]:"559"  # Wadowice
+#	def1[]:"560"  # Wadowice
+#	def1[]:"561"  # Wadowice
+#	def1[]:"562"  # Wadowice
+#	def1[]:"563"  # Wadowice
+#	def1[]:"564"  # Wadowice
+#	def1[]:"565"  # Wadowice
+#	def1[]:"566"  # Wadowice
+##	def1[]:"567"  # Wadowice used for trailers
+##	def1[]:"568"  # Wadowice used for trailers
+#	def1[]:"569"  # Wadowice
+#	def1[]:"570"  # Wadowice
+#	def1[]:"571"  # Wadowice
+#	def1[]:"572"  # Wadowice
+#	def1[]:"573"  # Wadowice
+#	def1[]:"574"  # Wadowice
+#	def1[]:"575"  # Wadowice
+#	def1[]:"576"  # Wadowice
+#	def1[]:"577"  # Wadowice
+#	def1[]:"578"  # Wadowice
+#	def1[]:"579"  # Wadowice
+#	def1[]:"580"  # Wadowice
+#	def1[]:"581"  # Wadowice
+#	def1[]:"582"  # Wadowice
+#	def1[]:"583"  # Wadowice
+#	def1[]:"584"  # Wadowice
+#	def1[]:"585"  # Wadowice
+#	def1[]:"586"  # Wadowice
+#	def1[]:"587"  # Wadowice
+#	def1[]:"588"  # Wadowice
+#	def1[]:"589"  # Wadowice
+#	def1[]:"500"  # Wadowice
+#	def1[]:"591"  # Wadowice
+#	def1[]:"592"  # Wadowice
+#	def1[]:"593"  # Wadowice
+#	def1[]:"594"  # Wadowice
+#	def1[]:"595"  # Wadowice
+#	def1[]:"596"  # Wadowice
+#	def1[]:"597"  # Wadowice
+##	def1[]:"598"  # Wadowice used for trailers
+##	def1[]:"599"  # Wadowice half used for double-row plates
+#	def1[]:"600"  # Andrychów
+#	def1[]:"601"  # Andrychów
+#	def1[]:"602"  # Andrychów
+#	def1[]:"603"  # Andrychów
+#	def1[]:"604"  # Andrychów
+#	def1[]:"605"  # Andrychów
+#	def1[]:"606"  # Andrychów
+#	def1[]:"607"  # Andrychów
+#	def1[]:"608"  # Andrychów
+#	def1[]:"609"  # Andrychów
+#	def1[]:"610"  # Andrychów
+#	def1[]:"611"  # Andrychów
+#	def1[]:"612"  # Andrychów
+#	def1[]:"613"  # Andrychów
+#	def1[]:"614"  # Andrychów
+#	def1[]:"615"  # Andrychów
+#	def1[]:"616"  # Andrychów
+#	def1[]:"617"  # Andrychów
+#	def1[]:"618"  # Andrychów
+##	def1[]:"619"  # Andrychów used for trailers and trailer double-row plates
+#	def1[]:"620"  # Andrychów
+#	def1[]:"621"  # Andrychów
+#	def1[]:"622"  # Andrychów
+#	def1[]:"623"  # Andrychów
+#	def1[]:"624"  # Andrychów
+#	def1[]:"625"  # Andrychów
+#	def1[]:"626"  # Andrychów
+#	def1[]:"627"  # Andrychów
+#	def1[]:"628"  # Andrychów
+#	def1[]:"629"  # Andrychów
+#	def1[]:"630"  # Andrychów
+#	def1[]:"631"  # Andrychów
+#	def1[]:"632"  # Andrychów
+#	def1[]:"633"  # Andrychów
+#	def1[]:"634"  # Andrychów
+#	def1[]:"635"  # Andrychów
+#	def1[]:"636"  # Andrychów
+#	def1[]:"637"  # Andrychów
+#	def1[]:"638"  # Andrychów
+#	def1[]:"639"  # Andrychów
+#	def1[]:"640"  # Andrychów
+#	def1[]:"641"  # Andrychów
+#	def1[]:"642"  # Andrychów
+#	def1[]:"643"  # Andrychów
+#	def1[]:"644"  # Andrychów
+#	def1[]:"645"  # Andrychów
+#	def1[]:"646"  # Andrychów
+#	def1[]:"647"  # Andrychów
+#	def1[]:"648"  # Andrychów
+#	def1[]:"649"  # Andrychów
+	def1[]:"650"  # Andrychów
+	def1[]:"651"  # Andrychów
+	def1[]:"652"  # Andrychów
+	def1[]:"653"  # Andrychów
+	def1[]:"654"  # Andrychów
+	def1[]:"655"  # Andrychów
+	def1[]:"656"  # Andrychów
+#	def1[]:"657"  # Andrychów used for trailers
+#	def1[]:"658"  # Andrychów used for trailers
+#	def1[]:"659"  # Andrychów used for trailers
+	def1[]:"660"  # Andrychów
+	def1[]:"661"  # Andrychów
+	def1[]:"662"  # Andrychów "KWA" VII latest issued (August 2022)
+#	def1[]:"663"
+#	def1[]:"664"
+#	def1[]:"665"
+#	def1[]:"666"
+#	def1[]:"667"
+#	def1[]:"668"
+#	def1[]:"669"
+#	def1[]:"670"
+#	def1[]:"671"
+#	def1[]:"672"
+#	def1[]:"673"
+#	def1[]:"674"
+#	def1[]:"675"
+#	def1[]:"676"
+#	def1[]:"677"
+#	def1[]:"678"
+#	def1[]:"679"
+#	def1[]:"680"
+#	def1[]:"681"
+#	def1[]:"682"
+#	def1[]:"683"
+#	def1[]:"684"
+#	def1[]:"685"
+#	def1[]:"686"
+#	def1[]:"687"
+#	def1[]:"688"
+#	def1[]:"689"
+#	def1[]:"600"
+#	def1[]:"691"
+#	def1[]:"692"
+#	def1[]:"693"
+#	def1[]:"694"
+#	def1[]:"695"
+#	def1[]:"696"
+#	def1[]:"697"
+#	def1[]:"698"
+#	def1[]:"699"
+#	def1[]:"700"  # Wadowice
+#	def1[]:"701"  # Wadowice
+#	def1[]:"702"  # Wadowice
+#	def1[]:"703"  # Wadowice
+#	def1[]:"704"  # Wadowice
+#	def1[]:"705"  # Wadowice
+#	def1[]:"706"  # Wadowice
+#	def1[]:"707"  # Wadowice
+#	def1[]:"708"  # Wadowice
+#	def1[]:"709"  # Wadowice
+#	def1[]:"710"  # Wadowice
+#	def1[]:"711"  # Wadowice
+#	def1[]:"712"  # Wadowice
+	def1[]:"713"  # Wadowice
+	def1[]:"714"  # Wadowice
+	def1[]:"715"  # Wadowice
+	def1[]:"716"  # Wadowice
+	def1[]:"717"  # Wadowice
+#	def1[]:"718"  # Wadowice used for trailers
+#	def1[]:"719"  # Wadowice used for trailers
+	def1[]:"720"  # Wadowice
+	def1[]:"721"  # Wadowice
+	def1[]:"722"  # Wadowice
+	def1[]:"723"  # Wadowice
+	def1[]:"724"  # Wadowice "KWA" VII latest issued (September 2022)
+#	def1[]:"725"
+#	def1[]:"726"
+#	def1[]:"727"
+#	def1[]:"728"
+#	def1[]:"729"
+#	def1[]:"730"
+#	def1[]:"731"
+#	def1[]:"732"
+#	def1[]:"733"
+#	def1[]:"734"
+#	def1[]:"735"
+#	def1[]:"736"
+#	def1[]:"737"
+#	def1[]:"738"
+#	def1[]:"739"
+#	def1[]:"740"
+#	def1[]:"741"
+#	def1[]:"742"
+#	def1[]:"743"
+#	def1[]:"744"
+#	def1[]:"745"
+#	def1[]:"746"
+#	def1[]:"747"
+#	def1[]:"748"
+#	def1[]:"749"
+#	def1[]:"750"
+#	def1[]:"751"
+#	def1[]:"752"
+#	def1[]:"753"
+#	def1[]:"754"
+#	def1[]:"755"
+#	def1[]:"756"
+#	def1[]:"757"
+#	def1[]:"758"
+#	def1[]:"759"
+#	def1[]:"760"
+#	def1[]:"761"
+#	def1[]:"762"
+#	def1[]:"763"
+#	def1[]:"764"
+#	def1[]:"765"
+#	def1[]:"766"
+#	def1[]:"767"
+#	def1[]:"768"
+#	def1[]:"769"
+#	def1[]:"770"
+#	def1[]:"771"
+#	def1[]:"772"
+#	def1[]:"773"
+#	def1[]:"774"
+#	def1[]:"775"
+#	def1[]:"776"
+#	def1[]:"777"
+#	def1[]:"778"
+#	def1[]:"779"
+#	def1[]:"780"
+#	def1[]:"781"
+#	def1[]:"782"
+#	def1[]:"783"
+#	def1[]:"784"
+#	def1[]:"785"
+#	def1[]:"786"
+#	def1[]:"787"
+#	def1[]:"788"
+#	def1[]:"789"
+#	def1[]:"700"
+#	def1[]:"791"
+#	def1[]:"792"
+#	def1[]:"793"
+#	def1[]:"794"
+#	def1[]:"795"
+#	def1[]:"796"
+#	def1[]:"797"
+#	def1[]:"798"
+#	def1[]:"799"
+#	def1[]:"800"
+#	def1[]:"801"
+#	def1[]:"802"
+#	def1[]:"803"
+#	def1[]:"804"
+#	def1[]:"805"
+#	def1[]:"806"
+#	def1[]:"807"
+#	def1[]:"808"
+#	def1[]:"809"
+#	def1[]:"810"
+#	def1[]:"811"
+#	def1[]:"812"
+#	def1[]:"813"
+#	def1[]:"814"
+#	def1[]:"815"
+#	def1[]:"816"
+#	def1[]:"817"
+#	def1[]:"818"
+#	def1[]:"819"
+#	def1[]:"820"
+#	def1[]:"821"
+#	def1[]:"822"
+#	def1[]:"823"
+#	def1[]:"824"
+#	def1[]:"825"
+#	def1[]:"826"
+#	def1[]:"827"
+#	def1[]:"828"
+#	def1[]:"829"
+#	def1[]:"830"
+#	def1[]:"831"
+#	def1[]:"832"
+#	def1[]:"833"
+#	def1[]:"834"
+#	def1[]:"835"
+#	def1[]:"836"
+#	def1[]:"837"
+#	def1[]:"838"
+#	def1[]:"839"
+#	def1[]:"840"
+#	def1[]:"841"
+#	def1[]:"842"
+#	def1[]:"843"
+#	def1[]:"844"
+#	def1[]:"845"
+#	def1[]:"846"
+#	def1[]:"847"
+#	def1[]:"848"
+#	def1[]:"849"
+#	def1[]:"850"
+#	def1[]:"851"
+#	def1[]:"852"
+#	def1[]:"853"
+#	def1[]:"854"
+#	def1[]:"855"
+#	def1[]:"856"
+#	def1[]:"857"
+#	def1[]:"858"
+#	def1[]:"859"
+#	def1[]:"860"
+#	def1[]:"861"
+#	def1[]:"862"
+#	def1[]:"863"
+#	def1[]:"864"
+#	def1[]:"865"
+#	def1[]:"866"
+#	def1[]:"867"
+#	def1[]:"868"
+#	def1[]:"869"
+#	def1[]:"870"
+#	def1[]:"871"
+#	def1[]:"872"
+#	def1[]:"873"
+#	def1[]:"874"
+#	def1[]:"875"
+#	def1[]:"876"
+#	def1[]:"877"
+#	def1[]:"878"
+#	def1[]:"879"
+#	def1[]:"880"
+#	def1[]:"881"
+#	def1[]:"882"
+#	def1[]:"883"
+#	def1[]:"884"
+#	def1[]:"885"
+#	def1[]:"886"
+#	def1[]:"887"
+#	def1[]:"888"
+#	def1[]:"889"
+#	def1[]:"800"
+#	def1[]:"891"
+#	def1[]:"892"
+#	def1[]:"893"
+#	def1[]:"894"
+#	def1[]:"895"
+#	def1[]:"896"
+#	def1[]:"897"
+#	def1[]:"898"
+#	def1[]:"899"
+#	def1[]:"900"
+#	def1[]:"901"
+#	def1[]:"902"
+#	def1[]:"903"
+#	def1[]:"904"
+#	def1[]:"905"
+#	def1[]:"906"
+#	def1[]:"907"
+#	def1[]:"908"
+#	def1[]:"909"
+#	def1[]:"910"
+#	def1[]:"911"
+#	def1[]:"912"
+#	def1[]:"913"
+#	def1[]:"914"
+#	def1[]:"915"
+#	def1[]:"916"
+#	def1[]:"917"
+#	def1[]:"918"
+#	def1[]:"919"
+#	def1[]:"920"
+#	def1[]:"921"
+#	def1[]:"922"
+#	def1[]:"923"
+#	def1[]:"924"
+#	def1[]:"925"
+#	def1[]:"926"
+#	def1[]:"927"
+#	def1[]:"928"
+#	def1[]:"929"
+#	def1[]:"930"
+#	def1[]:"931"
+#	def1[]:"932"
+#	def1[]:"933"
+#	def1[]:"934"
+#	def1[]:"935"
+#	def1[]:"936"
+#	def1[]:"937"
+#	def1[]:"938"
+#	def1[]:"939"
+#	def1[]:"940"
+#	def1[]:"941"
+#	def1[]:"942"
+#	def1[]:"943"
+#	def1[]:"944"
+#	def1[]:"945"
+#	def1[]:"946"
+#	def1[]:"947"
+#	def1[]:"948"
+#	def1[]:"949"
+#	def1[]:"950"
+#	def1[]:"951"
+#	def1[]:"952"
+#	def1[]:"953"
+#	def1[]:"954"
+#	def1[]:"955"
+#	def1[]:"956"
+#	def1[]:"957"
+#	def1[]:"958"
+#	def1[]:"959"
+#	def1[]:"960"  # Kalwaria
+#	def1[]:"961"  # Kalwaria
+#	def1[]:"962"  # Kalwaria
+#	def1[]:"963"  # Kalwaria
+#	def1[]:"964"  # Kalwaria
+#	def1[]:"965"  # Kalwaria
+	def1[]:"966"  # Kalwaria
+	def1[]:"967"  # Kalwaria
+	def1[]:"968"  # Kalwaria
+	def1[]:"969"  # Kalwaria
+	def1[]:"970"  # Kalwaria
+	def1[]:"971"  # Kalwaria
+	def1[]:"972"  # Kalwaria
+	def1[]:"973"  # Kalwaria
+	def1[]:"974"  # Kalwaria
+	def1[]:"975"  # Kalwaria "KWA" VII latest issued (August 2022)
+#	def1[]:"976"  # Kalwaria
+#	def1[]:"977"  # Kalwaria
+#	def1[]:"978"  # Kalwaria
+#	def1[]:"979"  # Kalwaria
+#	def1[]:"980"  # Kalwaria
+#	def1[]:"981"  # Kalwaria
+#	def1[]:"982"  # Kalwaria
+#	def1[]:"983"  # Kalwaria
+#	def1[]:"984"  # Kalwaria
+#	def1[]:"985"  # Kalwaria
+#	def1[]:"986"  # Kalwaria
+#	def1[]:"987"  # Kalwaria
+#	def1[]:"988"  # Kalwaria
+#	def1[]:"989"  # Kalwaria
+#	def1[]:"900"  # Kalwaria
+#	def1[]:"991"  # Kalwaria
+#	def1[]:"992"  # Kalwaria
+#	def1[]:"993"  # Kalwaria
+#	def1[]:"994"  # Kalwaria
+#	def1[]:"995"  # Kalwaria
+#	def1[]:"996"  # Kalwaria
+#	def1[]:"997"  # Kalwaria
+#	def1[]:"998"  # Kalwaria
+#	def1[]:"999"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .wadowice.lp.trailer
+{
+	type: trailer
+
+	probability: 0.3
+
+	# Three letter powiat codes
+#	templates[]:"KWA5P444"   # I    likely before EU stars
+#	templates[]:"KWA544P2"   # II   likely before EU stars
+#	templates[]:"KWA53P44"   # III
+#	templates[]:"KWA544P3"   # IV
+#	templates[]:"KWA53P23"   # V
+#	templates[]:"KWA5P244"   # VI
+	templates[]:"KWA5044"    # VII
+
+	# "KWA" VII
+#	def0[]:"139"  # Wadowice
+	def0[]:"159"  # Kalwaria
+#	def0[]:"179"  # Andrychów
+#	def0[]:"199"  # Wadowice
+#	def0[]:"219"  # Wadowice
+##	def0[]:"238"  # Wadowice half used for double-row plates
+#	def0[]:"239"  # Wadowice
+#	def0[]:"279"  # Wadowice
+#	def0[]:"292"  # Andrychów
+	def0[]:"339"  # Kalwaria "KWA" VII latest issued (August 2022)
+##	def0[]:"359"  # Andrychów half used for double-row plates
+#	def0[]:"379"  # Andrychów
+#	def0[]:"396"  # Andrychów
+#	def0[]:"397"  # Andrychów
+	def0[]:"398"  # Andrychów
+##	def0[]:"419"  # Wadowice half used for trailer double-row plates
+#	def0[]:"438"  # Wadowice
+#	def0[]:"439"  # Wadowice
+#	def0[]:"459"  # Wadowice
+#	def0[]:"478"  # Wadowice
+##	def0[]:"479"  # Wadowice appears in both trailer table and double-row table
+#	def0[]:"518"  # Wadowice
+#	def0[]:"519"  # Wadowice
+#	def0[]:"539"  # Wadowice
+	def0[]:"567"  # Wadowice
+	def0[]:"568"  # Wadowice
+	def0[]:"598"  # Wadowice
+#	def0[]:"619"  # Andrychów half used for trailer double-row plates
+	def0[]:"657"  # Andrychów
+	def0[]:"658"  # Andrychów
+	def0[]:"659"  # Andrychów "KWA" VII latest issued (August 2022)
+	def0[]:"718"  # Wadowice "KWA" VII latest issued (August 2022)
+#	def0[]:"719"  # Wadowice
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .wadowice.lp.police
+{
+	type: police
+
+	probability: 0.9
+
+	# G = Lesser Poland (Małopolskie) Provincial Headquarters
+	templates[]:"HPG51222"
+#	templates[]:"HPG51222"
+#	templates[]:"HPG51222"
+#	templates[]:"HPG51222"
+#	templates[]:"HPG52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

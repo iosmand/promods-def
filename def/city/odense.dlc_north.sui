@@ -1,0 +1,64 @@
+city_data: city.odense
+{
+	city_name: "Odense"
+	city_name_localized: "@@odense@@"
+	country: denmark
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -30
+	map_x_offsets[]: -200
+	map_x_offsets[]: -70
+	map_x_offsets[]: -40
+	map_x_offsets[]: -28
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -5
+	map_y_offsets[]: 100
+	map_y_offsets[]: 5
+	map_y_offsets[]: 5
+	map_y_offsets[]: 0
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	license_plate[]: .odense.lp.car
+	license_plate[]: .odense.lp.truck
+	license_plate[]: .odense.lp.trailer
+}
+
+license_plate_data : .odense.lp.car
+{
+	type: car
+
+@include "city_lp_dk_car.sui"
+}
+
+license_plate_data : .odense.lp.truck
+{
+	type: truck
+
+	background_front: truck_front
+	background_rear: truck_rear
+
+@include "city_lp_dk_truck.sui"
+}
+
+license_plate_data : .odense.lp.trailer
+{
+	type: trailer
+
+	background_rear: trailer
+
+@include "city_lp_dk_trailer.sui"
+}
