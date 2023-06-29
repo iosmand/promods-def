@@ -8,30 +8,30 @@ city_data: city.mragowo
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -150
+	map_x_offsets[]: -40
+	map_x_offsets[]: -40
+	map_x_offsets[]: -22
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
+	map_y_offsets[]: -100
 	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
-	map_y_offsets[]: -15
+	map_y_offsets[]: -10
+	map_y_offsets[]: -16
 
 	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 0.7  // close zoom for minimap
-	city_pin_scale_factor[]: 0.7  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
-	city_pin_scale_factor[]: 0.6  // whole world map zoom
-	
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
 	license_plate[]: .mragowo.lp.car
 	license_plate[]: .mragowo.lp.truck
 	license_plate[]: .mragowo.lp.trailer
@@ -50,6 +50,7 @@ license_plate_data : .mragowo.lp.car
 	templates[]:"NMR52444"   # VII
 	templates[]:"NMR52444"   # VII
 
+	# "NMR" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for trailers and double-row plates
 ##	def0[]:"E"  # Used for motorcycles, mopeds, and tractors
@@ -71,6 +72,7 @@ license_plate_data : .mragowo.lp.car
 #	def0[]:"Y"
 #	def0[]:"X"
 
+	# "NMR" II
 	def1[]:"AA"
 #	def1[]:"AC"  # Used for double-row plates
 	def1[]:"AE"
@@ -412,6 +414,7 @@ license_plate_data : .mragowo.lp.car
 	def1[]:"YU"
 #	def1[]:"YW"  # Used for motorcycles and tractors
 
+	# "NMR" VII
 	def2[]:"00"
 	def2[]:"01"
 	def2[]:"02"
@@ -420,16 +423,16 @@ license_plate_data : .mragowo.lp.car
 	def2[]:"05"
 	def2[]:"06"
 	def2[]:"07"
-#	def2[]:"08"  # Partially used for double-row plates and electric cars
+	def2[]:"08"
 	def2[]:"09"
 	def2[]:"10"
 	def2[]:"11"
-	def2[]:"12"  # "NMR" VII latest issued (April 2021)
-#	def2[]:"13"
-#	def2[]:"14"
-#	def2[]:"15"
-#	def2[]:"16"
-#	def2[]:"17"
+	def2[]:"12"
+	def2[]:"13"
+	def2[]:"14"
+	def2[]:"15"
+	def2[]:"16"
+	def2[]:"17"  # "NMR" VII latest issued (August 2022)
 #	def2[]:"18"
 #	def2[]:"19"
 #	def2[]:"20"
@@ -531,11 +534,14 @@ license_plate_data : .mragowo.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"NMR50444"   # I    before EU stars
 #	templates[]:"NMR5441"    # II
 	templates[]:"NMR52444"   # VII
 
+	# "NMR" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for trailers and double-row plates
 ##	def0[]:"E"  # Used for motorcycles, mopeds, and tractors
@@ -557,6 +563,7 @@ license_plate_data : .mragowo.lp.truck
 #	def0[]:"Y"
 #	def0[]:"X"
 
+	# "NMR" II
 #	def1[]:"AA"
 ##	def1[]:"AC"  # Used for double-row plates
 #	def1[]:"AE"
@@ -898,6 +905,7 @@ license_plate_data : .mragowo.lp.truck
 #	def1[]:"YU"
 ##	def1[]:"YW"  # Used for motorcycles and tractors
 
+	# "NMR" VII
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
@@ -906,16 +914,16 @@ license_plate_data : .mragowo.lp.truck
 #	def2[]:"05"
 #	def2[]:"06"
 #	def2[]:"07"
-##	def2[]:"08"  # Partially used for double-row plates and electric cars
+#	def2[]:"08"
 #	def2[]:"09"
-	def2[]:"10"
-	def2[]:"11"
-	def2[]:"12"  # "NMR" VII latest issued (April 2021)
+#	def2[]:"10"
+#	def2[]:"11"
+#	def2[]:"12"
 #	def2[]:"13"
 #	def2[]:"14"
-#	def2[]:"15"
-#	def2[]:"16"
-#	def2[]:"17"
+	def2[]:"15"
+	def2[]:"16"
+	def2[]:"17"  # "NMR" VII latest issued (August 2022)
 #	def2[]:"18"
 #	def2[]:"19"
 #	def2[]:"20"
@@ -1017,11 +1025,14 @@ license_plate_data : .mragowo.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"NMR5044"    # I    most before EU stars
 #	templates[]:"NMR5441"    # II
 	templates[]:"NMR5244P"   # VIII
 
+	# "NMR" I
 ##	def0[]:"C0"  # Used for double-row plates
 ##	def0[]:"C1"  # Used for double-row plates
 ##	def0[]:"C2"  # Used for double-row plates
@@ -1043,49 +1054,51 @@ license_plate_data : .mragowo.lp.trailer
 #	def0[]:"P8"
 #	def0[]:"P9"
 
+	# "NMR" II
 #	def1[]:"PA"
 #	def1[]:"PC"
-##	def1[]:"PE"  # Used for double-row plates
+##	def1[]:"PE"  # Used for trailer double-row plates
 #	def1[]:"PF"
 #	def1[]:"PG"
-##	def1[]:"PH"  # Used for double-row plates
+##	def1[]:"PH"  # Used for trailer double-row plates
 #	def1[]:"PJ"
 #	def1[]:"PK"
 #	def1[]:"PL"
-#	def1[]:"PM"
+#	def1[]:"PM"  # Partially used for trailer double-row plates
 #	def1[]:"PN"
 #	def1[]:"PP"
-##	def1[]:"PR"  # Used for double-row plates
+##	def1[]:"PR"  # Used for trailer double-row plates
 #	def1[]:"PS"
 #	def1[]:"PT"
 #	def1[]:"PU"
 #	def1[]:"PV"
-#	def1[]:"PW"
+##	def1[]:"PW"  # Used for trailer double-row plates
 #	def1[]:"PX"
 #	def1[]:"PY"
 
+	# "NMR" VIII ....P
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
-	def2[]:"03"
-	def2[]:"04"
-	def2[]:"05"
-	def2[]:"06"
-	def2[]:"07"
-	def2[]:"08"
-	def2[]:"09"
-	def2[]:"10"
-	def2[]:"11"
-	def2[]:"12"  # "NMR" VIII latest issued (April 2021)
-#	def2[]:"13"
-#	def2[]:"14"
-#	def2[]:"15"
-#	def2[]:"16"
-#	def2[]:"17"
-#	def2[]:"18"
-#	def2[]:"19"
-#	def2[]:"20"
-#	def2[]:"21"
+#	def2[]:"03"
+#	def2[]:"04"
+#	def2[]:"05"
+#	def2[]:"06"
+#	def2[]:"07"
+#	def2[]:"08"
+#	def2[]:"09"
+#	def2[]:"10"
+#	def2[]:"11"
+	def2[]:"12"
+	def2[]:"13"
+	def2[]:"14"
+	def2[]:"15"
+	def2[]:"16"
+	def2[]:"17"
+	def2[]:"18"
+	def2[]:"19"
+	def2[]:"20"
+	def2[]:"21"  # "NMR" VIII ....P latest issued (August 2022)
 #	def2[]:"22"
 #	def2[]:"23"
 #	def2[]:"24"
@@ -1182,6 +1195,8 @@ license_plate_data : .mragowo.lp.trailer
 license_plate_data : .mragowo.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# T = Warmian-Masurian (Warmińsko-Mazurskie) Voivodeship Headquarters
 	templates[]:"HPT51222"

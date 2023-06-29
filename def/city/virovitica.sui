@@ -6,30 +6,30 @@ city_data: city.virovitica
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -47
+	map_x_offsets[]: -29
+	map_x_offsets[]: -95
+	map_x_offsets[]: -42
+	map_x_offsets[]: -31
+	map_x_offsets[]: -25
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -40
+	map_y_offsets[]: -13
+	map_y_offsets[]: -100
+	map_y_offsets[]: -25
+	map_y_offsets[]: -11
+	map_y_offsets[]: -16
 
 	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.9
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
-	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
 	city_pin_scale_factor[]: 0.5  // whole world map zoom
 
 	license_plate[]: .virovitica.lp.car

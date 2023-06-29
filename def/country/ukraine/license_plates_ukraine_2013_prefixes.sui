@@ -1,0 +1,30 @@
+	# Series II prefix codes (started in 2013)
+	def2[]:"KA"  # Kiev city
+	def2[]:"KB"  # Vinnytsia Oblast
+#	def2[]:"KC"  # Volyn Oblast
+	def2[]:"KE"  # Dnipropetrovsk Oblast
+	def2[]:"KH"  # Donetsk Oblast
+	def2[]:"KI"  # Kiev Oblast
+	def2[]:"KK"  # Autonomous Republic of Crimea
+	def2[]:"KM"  # Zhytomyr Oblast
+	def2[]:"KO"  # Zakarpattia Oblast
+	def2[]:"KP"  # Zaporizhia Oblast
+	def2[]:"KT"  # Ivano-Frankivsk Oblast
+	def2[]:"KX"  # Kharkiv Oblast
+#	def2[]:"HA"  # Kirovohrad Oblast
+	def2[]:"HB"  # Luhansk Oblast
+	def2[]:"HC"  # Lviv Oblast
+	def2[]:"HE"  # Mykolaiv Oblast
+	def2[]:"HH"  # Odessa Oblast
+	def2[]:"HI"  # Poltava Oblast
+	def2[]:"HK"  # Rivne Oblast
+#	def2[]:"HM"  # Sumy Oblast
+	def2[]:"HO"  # Ternopil Oblast
+#	def2[]:"HP"  # (Not used)
+	def2[]:"HT"  # Kherson Oblast
+	def2[]:"HX"  # Khmelnytskyi Oblast
+#	def2[]:"IA"  # Cherkasy Oblast
+#	def2[]:"IB"  # Chernihiv Oblast
+#	def2[]:"IC"  # (Not used)
+	def2[]:"IE"  # Chernivtsi Oblast
+#	def2[]:"IH"  # Sevastopol city

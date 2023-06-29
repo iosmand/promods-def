@@ -10,7 +10,7 @@ country_data : country.data.netherlands
 
 	pos: (-16500, 0, -10200)
 
-	fuel_price: 2.04
+	fuel_price: 1.526
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -24,6 +24,47 @@ country_data : country.data.netherlands
 	mass_limit_per_axle_count[]: 50000
 	mass_limit_per_axle_count[]: 60000	# 50t if non double
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

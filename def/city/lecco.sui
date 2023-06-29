@@ -4,23 +4,33 @@ city_data: city.lecco
 	city_name_localized: "@@lecco@@"
 	country: italy
 
-	map_x_offsets[]: -50
-	map_x_offsets[]: -50
-	map_x_offsets[]: -50
-	map_x_offsets[]: -50
-	map_x_offsets[]: -50
-	map_x_offsets[]: -50
-	map_x_offsets[]: -50
-	map_x_offsets[]: -50
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
 
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: 5
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
 
 	vehicle_brands[]:"iveco"
 
@@ -231,9 +241,9 @@ license_plate_data : .lecco.lp.trailer
 	type: trailer
 
 	templates[]:"0XA 12"
-	
+
 	def0[]:"<align left=-15>"
-	
+
 @include "it_lp_lc_trailer.sui"
 
 	def2[]:"</align>"

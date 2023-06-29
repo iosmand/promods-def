@@ -1,6 +1,14 @@
 SiiNunit
 {
 
+# AUSTRIA
+@include "city/amstetten.sui"
+@include "city/bischofsh.sui"
+@include "city/leoben.sui"
+@include "city/saalfelden.sui"
+@include "city/stockerau.sui"
+@include "city/winklern.sui"
+
 # ALAND ISLANDS
 @include "city/geta.sui"
 @include "city/godby.sui"
@@ -25,8 +33,12 @@ SiiNunit
 
 # BULGARIA
 @include "city/blagoevgrad.sui"
+@include "city/dobrich.sui"
 @include "city/montana.sui"
 @include "city/vidin.sui"
+@include "city/razgrad.sui"
+@include "city/shumen.sui"
+@include "city/silistra.sui"
 
 # CROATIA
 @include "city/dubrovnik.sui"
@@ -107,6 +119,7 @@ SiiNunit
 @include "city/torshavn.sui"
 
 # FRANCE
+@include "city/coquelles.sui"
 @include "city/dax.sui"
 @include "city/foix.sui"
 @include "city/granville.sui"
@@ -149,6 +162,7 @@ SiiNunit
 @include "city/alexandroup.sui"
 @include "city/ioannina.sui"
 @include "city/kavala.sui"
+@include "city/komotini.sui"
 @include "city/ptolemaida.sui"
 @include "city/serres.sui"
 @include "city/thessaloniki.sui"
@@ -243,11 +257,16 @@ SiiNunit
 # NORWAY
 @include "city/alta.sui"
 @include "city/andalsnes.sui"
+@include "city/ballangen.sui"
+@include "city/bardufoss.sui"
 @include "city/batsfjord.sui"
 @include "city/berlevag.sui"
 @include "city/bidjovagge.sui"
+@include "city/bodo.sui"
 @include "city/dombas.sui"
 @include "city/drammen.sui"
+@include "city/fauske.sui"
+@include "city/finnsnes.sui"
 @include "city/grumantbyen.sui"
 @include "city/hamar.sui"
 @include "city/hammerfest.sui"
@@ -264,18 +283,24 @@ SiiNunit
 @include "city/longyearbyem.sui"
 @include "city/longyearbyen.sui"
 @include "city/mehamn.sui"
+@include "city/moirana.sui"
 @include "city/molde.sui"
+@include "city/mosjoen.sui"
+@include "city/narvik.sui"
 @include "city/oppdal.sui"
 @include "city/orkanger.sui"
 @include "city/otta.sui"
+@include "city/setermoen.sui"
 @include "city/storslett.sui"
 @include "city/svalsateast.sui"
 @include "city/svalsatwest.sui"
 @include "city/tanabru.sui"
+@include "city/trofors.sui"
 @include "city/tromso.sui"
 @include "city/trondheim.sui"
 @include "city/vadso.sui"
 @include "city/vardo.sui"
+
 
 # POLAND
 @include "city/augustow.sui"
@@ -385,6 +410,9 @@ SiiNunit
 # SWITZERLAND
 @include "city/basel.sui"
 
+# TURKEY
+@include "city/corlu.sui"
+
 # UK
 @include "city/aberystwyth.sui"
 @include "city/balivanich.sui"
@@ -411,6 +439,7 @@ SiiNunit
 @include "city/lisburn.sui"
 @include "city/lochboisdale.sui"
 @include "city/londonderry.sui"
+@include "city/newport.sui"
 @include "city/norwich.sui"
 @include "city/oban.sui"
 @include "city/perth.sui"

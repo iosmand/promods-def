@@ -1,0 +1,79 @@
+﻿city_data: city.moirana
+{
+	city_name: "Mo i Rana"
+	city_name_localized: "@@moirana@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -42
+	map_x_offsets[]: -30
+	map_x_offsets[]: -25
+	map_x_offsets[]: -42
+	map_x_offsets[]: -32
+	map_x_offsets[]: -25
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 7
+	map_y_offsets[]: -3
+	map_y_offsets[]: -45
+	map_y_offsets[]: 3
+	map_y_offsets[]: -2
+	map_y_offsets[]: -16
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.9
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+#	#vehicle_brands[]:"daf"
+
+	license_plate[]: .moirana.lp.car
+	license_plate[]: .moirana.lp.truck
+	license_plate[]: .moirana.lp.trailer
+}
+
+license_plate_data : .moirana.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Mo i Rana
+	def0[]:"YA"  # 1936 - present
+#	def0[]:"YB"
+#	def0[]:"YC"
+#	def0[]:"YD"
+}
+
+license_plate_data : .moirana.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Mo i Rana
+	def0[]:"YA"  # 1936 - present
+#	def0[]:"YB"
+#	def0[]:"YC"
+#	def0[]:"YD"
+}
+
+license_plate_data : .moirana.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Mo i Rana
+#	def0[]:"YA"  # 1938 - 2003
+#	def0[]:"YB"  # 1952 - 2016
+	def0[]:"YC"  # 1956 - 2020
+#	def0[]:"YD"
+}

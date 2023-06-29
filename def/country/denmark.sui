@@ -10,7 +10,7 @@ country_data : country.data.denmark
 
 	pos: (-2100, 0, -29000)
 
-	fuel_price: 2.01
+	fuel_price: 1.66
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -25,6 +25,47 @@ country_data : country.data.denmark
 	mass_limit_per_axle_count[]: 50000
 	mass_limit_per_axle_count[]: 56000
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

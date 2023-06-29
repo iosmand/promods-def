@@ -1,0 +1,65 @@
+city_data: city.dax
+{
+	city_name: "Dax"
+	city_name_localized: "@@dax@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 20
+	map_x_offsets[]: -3
+	map_x_offsets[]: 35
+	map_x_offsets[]: -2
+	map_x_offsets[]: -9
+	map_x_offsets[]: 1
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 40
+	map_y_offsets[]: 6
+	map_y_offsets[]: 160
+	map_y_offsets[]: 27
+	map_y_offsets[]: 4
+	map_y_offsets[]: -8
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.9
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .dax.lp.car
+	license_plate[]: .dax.lp.truck
+	license_plate[]: .dax.lp.trailer
+}
+
+license_plate_data : .dax.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=273><offset vshift=-5><img src=/material/ui/lp/france/50.mat color=FFFFFFFF></align>"
+}
+
+license_plate_data : .dax.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=273><offset vshift=-5><img src=/material/ui/lp/france/50.mat color=FFFFFFFF></align>"
+}
+
+license_plate_data : .dax.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=273><offset vshift=-5><img src=/material/ui/lp/france/50.mat color=FFFFFFFF></align>"
+}

@@ -8,19 +8,29 @@ city_data: city.gdansk
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -36
-	map_x_offsets[]: -32
-	map_x_offsets[]: -31
-	map_x_offsets[]: -33
+	map_x_offsets[]: -80
+	map_x_offsets[]: -50
+	map_x_offsets[]: -35
+	map_x_offsets[]: -35
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -18
-	map_y_offsets[]: -121
-	map_y_offsets[]: -66
-	map_y_offsets[]: -28
-	map_y_offsets[]: -16
+	map_y_offsets[]: 20
+	map_y_offsets[]: -5
+	map_y_offsets[]: -10
+	map_y_offsets[]: 1
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]:"scania"
 
@@ -38,10 +48,12 @@ license_plate_data : .gdansk.lp.car
 #	templates[]:"GD544444"   # I    before EU stars
 	templates[]:"GD544440"   # II   some before EU stars
 	templates[]:"GD54441"    # III
-	templates[]:"GD54441"    # III
-	templates[]:"GD54441"    # III
-	templates[]:"GD54441"    # III
+	templates[]:"GD52444"    # IV
+	templates[]:"GD52444"    # IV
+	templates[]:"GD52444"    # IV
+	templates[]:"GD52444"    # IV
 
+	# "GD" II
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -63,6 +75,7 @@ license_plate_data : .gdansk.lp.car
 #	def0[]:"X"  # Used for trailers
 	def0[]:"Y"
 
+	# "GD" III
 	def1[]:"AA"
 	def1[]:"AC"
 	def1[]:"AE"
@@ -433,16 +446,83 @@ license_plate_data : .gdansk.lp.car
 	def1[]:"XK"  # Chełm
 	def1[]:"XL"  # Letnica
 	def1[]:"XM"  # Letnica
-	def1[]:"XN"  # "GD" III Chełm latest issued (April 2021)
-	def1[]:"XP"  # "GD" III Letnica latest issued (April 2021)
-#	def1[]:"XR"
-#	def1[]:"XS"
-#	def1[]:"XT"
-#	def1[]:"XU"
-#	def1[]:"XV"
-#	def1[]:"XW"
-#	def1[]:"XX"
-#	def1[]:"XY"
+	def1[]:"XN"  # Chełm
+	def1[]:"XP"  # Letnica
+	def1[]:"XR"  # Letnica
+	def1[]:"XS"  # Letnica
+	def1[]:"XT"  # Letnica
+	def1[]:"XU"  # Chełm
+	def1[]:"XV"  # Letnica
+	def1[]:"XW"  # Letnica
+	def1[]:"XX"  # Chełm
+	def1[]:"XY"  # Letnica
+	def1[]:"YA"  # Letnica
+	def1[]:"YC"  # Chełm
+	def1[]:"YE"  # Letnica
+	def1[]:"YF"  # Letnica
+	def1[]:"YG"  # Chełm
+	def1[]:"YH"  # Letnica
+	def1[]:"YJ"  # Letnica
+	def1[]:"YK"  # Letnica
+	def1[]:"YL"  # Letnica
+	def1[]:"YM"  # Chełm
+	def1[]:"YN"  # Letnica
+	def1[]:"YP"  # Letnica
+	def1[]:"YR"  # Letnica
+	def1[]:"YS"  # Letnica
+	def1[]:"YT"  # Letnica
+	def1[]:"YU"  # Chełm
+	def1[]:"YV"  # Letnica
+	def1[]:"YW"  # Letnica
+#	def1[]:"YX"  # Used for trailers
+	def1[]:"YY"  # Letnica
+
+	# "GD" IV
+	def2[]:"1A"  # Letnica
+	def2[]:"2A"  # Letnica
+	def2[]:"3A"  # Chełm
+	def2[]:"4A"  # Letnica
+	def2[]:"5A"  # Letnica
+	def2[]:"6A"  # Letnica
+	def2[]:"7A"  # Letnica
+	def2[]:"8A"  # Letnica
+	def2[]:"9A"  # Chełm
+	def2[]:"1C"  # Letnica
+	def2[]:"2C"  # Letnica
+	def2[]:"3C"  # Chełm
+	def2[]:"4C"  # Letnica
+	def2[]:"5C"  # Letnica
+	def2[]:"6C"  # Chełm
+	def2[]:"7C"  # Letnica
+	def2[]:"8C"  # Letnica
+	def2[]:"9C"  # Letnica
+	def2[]:"1E"  # Letnica
+	def2[]:"2E"  # Letnica
+	def2[]:"3E"  # Chełm
+	def2[]:"4E"  # Letnica
+	def2[]:"5E"  # Letnica
+	def2[]:"6E"  # Letnica
+	def2[]:"7E"  # Letnica
+	def2[]:"8E"  # Letnica
+	def2[]:"9E"  # Chełm
+	def2[]:"1F"  # Letnica
+	def2[]:"2F"  # Letnica
+	def2[]:"3F"  # "GD" IV Letnica latest issued (October 2022)
+#	def2[]:"4F"
+#	def2[]:"5F"
+	def2[]:"6F"  # "GD" IV Chełm latest issued (October 2022)
+#	def2[]:"7F"
+#	def2[]:"8F"
+#	def2[]:"9F"
+#	def2[]:"1G"
+#	def2[]:"2G"
+#	def2[]:"3G"
+#	def2[]:"4G"
+#	def2[]:"5G"
+#	def2[]:"6G"
+#	def2[]:"7G"
+#	def2[]:"8G"
+#	def2[]:"9G"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -462,11 +542,15 @@ license_plate_data : .gdansk.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"GD544444"   # I    before EU stars
 #	templates[]:"GD544440"   # II   some before EU stars
-	templates[]:"GD54441"    # III
+#	templates[]:"GD54441"    # III
+	templates[]:"GD52444"    # IV
 
+	# "GD" II
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -488,6 +572,7 @@ license_plate_data : .gdansk.lp.truck
 ##	def0[]:"X"  # Used for trailers
 #	def0[]:"Y"
 
+	# "GD" III
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -806,7 +891,7 @@ license_plate_data : .gdansk.lp.truck
 #	def1[]:"UU"
 #	def1[]:"UV"
 #	def1[]:"UW"
-#	def1[]:"UX"  # Used for trailers
+##	def1[]:"UX"  # Used for trailers
 #	def1[]:"UY"
 #	def1[]:"WA"
 #	def1[]:"WC"
@@ -847,27 +932,94 @@ license_plate_data : .gdansk.lp.truck
 #	def1[]:"VV"  # Wrzeszcz
 #	def1[]:"VW"  # Wrzeszcz
 ##	def1[]:"VX"  # Used for trailers
-	def1[]:"VY"  # Chełm
+#	def1[]:"VY"  # Chełm
 #	def1[]:"XA"  # Letnica
 #	def1[]:"XC"  # Letnica
-	def1[]:"XE"  # Chełm
-	def1[]:"XF"  # Chełm
+#	def1[]:"XE"  # Chełm
+#	def1[]:"XF"  # Chełm
 #	def1[]:"XG"  # Letnica
-	def1[]:"XH"  # Letnica
-	def1[]:"XJ"  # Letnica
-	def1[]:"XK"  # Chełm
-	def1[]:"XL"  # Letnica
-	def1[]:"XM"  # Letnica
-	def1[]:"XN"  # "GD" III Chełm latest issued (April 2021)
-	def1[]:"XP"  # "GD" III Letnica latest issued (April 2021)
-#	def1[]:"XR"
-#	def1[]:"XS"
-#	def1[]:"XT"
-#	def1[]:"XU"
-#	def1[]:"XV"
-#	def1[]:"XW"
-#	def1[]:"XX"
-#	def1[]:"XY"
+#	def1[]:"XH"  # Letnica
+#	def1[]:"XJ"  # Letnica
+#	def1[]:"XK"  # Chełm
+#	def1[]:"XL"  # Letnica
+#	def1[]:"XM"  # Letnica
+#	def1[]:"XN"  # Chełm
+#	def1[]:"XP"  # Letnica
+#	def1[]:"XR"  # Letnica
+#	def1[]:"XS"  # Letnica
+#	def1[]:"XT"  # Letnica
+#	def1[]:"XU"  # Chełm
+#	def1[]:"XV"  # Letnica
+#	def1[]:"XW"  # Letnica
+#	def1[]:"XX"  # Chełm
+#	def1[]:"XY"  # Letnica
+#	def1[]:"YA"  # Letnica
+#	def1[]:"YC"  # Chełm
+#	def1[]:"YE"  # Letnica
+#	def1[]:"YF"  # Letnica
+#	def1[]:"YG"  # Chełm
+#	def1[]:"YH"  # Letnica
+#	def1[]:"YJ"  # Letnica
+#	def1[]:"YK"  # Letnica
+#	def1[]:"YL"  # Letnica
+#	def1[]:"YM"  # Chełm
+#	def1[]:"YN"  # Letnica
+#	def1[]:"YP"  # Letnica
+#	def1[]:"YR"  # Letnica
+#	def1[]:"YS"  # Letnica
+#	def1[]:"YT"  # Letnica
+#	def1[]:"YU"  # Chełm
+#	def1[]:"YV"  # Letnica
+#	def1[]:"YW"  # Letnica
+##	def1[]:"YX"  # Used for trailers
+#	def1[]:"YY"  # Letnica
+
+	# "GD" IV
+#	def2[]:"1A"  # Letnica
+#	def2[]:"2A"  # Letnica
+#	def2[]:"3A"  # Chełm
+#	def2[]:"4A"  # Letnica
+#	def2[]:"5A"  # Letnica
+#	def2[]:"6A"  # Letnica
+#	def2[]:"7A"  # Letnica
+#	def2[]:"8A"  # Letnica
+#	def2[]:"9A"  # Chełm
+#	def2[]:"1C"  # Letnica
+#	def2[]:"2C"  # Letnica
+#	def2[]:"3C"  # Chełm
+#	def2[]:"4C"  # Letnica
+#	def2[]:"5C"  # Letnica
+#	def2[]:"6C"  # Chełm
+#	def2[]:"7C"  # Letnica
+#	def2[]:"8C"  # Letnica
+#	def2[]:"9C"  # Letnica
+#	def2[]:"1E"  # Letnica
+#	def2[]:"2E"  # Letnica
+#	def2[]:"3E"  # Chełm
+#	def2[]:"4E"  # Letnica
+#	def2[]:"5E"  # Letnica
+#	def2[]:"6E"  # Letnica
+#	def2[]:"7E"  # Letnica
+#	def2[]:"8E"  # Letnica
+	def2[]:"9E"  # Chełm
+#	def2[]:"1F"  # Letnica
+	def2[]:"2F"  # Letnica
+	def2[]:"3F"  # "GD" IV Letnica latest issued (October 2022)
+#	def2[]:"4F"
+#	def2[]:"5F"
+	def2[]:"6F"  # "GD" IV Chełm latest issued (October 2022)
+#	def2[]:"7F"
+#	def2[]:"8F"
+#	def2[]:"9F"
+#	def2[]:"1G"
+#	def2[]:"2G"
+#	def2[]:"3G"
+#	def2[]:"4G"
+#	def2[]:"5G"
+#	def2[]:"6G"
+#	def2[]:"7G"
+#	def2[]:"8G"
+#	def2[]:"9G"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -887,50 +1039,47 @@ license_plate_data : .gdansk.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"GD544440"   # II   some before EU stars
-	templates[]:"GD5144RX"   # III
-#	templates[]:"GD5244UX"   # III
-	templates[]:"GD5344VX"   # III
+#	templates[]:"GD5444EX"   # III
+#	templates[]:"GD5444RX"   # III
+#	templates[]:"GD5444TX"   # III
+#	templates[]:"GD5444UX"   # III
+#	templates[]:"GD5444VX"   # III
+	templates[]:"GD5144YX"   # III
+	templates[]:"GD52444"    # IV
+	templates[]:"GD52444"    # IV
+	templates[]:"GD52444"    # IV
+	templates[]:"GD52444"    # IV
 
+	# "GD" II
 ##	def0[]:"P"  # Most before EU stars
 #	def0[]:"X"
 
-	# RX
-#	def1[]:"0"  # Wrzeszcz
-#	def1[]:"1"  # Wrzeszcz
-#	def1[]:"2"
-#	def1[]:"3"  # Chełm
-#	def1[]:"4"  # Chełm
+	# "GD" III ...YX
+	def1[]:"0"  # Letnica
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"  # Letnica
 	def1[]:"5"
-	def1[]:"6"  # Chełm
+	def1[]:"6"  # Letnica
 	def1[]:"7"
-	def1[]:"8"  # "GD" III RX Chełm latest issued? (September 2020)
-	def1[]:"9"
+	def1[]:"8"
+	def1[]:"9"  # Letnica
 
-	# UX
-#	def2[]:"0"
-#	def2[]:"1"  # Wrzeszcz
-#	def2[]:"2"
-#	def2[]:"3"
-#	def2[]:"4"
-#	def2[]:"5"
-#	def2[]:"6"
-#	def2[]:"7"  # Wrzeszcz
-#	def2[]:"8"
-#	def2[]:"9"
-
-	# VX
-	def3[]:"0"
-	def3[]:"1"  # Wrzeszcz
-	def3[]:"2"
-	def3[]:"3"
-	def3[]:"4"  # "GD" III VX latest issued (April 2021)
-#	def3[]:"5"
-#	def3[]:"6"
-#	def3[]:"7"
-#	def3[]:"8"
-#	def3[]:"9"
+	# "GD" IV
+	def2[]:"1X"  # "GD" IV Letnica latest issued (October 2022)
+#	def2[]:"2X"
+#	def2[]:"3X"
+#	def2[]:"4X"
+#	def2[]:"5X"
+#	def2[]:"6X"
+#	def2[]:"7X"
+#	def2[]:"8X"
+#	def2[]:"9X"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -949,6 +1098,8 @@ license_plate_data : .gdansk.lp.trailer
 license_plate_data : .gdansk.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# N = Pomeranian (Pomorskie) Voivodeship Headquarters
 	templates[]:"HPN51222"

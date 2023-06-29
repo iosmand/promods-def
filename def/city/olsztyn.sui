@@ -8,19 +8,29 @@ city_data: city.olsztyn
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -38
-	map_x_offsets[]: -36
-	map_x_offsets[]: -36
-	map_x_offsets[]: -35
+	map_x_offsets[]: 0
+	map_x_offsets[]: -28
+	map_x_offsets[]: -30
+	map_x_offsets[]: -1
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -46
-	map_y_offsets[]: -30
+	map_y_offsets[]: -70
 	map_y_offsets[]: -25
-	map_y_offsets[]: -28
+	map_y_offsets[]: -8
+	map_y_offsets[]: -4
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	license_plate[]: .olsztyn.lp.car
 	license_plate[]: .olsztyn.lp.truck
@@ -33,141 +43,66 @@ license_plate_data : .olsztyn.lp.car
 	type: car
 
 	# Two letter powiat codes
-	templates[]:"NO50444"    # I    most before EU stars
-	templates[]:"NO544441"   # II
-	templates[]:"NO544441"   # II
-	templates[]:"NO544441"   # II
-	templates[]:"NO544441"   # II
+#	templates[]:"NO544444"   # I    most before EU stars
+	templates[]:"NO544440"   # II
+	templates[]:"NO54441"    # III
+	templates[]:"NO54441"    # III
+	templates[]:"NO54441"    # III
+	templates[]:"NO54441"    # III
 
 	# Three letter powiat codes
 #	templates[]:"NOL52444"   # I    before EU stars
 	templates[]:"NOL5442"    # II   some before EU stars
 	templates[]:"NOL544444"  # VII
 	templates[]:"NOL54444A"  # VIII
-	templates[]:"NOL5344C"   # VIII
+	templates[]:"NOL54444C"  # VIII
+	templates[]:"NOL5344E"   # VIII
 
-#	def0[]:"00"
-#	def0[]:"01"
-#	def0[]:"02"
-#	def0[]:"03"
-#	def0[]:"04"
-#	def0[]:"05"
-#	def0[]:"06"
-#	def0[]:"07"
-#	def0[]:"08"
-#	def0[]:"09"
-#	def0[]:"10"
-#	def0[]:"11"
-#	def0[]:"12"
-#	def0[]:"13"
-#	def0[]:"14"
-#	def0[]:"15"
-#	def0[]:"16"
-#	def0[]:"17"
-#	def0[]:"18"
-#	def0[]:"19"
-#	def0[]:"20"
-#	def0[]:"21"
-#	def0[]:"22"
-#	def0[]:"23"
-#	def0[]:"24"
-#	def0[]:"25"
-#	def0[]:"26"
-#	def0[]:"27"
-#	def0[]:"28"
-#	def0[]:"29"
-#	def0[]:"30"
-#	def0[]:"31"
-#	def0[]:"32"
-#	def0[]:"33"
-#	def0[]:"34"
-#	def0[]:"35"
-#	def0[]:"36"
-#	def0[]:"37"
-#	def0[]:"38"
-#	def0[]:"39"
-#	def0[]:"40"
-#	def0[]:"41"
-#	def0[]:"42"
-#	def0[]:"43"
-#	def0[]:"44"
-#	def0[]:"45"
-#	def0[]:"46"
-#	def0[]:"47"
-#	def0[]:"48"
-#	def0[]:"49"
-#	def0[]:"50"
-#	def0[]:"51"
-#	def0[]:"52"
-#	def0[]:"53"
-#	def0[]:"54"
-#	def0[]:"55"
-#	def0[]:"56"
-#	def0[]:"57"
-#	def0[]:"58"
-#	def0[]:"59"
-#	def0[]:"60"
-#	def0[]:"61"
-#	def0[]:"62"
-#	def0[]:"63"
-#	def0[]:"64"
-#	def0[]:"65"
-#	def0[]:"66"  # Most before EU stars
-	def0[]:"67"
-	def0[]:"68"
-	def0[]:"69"
-	def0[]:"70"
-	def0[]:"71"
-	def0[]:"72"
-	def0[]:"73"
-	def0[]:"74"
-	def0[]:"75"
-	def0[]:"76"
-	def0[]:"77"
-	def0[]:"78"
-	def0[]:"79"
-	def0[]:"80"
-	def0[]:"81"
-	def0[]:"82"
-	def0[]:"83"
-	def0[]:"84"
-	def0[]:"85"
-	def0[]:"86"
-	def0[]:"87"
-	def0[]:"88"
-	def0[]:"89"
-	def0[]:"90"
-	def0[]:"91"
-	def0[]:"92"
-	def0[]:"93"
-	def0[]:"94"
-	def0[]:"95"
-	def0[]:"96"
-	def0[]:"97"
-	def0[]:"98"
-	def0[]:"99"
+	# "NO" II
+	def0[]:"A"
+	def0[]:"C"
+	def0[]:"E"
+	def0[]:"F"
+	def0[]:"G"
+	def0[]:"H"
+	def0[]:"J"
+	def0[]:"K"
+	def0[]:"L"
+	def0[]:"M"
+	def0[]:"N"
+	def0[]:"P"
+	def0[]:"R"
+	def0[]:"S"
+	def0[]:"T"
+	def0[]:"U"
+	def0[]:"V"
+	def0[]:"W"
+	def0[]:"X"
+	def0[]:"Y"
 
-	def1[]:"A"
-	def1[]:"C"
-	def1[]:"E"
-	def1[]:"F"
-	def1[]:"G"
-	def1[]:"H"
-	def1[]:"J"
-	def1[]:"K"
-	def1[]:"L"
-	def1[]:"M"
-	def1[]:"N"
-	def1[]:"P"
-	def1[]:"R"
-	def1[]:"S"
-	def1[]:"T"
-	def1[]:"U"
-	def1[]:"V"
-	def1[]:"W"
-	def1[]:"X"  # "NO" II latest issued (April 2021)
-#	def1[]:"Y"
+	# "NO" III
+	def1[]:"AA"
+	def1[]:"AC"
+	def1[]:"AE"
+	def1[]:"AF"  # "NO" II latest issued (October 2022)
+#	def1[]:"AG"
+#	def1[]:"AH"
+#	def1[]:"AJ"
+#	def1[]:"AK"
+#	def1[]:"AL"
+#	def1[]:"AM"
+#	def1[]:"AN"
+#	def1[]:"AP"
+#	def1[]:"AR"
+#	def1[]:"AS"
+#	def1[]:"AT"
+#	def1[]:"AU"
+#	def1[]:"AV"
+#	def1[]:"AW"
+#	def1[]:"AX"
+#	def1[]:"AY"
 
+	# "NOL" II
 #	def2[]:"AA"
 #	def2[]:"AC"
 #	def2[]:"AE"
@@ -529,6 +464,7 @@ license_plate_data : .olsztyn.lp.car
 #	def2[]:"VX"  # Used for motorcycles and tractors
 #	def2[]:"VY"  # Used for mopeds
 
+	# "NOL" VIII ....E
 	def3[]:"00"
 	def3[]:"01"
 	def3[]:"02"
@@ -546,20 +482,20 @@ license_plate_data : .olsztyn.lp.car
 	def3[]:"14"
 	def3[]:"15"
 	def3[]:"16"
-	def3[]:"17"  # "NOL" VIII C latest issued (April 2021)
-#	def3[]:"18"
-#	def3[]:"19"
-#	def3[]:"20"
-#	def3[]:"21"
-#	def3[]:"22"
-#	def3[]:"23"
-#	def3[]:"24"
-#	def3[]:"25"
-#	def3[]:"26"
-#	def3[]:"27"
-#	def3[]:"28"
-#	def3[]:"29"
-#	def3[]:"30"
+	def3[]:"17"
+	def3[]:"18"
+	def3[]:"19"
+	def3[]:"20"
+	def3[]:"21"
+	def3[]:"22"
+	def3[]:"23"
+	def3[]:"24"
+	def3[]:"25"
+	def3[]:"26"
+	def3[]:"27"
+	def3[]:"28"
+	def3[]:"29"
+	def3[]:"30"  # "NOL" VIII ....E latest issued (August 2022)
 #	def3[]:"31"
 #	def3[]:"32"
 #	def3[]:"33"
@@ -648,29 +584,15 @@ license_plate_data : .olsztyn.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"NO50444"    # I    most before EU stars
-#	templates[]:"NO54444A"   # II
-#	templates[]:"NO54444C"   # II
-#	templates[]:"NO54444E"   # II
-#	templates[]:"NO54444F"   # II
-#	templates[]:"NO54444G"   # II
-#	templates[]:"NO54444H"   # II
-#	templates[]:"NO54444J"   # II
-#	templates[]:"NO54444K"   # II
-#	templates[]:"NO54444L"   # II
-#	templates[]:"NO54444M"   # II
-#	templates[]:"NO54444N"   # II
-#	templates[]:"NO54444P"   # II
-#	templates[]:"NO54444R"   # II
-#	templates[]:"NO54444S"   # II
-#	templates[]:"NO54444T"   # II
-#	templates[]:"NO54444U"   # II
-#	templates[]:"NO54444V"   # II
-	templates[]:"NO5144W"    # II
-	templates[]:"NO5244X"    # II
+#	templates[]:"NO544441"   # II
+	templates[]:"NO54442"    # III
 
-#	def0[]:"00"  # I
+	# "NO" I
+#	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
 #	def0[]:"03"
@@ -771,207 +693,49 @@ license_plate_data : .olsztyn.lp.truck
 #	def0[]:"98"
 #	def0[]:"99"
 
-#	def1[]:"00"  # II ....W
-#	def1[]:"01"
-#	def1[]:"02"
-#	def1[]:"03"
-#	def1[]:"04"
-#	def1[]:"05"
-#	def1[]:"06"
-#	def1[]:"07"
-#	def1[]:"08"
-#	def1[]:"09"
-#	def1[]:"10"
-#	def1[]:"11"
-#	def1[]:"12"
-#	def1[]:"13"
-#	def1[]:"14"
-#	def1[]:"15"
-#	def1[]:"16"
-#	def1[]:"17"
-#	def1[]:"18"
-#	def1[]:"19"
-#	def1[]:"20"
-#	def1[]:"21"
-#	def1[]:"22"
-#	def1[]:"23"
-#	def1[]:"24"
-#	def1[]:"25"
-#	def1[]:"26"
-#	def1[]:"27"
-#	def1[]:"28"
-#	def1[]:"29"
-#	def1[]:"30"
-#	def1[]:"31"
-#	def1[]:"32"
-#	def1[]:"33"
-#	def1[]:"34"
-#	def1[]:"35"
-#	def1[]:"36"
-#	def1[]:"37"
-#	def1[]:"38"
-#	def1[]:"39"
-#	def1[]:"40"
-#	def1[]:"41"
-#	def1[]:"42"
-#	def1[]:"43"
-#	def1[]:"44"
-#	def1[]:"45"
-#	def1[]:"46"
-#	def1[]:"47"
-#	def1[]:"48"
-#	def1[]:"49"
-#	def1[]:"50"
-#	def1[]:"51"
-#	def1[]:"52"
-#	def1[]:"53"
-#	def1[]:"54"
-#	def1[]:"55"
-#	def1[]:"56"
-#	def1[]:"57"
-#	def1[]:"58"
-#	def1[]:"59"
-#	def1[]:"60"
-#	def1[]:"61"
-#	def1[]:"62"
-#	def1[]:"63"
-#	def1[]:"64"
-#	def1[]:"65"
-#	def1[]:"66"
-#	def1[]:"67"
-#	def1[]:"68"
-#	def1[]:"69"
-#	def1[]:"70"
-#	def1[]:"71"
-#	def1[]:"72"
-	def1[]:"73"
-	def1[]:"74"
-	def1[]:"75"
-	def1[]:"76"
-	def1[]:"77"
-	def1[]:"78"
-	def1[]:"79"
-	def1[]:"80"
-	def1[]:"81"
-	def1[]:"82"
-	def1[]:"83"
-	def1[]:"84"
-	def1[]:"85"
-	def1[]:"86"
-	def1[]:"87"
-	def1[]:"88"
-	def1[]:"89"
-	def1[]:"90"
-	def1[]:"91"
-	def1[]:"92"
-	def1[]:"93"
-	def1[]:"94"
-	def1[]:"95"
-	def1[]:"96"
-	def1[]:"97"
-	def1[]:"98"
-	def1[]:"99"
+	# "NO" II
+#	def1[]:"A"
+#	def1[]:"C"
+#	def1[]:"E"
+#	def1[]:"F"
+#	def1[]:"G"
+#	def1[]:"H"
+#	def1[]:"J"
+#	def1[]:"K"
+#	def1[]:"L"
+#	def1[]:"M"
+#	def1[]:"N"
+#	def1[]:"P"
+#	def1[]:"R"
+#	def1[]:"S"
+#	def1[]:"T"
+#	def1[]:"U"
+#	def1[]:"V"
+#	def1[]:"W"
+#	def1[]:"X"
+#	def1[]:"Y"
 
-	def2[]:"00"  # II ....X
-	def2[]:"01"
-	def2[]:"02"  # "NO" II X latest issued (April 2021)
-#	def2[]:"03"
-#	def2[]:"04"
-#	def2[]:"05"
-#	def2[]:"06"
-#	def2[]:"07"
-#	def2[]:"08"
-#	def2[]:"09"
-#	def2[]:"10"
-#	def2[]:"11"
-#	def2[]:"12"
-#	def2[]:"13"
-#	def2[]:"14"
-#	def2[]:"15"
-#	def2[]:"16"
-#	def2[]:"17"
-#	def2[]:"18"
-#	def2[]:"19"
-#	def2[]:"20"
-#	def2[]:"21"
-#	def2[]:"22"
-#	def2[]:"23"
-#	def2[]:"24"
-#	def2[]:"25"
-#	def2[]:"26"
-#	def2[]:"27"
-#	def2[]:"28"
-#	def2[]:"29"
-#	def2[]:"30"
-#	def2[]:"31"
-#	def2[]:"32"
-#	def2[]:"33"
-#	def2[]:"34"
-#	def2[]:"35"
-#	def2[]:"36"
-#	def2[]:"37"
-#	def2[]:"38"
-#	def2[]:"39"
-#	def2[]:"40"
-#	def2[]:"41"
-#	def2[]:"42"
-#	def2[]:"43"
-#	def2[]:"44"
-#	def2[]:"45"
-#	def2[]:"46"
-#	def2[]:"47"
-#	def2[]:"48"
-#	def2[]:"49"
-#	def2[]:"50"
-#	def2[]:"51"
-#	def2[]:"52"
-#	def2[]:"53"
-#	def2[]:"54"
-#	def2[]:"55"
-#	def2[]:"56"
-#	def2[]:"57"
-#	def2[]:"58"
-#	def2[]:"59"
-#	def2[]:"60"
-#	def2[]:"61"
-#	def2[]:"62"
-#	def2[]:"63"
-#	def2[]:"64"
-#	def2[]:"65"
-#	def2[]:"66"
-#	def2[]:"67"
-#	def2[]:"68"
-#	def2[]:"69"
-#	def2[]:"70"
-#	def2[]:"71"
-#	def2[]:"72"
-#	def2[]:"73"
-#	def2[]:"74"
-#	def2[]:"75"
-#	def2[]:"76"
-#	def2[]:"77"
-#	def2[]:"78"
-#	def2[]:"79"
-#	def2[]:"80"
-#	def2[]:"81"
-#	def2[]:"82"
-#	def2[]:"83"
-#	def2[]:"84"
-#	def2[]:"85"
-#	def2[]:"86"
-#	def2[]:"87"
-#	def2[]:"88"
-#	def2[]:"89"
-#	def2[]:"90"
-#	def2[]:"91"
-#	def2[]:"92"
-#	def2[]:"93"
-#	def2[]:"94"
-#	def2[]:"95"
-#	def2[]:"96"
-#	def2[]:"97"
-#	def2[]:"98"
-#	def2[]:"99"
+	# "NO" III
+#	def2[]:"AA"
+	def2[]:"AC"
+	def2[]:"AE"
+	def2[]:"AF"  # "NO" II latest issued (October 2022)
+#	def2[]:"AG"
+#	def2[]:"AH"
+#	def2[]:"AJ"
+#	def2[]:"AK"
+#	def2[]:"AL"
+#	def2[]:"AM"
+#	def2[]:"AN"
+#	def2[]:"AP"
+#	def2[]:"AR"
+#	def2[]:"AS"
+#	def2[]:"AT"
+#	def2[]:"AU"
+#	def2[]:"AV"
+#	def2[]:"AW"
+#	def2[]:"AX"
+#	def2[]:"AY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -991,6 +755,8 @@ license_plate_data : .olsztyn.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"NO544444"   # I    some before EU stars
 #	templates[]:"NO54444A"   # II
@@ -1007,43 +773,73 @@ license_plate_data : .olsztyn.lp.trailer
 #	templates[]:"NO54444P"   # II
 #	templates[]:"NO54444R"   # II
 #	templates[]:"NO54444S"   # II
-#	templates[]:"NO5044T"    # II
-#	templates[]:"NO5144U"    # II
-	templates[]:"NO5244V"    # II
-	templates[]:"NO5344W"    # II
-	templates[]:"NO5344W"    # II
-	templates[]:"NO5344W"    # II
+#	templates[]:"NO54444T"   # II
+#	templates[]:"NO54444U"   # II
+#	templates[]:"NO54444V"   # II
+#	templates[]:"NO54444W"   # II
+#	templates[]:"NO54444X"   # II
+	templates[]:"NO5044Y"    # II
+	templates[]:"NO514AA"    # III
+	templates[]:"NO524AC"    # III
+	templates[]:"NO534AE"    # III
 
-#	def0[]:"14"  # II ....T
-#	def0[]:"40"
-#	def0[]:"41"
-#	def0[]:"42"
-#	def0[]:"59"
-#	def0[]:"80"
-#	def0[]:"87"
+	# "NO" II ....Y
+#	def0[]:"01"
+	def0[]:"20"
+#	def0[]:"21"  # Partially used for double-row plates
+	def0[]:"22"
+	def0[]:"43"
+#	def0[]:"44"  # Half used for electric vehicles
+	def0[]:"60"
+	def0[]:"61"
+	def0[]:"77"
+	def0[]:"93"
 
-#	def1[]:"40"  # II ....U
-#	def1[]:"41"
-#	def1[]:"42"
-#	def1[]:"43"
-#	def1[]:"44"
-#	def1[]:"45"
-#	def1[]:"46"
-##	def1[]:"47"  # Partially used for double-row plates
-##	def1[]:"48"
-##	def1[]:"49"  # Partially used for electric cars
+	# "NO" III ...AA
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"
+	def1[]:"33"
+	def1[]:"34"
+	def1[]:"35"
+	def1[]:"36"
+	def1[]:"37"
+	def1[]:"38"
+	def1[]:"39"
 
-	def2[]:"80"  # II ....V
-	def2[]:"81"
-	def2[]:"82"
-	def3[]:"93"  # Partial
+	# "NO" III ...AC
+	def2[]:"40"
+	def2[]:"41"
+	def2[]:"42"
+	def2[]:"43"
+	def2[]:"44"
+	def2[]:"45"
+	def2[]:"46"
+	def2[]:"47"
+	def2[]:"48"
+	def2[]:"49"
 
-	def3[]:"14"  # II ....W
-	def3[]:"16"
-	def3[]:"25"
-	def3[]:"26"
-	def3[]:"28"
-	def3[]:"29"  # "NO" II W latest issued (April 2021)
+	# "NO" III ...AE
+	def3[]:"50"
+	def3[]:"51"
+	def3[]:"52"
+	def3[]:"53"
+	def3[]:"54"
+	def3[]:"55"
+	def3[]:"56"
+	def3[]:"57"
+	def3[]:"58"
+	def3[]:"59"
+	def3[]:"60"
+	def3[]:"61"
+	def3[]:"62"
+	def3[]:"63"
+	def3[]:"64"
+	def3[]:"65"  # "NO" III ...AE latest issued (October 2022)
+#	def3[]:"66"
+#	def3[]:"67"
+#	def3[]:"68"
+#	def3[]:"69"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -1062,6 +858,8 @@ license_plate_data : .olsztyn.lp.trailer
 license_plate_data : .olsztyn.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# T = Warmian-Masurian (Warmińsko-Mazurskie) Voivodeship Headquarters
 	templates[]:"HPT51222"

@@ -8,19 +8,29 @@ city_data: city.bratislava
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -47
-	map_x_offsets[]: -43
-	map_x_offsets[]: -42
-	map_x_offsets[]: -40
+	map_x_offsets[]: -100
+	map_x_offsets[]: -60
+	map_x_offsets[]: -50
+	map_x_offsets[]: -38
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: 39
-	map_y_offsets[]: 9
-	map_y_offsets[]: -1
-	map_y_offsets[]: 5
+	map_y_offsets[]: 60
+	map_y_offsets[]: 0
+	map_y_offsets[]: -15
+	map_y_offsets[]: 1
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]:"mercedes"
 

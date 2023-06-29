@@ -22,6 +22,16 @@ city_data: city.czluchow
 	map_y_offsets[]: -18
 	map_y_offsets[]: -15
 
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
 	license_plate[]: .czluchow.lp.car
 	license_plate[]: .czluchow.lp.truck
 	license_plate[]: .czluchow.lp.trailer
@@ -36,10 +46,9 @@ license_plate_data : .czluchow.lp.car
 #	templates[]:"GCZ50444"   # I    before EU stars
 	templates[]:"GCZ5441"    # II   some before EU stars
 	templates[]:"GCZ5244"    # VI
-	templates[]:"GCZ5244"    # VI
-	templates[]:"GCZ5244"    # VI
-	templates[]:"GCZ5244"    # VI
+	templates[]:"GCZ53444"   # VII
 
+	# "GCZ" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for trailers
 ##	def0[]:"E"  # Used for motorcycles and tractors
@@ -61,6 +70,7 @@ license_plate_data : .czluchow.lp.car
 #	def0[]:"X"
 ##	def0[]:"Y"  # Used for trailers
 
+	# "GCZ" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -462,6 +472,7 @@ license_plate_data : .czluchow.lp.car
 	def1[]:"XX"
 #	def1[]:"XY"  # Used for trailers
 
+	# "GCZ" VI
 	def2[]:"AA"
 	def2[]:"AC"
 	def2[]:"AE"
@@ -740,7 +751,7 @@ license_plate_data : .czluchow.lp.car
 	def2[]:"SU"
 	def2[]:"SV"
 	def2[]:"SW"
-#	def2[]:"SX"  # Used for motorcycles, tractors, and mopeds
+#	def2[]:"SX"  # Used for motorcycles, tractors, mopeds, and electric vehicles
 #	def2[]:"SY"  # Used for motorcycles and tractors
 	def2[]:"TA"
 	def2[]:"TC"
@@ -758,7 +769,7 @@ license_plate_data : .czluchow.lp.car
 #	def2[]:"TS"  # Used for motorcycles and tractors
 	def2[]:"TT"
 #	def2[]:"TU"  # Used for trailers
-	def2[]:"TV"
+#	def2[]:"TV"  # Used for double-row plates
 #	def2[]:"TW"  # Used for mopeds
 #	def2[]:"TX"  # Used for motorcycles and tractors
 #	def2[]:"TY"  # Used for trailers
@@ -793,15 +804,177 @@ license_plate_data : .czluchow.lp.car
 	def2[]:"VL"
 	def2[]:"VM"
 	def2[]:"VN"
-	def2[]:"VP"  # "GCZ" VI latest issued (April 2021)
-#	def2[]:"VR"
-##	def2[]:"VS"  # Used for trailers
-#	def2[]:"VT"
-#	def2[]:"VU"
-#	def2[]:"VV"
-#	def2[]:"VW"
-#	def2[]:"VX"
-#	def2[]:"VY"
+	def2[]:"VP"
+#	def2[]:"VR"  # Used for double-row trailer plates
+#	def2[]:"VS"  # Used for trailers
+	def2[]:"VT"
+#	def2[]:"VU"  # Used for motorcycles and tractors
+	def2[]:"VV"
+	def2[]:"VW"
+#	def2[]:"VX"  # Used for mopeds
+#	def2[]:"VY"  # Used for motorcycles and tractors
+	def2[]:"WA"
+	def2[]:"WC"
+	def2[]:"WE"
+	def2[]:"WF"
+#	def2[]:"WG"  # Used for trailers
+	def2[]:"WH"
+	def2[]:"WJ"
+	def2[]:"WK"
+	def2[]:"WL"
+	def2[]:"WM"
+	def2[]:"WN"
+	def2[]:"WP"
+	def2[]:"WR"
+	def2[]:"WS"
+#	def2[]:"WT"  # Used for motorcycles and tractors
+#	def2[]:"WU"  # Used for trailers
+	def2[]:"WV"
+	def2[]:"WW"
+#	def2[]:"WX"  # Used for trailers
+#	def2[]:"WY"  # Used for motorcycles and tractors
+	def2[]:"YA"
+	def2[]:"YC"
+	def2[]:"YE"
+#	def2[]:"YF"  # Used for trailers
+	def2[]:"YG"
+	def2[]:"YH"
+	def2[]:"YJ"
+	def2[]:"YK"
+	def2[]:"YL"
+	def2[]:"YM"
+	def2[]:"YN"
+	def2[]:"YP"
+#	def2[]:"YR"  # Used for motorcycles and tractors
+#	def2[]:"YS"  # Used for mopeds
+	def2[]:"YT"
+	def2[]:"YU"
+#	def2[]:"YV"  # Used for trailers
+	def2[]:"YW"
+	def2[]:"YX"
+	def2[]:"YY"
+	def2[]:"XA"
+	def2[]:"XC"
+	def2[]:"XE"
+	def2[]:"XF"
+	def2[]:"XG"
+	def2[]:"XH"
+	def2[]:"XJ"
+	def2[]:"XK"
+#	def2[]:"XL"  # Used for motorcycles and tractors
+#	def2[]:"XM"  # Not issued
+#	def2[]:"XN"  # Not issued
+#	def2[]:"XP"  # Not issued
+#	def2[]:"XR"  # Not issued
+#	def2[]:"XS"  # Not issued
+#	def2[]:"XT"  # Not issued
+#	def2[]:"XU"  # Not issued
+#	def2[]:"XV"  # Used for trailers
+#	def2[]:"XW"  # Used for motorcycles and tractors
+	def2[]:"XX"
+#	def2[]:"XY"  # Not issued
+
+	# "GCZ" VII
+	def3[]:"00"  # "GCZ" VII latest issued (October 2022)
+#	def3[]:"01"
+#	def3[]:"02"
+#	def3[]:"03"
+#	def3[]:"04"
+#	def3[]:"05"
+#	def3[]:"06"
+#	def3[]:"07"
+#	def3[]:"08"
+#	def3[]:"09"
+#	def3[]:"10"
+#	def3[]:"11"
+#	def3[]:"12"
+#	def3[]:"13"
+#	def3[]:"14"
+#	def3[]:"15"
+#	def3[]:"16"
+#	def3[]:"17"
+#	def3[]:"18"
+#	def3[]:"19"
+#	def3[]:"20"
+#	def3[]:"21"
+#	def3[]:"22"
+#	def3[]:"23"
+#	def3[]:"24"
+#	def3[]:"25"
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
+#	def3[]:"29"
+#	def3[]:"30"
+#	def3[]:"31"
+#	def3[]:"32"
+#	def3[]:"33"
+#	def3[]:"34"
+#	def3[]:"35"
+#	def3[]:"36"
+#	def3[]:"37"
+#	def3[]:"38"
+#	def3[]:"39"
+#	def3[]:"40"
+#	def3[]:"41"
+#	def3[]:"42"
+#	def3[]:"43"
+#	def3[]:"44"
+#	def3[]:"45"
+#	def3[]:"46"
+#	def3[]:"47"
+#	def3[]:"48"
+#	def3[]:"49"
+#	def3[]:"50"
+#	def3[]:"51"
+#	def3[]:"52"
+#	def3[]:"53"
+#	def3[]:"54"
+#	def3[]:"55"
+#	def3[]:"56"
+#	def3[]:"57"
+#	def3[]:"58"
+#	def3[]:"59"
+#	def3[]:"60"
+#	def3[]:"61"
+#	def3[]:"62"
+#	def3[]:"63"
+#	def3[]:"64"
+#	def3[]:"65"
+#	def3[]:"66"
+#	def3[]:"67"
+#	def3[]:"68"
+#	def3[]:"69"
+#	def3[]:"70"
+#	def3[]:"71"
+#	def3[]:"72"
+#	def3[]:"73"
+#	def3[]:"74"
+#	def3[]:"75"
+#	def3[]:"76"
+#	def3[]:"77"
+#	def3[]:"78"
+#	def3[]:"79"
+#	def3[]:"80"
+#	def3[]:"81"
+#	def3[]:"82"
+#	def3[]:"83"
+#	def3[]:"84"
+#	def3[]:"85"
+#	def3[]:"86"
+#	def3[]:"87"
+#	def3[]:"88"
+#	def3[]:"89"
+#	def3[]:"90"
+#	def3[]:"91"
+#	def3[]:"92"
+#	def3[]:"93"
+#	def3[]:"94"
+#	def3[]:"95"
+#	def3[]:"96"
+#	def3[]:"97"
+#	def3[]:"98"
+#	def3[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -821,11 +994,15 @@ license_plate_data : .czluchow.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"GCZ50444"   # I    before EU stars
 #	templates[]:"GCZ5441"    # II   some before EU stars
 	templates[]:"GCZ5244"    # VI
+	templates[]:"GCZ53444"   # VII
 
+	# "GCZ" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for trailers
 ##	def0[]:"E"  # Used for motorcycles and tractors
@@ -847,6 +1024,7 @@ license_plate_data : .czluchow.lp.truck
 #	def0[]:"X"
 ##	def0[]:"Y"  # Used for trailers
 
+	# "GCZ" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -1248,6 +1426,7 @@ license_plate_data : .czluchow.lp.truck
 #	def1[]:"XX"
 ##	def1[]:"XY"  # Used for trailers
 
+	# "GCZ" VI
 #	def2[]:"AA"
 #	def2[]:"AC"
 #	def2[]:"AE"
@@ -1526,7 +1705,7 @@ license_plate_data : .czluchow.lp.truck
 #	def2[]:"SU"
 #	def2[]:"SV"
 #	def2[]:"SW"
-##	def2[]:"SX"  # Used for motorcycles, tractors, and mopeds
+##	def2[]:"SX"  # Used for motorcycles, tractors, mopeds, and electric vehicles
 ##	def2[]:"SY"  # Used for motorcycles and tractors
 #	def2[]:"TA"
 #	def2[]:"TC"
@@ -1544,50 +1723,212 @@ license_plate_data : .czluchow.lp.truck
 ##	def2[]:"TS"  # Used for motorcycles and tractors
 #	def2[]:"TT"
 ##	def2[]:"TU"  # Used for trailers
-#	def2[]:"TV"
+##	def2[]:"TV"  # Used for double-row plates
 ##	def2[]:"TW"  # Used for mopeds
 ##	def2[]:"TX"  # Used for motorcycles and tractors
 ##	def2[]:"TY"  # Used for trailers
-	def2[]:"UA"
-	def2[]:"UC"
-	def2[]:"UE"
-	def2[]:"UF"
-	def2[]:"UG"
-	def2[]:"UH"
-	def2[]:"UJ"
-	def2[]:"UK"
-	def2[]:"UL"
-	def2[]:"UM"
-	def2[]:"UN"
-	def2[]:"UP"
-	def2[]:"UR"
-	def2[]:"US"
-	def2[]:"UT"
-	def2[]:"UU"
-	def2[]:"UV"
-	def2[]:"UW"
-#	def2[]:"UX"  # Used for motorcycles and tractors
-#	def2[]:"UY"  # Used for trailers
-	def2[]:"VA"
-	def2[]:"VC"
-	def2[]:"VE"
-	def2[]:"VF"
-	def2[]:"VG"
-	def2[]:"VH"
-	def2[]:"VJ"
-	def2[]:"VK"
-	def2[]:"VL"
-	def2[]:"VM"
-	def2[]:"VN"
-	def2[]:"VP"  # "GCZ" VI latest issued (April 2021)
-#	def2[]:"VR"
+#	def2[]:"UA"
+#	def2[]:"UC"
+#	def2[]:"UE"
+#	def2[]:"UF"
+#	def2[]:"UG"
+#	def2[]:"UH"
+#	def2[]:"UJ"
+#	def2[]:"UK"
+#	def2[]:"UL"
+#	def2[]:"UM"
+#	def2[]:"UN"
+#	def2[]:"UP"
+#	def2[]:"UR"
+#	def2[]:"US"
+#	def2[]:"UT"
+#	def2[]:"UU"
+#	def2[]:"UV"
+#	def2[]:"UW"
+##	def2[]:"UX"  # Used for motorcycles and tractors
+##	def2[]:"UY"  # Used for trailers
+#	def2[]:"VA"
+#	def2[]:"VC"
+#	def2[]:"VE"
+#	def2[]:"VF"
+#	def2[]:"VG"
+#	def2[]:"VH"
+#	def2[]:"VJ"
+#	def2[]:"VK"
+#	def2[]:"VL"
+#	def2[]:"VM"
+#	def2[]:"VN"
+#	def2[]:"VP"
+##	def2[]:"VR"  # Used for double-row trailer plates
 ##	def2[]:"VS"  # Used for trailers
 #	def2[]:"VT"
-#	def2[]:"VU"
+##	def2[]:"VU"  # Used for motorcycles and tractors
 #	def2[]:"VV"
 #	def2[]:"VW"
-#	def2[]:"VX"
-#	def2[]:"VY"
+##	def2[]:"VX"  # Used for mopeds
+##	def2[]:"VY"  # Used for motorcycles and tractors
+#	def2[]:"WA"
+#	def2[]:"WC"
+#	def2[]:"WE"
+#	def2[]:"WF"
+##	def2[]:"WG"  # Used for trailers
+#	def2[]:"WH"
+#	def2[]:"WJ"
+#	def2[]:"WK"
+#	def2[]:"WL"
+#	def2[]:"WM"
+#	def2[]:"WN"
+#	def2[]:"WP"
+#	def2[]:"WR"
+#	def2[]:"WS"
+##	def2[]:"WT"  # Used for motorcycles and tractors
+##	def2[]:"WU"  # Used for trailers
+#	def2[]:"WV"
+#	def2[]:"WW"
+##	def2[]:"WX"  # Used for trailers
+##	def2[]:"WY"  # Used for motorcycles and tractors
+#	def2[]:"YA"
+#	def2[]:"YC"
+#	def2[]:"YE"
+##	def2[]:"YF"  # Used for trailers
+#	def2[]:"YG"
+#	def2[]:"YH"
+	def2[]:"YJ"
+	def2[]:"YK"
+	def2[]:"YL"
+	def2[]:"YM"
+	def2[]:"YN"
+	def2[]:"YP"
+#	def2[]:"YR"  # Used for motorcycles and tractors
+#	def2[]:"YS"  # Used for mopeds
+	def2[]:"YT"
+	def2[]:"YU"
+#	def2[]:"YV"  # Used for trailers
+	def2[]:"YW"
+	def2[]:"YX"
+	def2[]:"YY"
+	def2[]:"XA"
+	def2[]:"XC"
+	def2[]:"XE"
+	def2[]:"XF"
+	def2[]:"XG"
+	def2[]:"XH"
+	def2[]:"XJ"
+	def2[]:"XK"
+#	def2[]:"XL"  # Used for motorcycles and tractors
+#	def2[]:"XM"  # Not issued
+#	def2[]:"XN"  # Not issued
+#	def2[]:"XP"  # Not issued
+#	def2[]:"XR"  # Not issued
+#	def2[]:"XS"  # Not issued
+#	def2[]:"XT"  # Not issued
+#	def2[]:"XU"  # Not issued
+#	def2[]:"XV"  # Used for trailers
+#	def2[]:"XW"  # Used for motorcycles and tractors
+	def2[]:"XX"
+#	def2[]:"XY"  # Not issued
+
+	# "GCZ" VII
+	def3[]:"00"  # "GCZ" VII latest issued (October 2022)
+#	def3[]:"01"
+#	def3[]:"02"
+#	def3[]:"03"
+#	def3[]:"04"
+#	def3[]:"05"
+#	def3[]:"06"
+#	def3[]:"07"
+#	def3[]:"08"
+#	def3[]:"09"
+#	def3[]:"10"
+#	def3[]:"11"
+#	def3[]:"12"
+#	def3[]:"13"
+#	def3[]:"14"
+#	def3[]:"15"
+#	def3[]:"16"
+#	def3[]:"17"
+#	def3[]:"18"
+#	def3[]:"19"
+#	def3[]:"20"
+#	def3[]:"21"
+#	def3[]:"22"
+#	def3[]:"23"
+#	def3[]:"24"
+#	def3[]:"25"
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
+#	def3[]:"29"
+#	def3[]:"30"
+#	def3[]:"31"
+#	def3[]:"32"
+#	def3[]:"33"
+#	def3[]:"34"
+#	def3[]:"35"
+#	def3[]:"36"
+#	def3[]:"37"
+#	def3[]:"38"
+#	def3[]:"39"
+#	def3[]:"40"
+#	def3[]:"41"
+#	def3[]:"42"
+#	def3[]:"43"
+#	def3[]:"44"
+#	def3[]:"45"
+#	def3[]:"46"
+#	def3[]:"47"
+#	def3[]:"48"
+#	def3[]:"49"
+#	def3[]:"50"
+#	def3[]:"51"
+#	def3[]:"52"
+#	def3[]:"53"
+#	def3[]:"54"
+#	def3[]:"55"
+#	def3[]:"56"
+#	def3[]:"57"
+#	def3[]:"58"
+#	def3[]:"59"
+#	def3[]:"60"
+#	def3[]:"61"
+#	def3[]:"62"
+#	def3[]:"63"
+#	def3[]:"64"
+#	def3[]:"65"
+#	def3[]:"66"
+#	def3[]:"67"
+#	def3[]:"68"
+#	def3[]:"69"
+#	def3[]:"70"
+#	def3[]:"71"
+#	def3[]:"72"
+#	def3[]:"73"
+#	def3[]:"74"
+#	def3[]:"75"
+#	def3[]:"76"
+#	def3[]:"77"
+#	def3[]:"78"
+#	def3[]:"79"
+#	def3[]:"80"
+#	def3[]:"81"
+#	def3[]:"82"
+#	def3[]:"83"
+#	def3[]:"84"
+#	def3[]:"85"
+#	def3[]:"86"
+#	def3[]:"87"
+#	def3[]:"88"
+#	def3[]:"89"
+#	def3[]:"90"
+#	def3[]:"91"
+#	def3[]:"92"
+#	def3[]:"93"
+#	def3[]:"94"
+#	def3[]:"95"
+#	def3[]:"96"
+#	def3[]:"97"
+#	def3[]:"98"
+#	def3[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -1607,11 +1948,14 @@ license_plate_data : .czluchow.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"GCZ5044"    # I    most before EU stars
 #	templates[]:"GCZ5441"    # II
 	templates[]:"GCZ524"     # VI
 
+	# "GCZ" I
 #	def0[]:"C0"
 #	def0[]:"C1"
 #	def0[]:"C2"
@@ -1633,6 +1977,7 @@ license_plate_data : .czluchow.lp.trailer
 #	def0[]:"Y8"
 #	def0[]:"Y9"
 
+	# "GCZ" II
 ##	def1[]:"GF"  # Partially used for double-row plates
 #	def1[]:"GY"
 ##	def1[]:"HY"  # Partially used for double-row plates
@@ -1662,6 +2007,7 @@ license_plate_data : .czluchow.lp.trailer
 #	def1[]:"XY"
 #	def1[]:"XS"
 
+	# "GCZ" VI
 ##	def2[]:"AY0"  # Used for double-row plates
 ##	def2[]:"AY1"  # Used for double-row plates
 ##	def2[]:"AY2"  # Partially used for double-row plates
@@ -1843,83 +2189,83 @@ license_plate_data : .czluchow.lp.trailer
 #	def2[]:"NC8"
 #	def2[]:"NC9"
 #	def2[]:"NV0"
-	def2[]:"NV1"
-	def2[]:"NV2"
-	def2[]:"NV3"
-	def2[]:"NV4"
-	def2[]:"NV5"
-	def2[]:"NV6"
-	def2[]:"NV7"
-	def2[]:"NV8"
-	def2[]:"NV9"
-	def2[]:"PY0"
-	def2[]:"PY1"
-	def2[]:"PY2"
-	def2[]:"PY3"
-	def2[]:"PY4"
-	def2[]:"PY5"
-	def2[]:"PY6"
-	def2[]:"PY7"
-	def2[]:"PY8"
-	def2[]:"PY9"
-	def2[]:"RG5"
-	def2[]:"RG6"
-	def2[]:"RX0"
-	def2[]:"RX1"
-	def2[]:"RX2"
-	def2[]:"RX3"
-	def2[]:"RX4"
-	def2[]:"RX5"
-	def2[]:"RX6"
-	def2[]:"RX7"
-	def2[]:"RX8"
-	def2[]:"RX9"
-	def2[]:"RU0"
-	def2[]:"RU1"
-	def2[]:"RU2"
-	def2[]:"RU3"
-	def2[]:"RU4"
-	def2[]:"RU5"
-	def2[]:"RU6"
-	def2[]:"RU7"
-	def2[]:"RU8"
-	def2[]:"RU9"
-	def2[]:"ST0"
-	def2[]:"ST1"
-	def2[]:"ST2"
-	def2[]:"ST3"
-	def2[]:"ST4"
-	def2[]:"ST5"
-	def2[]:"ST6"
-	def2[]:"ST7"
-	def2[]:"ST8"
-	def2[]:"ST9"
-#	def2[]:"NY0"  # Used for double-row plates
-#	def2[]:"NY1"  # Used for double-row plates
-#	def2[]:"NY2"  # Used for double-row plates
-#	def2[]:"NY3"  # Used for double-row plates
-#	def2[]:"NY4"  # Used for double-row plates
-#	def2[]:"NY5"  # Used for double-row plates
-#	def2[]:"NY6"  # Used for double-row plates
-#	def2[]:"NY7"  # Used for double-row plates
-#	def2[]:"NY8"  # Used for double-row plates
-#	def2[]:"NY9"  # Used for double-row plates
-	def2[]:"TY0"
-	def2[]:"TY1"
-	def2[]:"TY2"
-	def2[]:"TY3"
-	def2[]:"TY4"
-	def2[]:"TY5"
-	def2[]:"TY6"
-	def2[]:"TY7"
-	def2[]:"TY8"
-	def2[]:"TY9"
-	def2[]:"TU0"
-	def2[]:"TU1"
-	def2[]:"TU2"
-	def2[]:"TU3"
-	def2[]:"TU4"
-	def2[]:"TU5"
+#	def2[]:"NV1"
+#	def2[]:"NV2"
+#	def2[]:"NV3"
+#	def2[]:"NV4"
+#	def2[]:"NV5"
+#	def2[]:"NV6"
+#	def2[]:"NV7"
+#	def2[]:"NV8"
+#	def2[]:"NV9"
+#	def2[]:"PY0"
+#	def2[]:"PY1"
+#	def2[]:"PY2"
+#	def2[]:"PY3"
+#	def2[]:"PY4"
+#	def2[]:"PY5"
+#	def2[]:"PY6"
+#	def2[]:"PY7"
+#	def2[]:"PY8"
+#	def2[]:"PY9"
+#	def2[]:"RG5"
+#	def2[]:"RG6"
+#	def2[]:"RX0"
+#	def2[]:"RX1"
+#	def2[]:"RX2"
+#	def2[]:"RX3"
+#	def2[]:"RX4"
+#	def2[]:"RX5"
+#	def2[]:"RX6"
+#	def2[]:"RX7"
+#	def2[]:"RX8"
+#	def2[]:"RX9"
+#	def2[]:"RU0"
+#	def2[]:"RU1"
+#	def2[]:"RU2"
+#	def2[]:"RU3"
+#	def2[]:"RU4"
+#	def2[]:"RU5"
+#	def2[]:"RU6"
+#	def2[]:"RU7"
+#	def2[]:"RU8"
+#	def2[]:"RU9"
+#	def2[]:"ST0"
+#	def2[]:"ST1"
+#	def2[]:"ST2"
+#	def2[]:"ST3"
+#	def2[]:"ST4"
+#	def2[]:"ST5"
+#	def2[]:"ST6"
+#	def2[]:"ST7"
+#	def2[]:"ST8"
+#	def2[]:"ST9"
+##	def2[]:"NY0"  # Used for double-row plates
+##	def2[]:"NY1"  # Used for double-row plates
+##	def2[]:"NY2"  # Used for double-row plates
+##	def2[]:"NY3"  # Used for double-row plates
+##	def2[]:"NY4"  # Used for double-row plates
+##	def2[]:"NY5"  # Used for double-row plates
+##	def2[]:"NY6"  # Used for double-row plates
+##	def2[]:"NY7"  # Used for double-row plates
+##	def2[]:"NY8"  # Used for double-row plates
+##	def2[]:"NY9"  # Used for double-row plates
+#	def2[]:"TY0"
+#	def2[]:"TY1"
+#	def2[]:"TY2"
+#	def2[]:"TY3"
+#	def2[]:"TY4"
+#	def2[]:"TY5"
+#	def2[]:"TY6"
+#	def2[]:"TY7"
+#	def2[]:"TY8"
+#	def2[]:"TY9"
+#	def2[]:"TU0"
+#	def2[]:"TU1"
+#	def2[]:"TU2"
+#	def2[]:"TU3"
+#	def2[]:"TU4"
+#	def2[]:"TU5"
 	def2[]:"TU6"
 	def2[]:"TU7"
 	def2[]:"TU8"
@@ -1954,16 +2300,86 @@ license_plate_data : .czluchow.lp.trailer
 	def2[]:"KW7"
 	def2[]:"KW8"
 	def2[]:"KW9"
-	def2[]:"VS0"  # "GCZ" VI latest issued (April 2021)
-#	def2[]:"VS1"
-#	def2[]:"VS2"
-#	def2[]:"VS3"
-#	def2[]:"VS4"
-#	def2[]:"VS5"
-#	def2[]:"VS6"
-#	def2[]:"VS7"
-#	def2[]:"VS8"
-#	def2[]:"VS9"
+	def2[]:"VS0"
+	def2[]:"VS1"
+	def2[]:"VS2"
+	def2[]:"VS3"
+	def2[]:"VS4"
+	def2[]:"VS5"
+	def2[]:"VS6"
+	def2[]:"VS7"
+	def2[]:"VS8"
+	def2[]:"VS9"
+	def2[]:"WG0"
+	def2[]:"WG1"
+	def2[]:"WG2"
+	def2[]:"WG3"
+	def2[]:"WG4"
+	def2[]:"WG5"
+	def2[]:"WG6"
+	def2[]:"WG7"
+	def2[]:"WG8"
+	def2[]:"WG9"
+	def2[]:"WX0"
+	def2[]:"WX1"
+	def2[]:"WX2"
+	def2[]:"WX3"
+	def2[]:"WX4"
+	def2[]:"WX5"
+	def2[]:"WX6"
+	def2[]:"WX7"
+	def2[]:"WX8"
+	def2[]:"WX9"
+	def2[]:"WU0"
+	def2[]:"WU1"
+	def2[]:"WU2"
+	def2[]:"WU3"
+	def2[]:"WU4"
+	def2[]:"WU5"
+	def2[]:"WU6"
+	def2[]:"WU7"
+	def2[]:"WU8"
+	def2[]:"WU9"
+#	def2[]:"VR0"  # Used for double-row plates
+#	def2[]:"VR1"  # Used for double-row plates
+#	def2[]:"VR2"  # Used for double-row plates
+#	def2[]:"VR3"  # Used for double-row plates
+#	def2[]:"VR4"  # Used for double-row plates
+#	def2[]:"VR5"  # Used for double-row plates
+#	def2[]:"VR6"  # Used for double-row plates
+#	def2[]:"VR7"  # Used for double-row plates
+#	def2[]:"VR8"  # Used for double-row plates
+#	def2[]:"VR9"  # Used for double-row plates
+	def2[]:"YF0"
+	def2[]:"YF1"
+	def2[]:"YF2"
+	def2[]:"YF3"
+	def2[]:"YF4"
+	def2[]:"YF5"
+	def2[]:"YF6"
+	def2[]:"YF7"
+	def2[]:"YF8"
+	def2[]:"YF9"
+	def2[]:"XV0"
+	def2[]:"XV1"
+	def2[]:"XV2"
+	def2[]:"XV3"
+	def2[]:"XV4"
+	def2[]:"XV5"
+	def2[]:"XV6"
+	def2[]:"XV7"
+	def2[]:"XV8"
+	def2[]:"XV9"
+	def2[]:"YV0"
+	def2[]:"YV1"
+	def2[]:"YV2"
+	def2[]:"YV3"
+	def2[]:"YV4"
+	def2[]:"YV5"
+	def2[]:"YV6"
+	def2[]:"YV7"  # "GCZ" VI latest issued (October 2022)
+#	def2[]:"YV8"
+#	def2[]:"YV9"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -1982,6 +2398,8 @@ license_plate_data : .czluchow.lp.trailer
 license_plate_data : .czluchow.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# N = Pomeranian (Pomorskie) Voivodeship Headquarters
 	templates[]:"HPN51222"

@@ -6,20 +6,20 @@ city_data: city.stockholm
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -10
-	map_x_offsets[]: -48
-	map_x_offsets[]: -48
-	map_x_offsets[]: -44
+	map_x_offsets[]: 40
+	map_x_offsets[]: 1
+	map_x_offsets[]: 250
+	map_x_offsets[]: 86
+	map_x_offsets[]: -9
 	map_x_offsets[]: -46
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 25
-	map_y_offsets[]: -28
-	map_y_offsets[]: -53
-	map_y_offsets[]: -75
-	map_y_offsets[]: -28
+	map_y_offsets[]: -100
+	map_y_offsets[]: -73
+	map_y_offsets[]: -250
+	map_y_offsets[]: -210
+	map_y_offsets[]: -63
 	map_y_offsets[]: -26
 
 	vehicle_brands[]:"scania"

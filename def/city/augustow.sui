@@ -8,30 +8,30 @@ city_data: city.augustow
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -270
+	map_x_offsets[]: -80
+	map_x_offsets[]: -45
+	map_x_offsets[]: 1
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: 0
-	map_y_offsets[]: -16
-	map_y_offsets[]: -20
-	map_y_offsets[]: -18
-	map_y_offsets[]: -15
+	map_y_offsets[]: 80
+	map_y_offsets[]: -25
+	map_y_offsets[]: -10
+	map_y_offsets[]: -8
 
 	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 0.7  // close zoom for minimap
-	city_pin_scale_factor[]: 0.7  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
-	city_pin_scale_factor[]: 0.6  // whole world map zoom
-	
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
 	license_plate[]: .augustow.lp.car
 	license_plate[]: .augustow.lp.truck
 	license_plate[]: .augustow.lp.trailer
@@ -50,6 +50,7 @@ license_plate_data : .augustow.lp.car
 	templates[]:"BAU53444"   # VII
 	templates[]:"BAU53444"   # VII
 
+	# "BAU" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for tractors
 #	def0[]:"E"
@@ -71,6 +72,7 @@ license_plate_data : .augustow.lp.car
 #	def0[]:"V"
 #	def0[]:"X"
 
+	# "BAU" II
 ##	def1[]:"AA"  # Used for trailers
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -118,7 +120,7 @@ license_plate_data : .augustow.lp.car
 #	def1[]:"EG"
 #	def1[]:"EH"
 #	def1[]:"EJ"
-#	def1[]:"EK"  # some before EU stars
+#	def1[]:"EK"  # Some before EU stars
 	def1[]:"EL"
 	def1[]:"EM"
 	def1[]:"EN"
@@ -247,6 +249,7 @@ license_plate_data : .augustow.lp.car
 	def1[]:"LS"
 	def1[]:"YY"
 
+	# "BAU" VII
 	def3[]:"00"
 	def3[]:"01"
 	def3[]:"02"
@@ -284,12 +287,12 @@ license_plate_data : .augustow.lp.car
 	def3[]:"34"
 	def3[]:"35"
 	def3[]:"36"
-	def3[]:"37"  # "BAU" VII latest issued (March 2021)
-#	def3[]:"38"
-#	def3[]:"39"
-#	def3[]:"40"
-#	def3[]:"41"
-#	def3[]:"42"
+	def3[]:"37"
+	def3[]:"38"
+	def3[]:"39"
+	def3[]:"40"
+	def3[]:"41"
+	def3[]:"42"  # "BAU" VII latest issued (September 2022)
 #	def3[]:"43"
 #	def3[]:"44"
 #	def3[]:"45"
@@ -366,11 +369,14 @@ license_plate_data : .augustow.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"BAU50444"   # I    before EU stars
 #	templates[]:"BAU5441"    # II   some before EU stars
 	templates[]:"BAU53444"   # VII
 
+	# "BAU" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for tractors
 #	def0[]:"E"
@@ -392,6 +398,7 @@ license_plate_data : .augustow.lp.truck
 #	def0[]:"V"
 #	def0[]:"X"
 
+	# "BAU" II
 ##	def1[]:"AA"  # Used for trailers
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -568,6 +575,7 @@ license_plate_data : .augustow.lp.truck
 #	def1[]:"LS"
 #	def1[]:"YY"
 
+	# "BAU" VII
 #	def3[]:"00"
 #	def3[]:"01"
 #	def3[]:"02"
@@ -603,14 +611,14 @@ license_plate_data : .augustow.lp.truck
 #	def3[]:"32"
 #	def3[]:"33"
 #	def3[]:"34"
-	def3[]:"35"
-	def3[]:"36"
-	def3[]:"37"  # "BAU" VII latest issued (March 2021)
+#	def3[]:"35"
+#	def3[]:"36"
+#	def3[]:"37"
 #	def3[]:"38"
 #	def3[]:"39"
-#	def3[]:"40"
-#	def3[]:"41"
-#	def3[]:"42"
+	def3[]:"40"
+	def3[]:"41"
+	def3[]:"42"  # "BAU" VII latest issued (September 2022)
 #	def3[]:"43"
 #	def3[]:"44"
 #	def3[]:"45"
@@ -687,6 +695,8 @@ license_plate_data : .augustow.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"BAU5P444"   # I    before EU stars
 	templates[]:"BAU5441"    # II   some before EU stars
@@ -695,6 +705,7 @@ license_plate_data : .augustow.lp.trailer
 	templates[]:"BAU5244"    # VI
 	templates[]:"BAU5244"    # VI
 
+	# "BAU" II
 #	def1[]:"AA"
 #	def1[]:"AP"
 #	def1[]:"GA"
@@ -772,24 +783,24 @@ license_plate_data : .augustow.lp.trailer
 #	def1[]:"XN"
 #	def1[]:"XP"
 #	def1[]:"XR"
-	def1[]:"XS"
-	def1[]:"XT"
-	def1[]:"XU"
-	def1[]:"XV"
-	def1[]:"XW"
-#	def1[]:"XX"  # Not issued
+#	def1[]:"XS"
+#	def1[]:"XT"
+#	def1[]:"XU"
+#	def1[]:"XV"
+#	def1[]:"XW"
+##	def1[]:"XX"  # Not issued
 	def1[]:"XY"
 
+	# "BAU" VI
 	def2[]:"PA"
 	def2[]:"PC"
 	def2[]:"PE"
-	def2[]:"PF"  # "BAU" VI latest issued (November 2020)
-#	def2[]:"PG"
-#	def2[]:"PH"
-#	def2[]:"PJ"
-#	def2[]:"PK"
-#	def2[]:"PL"
-#	def2[]:"PM"
+	def2[]:"PF"
+	def2[]:"PG"
+	def2[]:"PL"
+	def2[]:"PK"
+	def2[]:"PH"
+	def2[]:"PM"  # "BAU" VI latest issued (July 2022)
 #	def2[]:"PN"
 #	def2[]:"PP"
 #	def2[]:"PR"
@@ -818,6 +829,8 @@ license_plate_data : .augustow.lp.trailer
 license_plate_data : .augustow.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# M = Podlaskie Provincial Headquarters
 	templates[]:"HPM51222"

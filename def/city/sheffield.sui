@@ -8,19 +8,19 @@ city_data: city.sheffield
 	map_x_offsets[]: 0
 	map_x_offsets[]: -15
 	map_x_offsets[]: -35
-	map_x_offsets[]: -40
-	map_x_offsets[]: -42
-	map_x_offsets[]: -42
-	map_x_offsets[]: -43
+	map_x_offsets[]: -100
+	map_x_offsets[]: -50
+	map_x_offsets[]: -45
+	map_x_offsets[]: -25
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -52
 	map_y_offsets[]: -35
-	map_y_offsets[]: 96
-	map_y_offsets[]: 19
-	map_y_offsets[]: 2
-	map_y_offsets[]: 4
+	map_y_offsets[]: 150
+	map_y_offsets[]: 25
+	map_y_offsets[]: -12
+	map_y_offsets[]: 0
 
 	license_plate[]: .sheffield.lp.car
 	license_plate[]: .sheffield.lp.truck

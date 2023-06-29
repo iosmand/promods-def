@@ -8,19 +8,19 @@ city_data : city.sevilla
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -30
-	map_x_offsets[]: -30
-	map_x_offsets[]: -30
-	map_x_offsets[]: -30
+	map_x_offsets[]: 70
+	map_x_offsets[]: -10
+	map_x_offsets[]: -25
+	map_x_offsets[]: -31
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -50
 	map_y_offsets[]: -28
-	map_y_offsets[]: -26
-	map_y_offsets[]: -26
-	map_y_offsets[]: -26
-	map_y_offsets[]: -26
+	map_y_offsets[]: 150
+	map_y_offsets[]: 15
+	map_y_offsets[]: -3
+	map_y_offsets[]: 5
 
 	vehicle_brands[]: "daf"
 

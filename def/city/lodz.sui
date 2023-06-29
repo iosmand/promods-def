@@ -8,19 +8,19 @@ city_data: city.lodz
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -23
-	map_x_offsets[]: -23
-	map_x_offsets[]: -24
+	map_x_offsets[]: -110
+	map_x_offsets[]: -40
 	map_x_offsets[]: -25
+	map_x_offsets[]: -23
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -52
-	map_y_offsets[]: -40
-	map_y_offsets[]: -23
-	map_y_offsets[]: -27
+	map_y_offsets[]: -70
+	map_y_offsets[]: -35
+	map_y_offsets[]: -20
+	map_y_offsets[]: -24
 
 	vehicle_brands[]:"scania"
 
@@ -52,6 +52,7 @@ license_plate_data : .lodz.lp.car
 	templates[]:"ELW52244"   # VI
 	templates[]:"ELW5144"    # VII
 
+	# "EL" V
 	def0[]:"AA"
 	def0[]:"AC"
 	def0[]:"AE"
@@ -68,41 +69,126 @@ license_plate_data : .lodz.lp.car
 	def0[]:"AS"
 	def0[]:"AT"
 	def0[]:"AU"
-	def0[]:"AV"  # "EL" V latest issued (April 2021)
-#	def0[]:"AW"
-#	def0[]:"AX"
-#	def0[]:"AY"
+	def0[]:"AV"
+	def0[]:"AW"
+	def0[]:"AX"
+	def0[]:"AY"
+	def0[]:"CA"
+	def0[]:"CC"
+	def0[]:"CE"
+	def0[]:"CF"
+	def0[]:"CG"
+	def0[]:"CH"
+	def0[]:"CJ"
+	def0[]:"CK"
+	def0[]:"CL"
+	def0[]:"CM"
+	def0[]:"CN"
+	def0[]:"CP"
+	def0[]:"CR"
+	def0[]:"CS"
+	def0[]:"CT"
+	def0[]:"CU"
+	def0[]:"CV"
+	def0[]:"CW"
+	def0[]:"CX"
+	def0[]:"CY"
+	def0[]:"EA"
+	def0[]:"EC"
+	def0[]:"EE"
+	def0[]:"EF"
+	def0[]:"EG"
+	def0[]:"EH"
+	def0[]:"EJ"
+	def0[]:"EK"
+	def0[]:"EL"
+	def0[]:"EM"
+	def0[]:"EN"
+	def0[]:"EP"
+	def0[]:"ER"
+	def0[]:"ES"
+	def0[]:"ET"
+	def0[]:"EU"
+	def0[]:"EV"
+	def0[]:"EW"
+	def0[]:"EX"
+	def0[]:"EY"
+	def0[]:"FA"
+	def0[]:"FC"
+	def0[]:"FE"
+	def0[]:"FF"
+	def0[]:"FG"
+	def0[]:"FH"
+	def0[]:"FJ"
+	def0[]:"FK"
+	def0[]:"FL"
+	def0[]:"FM"
+	def0[]:"FN"
+	def0[]:"FP"
+	def0[]:"FR"
+	def0[]:"FS"
+	def0[]:"FT"
+	def0[]:"FU"
+	def0[]:"FV"
+	def0[]:"FW"
+	def0[]:"FX"
+	def0[]:"FY"
+	def0[]:"GA"
+	def0[]:"GC"
+	def0[]:"GE"
+	def0[]:"GF"  # "EL" V latest issued (October 2022)
+#	def0[]:"GG"
+#	def0[]:"GH"
+#	def0[]:"GJ"
+#	def0[]:"GK"
+#	def0[]:"GL"
+#	def0[]:"GM"
+#	def0[]:"GN"
+#	def0[]:"GP"
+#	def0[]:"GR"
+#	def0[]:"GS"
+#	def0[]:"GT"
+#	def0[]:"GU"
+#	def0[]:"GV"
+#	def0[]:"GW"
+#	def0[]:"GX"
+#	def0[]:"GY"
 
-	# Łódź office "ELW" VII
+	# "ELW" VII Łódź office
 	def1[]:"012"
 	def1[]:"013"
 	def1[]:"014"
-	def1[]:"017"
+	def1[]:"020"
+	def1[]:"021"
+	def1[]:"022"
+	def1[]:"023"
+	def1[]:"024"
+	def1[]:"029"
+	def1[]:"030"
+	def1[]:"031"
+	def1[]:"032"
+	def1[]:"039"
+	def1[]:"040"
+	def1[]:"047"
+	def1[]:"048"
+	def1[]:"058"
+	def1[]:"060"
+	def1[]:"065"
+	def1[]:"067"
+	def1[]:"073"
+	def1[]:"077"
+	def1[]:"080"
+	def1[]:"084"
+	def1[]:"087"
+	def1[]:"091"
+	def1[]:"092"
+	def1[]:"094"
 
-	# Tuszyn office "ELW" VII
-	def1[]:"005"
-	def1[]:"006"
-	def1[]:"010"
-#	def1[]:"011"  # Not issued yet
-
-	# Koluszki office (still issuing from VI series)
-
-	# Rzgów office "ELW" VII
-	def1[]:"000"
-	def1[]:"001"
-	def1[]:"002"
-	def1[]:"003"
-	def1[]:"004"
-	def1[]:"007"
-	def1[]:"008"
-	def1[]:"009"
-	def1[]:"015"
-	def1[]:"016"
-
+	# "EL" III/IV, "ELW" II/III/IV/VI
 	def2[]:"A"
 	def2[]:"C"
 	def2[]:"E"
-#	def2[]:"F"  # Used for "EL" double-row plates
+#	def2[]:"F"  # "EL"  used for double-row plates (II)
 	def2[]:"G"
 	def2[]:"H"
 	def2[]:"J"
@@ -113,12 +199,14 @@ license_plate_data : .lodz.lp.car
 	def2[]:"P"
 	def2[]:"R"
 	def2[]:"S"
-#	def2[]:"T"  # Used for "ELW" motorcycles and tractors
-#	def2[]:"U"  # Used for "ELW" trailers
-#	def2[]:"V"  # Used for "ELW" mopeds, trailers, motorcycles, and tractors
-#	def2[]:"W"  # Used for "ELW" double-row plates and trailers
-#	def2[]:"X"  # Partially used for "EL" trailers, for "ELW" trailers, motorcycles, and tractors
-#	def2[]:"Y"  # Partially used for "EL" trailers, for "ELW" motorcycles, tractors, mopeds, and trailers
+	def2[]:"T"
+	def2[]:"U"
+#	def2[]:"V"  # "ELW" used for trailers (II), motorcycles/tractors (III)
+#	def2[]:"W"  # "ELW" used for trailers (IV)
+#	def2[]:"X"  # "EL"  partially used for trailers (III/VI)
+               # "ELW" motorcycles/tractors (II), used for trailers (III/IV)
+#	def2[]:"Y"  # "EL"  partially used for trailers (III/VI)
+               # "ELW" used for trailers (II/IV), motorcycles/tractors (III)
 
 	def3[]:"1"
 	def3[]:"2"
@@ -148,6 +236,8 @@ license_plate_data : .lodz.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"EL544444"   # I    before EU stars
 #	templates[]:"EL544442"   # II   most before EU stars
@@ -155,6 +245,7 @@ license_plate_data : .lodz.lp.truck
 #	templates[]:"EL50444"    # IV
 	templates[]:"EL53144"    # V
 
+	# "EL" IV
 #	def0[]:"1A"
 #	def0[]:"2A"
 #	def0[]:"3A"
@@ -289,7 +380,7 @@ license_plate_data : .lodz.lp.truck
 #	def0[]:"6T"
 #	def0[]:"7T"
 #	def0[]:"8T"
-##	def0[]:"9T"  # "EL" IV used for electric cars
+##	def0[]:"9T"  # Used for electric vehicles
 #	def0[]:"1U"
 #	def0[]:"2U"
 #	def0[]:"3U"
@@ -318,6 +409,7 @@ license_plate_data : .lodz.lp.truck
 #	def0[]:"8W"
 #	def0[]:"9W"
 
+	# "EL" V
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -331,34 +423,93 @@ license_plate_data : .lodz.lp.truck
 #	def1[]:"AN"
 #	def1[]:"AP"
 #	def1[]:"AR"
-	def1[]:"AS"
-	def1[]:"AT"
-	def1[]:"AU"
-	def1[]:"AV"  # "EL" V latest issued (April 2021)
+#	def1[]:"AS"
+#	def1[]:"AT"
+#	def1[]:"AU"
+#	def1[]:"AV"
 #	def1[]:"AW"
 #	def1[]:"AX"
 #	def1[]:"AY"
-
-#	def2[]:"A"
-#	def2[]:"C"
-#	def2[]:"E"
-##	def2[]:"F"  # Used for double-row plates
-#	def2[]:"G"
-#	def2[]:"H"
-#	def2[]:"J"
-#	def2[]:"K"
-#	def2[]:"L"
-#	def2[]:"M"
-#	def2[]:"N"
-#	def2[]:"P"
-#	def2[]:"R"
-#	def2[]:"S"
-#	def2[]:"T"
-#	def2[]:"U"
-#	def2[]:"V"
-#	def2[]:"W"
-##	def2[]:"X"  # Partially used for trailers
-##	def2[]:"Y"  # Partially used for trailers
+#	def1[]:"CA"
+#	def1[]:"CC"
+#	def1[]:"CE"
+#	def1[]:"CF"
+#	def1[]:"CG"
+#	def1[]:"CH"
+#	def1[]:"CJ"
+#	def1[]:"CK"
+#	def1[]:"CL"
+#	def1[]:"CM"
+#	def1[]:"CN"
+#	def1[]:"CP"
+#	def1[]:"CR"
+#	def1[]:"CS"
+#	def1[]:"CT"
+#	def1[]:"CU"
+#	def1[]:"CV"
+#	def1[]:"CW"
+#	def1[]:"CX"
+#	def1[]:"CY"
+#	def1[]:"EA"
+#	def1[]:"EC"
+#	def1[]:"EE"
+#	def1[]:"EF"
+#	def1[]:"EG"
+#	def1[]:"EH"
+#	def1[]:"EJ"
+#	def1[]:"EK"
+#	def1[]:"EL"
+#	def1[]:"EM"
+#	def1[]:"EN"
+#	def1[]:"EP"
+#	def1[]:"ER"
+#	def1[]:"ES"
+#	def1[]:"ET"
+#	def1[]:"EU"
+#	def1[]:"EV"
+#	def1[]:"EW"
+#	def1[]:"EX"
+#	def1[]:"EY"
+#	def1[]:"FA"
+#	def1[]:"FC"
+#	def1[]:"FE"
+#	def1[]:"FF"
+#	def1[]:"FG"
+#	def1[]:"FH"
+#	def1[]:"FJ"
+#	def1[]:"FK"
+#	def1[]:"FL"
+#	def1[]:"FM"
+#	def1[]:"FN"
+#	def1[]:"FP"
+#	def1[]:"FR"
+#	def1[]:"FS"
+#	def1[]:"FT"
+#	def1[]:"FU"
+#	def1[]:"FV"
+#	def1[]:"FW"
+#	def1[]:"FX"
+#	def1[]:"FY"
+	def1[]:"GA"
+	def1[]:"GC"
+	def1[]:"GE"
+	def1[]:"GF"  # "EL" V latest issued (October 2022)
+#	def1[]:"GG"
+#	def1[]:"GH"
+#	def1[]:"GJ"
+#	def1[]:"GK"
+#	def1[]:"GL"
+#	def1[]:"GM"
+#	def1[]:"GN"
+#	def1[]:"GP"
+#	def1[]:"GR"
+#	def1[]:"GS"
+#	def1[]:"GT"
+#	def1[]:"GU"
+#	def1[]:"GV"
+#	def1[]:"GW"
+#	def1[]:"GX"
+#	def1[]:"GY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -378,11 +529,14 @@ license_plate_data : .lodz.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"EL5044"     # I    most before EU stars
 #	templates[]:"EL54441"    # III
 	templates[]:"EL5244"     # IV
 
+	# "EL" I
 #	def0[]:"500"
 #	def0[]:"501"
 #	def0[]:"502"
@@ -469,6 +623,7 @@ license_plate_data : .lodz.lp.trailer
 #	def0[]:"598"
 #	def0[]:"599"
 
+	# "EL" III
 #	def1[]:"AY"
 #	def1[]:"AX"
 #	def1[]:"CY"
@@ -487,6 +642,7 @@ license_plate_data : .lodz.lp.trailer
 #	def1[]:"YX"
 #	def1[]:"UY"
 
+	# "EL" IV .X...
 #	def2[]:"1X0"
 #	def2[]:"1X1"
 #	def2[]:"1X2"
@@ -498,20 +654,91 @@ license_plate_data : .lodz.lp.trailer
 #	def2[]:"1X8"
 #	def2[]:"1X9"
 #	def2[]:"2X0"
-	def2[]:"2X1"
-	def2[]:"2X2"
-	def2[]:"2X3"
-	def2[]:"2X4"
-	def2[]:"2X5"
-	def2[]:"2X6"
-	def2[]:"2X7"
-	def2[]:"2X8"  # "EL" IV X latest issued (April 2021)
+#	def2[]:"2X1"
+#	def2[]:"2X2"
+#	def2[]:"2X3"
+#	def2[]:"2X4"
+#	def2[]:"2X5"
+#	def2[]:"2X6"
+#	def2[]:"2X7"
+#	def2[]:"2X8"
 #	def2[]:"2X9"
+#	def2[]:"3X0"
+#	def2[]:"3X1"
+#	def2[]:"3X2"
+#	def2[]:"3X3"
+#	def2[]:"3X4"
+#	def2[]:"3X5"
+#	def2[]:"3X6"
+#	def2[]:"3X7"
+#	def2[]:"3X8"
+#	def2[]:"3X9"
+	def2[]:"4X0"
+	def2[]:"4X1"
+	def2[]:"4X2"
+	def2[]:"4X3"
+	def2[]:"4X4"
+	def2[]:"4X5"
+	def2[]:"4X6"
+	def2[]:"4X7"
+	def2[]:"4X8"
+	def2[]:"4X9"  # "EL" IV .X... latest issued (October 2022)
+#	def2[]:"5X0"
+#	def2[]:"5X1"
+#	def2[]:"5X2"
+#	def2[]:"5X3"
+#	def2[]:"5X4"
+#	def2[]:"5X5"
+#	def2[]:"5X6"
+#	def2[]:"5X7"
+#	def2[]:"5X8"
+#	def2[]:"5X9"
+#	def2[]:"6X0"
+#	def2[]:"6X1"
+#	def2[]:"6X2"
+#	def2[]:"6X3"
+#	def2[]:"6X4"
+#	def2[]:"6X5"
+#	def2[]:"6X6"
+#	def2[]:"6X7"
+#	def2[]:"6X8"
+#	def2[]:"6X9"
+#	def2[]:"7X0"
+#	def2[]:"7X1"
+#	def2[]:"7X2"
+#	def2[]:"7X3"
+#	def2[]:"7X4"
+#	def2[]:"7X5"
+#	def2[]:"7X6"
+#	def2[]:"7X7"
+#	def2[]:"7X8"
+#	def2[]:"7X9"
+#	def2[]:"8X0"
+#	def2[]:"8X1"
+#	def2[]:"8X2"
+#	def2[]:"8X3"
+#	def2[]:"8X4"
+#	def2[]:"8X5"
+#	def2[]:"8X6"
+#	def2[]:"8X7"
+#	def2[]:"8X8"
+#	def2[]:"8X9"
+#	def2[]:"9X0"
+#	def2[]:"9X1"
+#	def2[]:"9X2"
+#	def2[]:"9X3"
+#	def2[]:"9X4"
+#	def2[]:"9X5"
+#	def2[]:"9X6"
+#	def2[]:"9X7"
+#	def2[]:"9X8"
+#	def2[]:"9X9"
 
+	# "EL" IV .Y...
 #	def2[]:"1Y0"
 #	def2[]:"1Y1"
-	def2[]:"1Y2"
-	def2[]:"1Y3"  # "EL" IV Y latest issued (September 2020)
+#	def2[]:"1Y2"
+#	def2[]:"1Y3"  # "EL" IV .Y... last issued (September 2020)
 #	def2[]:"1Y4"
 #	def2[]:"1Y5"
 #	def2[]:"1Y6"
@@ -536,6 +763,8 @@ license_plate_data : .lodz.lp.trailer
 license_plate_data : .lodz.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# F = Łódź (Łódzkie) Voivodeship Headquarters
 	templates[]:"HPF51222"

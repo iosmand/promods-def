@@ -1,0 +1,73 @@
+﻿city_data: city.karasjok
+{
+	city_name: "Karasjok"
+	city_name_localized: "@@karasjok@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -9
+	map_x_offsets[]: -18
+	map_x_offsets[]: 80
+	map_x_offsets[]: -19
+	map_x_offsets[]: -22
+	map_x_offsets[]: -21
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -23
+	map_y_offsets[]: -8
+	map_y_offsets[]: -90
+	map_y_offsets[]: -18
+	map_y_offsets[]: -8
+	map_y_offsets[]: -15
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.9
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.55 // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.65 // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
+
+	#vehicle_brands[]:"daf"
+
+	license_plate[]: .karasjok.lp.car
+	license_plate[]: .karasjok.lp.truck
+	license_plate[]: .karasjok.lp.trailer
+}
+
+license_plate_data : .karasjok.lp.car
+{
+	type: car
+
+@include "city_lp_no_car.sui"
+
+	# Lakselv
+#	def0[]:"CW"
+	def0[]:"ZZ"  # 1955 - present
+}
+
+license_plate_data : .karasjok.lp.truck
+{
+	type: truck
+
+@include "city_lp_no_truck.sui"
+
+	# Lakselv
+#	def0[]:"CW"
+	def0[]:"ZZ"  # 1955 - present
+}
+
+license_plate_data : .karasjok.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_no_trailer.sui"
+
+	# Lakselv
+	def0[]:"CW"  # 1955 - 2020
+	def0[]:"ZZ"  # 1942 - 2020
+}

@@ -6,21 +6,21 @@ city_data: city.zagreb
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: 40
+	map_x_offsets[]: -15
+	map_x_offsets[]: 180
+	map_x_offsets[]: 13
+	map_x_offsets[]: -19
+	map_x_offsets[]: -30
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -40
+	map_y_offsets[]: -21
+	map_y_offsets[]: -90
+	map_y_offsets[]: -30
+	map_y_offsets[]: -16
+	map_y_offsets[]: 4
 
 	vehicle_brands[]:"daf"
 

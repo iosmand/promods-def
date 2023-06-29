@@ -10,19 +10,29 @@ city_data: city.gorzow
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -40
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -45
+	map_x_offsets[]: 50
+	map_x_offsets[]: -80
+	map_x_offsets[]: -90
+	map_x_offsets[]: -75
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -30
+	map_y_offsets[]: -100
 	map_y_offsets[]: -30
 	map_y_offsets[]: -18
-	map_y_offsets[]: -25
+	map_y_offsets[]: -22
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]:"renault"
 
@@ -51,6 +61,7 @@ license_plate_data : .gorzow.lp.car
 	templates[]:"FGW53223"   # V
 	templates[]:"FGW51444"   # VII
 
+	# "FG" II
 	def0[]:"A"
 	def0[]:"C"
 	def0[]:"E"
@@ -60,9 +71,9 @@ license_plate_data : .gorzow.lp.car
 	def0[]:"J"
 	def0[]:"K"
 	def0[]:"L"
-	def0[]:"M"  # "FG" II latest issued (April 2021)
-#	def0[]:"N"
-#	def0[]:"P"
+	def0[]:"M"
+	def0[]:"N"
+	def0[]:"P"  # "FG" II latest issued (October 2022)
 #	def0[]:"R"
 #	def0[]:"S"
 #	def0[]:"T"
@@ -72,6 +83,7 @@ license_plate_data : .gorzow.lp.car
 #	def0[]:"X"
 #	def0[]:"Y"
 
+	# "FGW" VII
 	def1[]:"00"
 	def1[]:"01"
 	def1[]:"02"
@@ -80,16 +92,16 @@ license_plate_data : .gorzow.lp.car
 	def1[]:"05"
 	def1[]:"06"
 	def1[]:"07"
-	def1[]:"08"  # "FGW" VII latest issued (April 2021)
-#	def1[]:"09"
-#	def1[]:"10"
-#	def1[]:"11"
-#	def1[]:"12"
-#	def1[]:"13"
-#	def1[]:"14"
-#	def1[]:"15"
-#	def1[]:"16"
-#	def1[]:"17"
+	def1[]:"08"
+	def1[]:"09"
+	def1[]:"10"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"  # "FGW" VII latest issued (October 2022)
 #	def1[]:"18"
 #	def1[]:"19"
 #	def1[]:"20"
@@ -113,10 +125,11 @@ license_plate_data : .gorzow.lp.car
 #	def1[]:"38"
 #	def1[]:"39"
 
+	# "FGW" II, III, IV, V
 	def2[]:"A"
 	def2[]:"C"
 	def2[]:"E"
-#	def2[]:"F"  # Used for "FGW" double-row plates
+#	def2[]:"F"  # Used for "FGW" IV double-row plates
 	def2[]:"G"
 	def2[]:"H"
 	def2[]:"J"
@@ -162,11 +175,27 @@ license_plate_data : .gorzow.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"FG50444"    # I    some before EU stars
-#	templates[]:"FG544441"   # II
-	templates[]:"FG5244M"    # II
+#	templates[]:"FG54444A"   # II
+#	templates[]:"FG54444C"   # II
+#	templates[]:"FG54444E"   # II
+#	templates[]:"FG54444F"   # II
+#	templates[]:"FG54444G"   # II
+#	templates[]:"FG54444H"   # II
+#	templates[]:"FG54444J"   # II
+#	templates[]:"FG54444K"   # II
+#	templates[]:"FG54444L"   # II
+#	templates[]:"FG54444M"   # II
+	templates[]:"FG5144N"    # II
+	templates[]:"FG5244P"    # II
+	templates[]:"FG5244P"    # II
+	templates[]:"FG5244P"    # II
+	templates[]:"FG5244P"    # II
 
+	# "FG" I
 #	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
@@ -268,21 +297,114 @@ license_plate_data : .gorzow.lp.truck
 ##	def0[]:"98"  # Used for trailers
 ##	def0[]:"99"  # Used for double-row plates
 
-#	def1[]:"A"
-#	def1[]:"C"
-#	def1[]:"E"
-#	def1[]:"F"
-#	def1[]:"G"
-#	def1[]:"H"
-#	def1[]:"J"
-#	def1[]:"K"
-#	def1[]:"L"
+	# "FG" II ....N
+#	def1[]:"00"
+#	def1[]:"01"
+#	def1[]:"02"
+#	def1[]:"03"
+#	def1[]:"04"
+#	def1[]:"05"
+#	def1[]:"06"
+#	def1[]:"07"
+#	def1[]:"08"
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
+#	def1[]:"12"
+#	def1[]:"13"
+#	def1[]:"14"
+#	def1[]:"15"
+#	def1[]:"16"
+#	def1[]:"17"
+#	def1[]:"18"
+#	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
+#	def1[]:"30"
+#	def1[]:"31"
+#	def1[]:"32"
+#	def1[]:"33"
+#	def1[]:"34"
+#	def1[]:"35"
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"50"
+#	def1[]:"51"
+#	def1[]:"52"
+#	def1[]:"53"
+#	def1[]:"54"
+#	def1[]:"55"
+#	def1[]:"56"
+#	def1[]:"57"
+#	def1[]:"58"
+#	def1[]:"59"
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
+#	def1[]:"64"
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+#	def1[]:"70"
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+#	def1[]:"77"
+#	def1[]:"78"
+#	def1[]:"79"
+#	def1[]:"80"
+#	def1[]:"81"
+#	def1[]:"82"
+	def1[]:"83"
+	def1[]:"84"
+	def1[]:"85"
+	def1[]:"86"
+	def1[]:"87"
+	def1[]:"88"
+	def1[]:"89"
+	def1[]:"90"
+	def1[]:"91"
+	def1[]:"92"
+	def1[]:"93"
+	def1[]:"94"
+	def1[]:"95"
+	def1[]:"96"
+	def1[]:"97"
+	def1[]:"98"
+	def1[]:"99"
 
-#	def2[]:"00"
-#	def2[]:"01"
-#	def2[]:"02"
-#	def2[]:"03"
-#	def2[]:"04"
+	# "FG" II ....P
+	def2[]:"00"
+	def2[]:"01"
+	def2[]:"02"
+	def2[]:"03"
+	def2[]:"04"
 	def2[]:"05"
 	def2[]:"06"
 	def2[]:"07"
@@ -290,29 +412,29 @@ license_plate_data : .gorzow.lp.truck
 	def2[]:"09"
 	def2[]:"10"
 	def2[]:"11"
-	def2[]:"12"
-	def2[]:"13"
-	def2[]:"14"
-	def2[]:"15"
-	def2[]:"16"
-	def2[]:"17"
-	def2[]:"18"
-	def2[]:"19"
-	def2[]:"20"
-	def2[]:"21"
-	def2[]:"22"
-	def2[]:"23"
-	def2[]:"24"
-	def2[]:"25"
-	def2[]:"26"
-	def2[]:"27"
-	def2[]:"28"
-	def2[]:"29"
-	def2[]:"30"
-	def2[]:"31"
-	def2[]:"32"
-	def2[]:"33"
-	def2[]:"34"  # "FG" II M latest issued (April 2021)
+	def2[]:"12"  # "FG" II ....P latest issued (October 2022)
+#	def2[]:"13"
+#	def2[]:"14"
+#	def2[]:"15"
+#	def2[]:"16"
+#	def2[]:"17"
+#	def2[]:"18"
+#	def2[]:"19"
+#	def2[]:"20"
+#	def2[]:"21"
+#	def2[]:"22"
+#	def2[]:"23"
+#	def2[]:"24"
+#	def2[]:"25"
+#	def2[]:"26"
+#	def2[]:"27"
+#	def2[]:"28"
+#	def2[]:"29"
+#	def2[]:"30"
+#	def2[]:"31"
+#	def2[]:"32"
+#	def2[]:"33"
+#	def2[]:"34"
 #	def2[]:"35"
 #	def2[]:"36"
 #	def2[]:"37"
@@ -397,10 +519,13 @@ license_plate_data : .gorzow.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"FG50444"    # I    some before EU stars
 	templates[]:"FG5144X"    # II
 
+	# "FG" I
 ##	def0[]:"90"
 ##	def0[]:"91"  # Most before EU stars
 #	def0[]:"92"
@@ -412,20 +537,21 @@ license_plate_data : .gorzow.lp.trailer
 #	def0[]:"98"
 ##	def0[]:"99"  # Used for double-row plates
 
+	# "FG" II ....X
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
 #	def1[]:"03"
-	def1[]:"04"
-	def1[]:"05"
-	def1[]:"06"
-	def1[]:"07"
-	def1[]:"08"
-	def1[]:"09"
-	def1[]:"10"
-	def1[]:"11"
-	def1[]:"12"
-	def1[]:"13"  # "FG" II latest issued (September 2020)
+#	def1[]:"04"
+#	def1[]:"05"
+#	def1[]:"06"
+#	def1[]:"07"
+#	def1[]:"08"
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
+#	def1[]:"12"
+#	def1[]:"13"
 #	def1[]:"14"
 #	def1[]:"15"
 #	def1[]:"16"
@@ -435,16 +561,16 @@ license_plate_data : .gorzow.lp.trailer
 #	def1[]:"20"
 #	def1[]:"21"
 #	def1[]:"22"
-#	def1[]:"23"
-#	def1[]:"24"
-#	def1[]:"25"
-#	def1[]:"26"
-#	def1[]:"27"
-#	def1[]:"28"
-#	def1[]:"29"
-#	def1[]:"30"
-#	def1[]:"31"
-#	def1[]:"32"
+	def1[]:"23"
+	def1[]:"24"
+	def1[]:"25"
+	def1[]:"26"
+	def1[]:"27"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"  # "FG" II ....X latest issued (October 2022)
 #	def1[]:"33"
 #	def1[]:"34"
 #	def1[]:"35"
@@ -452,6 +578,66 @@ license_plate_data : .gorzow.lp.trailer
 #	def1[]:"37"
 #	def1[]:"38"
 #	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"50"
+#	def1[]:"51"
+#	def1[]:"52"
+#	def1[]:"53"
+#	def1[]:"54"
+#	def1[]:"55"
+#	def1[]:"56"
+#	def1[]:"57"
+#	def1[]:"58"
+#	def1[]:"59"
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
+#	def1[]:"64"
+#	def1[]:"65"
+#	def1[]:"66"
+#	def1[]:"67"
+#	def1[]:"68"
+#	def1[]:"69"
+#	def1[]:"70"
+#	def1[]:"71"
+#	def1[]:"72"
+#	def1[]:"73"
+#	def1[]:"74"
+#	def1[]:"75"
+#	def1[]:"76"
+#	def1[]:"77"
+#	def1[]:"78"
+#	def1[]:"79"
+#	def1[]:"80"
+#	def1[]:"81"
+#	def1[]:"82"
+#	def1[]:"83"
+#	def1[]:"84"
+#	def1[]:"85"
+#	def1[]:"86"
+#	def1[]:"87"
+#	def1[]:"88"
+#	def1[]:"89"
+#	def1[]:"90"
+#	def1[]:"91"
+#	def1[]:"92"
+#	def1[]:"93"
+#	def1[]:"94"
+#	def1[]:"95"
+#	def1[]:"96"
+#	def1[]:"97"
+#	def1[]:"98"
+#	def1[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -470,6 +656,8 @@ license_plate_data : .gorzow.lp.trailer
 license_plate_data : .gorzow.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# E = Lubusz (Lubuskie) Provincial Headquarters
 	templates[]:"HPE51222"

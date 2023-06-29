@@ -8,29 +8,29 @@ city_data: city.swinoujscie
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
+	map_x_offsets[]: 80
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -40
+	map_x_offsets[]: -31
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
-	map_y_offsets[]: -25
+	map_y_offsets[]: -70
+	map_y_offsets[]: -10
+	map_y_offsets[]: -5
+	map_y_offsets[]: -16
 
-	### MEDIUM CITY ###
+	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
-	city_pin_scale_factor[]: 1.0  // closest zoom for world map
-	city_pin_scale_factor[]: 1.0  // middle zoom for world map
-	city_pin_scale_factor[]: 0.8  // whole world map zoom
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
 
 	license_plate[]: .swinoujscie.lp.car
 	license_plate[]: .swinoujscie.lp.truck
@@ -49,6 +49,7 @@ license_plate_data : .swinoujscie.lp.car
 	templates[]:"ZSW51444"   # VII
 	templates[]:"ZSW51444"   # VII
 
+	# "ZSW" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for double-row plates
 ##	def0[]:"F"  # Used for trailers and mopeds
@@ -70,6 +71,7 @@ license_plate_data : .swinoujscie.lp.car
 	def0[]:"X"
 #	def0[]:"Y"  # Partially used for motorcycles and tractors
 
+	# "ZSW" VII
 	def1[]:"00"
 	def1[]:"01"
 	def1[]:"02"
@@ -98,11 +100,11 @@ license_plate_data : .swinoujscie.lp.car
 	def1[]:"25"
 	def1[]:"26"
 	def1[]:"27"
-	def1[]:"28"  # "ZSW" VII latest issued (April 2021)
-#	def1[]:"29"
-#	def1[]:"30"
-#	def1[]:"31"
-#	def1[]:"32"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"  # "ZSW" VII latest issued (September 2022)
 #	def1[]:"33"
 #	def1[]:"34"
 #	def1[]:"35"
@@ -189,9 +191,12 @@ license_plate_data : .swinoujscie.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 #	templates[]:"ZSW50444"   # I    most before EU stars
 	templates[]:"ZSW51444"   # VII
 
+	# "ZSW" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for double-row plates
 ##	def0[]:"F"  # Used for trailers and mopeds
@@ -213,6 +218,7 @@ license_plate_data : .swinoujscie.lp.truck
 #	def0[]:"X"
 ##	def0[]:"Y"  # Partially used for motorcycles and tractors
 
+	# "ZSW" VII
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
@@ -239,13 +245,13 @@ license_plate_data : .swinoujscie.lp.truck
 #	def1[]:"23"
 #	def1[]:"24"
 #	def1[]:"25"
-	def1[]:"26"
-	def1[]:"27"
-	def1[]:"28"  # "ZSW" VII latest issued (April 2021)
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
 #	def1[]:"29"
-#	def1[]:"30"
-#	def1[]:"31"
-#	def1[]:"32"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"  # "ZSW" VII latest issued (September 2022)
 #	def1[]:"33"
 #	def1[]:"34"
 #	def1[]:"35"
@@ -332,10 +338,24 @@ license_plate_data : .swinoujscie.lp.trailer
 {
 	type: trailer
 
-	# Three letter powiat codes
-#	templates[]:"ZSW504"     # I    most before EU stars
-	templates[]:"ZSW514"     # VI
+	probability: 0.3
 
+	# Three letter powiat codes
+	templates[]:"ZSW504"     # I    most before EU stars
+	templates[]:"ZSW5144"    # VI
+	templates[]:"ZSW5144"    # VI
+	templates[]:"ZSW5144"    # VI
+	templates[]:"ZSW5144"    # VI
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+	templates[]:"ZSW5442"    # II
+
+	# "ZSW" I
 #	def0[]:"F65"
 #	def0[]:"F66"
 #	def0[]:"F67"
@@ -411,87 +431,74 @@ license_plate_data : .swinoujscie.lp.trailer
 #	def0[]:"G57"
 #	def0[]:"G58"
 #	def0[]:"G59"
-#	def0[]:"G60"
-#	def0[]:"G61"
-#	def0[]:"G62"
-#	def0[]:"G63"
-#	def0[]:"G64"
-#	def0[]:"G65"
-#	def0[]:"G66"
-#	def0[]:"G67"
-#	def0[]:"G68"
-#	def0[]:"G69"
-#	def0[]:"G70"
-#	def0[]:"G71"
-#	def0[]:"G72"
-#	def0[]:"G73"
-#	def0[]:"G74"
-#	def0[]:"G75"
-#	def0[]:"G76"
-#	def0[]:"G77"
-#	def0[]:"G78"
-#	def0[]:"G79"
-#	def0[]:"G80"
-#	def0[]:"G81"
-#	def0[]:"G82"
-#	def0[]:"G83"
-#	def0[]:"G84"
-#	def0[]:"G85"
-#	def0[]:"G86"
-#	def0[]:"G87"
-#	def0[]:"G88"
-#	def0[]:"G89"
-#	def0[]:"G90"
-#	def0[]:"G91"
-#	def0[]:"G92"
-#	def0[]:"G93"
-#	def0[]:"G94"
-#	def0[]:"G95"
-#	def0[]:"G96"
-#	def0[]:"G97"
-#	def0[]:"G98"
-#	def0[]:"G99"
+	def0[]:"G60"
+	def0[]:"G61"
+	def0[]:"G62"
+	def0[]:"G63"
+	def0[]:"G64"
+	def0[]:"G65"
+	def0[]:"G66"
+	def0[]:"G67"
+	def0[]:"G68"
+	def0[]:"G69"
+	def0[]:"G70"
+	def0[]:"G71"
+	def0[]:"G72"
+	def0[]:"G73"
+	def0[]:"G74"
+	def0[]:"G75"
+	def0[]:"G76"
+	def0[]:"G77"
+	def0[]:"G78"
+	def0[]:"G79"
+	def0[]:"G80"
+	def0[]:"G81"
+	def0[]:"G82"
+	def0[]:"G83"
+	def0[]:"G84"
+	def0[]:"G85"
+	def0[]:"G86"
+	def0[]:"G87"
+	def0[]:"G88"
+	def0[]:"G89"
+	def0[]:"G90"
+	def0[]:"G91"
+	def0[]:"G92"
+	def0[]:"G93"
+	def0[]:"G94"
+	def0[]:"G95"
+	def0[]:"G96"
+	def0[]:"G97"
+	def0[]:"G98"
+	def0[]:"G99"
 
-	def1[]:"AG0"
-	def1[]:"AG1"
-	def1[]:"AG2"
-	def1[]:"AG3"
-	def1[]:"AG4"
-	def1[]:"AG5"
-	def1[]:"AG6"
-	def1[]:"AG7"
-	def1[]:"AG8"
-	def1[]:"AG9"
-	def1[]:"AH0"
-	def1[]:"AH1"
-	def1[]:"AH2"
-	def1[]:"AH3"
-	def1[]:"AH4"
-	def1[]:"AH5"
-	def1[]:"AH6"
-	def1[]:"AH7"
-	def1[]:"AH8"
-	def1[]:"AH9"
-	def1[]:"AJ0"
-	def1[]:"AJ1"
-	def1[]:"AJ2"
-	def1[]:"AJ3"
-	def1[]:"AJ4"
-	def1[]:"AJ5"
-	def1[]:"AJ6"
-	def1[]:"AJ7"
-	def1[]:"AJ8"
-	def1[]:"AJ9"
-	def1[]:"AN0"
-	def1[]:"AN1"
-	def1[]:"AN2"  # "ZSW" VI latest issued (April 2021)
-#	def1[]:"AN3"
-#	def1[]:"AN4"
-#	def1[]:"AN5"
-#	def1[]:"AN6"
-#	def1[]:"AN7"
-#	def1[]:"AN8"
-#	def1[]:"AN9"
+	# "ZSW" VI
+	def1[]:"AG"
+	def1[]:"AH"
+	def1[]:"AJ"
+	def1[]:"AN"
+
+	# "ZSW" II
+	def2[]:"PA"
+	def2[]:"PC"  # "ZSW" II latest issued (July 2022)
+#	def2[]:"PE"
+#	def2[]:"PF"
+#	def2[]:"PG"
+#	def2[]:"PH"
+#	def2[]:"PJ"
+#	def2[]:"PK"
+#	def2[]:"PL"
+#	def2[]:"PM"
+#	def2[]:"PN"
+#	def2[]:"PP"
+#	def2[]:"PR"
+#	def2[]:"PS"
+#	def2[]:"PT"
+#	def2[]:"PU"
+#	def2[]:"PV"
+#	def2[]:"PW"
+#	def2[]:"PX"
+#	def2[]:"PY"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -510,6 +517,8 @@ license_plate_data : .swinoujscie.lp.trailer
 license_plate_data : .swinoujscie.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# W = West Pomeranian (Zachodniopomorskie) Voivodeship Headquarters
 	templates[]:"HPW51222"

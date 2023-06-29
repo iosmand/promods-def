@@ -153,6 +153,12 @@ route_data : route_data.lis_pon1 {
 	
 }  #### From Lisbon Port to Ponte de Sor Sawmill
 
+route_data : route_data.bre_ren1 {
+	from_city : brest
+	to_city   : rennes
+	
+}  #### From Brest to Rennes (Viva la France ! DLC)
+
 ###############
 ### PROMODS ###
 ###############
@@ -186,5 +192,6 @@ route_data : route_data.uzh_lviv1 {
 	to_city   : lviv
 	
 }  #From Uzhhorod BLT to Lviv Bader
+
 
 }

@@ -12,7 +12,7 @@ license_plate_data : .lp.car
 {
 	type: car
 
-	templates[]:"0 1222"
+	templates[]:"301222"
 
 	def0[]:"A"
 	def0[]:"B"
@@ -28,7 +28,6 @@ license_plate_data : .lp.car
 	def0[]:"M"
 	def0[]:"N"
 	def0[]:"P"
-	def0[]:"R"
 	def0[]:"S"
 	def0[]:"T"
 	def0[]:"V"
@@ -56,6 +55,8 @@ license_plate_data : .lp.car
 	def2[]:"7"
 	def2[]:"8"
 	def2[]:"9"
+	
+	def3[]:"<offset hshift=80><color value=FFE1A900>"
 
 }
 
@@ -63,9 +64,9 @@ license_plate_data : .lp.trailer
 {
 	type: trailer
 
-	templates[]:"0 1222"
-
-	def0[]:"R"
+	templates[]:"0R31222"
+	
+	def0[]:"<offset hshift=80><color value=FF0000FF>"
 
 	def1[]:"1"
 	def1[]:"2"
@@ -87,6 +88,8 @@ license_plate_data : .lp.trailer
 	def2[]:"7"
 	def2[]:"8"
 	def2[]:"9"
+	
+	def3[]:"<color value=FFE1A900>"
 }
 
 license_plate_data : .lp.police
@@ -96,8 +99,8 @@ license_plate_data : .lp.police
 	background_front: "police_front"
 	background_rear: "police_rear"
 
-	templates[]:"12"
-	templates[]:"012"
+	templates[]:"312"
+	templates[]:"3012"
 
 	def0[]:"1"
 
@@ -121,6 +124,8 @@ license_plate_data : .lp.police
 	def2[]:"7"
 	def2[]:"8"
 	def2[]:"9"
+	
+	def3[]:"<offset hshift=200><color value=FFE1A900>"
 }
 
 }

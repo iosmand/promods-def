@@ -22,15 +22,15 @@ city_data: city.belda
 	map_y_offsets[]: -18
 	map_y_offsets[]: -15
 
-	### SERVICE CITY ###
+	### VILLAGE ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 0.7  // close zoom for minimap
-	city_pin_scale_factor[]: 0.7  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
-	city_pin_scale_factor[]: 0.8  // middle zoom for world map
-	city_pin_scale_factor[]: 0.6  // whole world map zoom
+	city_pin_scale_factor[]: 0.6  // middle zoom for world map
+	city_pin_scale_factor[]: 0.4  // whole world map zoom
 
 	license_plate[]: .belda.lp.car
 	license_plate[]: .belda.lp.truck
@@ -50,6 +50,7 @@ license_plate_data : .belda.lp.car
 	templates[]:"BGR52444"   # VII
 	templates[]:"BGR52444"   # VII
 
+	# "BGR" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for tractors
 #	def0[]:"E"
@@ -71,6 +72,7 @@ license_plate_data : .belda.lp.car
 #	def0[]:"V"  # most before EU stars
 	def0[]:"W"
 
+	# "BGR" III
 	def1[]:"A"
 	def1[]:"C"
 	def1[]:"E"
@@ -92,6 +94,7 @@ license_plate_data : .belda.lp.car
 #	def1[]:"X"
 #	def1[]:"Y"
 
+	# "BGR" VII
 	def2[]:"00"
 	def2[]:"01"
 	def2[]:"02"
@@ -116,11 +119,11 @@ license_plate_data : .belda.lp.car
 	def2[]:"21"
 	def2[]:"22"
 	def2[]:"23"
-	def2[]:"24"  # "BGR" VII latest issued (March 2021)
-#	def2[]:"25"
-#	def2[]:"26"
-#	def2[]:"27"
-#	def2[]:"28"
+	def2[]:"24"
+	def2[]:"25"
+	def2[]:"26"
+	def2[]:"27"
+	def2[]:"28"  # "BGR" VII latest issued (October 2022)
 #	def2[]:"29"
 #	def2[]:"30"
 #	def2[]:"31"
@@ -171,11 +174,14 @@ license_plate_data : .belda.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"BGR50444"   # I    most before EU stars
 #	templates[]:"BGR53144"   # III
 	templates[]:"BGR52444"   # VII
 
+	# "BGR" I
 #	def0[]:"A"
 ##	def0[]:"C"  # Used for tractors
 #	def0[]:"E"
@@ -197,6 +203,7 @@ license_plate_data : .belda.lp.truck
 #	def0[]:"V"  # most before EU stars
 #	def0[]:"W"
 
+	# "BGR" III
 #	def1[]:"A"
 #	def1[]:"C"
 #	def1[]:"E"
@@ -218,6 +225,7 @@ license_plate_data : .belda.lp.truck
 ##	def1[]:"X"
 ##	def1[]:"Y"
 
+	# "BGR" VII
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
@@ -240,14 +248,34 @@ license_plate_data : .belda.lp.truck
 #	def2[]:"19"
 #	def2[]:"20"
 #	def2[]:"21"
-	def2[]:"22"
-	def2[]:"23"
-	def2[]:"24"  # "BGR" VII latest issued (March 2021)
+#	def2[]:"22"
+#	def2[]:"23"
+#	def2[]:"24"
 #	def2[]:"25"
-#	def2[]:"26"
-#	def2[]:"27"
-#	def2[]:"28"
+	def2[]:"26"
+	def2[]:"27"
+	def2[]:"28"  # "BGR" VII latest issued (October 2022)
 #	def2[]:"29"
+#	def2[]:"30"
+#	def2[]:"31"
+#	def2[]:"32"
+#	def2[]:"33"
+#	def2[]:"34"
+#	def2[]:"35"
+#	def2[]:"36"
+#	def2[]:"37"
+#	def2[]:"38"
+#	def2[]:"39"
+#	def2[]:"40"
+#	def2[]:"41"
+#	def2[]:"42"
+#	def2[]:"43"
+#	def2[]:"44"
+#	def2[]:"45"
+#	def2[]:"46"
+#	def2[]:"47"
+#	def2[]:"48"
+#	def2[]:"49"
 
 #	def3[]:"1"
 #	def3[]:"2"
@@ -277,11 +305,14 @@ license_plate_data : .belda.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"BGR5044"    # I    most before EU stars
 #	templates[]:"BGR5144"    # III
 	templates[]:"BGR5244S"   # VIII
 
+	# "BGR" I
 #	def0[]:"P0"
 #	def0[]:"P1"
 #	def0[]:"P2"
@@ -303,6 +334,7 @@ license_plate_data : .belda.lp.trailer
 #	def0[]:"S8"  # before EU stars
 #	def0[]:"S9"
 
+	# "BGR" III
 #	def1[]:"1P"
 ##	def1[]:"2P"  # Used for double-row plates
 #	def1[]:"3P"
@@ -324,6 +356,7 @@ license_plate_data : .belda.lp.trailer
 #	def1[]:"1V"
 #	def1[]:"2V"
 
+	# "BGR" VIII ....S
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
@@ -332,20 +365,20 @@ license_plate_data : .belda.lp.trailer
 #	def2[]:"05"
 #	def2[]:"06"
 ##	def2[]:"07"  # Used for double-row plates
-	def2[]:"08"
-	def2[]:"09"
-	def2[]:"10"
-	def2[]:"11"
+#	def2[]:"08"
+#	def2[]:"09"
+#	def2[]:"10"
+#	def2[]:"11"
 	def2[]:"12"
 	def2[]:"13"
 	def2[]:"14"
 	def2[]:"15"
 	def2[]:"16"
-	def2[]:"17"  # "BGR" VIII latest issued (April 2021)
-#	def2[]:"18"
-#	def2[]:"19"
-#	def2[]:"20"
-#	def2[]:"21"
+	def2[]:"17"
+	def2[]:"18"
+	def2[]:"19"
+	def2[]:"20"
+	def2[]:"21"  # "BGR" VIII ....S latest issued (October 2022)
 #	def2[]:"22"
 #	def2[]:"23"
 #	def2[]:"24"
@@ -392,6 +425,8 @@ license_plate_data : .belda.lp.trailer
 license_plate_data : .belda.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# M = Podlaskie Provincial Headquarters
 	templates[]:"HPM51222"

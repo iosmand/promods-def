@@ -8,19 +8,19 @@ city_data : city.palermo
 	map_x_offsets[]: 0
 	map_x_offsets[]: -20
 	map_x_offsets[]: -20
+	map_x_offsets[]: -200
 	map_x_offsets[]: -31
-	map_x_offsets[]: -31
-	map_x_offsets[]: -28
-	map_x_offsets[]: -30
+	map_x_offsets[]: -37
+	map_x_offsets[]: -37
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -15
-	map_y_offsets[]: -6
-	map_y_offsets[]: -1
-	map_y_offsets[]: -21
-	map_y_offsets[]: -29
+	map_y_offsets[]: 20
+	map_y_offsets[]: -10
+	map_y_offsets[]: -10
+	map_y_offsets[]: -26
 
 	vehicle_brands[]: "renault"
 
@@ -245,9 +245,9 @@ license_plate_data : .palermo.lp.trailer
 	type: trailer
 
 	templates[]:"0XA 12"
-	
+
 	def0[]:"<align left=-15>"
-	
+
 @include "it_lp_pa_trailer.sui"
 
 	def2[]:"</align>"
@@ -264,7 +264,7 @@ license_plate_data : .palermo.lp.police
 	templates[]:"0YA  12"
 
 	def0[]:"<offset vshift=-7><color value=FF9E0000><align left=-15><font xscale=0.5 yscale=0.4>POLIZA  LOCALE</font></align><ret><offset vshift=4><color value=FF000000><align left=-15><font xscale=0.8 yscale=0.9>"
-	
+
 @include "it_lp_pa_police.sui"
 
 	def2[]:"</font></align>"

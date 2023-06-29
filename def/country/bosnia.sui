@@ -10,7 +10,7 @@ country_data : country.data.bosnia
 
 	pos: (29000, 0, 37000)
 
-	fuel_price: 1.7
+	fuel_price: 1.271
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -23,6 +23,47 @@ country_data : country.data.bosnia
 	mass_limit_per_axle_count[]: 38000
 	mass_limit_per_axle_count[]: 40000
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

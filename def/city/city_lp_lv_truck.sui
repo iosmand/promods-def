@@ -27,23 +27,6 @@
 	def1[]:"9"
 
 	# Latest issued 3 & 4 numeral series for trucks
-	def4[]:"MA"
-	def4[]:"MB"
-	def4[]:"MC"
-	def4[]:"MD"
-	def4[]:"ME"
-	def4[]:"MF"
-	def4[]:"MG"
-	def4[]:"MH"
-	def4[]:"MI"
-	def4[]:"MJ"
-	def4[]:"MK"
-	def4[]:"ML"
-	def4[]:"MM"
-	def4[]:"MN"
-	def4[]:"MO"
-	def4[]:"MP"
-	def4[]:"MR"
 	def4[]:"MS"
 	def4[]:"MT"
 	def4[]:"MU"  # February 2021
@@ -56,9 +39,9 @@
 	def4[]:"NE"
 	def4[]:"NF"  # April 2022
 	def4[]:"NG"  # May 2022
-	def4[]:"NH"  # Latest issued (23.06.2022)
-#	def4[]:"NI"
-#	def4[]:"NJ"
+	def4[]:"NH"  # June 2022
+	def4[]:"NI"  # August 2022
+	def4[]:"NJ"  # Latest issued (October 2022)
 #	def4[]:"NK"
 #	def4[]:"NL"
 #	def4[]:"NM"

@@ -8,7 +8,7 @@ city_data: city.manchester
 	map_x_offsets[]: 0
 	map_x_offsets[]: -90
 	map_x_offsets[]: -10
-	map_x_offsets[]: -34
+	map_x_offsets[]: -45
 	map_x_offsets[]: -35
 	map_x_offsets[]: -46
 	map_x_offsets[]: -11
@@ -17,10 +17,10 @@ city_data: city.manchester
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 3
-	map_y_offsets[]: -85
-	map_y_offsets[]: -40
-	map_y_offsets[]: -22
-	map_y_offsets[]: -27
+	map_y_offsets[]: -180
+	map_y_offsets[]: -48
+	map_y_offsets[]: -15
+	map_y_offsets[]: -23
 
 	vehicle_brands[]:"scania"
 

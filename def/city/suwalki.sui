@@ -8,19 +8,29 @@ city_data: city.suwalki
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -170
+	map_x_offsets[]: -60
+	map_x_offsets[]: -40
+	map_x_offsets[]: -27
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
+	map_y_offsets[]: -130
+	map_y_offsets[]: -40
 	map_y_offsets[]: -15
+	map_y_offsets[]: -19
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
 
 	license_plate[]: .suwalki.lp.car
 	license_plate[]: .suwalki.lp.truck
@@ -34,16 +44,18 @@ license_plate_data : .suwalki.lp.car
 
 	# Two letter powiat codes
 	templates[]:"BS50444"    # I    some before EU stars
-	templates[]:"BS5144A"    # II
-	templates[]:"BS5144A"    # II
-	templates[]:"BS5144A"    # II
-	templates[]:"BS5144A"    # II
+	templates[]:"BS54444A"   # II
+	templates[]:"BS5144C"    # II
+	templates[]:"BS5144C"    # II
+	templates[]:"BS5144C"    # II
+	templates[]:"BS5144C"    # II
 
 	# Three letter powiat codes
 #	templates[]:"BSU52444"   # I    before EU stars
 	templates[]:"BSU5442"    # II   some before EU stars
 	templates[]:"BSU53444"   # VII
 
+	# "BS" I
 #	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
@@ -130,7 +142,7 @@ license_plate_data : .suwalki.lp.car
 #	def0[]:"83"  # Used for trailers
 #	def0[]:"84"  # Used for trailers
 #	def0[]:"85"  # Used for trailers
-#	def0[]:"86"  # Not issued
+#	def0[]:"86"  # Used for trailers
 #	def0[]:"87"  # Not issued
 #	def0[]:"88"  # Not issued
 #	def0[]:"89"  # Not issued
@@ -143,8 +155,9 @@ license_plate_data : .suwalki.lp.car
 #	def0[]:"96"  # Not issued
 #	def0[]:"97"  # Not issued
 #	def0[]:"98"  # Not issued
-#	def0[]:"99"  # Used for double-row plates
+#	def0[]:"99"  # Used for trailer double-row plates
 
+	# "BS" II ....C
 	def1[]:"00"
 	def1[]:"01"
 	def1[]:"02"
@@ -167,44 +180,44 @@ license_plate_data : .suwalki.lp.car
 	def1[]:"19"
 	def1[]:"20"
 	def1[]:"21"
-	def1[]:"22"
-	def1[]:"23"
-	def1[]:"24"
-	def1[]:"25"
-	def1[]:"26"
-	def1[]:"27"
-	def1[]:"28"
-	def1[]:"29"
-	def1[]:"30"
-	def1[]:"31"
-	def1[]:"32"
-	def1[]:"33"
-	def1[]:"34"
-	def1[]:"35"
-	def1[]:"36"
-	def1[]:"37"
-	def1[]:"38"
-	def1[]:"39"
-	def1[]:"40"
-	def1[]:"41"
-	def1[]:"42"
-	def1[]:"43"
-	def1[]:"44"
-	def1[]:"45"
-	def1[]:"46"
-	def1[]:"47"
-	def1[]:"48"
-	def1[]:"49"
-	def1[]:"50"
-	def1[]:"51"
-	def1[]:"52"
-	def1[]:"53"
-	def1[]:"54"
-	def1[]:"55"
-	def1[]:"56"
-	def1[]:"57"
-	def1[]:"58"
-	def1[]:"59"  # "BS" II latest issued (April 2021)
+	def1[]:"22"  # "BS" II ....C latest issued (October 2022)
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
+#	def1[]:"30"
+#	def1[]:"31"
+#	def1[]:"32"
+#	def1[]:"33"
+#	def1[]:"34"
+#	def1[]:"35"
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"50"
+#	def1[]:"51"
+#	def1[]:"52"
+#	def1[]:"53"
+#	def1[]:"54"
+#	def1[]:"55"
+#	def1[]:"56"
+#	def1[]:"57"
+#	def1[]:"58"
+#	def1[]:"59"
 #	def1[]:"60"
 #	def1[]:"61"
 #	def1[]:"62"
@@ -246,6 +259,7 @@ license_plate_data : .suwalki.lp.car
 #	def1[]:"98"
 #	def1[]:"99"
 
+	# "BSU" II
 #	def2[]:"AA"
 #	def2[]:"AC"
 #	def2[]:"AE"
@@ -265,7 +279,7 @@ license_plate_data : .suwalki.lp.car
 	def2[]:"AV"
 	def2[]:"AW"
 	def2[]:"AX"
-#	def2[]:"AY"  # "BSU" II partially used for double-row plates
+#	def2[]:"AY"  # Partially used for double-row plates
 	def2[]:"CA"
 	def2[]:"CC"
 	def2[]:"CE"
@@ -293,7 +307,7 @@ license_plate_data : .suwalki.lp.car
 	def2[]:"EG"
 	def2[]:"EH"
 	def2[]:"EJ"
-#	def2[]:"EK"  # "BSU" II partially used for double-row plates
+#	def2[]:"EK"  # Partially used for double-row plates
 	def2[]:"EL"
 	def2[]:"EM"
 	def2[]:"EN"
@@ -447,6 +461,7 @@ license_plate_data : .suwalki.lp.car
 	def2[]:"SX"
 	def2[]:"SY"
 
+	# "BSU" VII
 	def3[]:"00"
 	def3[]:"01"
 	def3[]:"02"
@@ -465,10 +480,10 @@ license_plate_data : .suwalki.lp.car
 	def3[]:"15"
 	def3[]:"16"
 	def3[]:"17"
-	def3[]:"18"  # "BSU" VII latest issued (April 2021)
-#	def3[]:"19"
-#	def3[]:"20"
-#	def3[]:"21"
+	def3[]:"18"
+	def3[]:"19"
+	def3[]:"20"
+	def3[]:"21"  # "BSU" VII latest issued (October 2022)
 #	def3[]:"22"
 #	def3[]:"23"
 #	def3[]:"24"
@@ -566,10 +581,14 @@ license_plate_data : .suwalki.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"BS50444"    # I    some before EU stars
 	templates[]:"BS5144A"    # II
+	templates[]:"BS5244C"    # II
 
+	# "BS" I
 #	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
@@ -669,8 +688,9 @@ license_plate_data : .suwalki.lp.truck
 ##	def0[]:"96"  # Not issued
 ##	def0[]:"97"  # Not issued
 ##	def0[]:"98"  # Not issued
-##	def0[]:"99"  # Used for double-row plates
+##	def0[]:"99"  # Used for trailer double-row plates
 
+	# "BS" II ....A
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
@@ -701,36 +721,36 @@ license_plate_data : .suwalki.lp.truck
 #	def1[]:"27"
 #	def1[]:"28"
 #	def1[]:"29"
-	def1[]:"30"
-	def1[]:"31"
-	def1[]:"32"
-	def1[]:"33"
-	def1[]:"34"
-	def1[]:"35"
-	def1[]:"36"
-	def1[]:"37"
-	def1[]:"38"
-	def1[]:"39"
-	def1[]:"40"
-	def1[]:"41"
-	def1[]:"42"
-	def1[]:"43"
-	def1[]:"44"
-	def1[]:"45"
-	def1[]:"46"
-	def1[]:"47"
-	def1[]:"48"
-	def1[]:"49"
-	def1[]:"50"
-	def1[]:"51"
-	def1[]:"52"
-	def1[]:"53"
-	def1[]:"54"
-	def1[]:"55"
-	def1[]:"56"
-	def1[]:"57"
-	def1[]:"58"
-	def1[]:"59"  # "BS" II latest issued (April 2021)
+#	def1[]:"30"
+#	def1[]:"31"
+#	def1[]:"32"
+#	def1[]:"33"
+#	def1[]:"34"
+#	def1[]:"35"
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"50"
+#	def1[]:"51"
+#	def1[]:"52"
+#	def1[]:"53"
+#	def1[]:"54"
+#	def1[]:"55"
+#	def1[]:"56"
+#	def1[]:"57"
+#	def1[]:"58"
+#	def1[]:"59"
 #	def1[]:"60"
 #	def1[]:"61"
 #	def1[]:"62"
@@ -764,13 +784,115 @@ license_plate_data : .suwalki.lp.truck
 #	def1[]:"90"
 #	def1[]:"91"
 #	def1[]:"92"
-#	def1[]:"93"
-#	def1[]:"94"
-#	def1[]:"95"
-#	def1[]:"96"
-#	def1[]:"97"
-#	def1[]:"98"
-#	def1[]:"99"
+	def1[]:"93"
+	def1[]:"94"
+	def1[]:"95"
+	def1[]:"96"
+	def1[]:"97"
+	def1[]:"98"
+	def1[]:"99"
+
+	# "BS" II ....C
+	def2[]:"00"
+	def2[]:"01"
+	def2[]:"02"
+	def2[]:"03"
+	def2[]:"04"
+	def2[]:"05"
+	def2[]:"06"
+	def2[]:"07"
+	def2[]:"08"
+	def2[]:"09"
+	def2[]:"10"
+	def2[]:"11"
+	def2[]:"12"
+	def2[]:"13"
+	def2[]:"14"
+	def2[]:"15"
+	def2[]:"16"
+	def2[]:"17"
+	def2[]:"18"
+	def2[]:"19"
+	def2[]:"20"
+	def2[]:"21"
+	def2[]:"22"  # "BS" II ....C latest issued (October 2022)
+#	def2[]:"23"
+#	def2[]:"24"
+#	def2[]:"25"
+#	def2[]:"26"
+#	def2[]:"27"
+#	def2[]:"28"
+#	def2[]:"29"
+#	def2[]:"30"
+#	def2[]:"31"
+#	def2[]:"32"
+#	def2[]:"33"
+#	def2[]:"34"
+#	def2[]:"35"
+#	def2[]:"36"
+#	def2[]:"37"
+#	def2[]:"38"
+#	def2[]:"39"
+#	def2[]:"40"
+#	def2[]:"41"
+#	def2[]:"42"
+#	def2[]:"43"
+#	def2[]:"44"
+#	def2[]:"45"
+#	def2[]:"46"
+#	def2[]:"47"
+#	def2[]:"48"
+#	def2[]:"49"
+#	def2[]:"50"
+#	def2[]:"51"
+#	def2[]:"52"
+#	def2[]:"53"
+#	def2[]:"54"
+#	def2[]:"55"
+#	def2[]:"56"
+#	def2[]:"57"
+#	def2[]:"58"
+#	def2[]:"59"
+#	def2[]:"60"
+#	def2[]:"61"
+#	def2[]:"62"
+#	def2[]:"63"
+#	def2[]:"64"
+#	def2[]:"65"
+#	def2[]:"66"
+#	def2[]:"67"
+#	def2[]:"68"
+#	def2[]:"69"
+#	def2[]:"70"
+#	def2[]:"71"
+#	def2[]:"72"
+#	def2[]:"73"
+#	def2[]:"74"
+#	def2[]:"75"
+#	def2[]:"76"
+#	def2[]:"77"
+#	def2[]:"78"
+#	def2[]:"79"
+#	def2[]:"80"
+#	def2[]:"81"
+#	def2[]:"82"
+#	def2[]:"83"
+#	def2[]:"84"
+#	def2[]:"85"
+#	def2[]:"86"
+#	def2[]:"87"
+#	def2[]:"88"
+#	def2[]:"89"
+#	def2[]:"90"
+#	def2[]:"91"
+#	def2[]:"92"
+#	def2[]:"93"
+#	def2[]:"94"
+#	def2[]:"95"
+#	def2[]:"96"
+#	def2[]:"97"
+#	def2[]:"98"
+#	def2[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -790,9 +912,12 @@ license_plate_data : .suwalki.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 	templates[]:"BS5044"     # I    some before EU stars
 
+	# "BS" I
 #	def0[]:"800"
 #	def0[]:"801"
 #	def0[]:"802"
@@ -839,20 +964,30 @@ license_plate_data : .suwalki.lp.trailer
 #	def0[]:"843"
 #	def0[]:"844"
 #	def0[]:"845"
-	def0[]:"846"
-	def0[]:"847"
-	def0[]:"848"
-	def0[]:"849"
-	def0[]:"850"
-	def0[]:"851"
-	def0[]:"852"
+#	def0[]:"846"
+#	def0[]:"847"
+#	def0[]:"848"
+#	def0[]:"849"
+#	def0[]:"850"
+#	def0[]:"851"
+#	def0[]:"852"
 	def0[]:"853"
 	def0[]:"854"
-	def0[]:"855"  # "BS" I latest issued (April 2021)
-#	def0[]:"856"
-#	def0[]:"857"
-#	def0[]:"858"
-#	def0[]:"859"
+	def0[]:"855"
+	def0[]:"856"
+	def0[]:"857"
+	def0[]:"858"
+	def0[]:"859"
+	def0[]:"860"
+	def0[]:"861"
+	def0[]:"862"  # "BS" I latest issued (October 2022)
+#	def0[]:"863"
+#	def0[]:"864"
+#	def0[]:"865"
+#	def0[]:"866"
+#	def0[]:"867"
+#	def0[]:"868"
+#	def0[]:"869"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -871,6 +1006,8 @@ license_plate_data : .suwalki.lp.trailer
 license_plate_data : .suwalki.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# M = Podlaskie Provincial Headquarters
 	templates[]:"HPM51222"

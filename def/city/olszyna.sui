@@ -22,6 +22,16 @@ city_data: city.olszyna
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
+
 	license_plate[]: .olszyna.lp.car
 	license_plate[]: .olszyna.lp.truck
 	license_plate[]: .olszyna.lp.trailer
@@ -40,6 +50,7 @@ license_plate_data : .olszyna.lp.car
 	templates[]:"DLB5244"    # VI
 	templates[]:"DLB5244"    # VI
 
+	# "DLB" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -61,6 +72,7 @@ license_plate_data : .olszyna.lp.car
 ##	def0[]:"X"  # Used for motorcycles, tractors, and mopeds
 ##	def0[]:"Y"  # Used for trailers
 
+	# "DLB" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -462,6 +474,7 @@ license_plate_data : .olszyna.lp.car
 #	def1[]:"YX"  # Used for mopeds
 #	def1[]:"YY"  # Used for motorcycles and tractors
 
+	# "DLB" VI
 	def2[]:"AA"
 	def2[]:"AC"
 	def2[]:"AE"
@@ -675,12 +688,12 @@ license_plate_data : .olszyna.lp.car
 #	def2[]:"NN"
 	def2[]:"NP"
 	def2[]:"NR"
-#	def2[]:"NS"
+#	def2[]:"NS"  # Used for mopeds
 	def2[]:"NT"
 	def2[]:"NU"
 	def2[]:"NV"
 	def2[]:"NW"
-#	def2[]:"NX"
+#	def2[]:"NX"  # Used for motorcycles and tractors
 #	def2[]:"NY"
 	def2[]:"PA"
 	def2[]:"PC"
@@ -693,7 +706,7 @@ license_plate_data : .olszyna.lp.car
 	def2[]:"PL"
 	def2[]:"PM"
 	def2[]:"PN"
-#	def2[]:"PP"
+#	def2[]:"PP"  # Used for motorcycles and tractors
 	def2[]:"PR"
 	def2[]:"PS"
 	def2[]:"PT"
@@ -702,7 +715,7 @@ license_plate_data : .olszyna.lp.car
 	def2[]:"PW"
 	def2[]:"PX"
 	def2[]:"PY"
-#	def2[]:"RA"
+#	def2[]:"RA"  # Used for motorcycles and tractors
 	def2[]:"RC"
 #	def2[]:"RE"  # Used for trailers
 	def2[]:"RF"
@@ -719,69 +732,69 @@ license_plate_data : .olszyna.lp.car
 #	def2[]:"RT"
 #	def2[]:"RU"  # Used for trailers
 	def2[]:"RV"
-	def2[]:"RW"  # "DLB" VI latest issued (April 2021)
-#	def2[]:"RX"
-#	def2[]:"RY"
-#	def2[]:"SA"
-#	def2[]:"SC"
-#	def2[]:"SE"
-#	def2[]:"SF"
-#	def2[]:"SG"
-#	def2[]:"SH"
-#	def2[]:"SJ"
-#	def2[]:"SK"
-#	def2[]:"SL"
-#	def2[]:"SM"
-#	def2[]:"SN"
-#	def2[]:"SP"
-#	def2[]:"SR"
-#	def2[]:"SS"
-#	def2[]:"ST"
-#	def2[]:"SU"
-#	def2[]:"SV"
-#	def2[]:"SW"
-#	def2[]:"SX"
-#	def2[]:"SY"
-#	def2[]:"TA"
-#	def2[]:"TC"
-#	def2[]:"TE"
-#	def2[]:"TF"
-#	def2[]:"TG"
-#	def2[]:"TH"
-#	def2[]:"TJ"
-#	def2[]:"TK"
-#	def2[]:"TL"
-#	def2[]:"TM"
-#	def2[]:"TN"
-#	def2[]:"TP"
-#	def2[]:"TR"
-#	def2[]:"TS"
-#	def2[]:"TT"
+	def2[]:"RW"
+	def2[]:"RX"
+	def2[]:"RY"
+	def2[]:"SA"
+	def2[]:"SC"
+	def2[]:"SE"
+	def2[]:"SF"
+	def2[]:"SG"
+	def2[]:"SH"
+	def2[]:"SJ"
+#	def2[]:"SK"  # Used for motorcycles and tractors
+	def2[]:"SL"
+	def2[]:"SM"
+#	def2[]:"SN"  # Used for trailers
+	def2[]:"SP"
+	def2[]:"SR"
+	def2[]:"SS"
+	def2[]:"ST"
+	def2[]:"SU"
+	def2[]:"SV"
+	def2[]:"SW"
+	def2[]:"SX"
+	def2[]:"SY"
+#	def2[]:"TA"  # Used for trailers
+	def2[]:"TC"
+	def2[]:"TE"
+	def2[]:"TF"
+	def2[]:"TG"
+	def2[]:"TH"
+	def2[]:"TJ"
+	def2[]:"TK"
+	def2[]:"TL"
+	def2[]:"TM"
+#	def2[]:"TN"  # Used for mopeds
+	def2[]:"TP"
+	def2[]:"TR"
+#	def2[]:"TS"  # Used for motorcycles and tractors
+	def2[]:"TT"
 #	def2[]:"TU"
 #	def2[]:"TV"
-#	def2[]:"TW"
-#	def2[]:"TX"
-#	def2[]:"TY"
-#	def2[]:"UA"
-#	def2[]:"UC"
-#	def2[]:"UE"
-#	def2[]:"UF"
-#	def2[]:"UG"
-#	def2[]:"UH"
-#	def2[]:"UJ"
-#	def2[]:"UK"
+	def2[]:"TW"
+	def2[]:"TX"
+	def2[]:"TY"
+	def2[]:"UA"
+#	def2[]:"UC"  # Used for trailers
+	def2[]:"UE"
+	def2[]:"UF"
+	def2[]:"UG"
+	def2[]:"UH"
+	def2[]:"UJ"
+	def2[]:"UK"
 #	def2[]:"UL"
-#	def2[]:"UM"
-#	def2[]:"UN"
-#	def2[]:"UP"
-#	def2[]:"UR"
-#	def2[]:"US"
-#	def2[]:"UT"
-#	def2[]:"UU"
-#	def2[]:"UV"
-#	def2[]:"UW"
-#	def2[]:"UX"
-#	def2[]:"UY"
+	def2[]:"UM"
+	def2[]:"UN"
+	def2[]:"UP"
+	def2[]:"UR"
+	def2[]:"US"
+	def2[]:"UT"
+	def2[]:"UU"
+	def2[]:"UV"
+	def2[]:"UW"
+	def2[]:"UX"
+	def2[]:"UY"  # "DLB" VI latest issued (June 2022)
 #	def2[]:"VA"
 #	def2[]:"VC"
 #	def2[]:"VE"
@@ -881,11 +894,14 @@ license_plate_data : .olszyna.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"DLB50444"   # I    before EU stars
 #	templates[]:"DLB5441"    # II   some before EU stars
 	templates[]:"DLB5244"    # VI
 
+	# "DLB" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -907,6 +923,7 @@ license_plate_data : .olszyna.lp.truck
 ##	def0[]:"X"  # Used for motorcycles, tractors, and mopeds
 ##	def0[]:"Y"  # Used for trailers
 
+	# "DLB" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -1308,6 +1325,7 @@ license_plate_data : .olszyna.lp.truck
 ##	def1[]:"YX"  # Used for mopeds
 ##	def1[]:"YY"  # Used for motorcycles and tractors
 
+	# "DLB" VI
 #	def2[]:"AA"
 #	def2[]:"AC"
 #	def2[]:"AE"
@@ -1521,51 +1539,51 @@ license_plate_data : .olszyna.lp.truck
 ##	def2[]:"NN"
 #	def2[]:"NP"
 #	def2[]:"NR"
-##	def2[]:"NS"
+##	def2[]:"NS"  # Used for mopeds
 #	def2[]:"NT"
 #	def2[]:"NU"
 #	def2[]:"NV"
 #	def2[]:"NW"
-##	def2[]:"NX"
+##	def2[]:"NX"  # Used for motorcycles and tractors
 ##	def2[]:"NY"
 #	def2[]:"PA"
 #	def2[]:"PC"
-	def2[]:"PE"
-	def2[]:"PF"
-	def2[]:"PG"
-	def2[]:"PH"
-#	def2[]:"PJ"  # Used for trailers
-	def2[]:"PK"
-	def2[]:"PL"
-	def2[]:"PM"
-	def2[]:"PN"
-#	def2[]:"PP"
-	def2[]:"PR"
-	def2[]:"PS"
-	def2[]:"PT"
-	def2[]:"PU"
-	def2[]:"PV"
-	def2[]:"PW"
-	def2[]:"PX"
-	def2[]:"PY"
-#	def2[]:"RA"
-	def2[]:"RC"
-#	def2[]:"RE"  # Used for trailers
-	def2[]:"RF"
-	def2[]:"RG"
-	def2[]:"RH"
-	def2[]:"RJ"
-	def2[]:"RK"
-	def2[]:"RL"
-	def2[]:"RM"
-	def2[]:"RN"
-	def2[]:"RP"
-	def2[]:"RR"
-	def2[]:"RS"
-#	def2[]:"RT"
-#	def2[]:"RU"  # Used for trailers
-	def2[]:"RV"
-	def2[]:"RW"  # "DLB" VI latest issued (April 2021)
+#	def2[]:"PE"
+#	def2[]:"PF"
+#	def2[]:"PG"
+#	def2[]:"PH"
+##	def2[]:"PJ"  # Used for trailers
+#	def2[]:"PK"
+#	def2[]:"PL"
+#	def2[]:"PM"
+#	def2[]:"PN"
+##	def2[]:"PP"  # Used for motorcycles and tractors
+#	def2[]:"PR"
+#	def2[]:"PS"
+#	def2[]:"PT"
+#	def2[]:"PU"
+#	def2[]:"PV"
+#	def2[]:"PW"
+#	def2[]:"PX"
+#	def2[]:"PY"
+##	def2[]:"RA"  # Used for motorcycles and tractors
+#	def2[]:"RC"
+##	def2[]:"RE"  # Used for trailers
+#	def2[]:"RF"
+#	def2[]:"RG"
+#	def2[]:"RH"
+#	def2[]:"RJ"
+#	def2[]:"RK"
+#	def2[]:"RL"
+#	def2[]:"RM"
+#	def2[]:"RN"
+#	def2[]:"RP"
+#	def2[]:"RR"
+#	def2[]:"RS"
+##	def2[]:"RT"
+##	def2[]:"RU"  # Used for trailers
+#	def2[]:"RV"
+#	def2[]:"RW"
 #	def2[]:"RX"
 #	def2[]:"RY"
 #	def2[]:"SA"
@@ -1575,10 +1593,10 @@ license_plate_data : .olszyna.lp.truck
 #	def2[]:"SG"
 #	def2[]:"SH"
 #	def2[]:"SJ"
-#	def2[]:"SK"
+##	def2[]:"SK"  # Used for motorcycles and tractors
 #	def2[]:"SL"
 #	def2[]:"SM"
-#	def2[]:"SN"
+##	def2[]:"SN"  # Used for trailers
 #	def2[]:"SP"
 #	def2[]:"SR"
 #	def2[]:"SS"
@@ -1588,46 +1606,46 @@ license_plate_data : .olszyna.lp.truck
 #	def2[]:"SW"
 #	def2[]:"SX"
 #	def2[]:"SY"
-#	def2[]:"TA"
-#	def2[]:"TC"
-#	def2[]:"TE"
-#	def2[]:"TF"
-#	def2[]:"TG"
-#	def2[]:"TH"
-#	def2[]:"TJ"
-#	def2[]:"TK"
-#	def2[]:"TL"
-#	def2[]:"TM"
-#	def2[]:"TN"
-#	def2[]:"TP"
-#	def2[]:"TR"
-#	def2[]:"TS"
-#	def2[]:"TT"
+##	def2[]:"TA"  # Used for trailers
+	def2[]:"TC"
+	def2[]:"TE"
+	def2[]:"TF"
+	def2[]:"TG"
+	def2[]:"TH"
+	def2[]:"TJ"
+	def2[]:"TK"
+	def2[]:"TL"
+	def2[]:"TM"
+#	def2[]:"TN"  # Used for mopeds
+	def2[]:"TP"
+	def2[]:"TR"
+#	def2[]:"TS"  # Used for motorcycles and tractors
+	def2[]:"TT"
 #	def2[]:"TU"
 #	def2[]:"TV"
-#	def2[]:"TW"
-#	def2[]:"TX"
-#	def2[]:"TY"
-#	def2[]:"UA"
-#	def2[]:"UC"
-#	def2[]:"UE"
-#	def2[]:"UF"
-#	def2[]:"UG"
-#	def2[]:"UH"
-#	def2[]:"UJ"
-#	def2[]:"UK"
+	def2[]:"TW"
+	def2[]:"TX"
+	def2[]:"TY"
+	def2[]:"UA"
+#	def2[]:"UC"  # Used for trailers
+	def2[]:"UE"
+	def2[]:"UF"
+	def2[]:"UG"
+	def2[]:"UH"
+	def2[]:"UJ"
+	def2[]:"UK"
 #	def2[]:"UL"
-#	def2[]:"UM"
-#	def2[]:"UN"
-#	def2[]:"UP"
-#	def2[]:"UR"
-#	def2[]:"US"
-#	def2[]:"UT"
-#	def2[]:"UU"
-#	def2[]:"UV"
-#	def2[]:"UW"
-#	def2[]:"UX"
-#	def2[]:"UY"
+	def2[]:"UM"
+	def2[]:"UN"
+	def2[]:"UP"
+	def2[]:"UR"
+	def2[]:"US"
+	def2[]:"UT"
+	def2[]:"UU"
+	def2[]:"UV"
+	def2[]:"UW"
+	def2[]:"UX"
+	def2[]:"UY"  # "DLB" VI latest issued (June 2022)
 #	def2[]:"VA"
 #	def2[]:"VC"
 #	def2[]:"VE"
@@ -1727,11 +1745,14 @@ license_plate_data : .olszyna.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"DLB5Y04"    # I    before EU stars
 #	templates[]:"DLB5441"    # II
 	templates[]:"DLB5244"    # VI
 
+	# "DLB" I Y...
 #	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
@@ -1833,13 +1854,14 @@ license_plate_data : .olszyna.lp.trailer
 #	def0[]:"98"
 #	def0[]:"99"
 
-#	def1[]:"AY"  # Partially used for double-row plates
-#	def1[]:"ER"  # Partially used for double-row plates
+	# "DLB" II
+#	def1[]:"AY"  # Partially used for trailer double-row plates
+#	def1[]:"ER"  # Partially used for trailer double-row plates
 #	def1[]:"FK"
-##	def1[]:"FV"  # Partially used for cars
+##	def1[]:"FV"  # Half used for cars
 #	def1[]:"GG"
 #	def1[]:"HK"
-#	def1[]:"HL"  # Partially used for double-row plates
+#	def1[]:"HL"  # Partially used for trailer double-row plates
 #	def1[]:"JS"
 #	def1[]:"LA"
 #	def1[]:"LP"
@@ -1847,7 +1869,7 @@ license_plate_data : .olszyna.lp.trailer
 #	def1[]:"NV"
 #	def1[]:"PN"
 #	def1[]:"RN"
-##	def1[]:"SK"  # Partially used for motorcycles and tractors
+##	def1[]:"SK"  # Half used for motorcycles and tractors
 #	def1[]:"TU"
 #	def1[]:"UK"
 #	def1[]:"VA"
@@ -1856,18 +1878,22 @@ license_plate_data : .olszyna.lp.trailer
 #	def1[]:"YJ"
 #	def1[]:"YW"
 
+	# "DLB" VI
 #	def2[]:"CE"
 #	def2[]:"CX"
-	def2[]:"FS"
-	def2[]:"GU"
-	def2[]:"HV"
+#	def2[]:"FS"
+#	def2[]:"GU"
+#	def2[]:"HV"
 	def2[]:"KE"
 	def2[]:"LU"
 	def2[]:"MS"
 	def2[]:"NC"
 	def2[]:"PJ"
 	def2[]:"RE"
-	def2[]:"RU"  # "DLB" VI latest issued (April 2021)
+	def2[]:"RU"
+	def2[]:"SN"
+	def2[]:"TA"
+	def2[]:"UC"  # "DLB" VI latest issued (August 2022)
 
 	def4[]:"0"
 	def4[]:"1"
@@ -1886,6 +1912,8 @@ license_plate_data : .olszyna.lp.trailer
 license_plate_data : .olszyna.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# B = Lower Silesian (Dolnośląskie) Voivodeship Headquarters
 	templates[]:"HPB51222"

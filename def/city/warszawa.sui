@@ -9,19 +9,19 @@ city_data: city.warszawa
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -43
-	map_x_offsets[]: -45
-	map_x_offsets[]: -45
-	map_x_offsets[]: -44
+	map_x_offsets[]: 150
+	map_x_offsets[]: 10
+	map_x_offsets[]: -32
+	map_x_offsets[]: -38
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -53
-	map_y_offsets[]: -39
-	map_y_offsets[]: -27
-	map_y_offsets[]: -26
+	map_y_offsets[]: 10
+	map_y_offsets[]: -10
+	map_y_offsets[]: -15
+	map_y_offsets[]: -24
 
 	vehicle_brands[]:"mercedes"
 
@@ -41,6 +41,7 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WA54444C"   # II
 	templates[]:"WA54444E"   # II
 	templates[]:"WA54444F"   # II
+	templates[]:"WA54444G"   # II
 
 	# Bemowo
 #	templates[]:"WB544444"   # I    most before EU stars
@@ -63,6 +64,8 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WB54444T"   # II
 	templates[]:"WB54444U"   # II
 	templates[]:"WB54444V"   # II
+	templates[]:"WB54444W"   # II
+	templates[]:"WB54444X"   # II
 
 	# Bielany
 #	templates[]:"WD544444"   # I    most before EU stars
@@ -80,6 +83,8 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WD54444M"   # II
 	templates[]:"WD54444N"   # II
 	templates[]:"WD54444P"   # II
+	templates[]:"WD54444S"   # II
+	templates[]:"WD54444R"   # II
 
 	# Mokotów
 #	templates[]:"WE544444"   # I    before EU stars
@@ -126,9 +131,12 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WF54444T"   # II
 	templates[]:"WF54444U"   # II
 	templates[]:"WF54444V"   # II
+	templates[]:"WF54444W"   # II
+	templates[]:"WF54444X"   # II
 
 	# Praga Północ
 	templates[]:"WH544444"   # I    some before EU stars
+	templates[]:"WH54444A"   # II
 
 	# Śródmieście
 #	templates[]:"WI544444"   # I    before EU stars
@@ -139,6 +147,8 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WI5444H2"   # III
 	templates[]:"WI5444J2"   # III
 	templates[]:"WI5444K2"   # III
+	templates[]:"WI5444L2"   # III
+	templates[]:"WI5444M2"   # III
 
 	# Targówek
 #	templates[]:"WJ544444"   # I    half before EU stars
@@ -151,6 +161,8 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WJ54444G"   # II
 	templates[]:"WJ54444H"   # II
 	templates[]:"WJ54444J"   # II
+	templates[]:"WJ54444K"   # II
+	templates[]:"WJ54444L"   # II
 
 	# Ursus
 	templates[]:"WK51444"    # I    some before EU stars
@@ -170,14 +182,15 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WN54444L"   # II
 	templates[]:"WN54444M"   # II
 	templates[]:"WN54444N"   # II
-	templates[]:"WN50044P"   # II   limited issue
+	templates[]:"WN54444P"   # II
+	templates[]:"WN54444R"   # II
 
 	# Wawer
 	templates[]:"WT544444"   # I    some before EU stars
 	templates[]:"WT54444A"   # II
 	templates[]:"WT54444C"   # II
-	templates[]:"WT50444E"   # II
-	templates[]:"WT51444E"   # II   limited issue
+	templates[]:"WT54444E"   # II
+	templates[]:"WT54444F"   # II
 
 	# Ochota
 #	templates[]:"WU544444"   # I    some before EU stars
@@ -193,6 +206,8 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WU54444K"   # II
 	templates[]:"WU54444L"   # II
 	templates[]:"WU54444M"   # II
+	templates[]:"WU54444N"   # II
+	templates[]:"WU54444P"   # II
 
 	# Włochy
 #	templates[]:"WW54444K"   # II   before EU stars
@@ -209,6 +224,7 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WW5444X2"   # III
 	templates[]:"WW5444Y2"   # III
 	templates[]:"WW5444S2"   # III
+	templates[]:"WW5444T2"   # III
 
 	# Wilanów
 #	templates[]:"WW54444F"   # II   before EU stars
@@ -216,6 +232,7 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WW54444H"   # II
 	templates[]:"WW54444J"   # II
 	templates[]:"WW54444W"   # II
+	templates[]:"WW5444G2"   # III
 
 	# Rembertów
 #	templates[]:"WW54444A"   # II   most before EU stars
@@ -230,6 +247,7 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WX594444"   # I*   limited range selected
 	templates[]:"WX54444A"   # II
 	templates[]:"WX54444C"   # II
+	templates[]:"WX54444E"   # II
 
 	# Wesoła
 #	templates[]:"WX5444Y2"   # III  most before EU stars
@@ -242,6 +260,8 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WX5444XJ"   # III
 	templates[]:"WX5444XK"   # III
 	templates[]:"WX5444XL"   # III
+	templates[]:"WX5444XM"   # III
+	templates[]:"WX5444XN"   # III
 
 	# Wola
 #	templates[]:"WY544444"   # I    most before EU stars
@@ -258,7 +278,20 @@ license_plate_data : .warszawa.lp.car
 	templates[]:"WY54444L"   # II
 	templates[]:"WY54444M"   # II
 	templates[]:"WY54444N"   # II
+	templates[]:"WY5444CA"   # III
+	templates[]:"WY5444CC"   # III
+	templates[]:"WY5444CE"   # III
+	templates[]:"WY5444CF"   # III
+	templates[]:"WY5444CG"   # III
+	templates[]:"WY5444CH"   # III
+	templates[]:"WY5444CJ"   # III
+	templates[]:"WY5444CK"   # III
+	templates[]:"WY5444CL"   # III
+	templates[]:"WY5444CM"   # III
+	templates[]:"WY5444CN"   # III
+	templates[]:"WY5444CP"   # III
 
+	# "WE" IV
 	def0[]:"1A"
 	def0[]:"1C"
 	def0[]:"1E"
@@ -302,89 +335,89 @@ license_plate_data : .warszawa.lp.car
 	def0[]:"3A"
 	def0[]:"3C"
 	def0[]:"3E"
-	def0[]:"3F"  # "WE" IV latest issued (April 2021)
-#	def0[]:"3G"
-#	def0[]:"3H"
-#	def0[]:"3J"
-#	def0[]:"3K"
-#	def0[]:"3L"
-#	def0[]:"3M"
-#	def0[]:"3N"
-#	def0[]:"3P"
-#	def0[]:"3R"
-#	def0[]:"3S"
-#	def0[]:"3T"
-#	def0[]:"3U"
-#	def0[]:"3V"
-#	def0[]:"3W"
-#	def0[]:"3X"
-#	def0[]:"3Y"
-#	def0[]:"4A"
-#	def0[]:"4C"
-#	def0[]:"4E"
-#	def0[]:"4F"
-#	def0[]:"4G"
-#	def0[]:"4H"
-#	def0[]:"4J"
-#	def0[]:"4K"
-#	def0[]:"4L"
-#	def0[]:"4M"
-#	def0[]:"4N"
-#	def0[]:"4P"
-#	def0[]:"4R"
-#	def0[]:"4S"
-#	def0[]:"4T"
-#	def0[]:"4U"
-#	def0[]:"4V"
-#	def0[]:"4W"
-#	def0[]:"4X"
-#	def0[]:"4Y"
-#	def0[]:"5A"
-#	def0[]:"5C"
-#	def0[]:"5E"
-#	def0[]:"5F"
-#	def0[]:"5G"
-#	def0[]:"5H"
-#	def0[]:"5J"
-#	def0[]:"5K"
-#	def0[]:"5L"
-#	def0[]:"5M"
-#	def0[]:"5N"
-#	def0[]:"5P"
-#	def0[]:"5R"
-#	def0[]:"5S"
-#	def0[]:"5T"
-#	def0[]:"5U"
-#	def0[]:"5V"
-#	def0[]:"5W"
-#	def0[]:"5X"
-#	def0[]:"5Y"
-#	def0[]:"6A"
-#	def0[]:"6C"
-#	def0[]:"6E"
-#	def0[]:"6F"
-#	def0[]:"6G"
-#	def0[]:"6H"
-#	def0[]:"6J"
-#	def0[]:"6K"
-#	def0[]:"6L"
-#	def0[]:"6M"
-#	def0[]:"6N"
-#	def0[]:"6P"
-#	def0[]:"6R"
-#	def0[]:"6S"
-#	def0[]:"6T"
-#	def0[]:"6U"
-#	def0[]:"6V"
-#	def0[]:"6W"
-#	def0[]:"6X"
-#	def0[]:"6Y"
-#	def0[]:"7A"
-#	def0[]:"7C"
-#	def0[]:"7E"
-#	def0[]:"7F"
-#	def0[]:"7G"
-#	def0[]:"7H"
+	def0[]:"3F"
+	def0[]:"3G"
+	def0[]:"3H"
+	def0[]:"3J"
+	def0[]:"3K"
+	def0[]:"3L"
+	def0[]:"3M"
+	def0[]:"3N"
+	def0[]:"3P"
+	def0[]:"3R"
+	def0[]:"3S"
+	def0[]:"3T"
+	def0[]:"3U"
+	def0[]:"3V"
+	def0[]:"3W"
+	def0[]:"3X"
+	def0[]:"3Y"
+	def0[]:"4A"
+	def0[]:"4C"
+	def0[]:"4E"
+	def0[]:"4F"
+	def0[]:"4G"
+	def0[]:"4H"
+	def0[]:"4J"
+	def0[]:"4K"
+	def0[]:"4L"
+	def0[]:"4M"
+	def0[]:"4N"
+	def0[]:"4P"
+	def0[]:"4R"
+	def0[]:"4S"
+	def0[]:"4T"
+	def0[]:"4U"
+	def0[]:"4V"
+	def0[]:"4W"
+	def0[]:"4X"
+	def0[]:"4Y"
+	def0[]:"5A"
+	def0[]:"5C"
+	def0[]:"5E"
+	def0[]:"5F"
+	def0[]:"5G"
+	def0[]:"5H"
+	def0[]:"5J"
+	def0[]:"5K"
+	def0[]:"5L"
+	def0[]:"5M"
+	def0[]:"5N"
+	def0[]:"5P"
+	def0[]:"5R"
+	def0[]:"5S"
+	def0[]:"5T"
+	def0[]:"5U"
+	def0[]:"5V"
+	def0[]:"5W"
+	def0[]:"5X"
+	def0[]:"5Y"
+	def0[]:"6A"
+	def0[]:"6C"
+	def0[]:"6E"
+	def0[]:"6F"
+	def0[]:"6G"
+	def0[]:"6H"
+	def0[]:"6J"
+	def0[]:"6K"
+	def0[]:"6L"
+	def0[]:"6M"
+	def0[]:"6N"
+	def0[]:"6P"
+	def0[]:"6R"
+	def0[]:"6S"
+	def0[]:"6T"
+	def0[]:"6U"
+	def0[]:"6V"
+	def0[]:"6W"
+	def0[]:"6X"
+	def0[]:"6Y"
+	def0[]:"7A"
+	def0[]:"7C"
+	def0[]:"7E"
+	def0[]:"7F"
+	def0[]:"7G"
+	def0[]:"7H"  # "WE" IV latest issued (October 2022)
 #	def0[]:"7J"
 #	def0[]:"7K"
 #	def0[]:"7L"
@@ -440,6 +473,7 @@ license_plate_data : .warszawa.lp.car
 #	def0[]:"9X"
 #	def0[]:"9Y"
 
+	# "WK" I
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
@@ -518,13 +552,13 @@ license_plate_data : .warszawa.lp.car
 	def1[]:"75"
 	def1[]:"76"
 	def1[]:"77"
-	def1[]:"78"  # "WK" I latest issued (April 2021)
-#	def1[]:"79"
-#	def1[]:"80"
-#	def1[]:"81"
-#	def1[]:"82"
-#	def1[]:"83"
-#	def1[]:"84"
+	def1[]:"78"
+	def1[]:"79"
+	def1[]:"80"
+	def1[]:"81"
+	def1[]:"82"
+	def1[]:"83"
+	def1[]:"84"  # "WK" I latest issued (August 2022)
 #	def1[]:"85"
 #	def1[]:"86"
 #	def1[]:"87"
@@ -590,32 +624,42 @@ license_plate_data : .warszawa.lp.truck
 {
 	type: truck
 
-	templates[]:"WA50444F"   # II   Białołęka      4457F
-	templates[]:"WB59444V"   # II   Bemowo         9059V
-	templates[]:"WD50444P"   # II   Bielany        4561P
-	templates[]:"WE53F444"   # IV   Mokotów        3F003
-	templates[]:"WF52444V"   # II   Praga Południe 6613V
-	templates[]:"WH594444"   # I    Praga Północ   96575
-	templates[]:"WI5444KY"   # III  Śródmieście    526KY
-	templates[]:"WJ57444J"   # II   Targówek       7226J
-	templates[]:"WK578444"   # I    Ursus          78605
-	templates[]:"WN59444N"   # II   Ursynów        0002P
-	templates[]:"WT51444E"   # II   Wawer          1089E
-	templates[]:"WU51444M"   # II   Ochota         1709M
-	templates[]:"WW5144SP"   # III  Włochy         141SP
-	templates[]:"WW58444W"   # II   Wilanów        8537W
-	templates[]:"WW53444Y"   # II   Rembertów      3794Y
-	templates[]:"WX59444C"   # II   Żoliborz       9553C
-	templates[]:"WX5044XL"   # III  Wesoła         461XL
-	templates[]:"WY58444N"   # II   Wola           8354N
+	probability: 0.3
 
-	def0[]:"4"
+	templates[]:"WA59444G"   # II   Białołęka      9984G
+	templates[]:"WB50444X"   # II   Bemowo         5170X
+	templates[]:"WD51444R"   # II   Bielany        1022R
+	templates[]:"WE53H444"   # IV   Mokotów        7H111
+	templates[]:"WF51444X"   # II   Praga Południe 1915X
+	templates[]:"WH52444A"   # II   Praga Północ   6789A
+	templates[]:"WI5244ML"   # III  Śródmieście    691ML
+	templates[]:"WJ54444L"   # II   Targówek       3098L
+	templates[]:"WK584444"   # I    Ursus          84418
+	templates[]:"WN58444R"   # II   Ursynów        8816R
+	templates[]:"WT50444F"   # II   Wawer          5917F
+	templates[]:"WU51444P"   # II   Ochota         1688P
+	templates[]:"WW5244TF"   # III  Włochy         623TF
+	templates[]:"WW5244GF"   # III  Wilanów        685GF
+	templates[]:"WW57444Y"   # II   Rembertów      7670Y
+	templates[]:"WX50444E"   # II   Żoliborz       5779E
+	templates[]:"WX5844XN"   # III  Wesoła         866XN
+	templates[]:"WY5944CP"   # III  Wola           929CP
+
+	def0[]:"5"
 
 	def1[]:"1"
 
 	def2[]:"6"
 
+	def3[]:"1"
+	def3[]:"2"
 	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -635,30 +679,32 @@ license_plate_data : .warszawa.lp.trailer
 {
 	type: trailer
 
-	templates[]:"WA5244AK"   # III  Białołęka      217AK
-	templates[]:"WB5444AL"   # III  Bemowo         364AL
-	templates[]:"WD5744AK"   # III  Bielany        708AK
-	templates[]:"WE5144AP"   # III  Mokotów        189AP
-	templates[]:"WF5344AK"   # III  Praga Południe 451AK
-	templates[]:"WH5244AF"   # III  Praga Północ   275AF
-	templates[]:"WI5044AW"   # III  Śródmieście    501AW
-	templates[]:"WJ5144AJ"   # III  Targówek       126AJ
-	templates[]:"WK5244AF"   # III  Ursus          274AF
-	templates[]:"WN5444AH"   # III  Ursynów        601AH
-	templates[]:"WT5344AJ"   # III  Wawer          419AJ
-	templates[]:"WU5144PJ"   # III  Ochota         101PJ
-	templates[]:"WW5044VG"   # III  Włochy         590VG
-	templates[]:"WY5844WC"   # III  Wilanów        801WC
-	templates[]:"WW5744AC"   # III  Rembertów      701AC
-	templates[]:"WX5444AG"   # III  Żoliborz       087AG
-	templates[]:"WY5144XW"   # III  Wesoła         191XW
-	templates[]:"WY5844AL"   # III  Wola           802AL
+	probability: 0.3
+
+	templates[]:"WA5944AK"   # III  Białołęka      946AK
+	templates[]:"WB5344AL"   # III  Bemowo         446AL
+	templates[]:"WD5944AK"   # III  Bielany        944AK
+	templates[]:"WE5144AR"   # III  Mokotów        101AR
+	templates[]:"WF5244AK"   # III  Praga Południe 614AK
+	templates[]:"WH5344AF"   # III  Praga Północ   453AF
+	templates[]:"WI5844AW"   # III  Śródmieście    801AW
+	templates[]:"WJ5244AJ"   # III  Targówek       616AJ
+	templates[]:"WK5344AF"   # III  Ursus          450AF
+	templates[]:"WN5844AH"   # III  Ursynów        801AH
+	templates[]:"WT5444AK"   # III  Wawer          079AK
+	templates[]:"WU5044PJ"   # III  Ochota         501PJ
+	templates[]:"WW5944VG"   # III  Włochy         918VG
+	templates[]:"WY5144WF"   # III  Wilanów        101WF
+	templates[]:"WW5844AC"   # III  Rembertów      801AC
+	templates[]:"WX5444AG"   # III  Żoliborz       201AG
+	templates[]:"WY5444XW"   # III  Wesoła         307XW
+	templates[]:"WY5044AM"   # III  Wola           579AM
 
 	def0[]:"5"
 
 	def1[]:"1"
 
-	def2[]:"2"
+	def2[]:"6"
 
 	def3[]:"4"
 
@@ -679,6 +725,8 @@ license_plate_data : .warszawa.lp.trailer
 license_plate_data : .warszawa.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	templates[]:"HP051222"
 #	templates[]:"HP051222"

@@ -6,21 +6,31 @@ city_data: city.rennes
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -10
-	map_x_offsets[]: -27
+	map_x_offsets[]: -130
+	map_x_offsets[]: -48
+	map_x_offsets[]: -250
+	map_x_offsets[]: -95
+	map_x_offsets[]: -46
 	map_x_offsets[]: -28
-	map_x_offsets[]: -25
-	map_x_offsets[]: -27
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 25
-	map_y_offsets[]: -28
-	map_y_offsets[]: -47
-	map_y_offsets[]: -34
-	map_y_offsets[]: -26
-	map_y_offsets[]: -27
+	map_y_offsets[]: 30
+	map_y_offsets[]: 1
+	map_y_offsets[]: 100
+	map_y_offsets[]: 15
+	map_y_offsets[]: -1
+	map_y_offsets[]: -22
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.9  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 0.9  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	license_plate[]: .rennes.lp.car
 	license_plate[]: .rennes.lp.truck

@@ -13,8 +13,8 @@ SiiNunit
 # For each 'object' the LAST LOADED traffic info is used
 #
 
-country_traffic_info : .country.info.traffic.mondeo_2009.police.irl {
-	object: traffic.mondeo_2009.police.irl
+country_traffic_info : .country.info.traffic.hyund_tucs15.police.ie {
+	object: traffic.hyund_tucs15.police.ie
 	spawn_ratio: 1.00
 } 	
 country_traffic_info : .country.info.traffic.talisman.police.un {

@@ -9,18 +9,18 @@ city_data: city.prague
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
 	map_x_offsets[]: -28
-	map_x_offsets[]: -27
-	map_x_offsets[]: -28
-	map_x_offsets[]: -27
+	map_x_offsets[]: -30
+	map_x_offsets[]: -32
+	map_x_offsets[]: -30
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -50
 	map_y_offsets[]: -28
-	map_y_offsets[]: -29
+	map_y_offsets[]: -60
 	map_y_offsets[]: -13
-	map_y_offsets[]: -26
-	map_y_offsets[]: -26
+	map_y_offsets[]: -15
+	map_y_offsets[]: 2
 
 	vehicle_brands[]:"renault"
 

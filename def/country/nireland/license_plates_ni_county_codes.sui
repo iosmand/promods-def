@@ -89,7 +89,7 @@
 	def0[]:"PRZ"
 	def0[]:"RRZ"
 	def0[]:"SRZ"
-	def0[]:"TRZ"  # Latest issue as of April 2022
+	def0[]:"TRZ"  # Latest issue as of January 2023
 #	def0[]:"URZ"
 #	def0[]:"VRZ"
 #	def0[]:"WRZ"
@@ -161,7 +161,7 @@
 	def0[]:"NXZ"
 	def0[]:"OXZ"
 	def0[]:"PXZ"
-	def0[]:"RXZ"  # Latest issue as of April 2022
+	def0[]:"RXZ"  # Latest issue as of October 2022
 #	def0[]:"SXZ"
 #	def0[]:"TXZ"
 #	def0[]:"UXZ"
@@ -336,9 +336,9 @@
 	def0[]:"TGZ"
 	def0[]:"UGZ"
 	def0[]:"VGZ"
-	def0[]:"WGZ"  # Latest issue as of April 2022
-#	def0[]:"XGZ"
-#	def0[]:"YGZ"
+	def0[]:"WGZ"
+	def0[]:"XGZ"
+	def0[]:"YGZ"  # Latest issue as of February 2023
 #	def0[]:"MZ"   # MZ/OZ/PZ/TZ/UZ/WZ: Not issued yet
 #	def0[]:"OZ"
 #	def0[]:"PZ"
@@ -425,7 +425,7 @@
 	def0[]:"DSZ"
 	def0[]:"ESZ"
 	def0[]:"FSZ"
-	def0[]:"GSZ"  # Latest issue as of April 2022
+	def0[]:"GSZ"  # Latest issue as of September 2022
 #	def0[]:"HSZ"
 #	def0[]:"ISZ"
 #	def0[]:"JSZ"
@@ -490,7 +490,7 @@
 	def0[]:"TIG"
 	def0[]:"UIG"
 	def0[]:"VIG"
-	def0[]:"WIG"  # Latest issue as of April 2022
+	def0[]:"WIG"  # Latest issue as of June 2022
 #	def0[]:"XIG"
 #	def0[]:"YIG"
 
@@ -544,7 +544,7 @@
 	def0[]:"XNZ"
 	def0[]:"YNZ"
 	def0[]:"AYZ"  # YZ: Jan 2020 - Current
-	def0[]:"BYZ"  # Latest issue as of April 2022
+	def0[]:"BYZ"  # Latest issue as of January 2023
 #	def0[]:"CYZ"
 #	def0[]:"DYZ"
 #	def0[]:"EYZ"
@@ -592,7 +592,7 @@
 	def0[]:"VUI"
 	def0[]:"WUI"
 	def0[]:"XUI"
-	def0[]:"YUI"  # Latest issue as of April 2021
+	def0[]:"YUI"  # Latest issue as of August 2022
 
 	# County Tyrone / Omagh
 #	def0[]:"AJI"  # JI: Jun 1971 - Dec 1999
@@ -642,7 +642,7 @@
 	def0[]:"VHZ"
 	def0[]:"WHZ"
 	def0[]:"XHZ"
-	def0[]:"YHZ"  # Latest issue as of April 2022
+	def0[]:"YHZ"  # Latest issue as of September 2022
 #	def0[]:"AVZ"  # VZ: Jun 2021? - Current
 #	def0[]:"BVZ"
 #	def0[]:"CVZ"

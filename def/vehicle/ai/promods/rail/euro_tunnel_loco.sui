@@ -1,0 +1,62 @@
+traffic_vehicle : traffic.et_loco
+{
+	accessories[]: .et_loco.chassis
+	accessories[]: .et_loco.fwheel
+	accessories[]: .et_loco.rwheel
+	accessories[]: .et_loco.rwheel2
+	accessories[]: .et_loco.rwheel3
+
+	max_speed: 200
+
+	vehicle_mass: 85000
+	engine_power: 2200
+
+	trailer_chains[]: "train_car.et_wagon5 1 | train_car.et_wagon4 5 | train_car.et_wagon5 1 | train_car.et_wagon4 5 | train_car.et_wagon5 1 | train_car.et_loco_rear 1"
+	trailer_chains[]: "train_car.et_wagon1 1 | train_car.et_wagon2 4 | train_car.et_wagon1 1 | train_car.et_wagon2 4 | train_car.et_wagon1 1 | train_car.et_loco_rear 1"
+
+
+	sound_move[]: "/sound/traffic/train_electric_1.soundref"
+	sound_gears: 1
+
+	displacement_limit: 0.0
+
+	spawn_condition[]: .traffic.et_loco.condition.area
+}
+
+
+
+vehicle_accessory: .et_loco.chassis
+{
+	data_path: "/def/vehicle/ai/promods/rail/euro_tunnel/chassis_loco.sii"
+}
+
+vehicle_wheel_accessory: .et_loco.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .et_loco.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .et_loco.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .et_loco.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+traffic_spawn_condition: .traffic.et_loco.condition.area
+{
+    # spawn only near city with specified name
+    type: area
+    str_param[]: "eurotunnel"
+}

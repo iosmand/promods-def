@@ -22,6 +22,16 @@ city_data: city.ilowa
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.45 // whole world map zoom
+
 	license_plate[]: .ilowa.lp.car
 	license_plate[]: .ilowa.lp.truck
 	license_plate[]: .ilowa.lp.trailer
@@ -40,6 +50,7 @@ license_plate_data : .ilowa.lp.car
 	templates[]:"FZG52444"   # VII
 	templates[]:"FZG52444"   # VII
 
+	# "FZG" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -61,6 +72,7 @@ license_plate_data : .ilowa.lp.car
 ##	def0[]:"X"  # Used for mopeds
 #	def0[]:"Y"
 
+	# "FZG" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -382,6 +394,7 @@ license_plate_data : .ilowa.lp.car
 #	def1[]:"WX"  # Used for mopeds
 	def1[]:"WY"
 
+	# "FZG" VII
 	def2[]:"00"
 	def2[]:"01"
 	def2[]:"02"
@@ -442,13 +455,13 @@ license_plate_data : .ilowa.lp.car
 	def2[]:"57"
 	def2[]:"58"
 	def2[]:"59"
-	def2[]:"60"  # "FZG" VII latest issued (April 2021)
-#	def2[]:"61"
-#	def2[]:"62"
-#	def2[]:"63"
-#	def2[]:"64"
-#	def2[]:"65"
-#	def2[]:"66"
+	def2[]:"60"
+	def2[]:"61"
+	def2[]:"62"
+	def2[]:"63"
+	def2[]:"64"
+	def2[]:"65"
+	def2[]:"66"  # "FZG" VII latest issued (October 2022)
 #	def2[]:"67"
 #	def2[]:"68"
 #	def2[]:"69"
@@ -471,11 +484,14 @@ license_plate_data : .ilowa.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"FZG50444"   # I    before EU stars
 #	templates[]:"FZG5441"    # II   some before EU stars
 	templates[]:"FZG52444"   # VII
 
+	# "FZG" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -497,6 +513,7 @@ license_plate_data : .ilowa.lp.truck
 ##	def0[]:"X"  # Used for mopeds
 #	def0[]:"Y"
 
+	# "FZG" II
 #	def1[]:"AA"
 #	def1[]:"AC"
 #	def1[]:"AE"
@@ -818,6 +835,7 @@ license_plate_data : .ilowa.lp.truck
 ##	def1[]:"WX"  # Used for mopeds
 #	def1[]:"WY"
 
+	# "FZG" VII
 #	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
@@ -876,15 +894,15 @@ license_plate_data : .ilowa.lp.truck
 #	def2[]:"55"
 #	def2[]:"56"
 #	def2[]:"57"
-	def2[]:"58"
-	def2[]:"59"
-	def2[]:"60"  # "FZG" VII latest issued (April 2021)
+#	def2[]:"58"
+#	def2[]:"59"
+#	def2[]:"60"
 #	def2[]:"61"
 #	def2[]:"62"
 #	def2[]:"63"
-#	def2[]:"64"
-#	def2[]:"65"
-#	def2[]:"66"
+	def2[]:"64"
+	def2[]:"65"
+	def2[]:"66"  # "FZG" VII latest issued (October 2022)
 #	def2[]:"67"
 #	def2[]:"68"
 #	def2[]:"69"
@@ -907,14 +925,14 @@ license_plate_data : .ilowa.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"FZG5R444"   # I    before EU stars
-	templates[]:"FZG5440"    # II   some before EU stars
-	templates[]:"FZG5144"    # III
-	templates[]:"FZG5144"    # III
-	templates[]:"FZG5144"    # III
+#	templates[]:"FZG5440"    # II   some before EU stars
 	templates[]:"FZG5144"    # III
 
+	# "FZG" II
 #	def0[]:"RA"
 #	def0[]:"RC"
 #	def0[]:"RE"
@@ -963,26 +981,36 @@ license_plate_data : .ilowa.lp.trailer
 ##	def0[]:"YK"  # Used for motorcycles and tractors
 ##	def0[]:"YL"  # Used for motorcycles and tractors
 ##	def0[]:"YM"  # Used for motorcycles and tractors
-	def0[]:"YN"
-	def0[]:"YP"
-#	def0[]:"YR"  # Used for mopeds
-#	def0[]:"YS"  # Used for mopeds
-#	def0[]:"YT"  # Used for mopeds
-#	def0[]:"YU"  # Used for motorcycles and tractors
-#	def0[]:"YV"
-#	def0[]:"YW"  # Used for motorcycles and tractors
-#	def0[]:"YX"
-#	def0[]:"YY"  # Used for motorcycles and tractors
+#	def0[]:"YN"
+#	def0[]:"YP"
+##	def0[]:"YR"  # Used for mopeds
+##	def0[]:"YS"  # Used for mopeds
+##	def0[]:"YT"  # Used for mopeds
+##	def0[]:"YU"  # Used for motorcycles and tractors
+##	def0[]:"YV"
+##	def0[]:"YW"  # Used for motorcycles and tractors
+##	def0[]:"YX"
+##	def0[]:"YY"  # Used for motorcycles and tractors
 
-	def1[]:"1R"
-	def1[]:"2R"
-	def1[]:"3R"
+	# "FZG" III
+#	def1[]:"1R"
+#	def1[]:"2R"
+#	def1[]:"3R"
 	def1[]:"4R"
 	def1[]:"5R"
-	def1[]:"6R"
+#	def1[]:"6R"  # Used for double-row plates
 	def1[]:"7R"
-	def1[]:"8R"  # "FZG" III latest issued (April 2021)
-#	def1[]:"9R"
+	def1[]:"8R"
+	def1[]:"9R"
+	def1[]:"1S"
+	def1[]:"2S"
+	def1[]:"3S"
+	def1[]:"4S"
+	def1[]:"5S"  # "FZG" III latest issued (October 2022)
+#	def1[]:"6S"
+#	def1[]:"7S"
+#	def1[]:"8S"
+#	def1[]:"9S"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -1001,6 +1029,8 @@ license_plate_data : .ilowa.lp.trailer
 license_plate_data : .ilowa.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# E = Lubusz (Lubuskie) Provincial Headquarters
 	templates[]:"HPE51222"

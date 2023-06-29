@@ -6,21 +6,31 @@ city_data: city.kristiansand
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -10
-	map_x_offsets[]: -102
-	map_x_offsets[]: -98
-	map_x_offsets[]: -82
-	map_x_offsets[]: -54
+	map_x_offsets[]: -70
+	map_x_offsets[]: -43
+	map_x_offsets[]: -160
+	map_x_offsets[]: -68
+	map_x_offsets[]: -48
+	map_x_offsets[]: -36
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 25
-	map_y_offsets[]: -28
-	map_y_offsets[]: -94
-	map_y_offsets[]: -60
+	map_y_offsets[]: -50
+	map_y_offsets[]: -15
+	map_y_offsets[]: -175
 	map_y_offsets[]: -40
-	map_y_offsets[]: -27
+	map_y_offsets[]: -15
+	map_y_offsets[]: -19
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.85 // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.9  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
 
 	license_plate[]: .kristiansand.lp.car
 	license_plate[]: .kristiansand.lp.truck

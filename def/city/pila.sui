@@ -22,15 +22,15 @@ city_data: city.pila
 	map_y_offsets[]: -18
 	map_y_offsets[]: -15
 
-	### SMALL CITY ###
+	### SMALL-MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 0.6  // close zoom for minimap
-	city_pin_scale_factor[]: 0.6  // far zoom for monimap
-	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 0.8  // closest zoom for world map
 	city_pin_scale_factor[]: 0.8  // middle zoom for world map
-	city_pin_scale_factor[]: 0.5  // whole world map zoom
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
 
 	license_plate[]: .pila.lp.car
 	license_plate[]: .pila.lp.truck
@@ -49,8 +49,9 @@ license_plate_data : .pila.lp.car
 	templates[]:"PP544441"   # II
 	templates[]:"PP544441"   # II
 
+	# "PP" I
 #	def0[]:"00"
-##	def0[]:"01"  # Partially used for double-row plates
+##	def0[]:"01"  # Half used for double-row plates
 #	def0[]:"02"
 ##	def0[]:"03"  # Partially used for trailers
 #	def0[]:"04"
@@ -61,7 +62,7 @@ license_plate_data : .pila.lp.car
 #	def0[]:"09"
 ##	def0[]:"10"  # Partially used for trailers
 #	def0[]:"11"
-##	def0[]:"12"  # Partially used for double-row plates
+#	def0[]:"12"
 #	def0[]:"13"
 #	def0[]:"14"
 #	def0[]:"15"
@@ -113,20 +114,20 @@ license_plate_data : .pila.lp.car
 #	def0[]:"61"  # Partially used for trailers
 	def0[]:"62"
 #	def0[]:"63"  # Partially used for double-row plates and trailers
-#	def0[]:"64"  # Partially used for double-row plates
+#	def0[]:"64"  # Partially used for trailer double-row plates
 	def0[]:"65"
 #	def0[]:"66"  # Partially used for trailers
 	def0[]:"67"
 #	def0[]:"68"  # Partially used for trailers
 #	def0[]:"69"  # Partially used for trailers
-#	def0[]:"70"  # Partially used for double-row plates
+#	def0[]:"70"  # Partially used for trailer double-row plates
 #	def0[]:"71"  # Partially used for trailers
 	def0[]:"72"
 #	def0[]:"73"  # Partially used for double-row plates
 #	def0[]:"74"  # Partially used for trailers
 	def0[]:"75"
 #	def0[]:"76"  # Partially used for trailers
-#	def0[]:"77"  # Partially used for double-row plates
+#	def0[]:"77"  # Partially used for trailer double-row plates
 #	def0[]:"78"  # Partially used for trailers
 #	def0[]:"79"  # Partially used for double-row plates and trailers
 	def0[]:"80"
@@ -150,6 +151,7 @@ license_plate_data : .pila.lp.car
 	def0[]:"98"
 	def0[]:"99"
 
+	# "PP" II
 	def1[]:"A"
 	def1[]:"C"
 	def1[]:"E"
@@ -161,9 +163,9 @@ license_plate_data : .pila.lp.car
 	def1[]:"L"
 	def1[]:"M"
 	def1[]:"N"
-	def1[]:"P"  # "PP" II latest issued (April 2021)
-#	def1[]:"R"
-#	def1[]:"S"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"  # "PP" II latest issued (October 2022)
 #	def1[]:"T"
 #	def1[]:"U"
 #	def1[]:"V"
@@ -189,6 +191,8 @@ license_plate_data : .pila.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"PP50444"    # I    half before EU stars
 #	templates[]:"PP54444A"   # II
@@ -201,11 +205,14 @@ license_plate_data : .pila.lp.truck
 #	templates[]:"PP54444K"   # II
 #	templates[]:"PP54444L"   # II
 #	templates[]:"PP54444M"   # II
-#	templates[]:"PP5144N"    # II
-	templates[]:"PP5244P"    # II
+#	templates[]:"PP54444N"   # II
+#	templates[]:"PP54444P"   # II
+	templates[]:"PP5144R"    # II
+	templates[]:"PP5244S"    # II
 
-##	def0[]:"00"
-##	def0[]:"01"  # Partially used for double-row plates
+	# "PP" I
+#	def0[]:"00"
+##	def0[]:"01"  # Half used for double-row plates
 #	def0[]:"02"
 ##	def0[]:"03"  # Partially used for trailers
 #	def0[]:"04"
@@ -216,7 +223,7 @@ license_plate_data : .pila.lp.truck
 #	def0[]:"09"
 ##	def0[]:"10"  # Partially used for trailers
 #	def0[]:"11"
-##	def0[]:"12"  # Partially used for double-row plates
+#	def0[]:"12"
 #	def0[]:"13"
 #	def0[]:"14"
 #	def0[]:"15"
@@ -268,20 +275,20 @@ license_plate_data : .pila.lp.truck
 ##	def0[]:"61"  # Partially used for trailers
 #	def0[]:"62"
 ##	def0[]:"63"  # Partially used for double-row plates and trailers
-##	def0[]:"64"  # Partially used for double-row plates
+##	def0[]:"64"  # Partially used for trailer double-row plates
 #	def0[]:"65"
 ##	def0[]:"66"  # Partially used for trailers
 #	def0[]:"67"
 ##	def0[]:"68"  # Partially used for trailers
 ##	def0[]:"69"  # Partially used for trailers
-##	def0[]:"70"  # Partially used for double-row plates
+##	def0[]:"70"  # Partially used for trailer double-row plates
 ##	def0[]:"71"  # Partially used for trailers
 #	def0[]:"72"
 ##	def0[]:"73"  # Partially used for double-row plates
 ##	def0[]:"74"  # Partially used for trailers
 #	def0[]:"75"
 ##	def0[]:"76"  # Partially used for trailers
-##	def0[]:"77"  # Partially used for double-row plates
+##	def0[]:"77"  # Partially used for trailer double-row plates
 ##	def0[]:"78"  # Partially used for trailers
 ##	def0[]:"79"  # Partially used for double-row plates and trailers
 #	def0[]:"80"
@@ -305,7 +312,8 @@ license_plate_data : .pila.lp.truck
 #	def0[]:"98"
 #	def0[]:"99"
 
-#	def1[]:"00"  # II ....N
+	# "PP" II ....R
+#	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
 #	def1[]:"03"
@@ -317,7 +325,7 @@ license_plate_data : .pila.lp.truck
 #	def1[]:"09"
 #	def1[]:"10"
 #	def1[]:"11"
-#	def1[]:"12"
+##	def1[]:"12"  # Half used for electric vehicles
 #	def1[]:"13"
 #	def1[]:"14"
 #	def1[]:"15"
@@ -342,8 +350,8 @@ license_plate_data : .pila.lp.truck
 #	def1[]:"34"
 #	def1[]:"35"
 #	def1[]:"36"
-#	def1[]:"37"
-#	def1[]:"38"
+##	def1[]:"37"  # Used for trailers
+##	def1[]:"38"  # Used for trailers
 #	def1[]:"39"
 #	def1[]:"40"
 #	def1[]:"41"
@@ -352,9 +360,9 @@ license_plate_data : .pila.lp.truck
 #	def1[]:"44"
 #	def1[]:"45"
 #	def1[]:"46"
-##	def1[]:"47"  # Used for trailers
-##	def1[]:"48"  # Used for trailers
-##	def1[]:"49"  # Used for trailers
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
 #	def1[]:"50"
 #	def1[]:"51"
 #	def1[]:"52"
@@ -365,80 +373,81 @@ license_plate_data : .pila.lp.truck
 #	def1[]:"57"
 #	def1[]:"58"
 #	def1[]:"59"
-##	def1[]:"60"  # Used for trailers
-##	def1[]:"61"  # Used for trailers
-##	def1[]:"62"  # Used for trailers
-##	def1[]:"63"  # Used for trailers
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
 #	def1[]:"64"
 #	def1[]:"65"
-#	def1[]:"66"
-#	def1[]:"67"
-#	def1[]:"68"
-#	def1[]:"69"
-#	def1[]:"70"
-#	def1[]:"71"
-#	def1[]:"72"
-#	def1[]:"73"
-#	def1[]:"74"
-#	def1[]:"75"
-#	def1[]:"76"
-#	def1[]:"77"
-#	def1[]:"78"
-#	def1[]:"79"
-#	def1[]:"80"
-#	def1[]:"81"
-#	def1[]:"82"
-#	def1[]:"83"
-#	def1[]:"84"
-#	def1[]:"85"
-#	def1[]:"86"
-#	def1[]:"87"
-#	def1[]:"88"
-#	def1[]:"89"
-#	def1[]:"90"
-##	def1[]:"91"  # Used for trailers
-#	def1[]:"92"
-#	def1[]:"93"
-#	def1[]:"94"
-#	def1[]:"95"
-#	def1[]:"96"
-#	def1[]:"97"
-#	def1[]:"98"
-#	def1[]:"99"
+	def1[]:"66"
+	def1[]:"67"
+	def1[]:"68"
+	def1[]:"69"
+	def1[]:"70"
+#	def1[]:"71"  # Used for trailers
+#	def1[]:"72"  # Used for trailers
+	def1[]:"73"
+	def1[]:"74"
+	def1[]:"75"
+	def1[]:"76"
+	def1[]:"77"
+	def1[]:"78"
+	def1[]:"79"
+	def1[]:"80"
+#	def1[]:"81"  # Used for trailers
+#	def1[]:"82"  # Used for trailers
+#	def1[]:"83"  # Used for trailers
+#	def1[]:"84"  # Used for trailers
+	def1[]:"85"
+	def1[]:"86"
+	def1[]:"87"
+	def1[]:"88"
+	def1[]:"89"
+	def1[]:"90"
+#	def1[]:"91"  # Half used for trailer double-row plates
+	def1[]:"92"
+	def1[]:"93"
+	def1[]:"94"
+	def1[]:"95"
+	def1[]:"96"
+	def1[]:"97"
+	def1[]:"98"
+	def1[]:"99"
 
-#	def2[]:"00"  # II ....P
-#	def2[]:"01"
-#	def2[]:"02"
-	def2[]:"03"
-	def2[]:"04"
-	def2[]:"05"
-	def2[]:"06"
-	def2[]:"07"
-	def2[]:"08"
-	def2[]:"09"
-	def2[]:"10"
-	def2[]:"11"
-	def2[]:"12"
-	def2[]:"13"
-	def2[]:"14"
-	def2[]:"15"
-	def2[]:"16"
-	def2[]:"17"
-	def2[]:"18"
-	def2[]:"19"
-	def2[]:"20"
-	def2[]:"21"
-	def2[]:"22"
-	def2[]:"23"
-	def2[]:"24"
-	def2[]:"25"
-	def2[]:"26"
-	def2[]:"27"
-	def2[]:"28"
-	def2[]:"29"
-	def2[]:"30"
-	def2[]:"31"
-	def2[]:"32"  # "PP" II P latest issued (April 2021)
+	# "PP" II ....S
+	def2[]:"00"
+	def2[]:"01"
+	def2[]:"02"  # "PP" II ....S latest issued (October 2022)
+#	def2[]:"03"
+#	def2[]:"04"
+#	def2[]:"05"
+#	def2[]:"06"
+#	def2[]:"07"
+#	def2[]:"08"
+#	def2[]:"09"
+#	def2[]:"10"
+#	def2[]:"11"
+#	def2[]:"12"
+#	def2[]:"13"
+#	def2[]:"14"
+#	def2[]:"15"
+#	def2[]:"16"
+#	def2[]:"17"
+#	def2[]:"18"
+#	def2[]:"19"
+#	def2[]:"20"
+#	def2[]:"21"
+#	def2[]:"22"
+#	def2[]:"23"
+#	def2[]:"24"
+#	def2[]:"25"
+#	def2[]:"26"
+#	def2[]:"27"
+#	def2[]:"28"
+#	def2[]:"29"
+#	def2[]:"30"
+#	def2[]:"31"
+#	def2[]:"32"
 #	def2[]:"33"
 #	def2[]:"34"
 #	def2[]:"35"
@@ -525,53 +534,61 @@ license_plate_data : .pila.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"PP544444"   # I    half before EU stars
-#	templates[]:"PP5044K"    # II
-	templates[]:"PP5144L"    # II
-	templates[]:"PP5244M"    # II
-	templates[]:"PP5344N"    # II
-	templates[]:"PP5344N"    # II
-	templates[]:"PP5344N"    # II
+#	templates[]:"PP54444A"   # II
+#	templates[]:"PP54444C"   # II
+#	templates[]:"PP54444E"   # II
+#	templates[]:"PP54444F"   # II
+#	templates[]:"PP54444G"   # II
+#	templates[]:"PP54444H"   # II
+#	templates[]:"PP54444J"   # II
+#	templates[]:"PP54444K"   # II
+#	templates[]:"PP54444L"   # II
+#	templates[]:"PP5044M"    # II
+#	templates[]:"PP5144N"    # II
+	templates[]:"PP5244P"    # II
+	templates[]:"PP5344R"    # II
+	templates[]:"PP5344R"    # II
+	templates[]:"PP5344R"    # II
 
-#	def0[]:"12"  # II ....K
-#	def0[]:"13"
-#	def0[]:"35"
-#	def0[]:"36"
-#	def0[]:"67"
-##	def0[]:"68"  # Used for double-row plates
-#	def0[]:"69"
-#	def0[]:"71"
-#	def0[]:"91"
-#	def0[]:"92"
-#	def0[]:"93"
-#	def0[]:"94"
+	# "PP" II ....M
+#	def0[]:"89"
 
-#	def1[]:"40"  # II ....L
-#	def1[]:"41"
-#	def1[]:"42"
-#	def1[]:"43"
-#	def1[]:"83"
-#	def1[]:"84"
-#	def1[]:"85"
-#	def1[]:"86"
-#	def1[]:"87"
-#	def1[]:"89"
+	# "PP" II ....N
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
+#	def1[]:"60"
+#	def1[]:"61"
+#	def1[]:"62"
+#	def1[]:"63"
 #	def1[]:"91"
 #	def1[]:"92"
 #	def1[]:"93"
-	def1[]:"94"
 
-	def2[]:"89"  # II ....M
+	# "PP" II ....P
+#	def2[]:"45"
+#	def2[]:"46"
+#	def2[]:"47"
+#	def2[]:"48"
+#	def2[]:"49"
+#	def2[]:"91"
+	def2[]:"92"
+	def2[]:"93"
+	def2[]:"94"
 
-	def3[]:"47"  # II ....N
-	def3[]:"48"
-	def3[]:"49"
-	def3[]:"60"
-	def3[]:"61"
-	def3[]:"62"
-	def3[]:"63"
-	def3[]:"91"  # "PP" II N latest issued (April 2021)
+	# "PP" II ....R
+	def3[]:"37"
+	def3[]:"38"
+	def3[]:"71"
+	def3[]:"72"
+	def3[]:"81"
+	def3[]:"82"
+	def3[]:"83"  # "PP" II ....R latest issued (October 2022)
+#	def3[]:"84"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -590,6 +607,8 @@ license_plate_data : .pila.lp.trailer
 license_plate_data : .pila.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# U = Greater Poland (Wielkopolskie) Provincial Headquarters
 	templates[]:"HPU51222"

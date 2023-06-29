@@ -10,7 +10,7 @@ country_data : country.data.czech
 
 	pos: (18500, 0, 6000)
 
-	fuel_price: 1.82
+	fuel_price: 1.345
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -23,6 +23,47 @@ country_data : country.data.czech
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 48000
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

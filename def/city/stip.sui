@@ -6,31 +6,31 @@ city_data: city.stip
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: 15
+	map_x_offsets[]: -2
+	map_x_offsets[]: 110
+	map_x_offsets[]: 10
+	map_x_offsets[]: -3
+	map_x_offsets[]: -12
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: 8
+	map_y_offsets[]: 160
+	map_y_offsets[]: 30
+	map_y_offsets[]: 5
+	map_y_offsets[]: -1
 
-	### MEDIUM CITY ###
+	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 0.9
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
-	city_pin_scale_factor[]: 1.0  // closest zoom for world map
-	city_pin_scale_factor[]: 1.0  // middle zoom for world map
-	city_pin_scale_factor[]: 0.8  // whole world map zoom
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
 
 	license_plate[]: .stip.lp.car
 	license_plate[]: .stip.lp.truck

@@ -6,21 +6,31 @@ city_data : city.calvi
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -10
-	map_x_offsets[]: -178
-	map_x_offsets[]: -82
-	map_x_offsets[]: -57
-	map_x_offsets[]: -53
+	map_x_offsets[]: -38
+	map_x_offsets[]: -20
+	map_x_offsets[]: -100
+	map_x_offsets[]: -34
+	map_x_offsets[]: -21
+	map_x_offsets[]: -15
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 25
-	map_y_offsets[]: -28
-	map_y_offsets[]: -38
-	map_y_offsets[]: -23
-	map_y_offsets[]: -15
-	map_y_offsets[]: -11
+	map_y_offsets[]: -70
+	map_y_offsets[]: -19
+	map_y_offsets[]: -220
+	map_y_offsets[]: -48
+	map_y_offsets[]: -16
+	map_y_offsets[]: 0
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.9
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
 
 	license_plate[]: .calvi.lp.car
 	license_plate[]: .calvi.lp.truck

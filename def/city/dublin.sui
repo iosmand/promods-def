@@ -1,6 +1,6 @@
 city_data: city.dublin
 {
-	city_name: "Dublin"
+	city_name: "Baile Átha Cliath"
 	city_name_localized: "@@dublin@@"
 	country: ireland
 
@@ -8,19 +8,19 @@ city_data: city.dublin
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -400
+	map_x_offsets[]: -130
+	map_x_offsets[]: -50
+	map_x_offsets[]: -30
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -80
+	map_y_offsets[]: -30
+	map_y_offsets[]: -15
+	map_y_offsets[]: -24
 
 	vehicle_brands[]:"volvo"
 

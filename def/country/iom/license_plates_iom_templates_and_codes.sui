@@ -1,4 +1,4 @@
-	# All codes (1906-2022) listed below.
+	# All codes (1906-2023) listed below.
 	# Only codes which have been observed in pictures of modern plates with the IoM emblem are activated.
 
 	# 1906-1935, 1971-1974: MN-9999
@@ -90,7 +90,7 @@
 	def0[]:"X"
 	def0[]:"Y"
 
-	# 1987-2022 issued prefix codes
+	# 1987-2023 issued prefix codes
 	def1[]:"B"
 	def1[]:"C"
 	def1[]:"D"

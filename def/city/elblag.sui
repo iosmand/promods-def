@@ -8,25 +8,25 @@ city_data: city.elblag
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: 20
 	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -20
+	map_x_offsets[]: 0
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
-	map_y_offsets[]: -18
+	map_y_offsets[]: 170
 	map_y_offsets[]: -15
+	map_y_offsets[]: 0
+	map_y_offsets[]: -16
 
 	### MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
 	city_pin_scale_factor[]: 1.0  // closest zoom for world map
 	city_pin_scale_factor[]: 1.0  // middle zoom for world map
@@ -56,6 +56,7 @@ license_plate_data : .elblag.lp.car
 	templates[]:"NEB5442"    # II   most before EU stars
 	templates[]:"NEB53444"   # VII
 
+	# "NE" I
 #	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
@@ -157,13 +158,14 @@ license_plate_data : .elblag.lp.car
 #	def0[]:"98"  # Partially used for double-row plates and trailers
 #	def0[]:"99"  # Partially used for double-row plates and trailers
 
+	# "NE" II
 	def1[]:"A"
 	def1[]:"C"
 	def1[]:"E"
 	def1[]:"F"
 	def1[]:"G"
-	def1[]:"H"  # "NE" II latest issued (April 2021)
-#	def1[]:"J"
+	def1[]:"H"
+	def1[]:"J"  # "NE" II latest issued (October 2022)
 #	def1[]:"K"
 #	def1[]:"L"
 #	def1[]:"M"
@@ -178,6 +180,7 @@ license_plate_data : .elblag.lp.car
 #	def1[]:"X"
 #	def1[]:"Y"
 
+	# "NEB" II
 #	def2[]:"AA"
 #	def2[]:"AC"
 ##	def2[]:"AE"  # Partially used for double-row plates
@@ -202,6 +205,7 @@ license_plate_data : .elblag.lp.car
 	def2[]:"FA"
 	def2[]:"GA"
 
+	# "NEB" VII
 	def3[]:"00"
 	def3[]:"01"
 #	def3[]:"02"  # Partially used for double-row plates
@@ -256,14 +260,14 @@ license_plate_data : .elblag.lp.car
 	def3[]:"51"
 	def3[]:"52"
 	def3[]:"53"
-	def3[]:"54"
+#	def3[]:"54"  # Partially used for double-row plates
 	def3[]:"55"
-	def3[]:"56"  # "NEB" VII latest issued (April 2021)
-#	def3[]:"57"
-#	def3[]:"58"
-#	def3[]:"59"
-#	def3[]:"60"
-#	def3[]:"61"
+	def3[]:"56"
+	def3[]:"57"
+	def3[]:"58"
+	def3[]:"59"
+	def3[]:"60"
+	def3[]:"61"  # "NEB" VII latest issued (October 2022)
 #	def3[]:"62"
 #	def3[]:"63"
 #	def3[]:"64"
@@ -272,6 +276,36 @@ license_plate_data : .elblag.lp.car
 #	def3[]:"67"
 #	def3[]:"68"
 #	def3[]:"69"
+#	def3[]:"70"
+#	def3[]:"71"
+#	def3[]:"72"
+#	def3[]:"73"
+#	def3[]:"74"
+#	def3[]:"75"
+#	def3[]:"76"
+#	def3[]:"77"
+#	def3[]:"78"
+#	def3[]:"79"
+#	def3[]:"80"
+#	def3[]:"81"
+#	def3[]:"82"
+#	def3[]:"83"
+#	def3[]:"84"
+#	def3[]:"85"
+#	def3[]:"86"
+#	def3[]:"87"
+#	def3[]:"88"
+#	def3[]:"89"
+#	def3[]:"90"
+#	def3[]:"91"
+#	def3[]:"92"
+#	def3[]:"93"
+#	def3[]:"94"
+#	def3[]:"95"
+#	def3[]:"96"
+#	def3[]:"97"
+#	def3[]:"98"
+#	def3[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -291,15 +325,19 @@ license_plate_data : .elblag.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"NE50444"    # I    some before EU stars
 #	templates[]:"NE54444A"   # II
 #	templates[]:"NE54444C"   # II
 #	templates[]:"NE54444E"   # II
 #	templates[]:"NE54444F"   # II
-#	templates[]:"NE5144G"    # II
-	templates[]:"NE5244H"    # II
+#	templates[]:"NE54444G"   # II
+#	templates[]:"NE5144H"    # II
+	templates[]:"NE5244J"    # II
 
+	# "NE" I
 ##	def0[]:"00"
 ##	def0[]:"01"
 ##	def0[]:"02"
@@ -401,7 +439,8 @@ license_plate_data : .elblag.lp.truck
 ##	def0[]:"98"  # Partially used for double-row plates and trailers
 ##	def0[]:"99"  # Partially used for double-row plates and trailers
 
-#	def1[]:"00"  # II ....G
+	# "NE" II ....H
+#	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
 #	def1[]:"03"
@@ -411,7 +450,7 @@ license_plate_data : .elblag.lp.truck
 #	def1[]:"07"
 #	def1[]:"08"
 #	def1[]:"09"
-#	def1[]:"10"
+##	def1[]:"10"  # Used for trailers
 #	def1[]:"11"
 #	def1[]:"12"
 #	def1[]:"13"
@@ -421,10 +460,10 @@ license_plate_data : .elblag.lp.truck
 #	def1[]:"17"
 #	def1[]:"18"
 #	def1[]:"19"
-#	def1[]:"20"
+##	def1[]:"20"  # Used for trailers
 #	def1[]:"21"
 #	def1[]:"22"
-##	def1[]:"23"  # Used for trailers
+#	def1[]:"23"
 #	def1[]:"24"
 #	def1[]:"25"
 #	def1[]:"26"
@@ -442,7 +481,7 @@ license_plate_data : .elblag.lp.truck
 #	def1[]:"38"
 #	def1[]:"39"
 #	def1[]:"40"
-##	def1[]:"41"  # Used for trailers
+#	def1[]:"41"
 #	def1[]:"42"
 #	def1[]:"43"
 #	def1[]:"44"
@@ -452,7 +491,7 @@ license_plate_data : .elblag.lp.truck
 #	def1[]:"48"
 #	def1[]:"49"
 #	def1[]:"50"
-#	def1[]:"51"
+##	def1[]:"51"  # Used for trailers
 #	def1[]:"52"
 #	def1[]:"53"
 #	def1[]:"54"
@@ -462,7 +501,7 @@ license_plate_data : .elblag.lp.truck
 #	def1[]:"58"
 #	def1[]:"59"
 #	def1[]:"60"
-#	def1[]:"61"
+##	def1[]:"61"  # Partially used for double-row plates
 #	def1[]:"62"
 #	def1[]:"63"
 #	def1[]:"64"
@@ -483,7 +522,7 @@ license_plate_data : .elblag.lp.truck
 #	def1[]:"79"
 #	def1[]:"80"
 ##	def1[]:"81"  # Used for trailers
-#	def1[]:"82"
+##	def1[]:"82"  # Partially used for double-row plates
 #	def1[]:"83"
 #	def1[]:"84"
 #	def1[]:"85"
@@ -493,7 +532,7 @@ license_plate_data : .elblag.lp.truck
 #	def1[]:"89"
 #	def1[]:"90"
 #	def1[]:"91"
-#	def1[]:"92"
+##	def1[]:"92"  # Used for trailers
 #	def1[]:"93"
 #	def1[]:"94"
 #	def1[]:"95"
@@ -502,7 +541,8 @@ license_plate_data : .elblag.lp.truck
 #	def1[]:"98"
 #	def1[]:"99"
 
-#	def2[]:"00"  # II ....H
+	# "NE" II ....J
+#	def2[]:"00"
 #	def2[]:"01"
 #	def2[]:"02"
 #	def2[]:"03"
@@ -512,7 +552,7 @@ license_plate_data : .elblag.lp.truck
 #	def2[]:"07"
 #	def2[]:"08"
 #	def2[]:"09"
-##	def2[]:"10"  # Used for trailers
+#	def2[]:"10"
 #	def2[]:"11"
 #	def2[]:"12"
 #	def2[]:"13"
@@ -532,7 +572,7 @@ license_plate_data : .elblag.lp.truck
 #	def2[]:"27"
 #	def2[]:"28"
 #	def2[]:"29"
-#	def2[]:"30"
+##	def2[]:"30"  # Used for trailers
 #	def2[]:"31"
 #	def2[]:"32"
 #	def2[]:"33"
@@ -542,14 +582,14 @@ license_plate_data : .elblag.lp.truck
 #	def2[]:"37"
 #	def2[]:"38"
 #	def2[]:"39"
-#	def2[]:"40"
+##	def2[]:"40"  # Used for electric vehicles, trailers, and double-row plates
 #	def2[]:"41"
-	def2[]:"42"
-	def2[]:"43"
-	def2[]:"44"
-	def2[]:"45"
-	def2[]:"46"
-	def2[]:"47"
+#	def2[]:"42"
+#	def2[]:"43"
+#	def2[]:"44"
+#	def2[]:"45"
+#	def2[]:"46"
+#	def2[]:"47"
 	def2[]:"48"
 	def2[]:"49"
 	def2[]:"50"
@@ -562,7 +602,7 @@ license_plate_data : .elblag.lp.truck
 	def2[]:"57"
 	def2[]:"58"
 	def2[]:"59"
-	def2[]:"60"
+#	def2[]:"60"  # Used for trailers
 	def2[]:"61"
 	def2[]:"62"
 	def2[]:"63"
@@ -572,16 +612,16 @@ license_plate_data : .elblag.lp.truck
 	def2[]:"67"
 	def2[]:"68"
 	def2[]:"69"
-	def2[]:"70"
-	def2[]:"71"  # "NE" II H latest issued (April 2021)
-#	def2[]:"72"
-#	def2[]:"73"
-#	def2[]:"74"
-#	def2[]:"75"
-#	def2[]:"76"
-#	def2[]:"77"
-#	def2[]:"78"
-#	def2[]:"79"
+#	def2[]:"70"  # Partially used for electric vehicles
+	def2[]:"71"
+	def2[]:"72"
+	def2[]:"73"
+	def2[]:"74"
+	def2[]:"75"
+	def2[]:"76"
+	def2[]:"77"
+	def2[]:"78"
+	def2[]:"79"  # "NE" II ....J latest issued (October 2022)
 #	def2[]:"80"
 #	def2[]:"81"
 #	def2[]:"82"
@@ -621,43 +661,61 @@ license_plate_data : .elblag.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"NE544444"   # I    some before EU stars
 #	templates[]:"NE5044A"    # II
 #	templates[]:"NE5044C"    # II
-	templates[]:"NE5044E"    # II
-	templates[]:"NE5144F"    # II
-	templates[]:"NE5244G"    # II
-	templates[]:"NE5344H"    # II
-	templates[]:"NE5344H"    # II
-	templates[]:"NE5344H"    # II
-	templates[]:"NE5344H"    # II
+#	templates[]:"NE5044E"    # II
+#	templates[]:"NE5044F"    # II
+	templates[]:"NE5144G"    # II
+	templates[]:"NE5244H"    # II
+	templates[]:"NE5344J"    # II
+	templates[]:"NE5344J"    # II
+	templates[]:"NE5344J"    # II
+	templates[]:"NE5344J"    # II
 
-#	def0[]:"03"  # A
+	# "NE" II ....A
+#	def0[]:"03"
 #	def0[]:"04"
 #	def0[]:"05"
 #	def0[]:"06"
 #	def0[]:"10"
 
-#	def0[]:"20"  # C
+	# "NE" II ....C
+#	def0[]:"20"
 #	def0[]:"40"
 #	def0[]:"41"
 #	def0[]:"90"
 
-#	def0[]:"19"  # E
-	def0[]:"20"
-	def0[]:"40"
-	def0[]:"65"
+	# "NE" II ....E
+#	def0[]:"19"
+#	def0[]:"20"
+#	def0[]:"40"
+#	def0[]:"65"
 
-	def1[]:"40"  # F
-	def1[]:"51"
+	# "NE" II ....F
+#	def0[]:"40"
+#	def0[]:"51"
 
-	def2[]:"23"  # G
-	def2[]:"41"
+	# "NE" II ....G
+	def1[]:"23"
+	def1[]:"41"
+	def1[]:"81"
+
+	# "NE" II ....H
+	def2[]:"10"
+	def2[]:"20"
+	def2[]:"51"
 	def2[]:"81"
+	def2[]:"92"
 
-	def3[]:"10"  # H
+	# "NE" II ....J
 	def3[]:"20"
+	def3[]:"30"
+#	def3[]:"40"  # Half used for electric vehicles and double-row plates
+	def3[]:"60"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -676,6 +734,8 @@ license_plate_data : .elblag.lp.trailer
 license_plate_data : .elblag.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# T = Warmian-Masurian (Warmińsko-Mazurskie) Voivodeship Headquarters
 	templates[]:"HPT51222"

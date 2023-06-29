@@ -3,25 +3,24 @@ city_data: city.hamburg
 	city_name: "Hamburg"
 	city_name_localized: "@@hamburg@@"
 	country: germany
-	key_city: true
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -40
-	map_x_offsets[]: -39
-	map_x_offsets[]: -39
-	map_x_offsets[]: -38
+	map_x_offsets[]: 50
+	map_x_offsets[]: -30
+	map_x_offsets[]: -35
+	map_x_offsets[]: -42
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -36
-	map_y_offsets[]: -26
-	map_y_offsets[]: -17
-	map_y_offsets[]: -26
+	map_y_offsets[]: 10
+	map_y_offsets[]: 0
+	map_y_offsets[]: -5
+	map_y_offsets[]: -25
 
 	vehicle_brands[]: "iveco"
 

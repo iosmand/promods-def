@@ -6,31 +6,31 @@ city_data: city.doboj
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -60
+	map_x_offsets[]: -28
+	map_x_offsets[]: -150
+	map_x_offsets[]: -52
+	map_x_offsets[]: -29
+	map_x_offsets[]: -20
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -43
+	map_y_offsets[]: -15
+	map_y_offsets[]: -120
+	map_y_offsets[]: -30
+	map_y_offsets[]: -14
+	map_y_offsets[]: 1
 
-	### MEDIUM CITY ###
+	### SMALL-MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.85 // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
-	city_pin_scale_factor[]: 1.0  // closest zoom for world map
-	city_pin_scale_factor[]: 1.0  // middle zoom for world map
-	city_pin_scale_factor[]: 0.8  // whole world map zoom
+	city_pin_scale_factor[]: 0.9  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
 
 	license_plate[]: .doboj.lp.car
 }

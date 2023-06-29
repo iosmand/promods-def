@@ -8,19 +8,29 @@ city_data: city.opole
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -20
-	map_x_offsets[]: -15
+	map_x_offsets[]: -230
+	map_x_offsets[]: -70
+	map_x_offsets[]: -30
+	map_x_offsets[]: 5
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 25
 	map_y_offsets[]: -28
-	map_y_offsets[]: -30
-	map_y_offsets[]: -30
+	map_y_offsets[]: -200
+	map_y_offsets[]: -50
 	map_y_offsets[]: -18
-	map_y_offsets[]: -15
+	map_y_offsets[]: -9
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	license_plate[]: .opole.lp.car
 	license_plate[]: .opole.lp.truck
@@ -50,7 +60,8 @@ license_plate_data : .opole.lp.car
 	templates[]:"OPO52244"   # VI
 	templates[]:"OPO51444"   # VII
 
-	def0[]:"A"  # "OP" II
+	# "OP" II
+	def0[]:"A"
 	def0[]:"C"
 	def0[]:"E"
 	def0[]:"F"
@@ -61,9 +72,9 @@ license_plate_data : .opole.lp.car
 	def0[]:"L"
 	def0[]:"M"
 	def0[]:"N"
-	def0[]:"P"  # "OP" II latest issued (April 2021)
-#	def0[]:"R"
-#	def0[]:"S"
+	def0[]:"P"
+	def0[]:"R"
+	def0[]:"S"  # "OP" II latest issued (October 2022)
 #	def0[]:"T"
 #	def0[]:"U"
 #	def0[]:"V"
@@ -71,7 +82,8 @@ license_plate_data : .opole.lp.car
 #	def0[]:"X"
 #	def0[]:"Y"
 
-	def1[]:"00"  # "OPO" VII
+	# "OPO" VII
+	def1[]:"00"
 	def1[]:"01"
 	def1[]:"02"
 	def1[]:"03"
@@ -115,17 +127,17 @@ license_plate_data : .opole.lp.car
 	def1[]:"41"
 	def1[]:"42"
 	def1[]:"43"
-	def1[]:"44"  # "OPO" VII latest issued (April 2021)
-#	def1[]:"45"
-#	def1[]:"46"
-#	def1[]:"47"
-#	def1[]:"48"
-#	def1[]:"49"
-#	def1[]:"50"
-#	def1[]:"51"
-#	def1[]:"52"
-#	def1[]:"53"
-#	def1[]:"54"
+	def1[]:"44"
+	def1[]:"45"
+	def1[]:"46"
+	def1[]:"47"
+	def1[]:"48"
+	def1[]:"49"
+	def1[]:"50"
+	def1[]:"51"
+	def1[]:"52"
+	def1[]:"53"
+	def1[]:"54"  # "OPO" VII latest issued (October 2022)
 #	def1[]:"55"
 #	def1[]:"56"
 #	def1[]:"57"
@@ -172,6 +184,7 @@ license_plate_data : .opole.lp.car
 #	def1[]:"98"
 #	def1[]:"99"
 
+	# "OPO" III/IV/V/VI
 	def2[]:"A"
 	def2[]:"C"
 	def2[]:"E"
@@ -181,16 +194,17 @@ license_plate_data : .opole.lp.car
 	def2[]:"J"
 	def2[]:"K"
 	def2[]:"L"
-#	def2[]:"M"  # "OPO" used for motorcycles
+#	def2[]:"M"  # Used for motorcycles (III/IV/V/VI)
+	def2[]:"N"
 	def2[]:"P"
-#	def2[]:"R"  # "OPO" used for mopeds
+#	def2[]:"R"  # Used for mopeds (III/IV/V/VI)
 	def2[]:"S"
-#	def2[]:"T"  # "OPO" partially used for motorcycles and tractors
+#	def2[]:"T"  # Partially used for motorcycles (VI), tractors (VI)
 	def2[]:"U"
 	def2[]:"V"
-#	def2[]:"W"  # "OPO" used for mopeds
-#	def2[]:"X"  # "OPO" used for double-row plates
-#	def2[]:"Y"  # "OPO" used for trailers
+#	def2[]:"W"  # Used for mopeds (III/VI)
+#	def2[]:"X"  # Used for double-row plates (III), trailer double-row plates (V)
+#	def2[]:"Y"  # Used for trailers (III/IV/V/VI)
 
 	def3[]:"1"
 	def3[]:"2"
@@ -220,6 +234,8 @@ license_plate_data : .opole.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"OP50444"    # I    some before EU stars
 #	templates[]:"OP54444A"   # II
@@ -232,11 +248,12 @@ license_plate_data : .opole.lp.truck
 #	templates[]:"OP54444K"   # II
 #	templates[]:"OP54444L"   # II
 #	templates[]:"OP54444M"   # II
-#	templates[]:"OP5144N"    # II
-	templates[]:"OP5244P"    # II
-	templates[]:"OP5244P"    # II
-	templates[]:"OP5244P"    # II
+#	templates[]:"OP54444N"   # II
+#	templates[]:"OP54444P"   # II
+#	templates[]:"OP5144R"    # II
+	templates[]:"OP5244S"    # II
 
+	# "OP" I
 ##	def0[]:"00"  # Partially used for double-row plates
 ##	def0[]:"01"  # Partially used for double-row plates
 #	def0[]:"02"
@@ -338,14 +355,15 @@ license_plate_data : .opole.lp.truck
 #	def0[]:"98"
 #	def0[]:"99"
 
-#	def1[]:"00"  # II ....N
+	# "OP" II ....R
+##	def1[]:"00"  # Partially used for electric vehicles
 #	def1[]:"01"
 #	def1[]:"02"
 #	def1[]:"03"
 #	def1[]:"04"
 #	def1[]:"05"
 #	def1[]:"06"
-#	def1[]:"07"
+##	def1[]:"07"  # Used for trailers
 #	def1[]:"08"
 #	def1[]:"09"
 #	def1[]:"10"
@@ -359,9 +377,9 @@ license_plate_data : .opole.lp.truck
 #	def1[]:"18"
 #	def1[]:"19"
 #	def1[]:"20"
-##	def1[]:"21"  # Used for trailers
-##	def1[]:"22"  # Used for trailers
-##	def1[]:"23"  # Used for trailers
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
 #	def1[]:"24"
 #	def1[]:"25"
 #	def1[]:"26"
@@ -375,17 +393,17 @@ license_plate_data : .opole.lp.truck
 #	def1[]:"34"
 #	def1[]:"35"
 #	def1[]:"36"
-##	def1[]:"37"  # Used for trailers
+#	def1[]:"37"
 #	def1[]:"38"
-#	def1[]:"39"
+##	def1[]:"39"  # Partially used for double-row plates
 #	def1[]:"40"
 #	def1[]:"41"
 #	def1[]:"42"
 #	def1[]:"43"
 #	def1[]:"44"
 #	def1[]:"45"
-#	def1[]:"46"
-#	def1[]:"47"
+##	def1[]:"46"  # Used for trailers
+##	def1[]:"47"  # Partially used for electric vehicles
 #	def1[]:"48"
 #	def1[]:"49"
 #	def1[]:"50"
@@ -400,18 +418,18 @@ license_plate_data : .opole.lp.truck
 #	def1[]:"59"
 #	def1[]:"60"
 #	def1[]:"61"
-#	def1[]:"62"
+##	def1[]:"62"  # Partially used for double-row plates
 #	def1[]:"63"
 #	def1[]:"64"
 #	def1[]:"65"
 #	def1[]:"66"
-#	def1[]:"67"
-#	def1[]:"68"
+##	def1[]:"67"  # Used for trailers
+##	def1[]:"68"  # Used for trailers
 #	def1[]:"69"
 #	def1[]:"70"
 #	def1[]:"71"
 #	def1[]:"72"
-##	def1[]:"73"  # Used for trailers
+#	def1[]:"73"
 #	def1[]:"74"
 #	def1[]:"75"
 #	def1[]:"76"
@@ -421,7 +439,7 @@ license_plate_data : .opole.lp.truck
 #	def1[]:"80"
 #	def1[]:"81"
 #	def1[]:"82"
-#	def1[]:"83"
+##	def1[]:"83"  # Partially used for electric vehicles
 #	def1[]:"84"
 #	def1[]:"85"
 #	def1[]:"86"
@@ -435,17 +453,18 @@ license_plate_data : .opole.lp.truck
 #	def1[]:"94"
 #	def1[]:"95"
 #	def1[]:"96"
-#	def1[]:"97"
+##	def1[]:"97"  # Used for trailers
 #	def1[]:"98"
 #	def1[]:"99"
 
-#	def2[]:"00"  # II ....P
+	# "OP" II ....S
+##	def2[]:"00"  # Partially used for electric vehicles
 #	def2[]:"01"
 #	def2[]:"02"
 #	def2[]:"03"
 #	def2[]:"04"
-	def2[]:"05"
-	def2[]:"06"
+#	def2[]:"05"
+#	def2[]:"06"
 	def2[]:"07"
 	def2[]:"08"
 	def2[]:"09"
@@ -462,10 +481,10 @@ license_plate_data : .opole.lp.truck
 	def2[]:"20"
 	def2[]:"21"
 	def2[]:"22"
-#	def2[]:"23"  # Used for trailers
+	def2[]:"23"
 	def2[]:"24"
 	def2[]:"25"
-	def2[]:"26"
+#	def2[]:"26"  # Used for trailers
 	def2[]:"27"
 	def2[]:"28"
 	def2[]:"29"
@@ -474,9 +493,9 @@ license_plate_data : .opole.lp.truck
 	def2[]:"32"
 	def2[]:"33"
 	def2[]:"34"
-	def2[]:"35"  # "OP" II P latest issued (April 2021)
-#	def2[]:"36"
-#	def2[]:"37"
+	def2[]:"35"
+	def2[]:"36"
+	def2[]:"37"  # "OP" II ....S latest issued (October 2022)
 #	def2[]:"38"
 #	def2[]:"39"
 #	def2[]:"40"
@@ -558,6 +577,8 @@ license_plate_data : .opole.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"OP544444"   # I    most before EU stars
 #	templates[]:"OP54444A"   # II
@@ -568,30 +589,35 @@ license_plate_data : .opole.lp.trailer
 #	templates[]:"OP54444H"   # II
 #	templates[]:"OP54444J"   # II
 #	templates[]:"OP54444K"   # II
-#	templates[]:"OP5044L"    # II
-	templates[]:"OP5144M"    # II
-	templates[]:"OP5244N"    # II
-	templates[]:"OP5344P"    # II
-	templates[]:"OP5344P"    # II
+#	templates[]:"OP54444L"   # II
+#	templates[]:"OP54444M"   # II
+#	templates[]:"OP5044N"    # II
+	templates[]:"OP5144P"    # II
+	templates[]:"OP5244R"    # II
+	templates[]:"OP5344S"    # II
 
-#	def0[]:"25"  # II ....L
-#	def0[]:"26"
-#	def0[]:"27"
-#	def0[]:"47"
+	# "OP" II ....N
+#	def0[]:"21"
+#	def0[]:"22"
+#	def0[]:"37"
+#	def0[]:"73"
 
-#	def1[]:"02"  # II ....M
-	def1[]:"03"
-	def1[]:"04"
-	def1[]:"60"
-	def1[]:"61"
-	def1[]:"62"
+	# "OP" II ....P
+#	def1[]:"23"
+	def1[]:"52"
+	def1[]:"53"
+	def1[]:"76"
+	def1[]:"96"
 
-	def2[]:"21"  # II ....N
-	def2[]:"22"
-	def2[]:"37"
-	def2[]:"73"
+	# "OP" II ....R
+	def2[]:"07"
+	def2[]:"46"
+	def2[]:"67"
+	def2[]:"68"
+	def2[]:"97"  # Partially used for trailer double-row plates
 
-	def3[]:"23"  # "OP" II P latest issued (April 2021)
+	# "OP" II ....S
+	def3[]:"26"  # "OP" II ....S latest issued (October 2022)
 
 	def4[]:"0"
 	def4[]:"1"
@@ -610,6 +636,8 @@ license_plate_data : .opole.lp.trailer
 license_plate_data : .opole.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# J = Opole (Opolskie) Voivodeship Headquarters
 	templates[]:"HPJ51222"

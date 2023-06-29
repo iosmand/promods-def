@@ -10,31 +10,31 @@ city_data: city.piotrkowt
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -215
+	map_x_offsets[]: -150
+	map_x_offsets[]: -95
+	map_x_offsets[]: -62
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -115
+	map_y_offsets[]: -20
+	map_y_offsets[]: -20
 	map_y_offsets[]: 0
 
 	vehicle_brands[]:"man"
-	
-	### MEDIUM CITY ###
+
+	### SMALL-MEDIUM CITY ###
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  
-	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
-	city_pin_scale_factor[]: 1.0  // closest zoom for world map
-	city_pin_scale_factor[]: 1.0  // middle zoom for world map
-	city_pin_scale_factor[]: 0.8  // whole world map zoom
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
 
 	license_plate[]: .piotrkowt.lp.car
 	license_plate[]: .piotrkowt.lp.truck
@@ -48,10 +48,11 @@ license_plate_data : .piotrkowt.lp.car
 
 	# Two letter powiat codes
 	templates[]:"EP544444"   # I    some before EU stars
-	templates[]:"EP5044A"    # II
-	templates[]:"EP5044A"    # II
-	templates[]:"EP5044A"    # II
-	templates[]:"EP5044A"    # II
+	templates[]:"EP54444A"   # II
+	templates[]:"EP5044C"    # II
+	templates[]:"EP5044C"    # II
+	templates[]:"EP5044C"    # II
+	templates[]:"EP5044C"    # II
 
 	# Three letter powiat codes
 #	templates[]:"EPI52444"   # I    before EU stars
@@ -61,74 +62,75 @@ license_plate_data : .piotrkowt.lp.car
 	templates[]:"EPI53223"   # V
 	templates[]:"EPI5144"    # VI
 
-	def0[]:"00"
-	def0[]:"01"
-	def0[]:"02"
-	def0[]:"03"
-	def0[]:"04"
-	def0[]:"05"
-	def0[]:"06"
-	def0[]:"07"
-	def0[]:"08"
-	def0[]:"09"
-	def0[]:"10"
-	def0[]:"11"
-	def0[]:"12"
-	def0[]:"13"
-	def0[]:"14"
-	def0[]:"15"
-	def0[]:"16"
-	def0[]:"17"
-	def0[]:"18"
-	def0[]:"19"
-	def0[]:"20"
-	def0[]:"21"
-	def0[]:"22"
-	def0[]:"23"
-	def0[]:"24"
-	def0[]:"25"
-	def0[]:"26"
-	def0[]:"27"
-	def0[]:"28"
-	def0[]:"29"
-	def0[]:"30"
-	def0[]:"31"
-	def0[]:"32"
-	def0[]:"33"
-	def0[]:"34"
-	def0[]:"35"
-	def0[]:"36"
-	def0[]:"37"
-	def0[]:"38"
-	def0[]:"39"
-	def0[]:"40"
-	def0[]:"41"
-	def0[]:"42"
-	def0[]:"43"
-	def0[]:"44"  # "EP" II A latest issued (April 2021)
+	# "EP" II ....C
+#	def0[]:"00"  # 00-49 reserved for trailers
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+#	def0[]:"06"
+#	def0[]:"07"
+#	def0[]:"08"
+#	def0[]:"09"
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"12"
+#	def0[]:"13"
+#	def0[]:"14"
+#	def0[]:"15"
+#	def0[]:"16"
+#	def0[]:"17"
+#	def0[]:"18"
+#	def0[]:"19"
+#	def0[]:"20"
+#	def0[]:"21"
+#	def0[]:"22"
+#	def0[]:"23"
+#	def0[]:"24"
+#	def0[]:"25"
+#	def0[]:"26"
+#	def0[]:"27"
+#	def0[]:"28"
+#	def0[]:"29"
+#	def0[]:"30"
+#	def0[]:"31"
+#	def0[]:"32"
+#	def0[]:"33"
+#	def0[]:"34"
+#	def0[]:"35"
+#	def0[]:"36"
+#	def0[]:"37"
+#	def0[]:"38"
+#	def0[]:"39"
+#	def0[]:"40"
+#	def0[]:"41"
+#	def0[]:"42"
+#	def0[]:"43"
+#	def0[]:"44"
 #	def0[]:"45"
 #	def0[]:"46"
 #	def0[]:"47"
 #	def0[]:"48"
 #	def0[]:"49"
-#	def0[]:"50"
-#	def0[]:"51"
-#	def0[]:"52"
-#	def0[]:"53"
-#	def0[]:"54"
-#	def0[]:"55"
-#	def0[]:"56"
-#	def0[]:"57"
-#	def0[]:"58"
-#	def0[]:"59"
-#	def0[]:"60"
-#	def0[]:"61"
-#	def0[]:"62"
-#	def0[]:"63"
-#	def0[]:"64"
-#	def0[]:"65"
-#	def0[]:"66"
-#	def0[]:"67"
+	def0[]:"50"
+	def0[]:"51"
+	def0[]:"52"
+	def0[]:"53"
+	def0[]:"54"
+	def0[]:"55"
+	def0[]:"56"
+	def0[]:"57"
+	def0[]:"58"
+	def0[]:"59"
+	def0[]:"60"
+	def0[]:"61"
+	def0[]:"62"
+	def0[]:"63"
+	def0[]:"64"
+	def0[]:"65"
+	def0[]:"66"
+	def0[]:"67"  # "EP" II ....C latest issued (August 2022)
 #	def0[]:"68"
 #	def0[]:"69"
 #	def0[]:"70"
@@ -162,6 +164,7 @@ license_plate_data : .piotrkowt.lp.car
 #	def0[]:"98"
 #	def0[]:"99"
 
+	# "EPI" VI
 	def1[]:"AA"
 	def1[]:"AC"
 	def1[]:"AE"
@@ -219,14 +222,14 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"ET"
 #	def1[]:"EU"  # Used for trailers
 #	def1[]:"EV"  # Used for motorcycles
-#	def1[]:"EW"
+#	def1[]:"EW"  # Not issued?
 	def1[]:"EX"
 	def1[]:"EY"
 	def1[]:"FA"
 	def1[]:"FC"
-#	def1[]:"FE"
-#	def1[]:"FF"
-#	def1[]:"FG"
+#	def1[]:"FE"  # Used for tractors
+#	def1[]:"FF"  # Not issued?
+#	def1[]:"FG"  # Not issued?
 	def1[]:"FH"
 	def1[]:"FJ"
 	def1[]:"FK"
@@ -236,7 +239,7 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"FP"
 	def1[]:"FR"
 	def1[]:"FS"
-	def1[]:"FT"
+#	def1[]:"FT"  # Used for tractors
 #	def1[]:"FU"  # Used for trailers
 	def1[]:"FV"
 	def1[]:"FW"
@@ -245,7 +248,7 @@ license_plate_data : .piotrkowt.lp.car
 #	def1[]:"GA"  # Used for mopeds
 	def1[]:"GC"
 	def1[]:"GE"
-#	def1[]:"GF"
+#	def1[]:"GF"  # Not issued?
 	def1[]:"GG"
 #	def1[]:"GH"  # Used for tractors
 	def1[]:"GJ"
@@ -254,7 +257,7 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"GM"
 	def1[]:"GN"
 	def1[]:"GP"
-#	def1[]:"GR"
+#	def1[]:"GR"  # Not issued?
 	def1[]:"GS"
 #	def1[]:"GT"  # Used for motorcycles
 #	def1[]:"GU"  # Used for trailers
@@ -275,9 +278,9 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"HN"
 	def1[]:"HP"
 #	def1[]:"HR"  # Used for trailers
-#	def1[]:"HS"
+#	def1[]:"HS"  # Used for trailer double-row plates
 #	def1[]:"HT"  # Used for motorcycles
-#	def1[]:"HU"
+#	def1[]:"HU"  # Used for mopeds
 	def1[]:"HV"
 	def1[]:"HW"
 	def1[]:"HX"
@@ -287,7 +290,7 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"JE"
 	def1[]:"JF"
 #	def1[]:"JG"  # Used for tractors
-#	def1[]:"JH"
+#	def1[]:"JH"  # Used for tractors
 	def1[]:"JJ"
 	def1[]:"JK"
 	def1[]:"JL"
@@ -296,11 +299,11 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"JP"
 	def1[]:"JR"
 	def1[]:"JS"
-#	def1[]:"JT"
+#	def1[]:"JT"  # Not issued?
 #	def1[]:"JU"  # Used for tractors
 #	def1[]:"JV"  # Used for motorcycles
 #	def1[]:"JW"  # Used for trailers
-#	def1[]:"JX"
+#	def1[]:"JX"  # Not issued?
 #	def1[]:"JY"  # Used for motorcycles
 	def1[]:"KA"
 	def1[]:"KC"
@@ -313,10 +316,10 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"KL"
 	def1[]:"KM"
 	def1[]:"KN"
-#	def1[]:"KP"
+#	def1[]:"KP"  # Not issued?
 #	def1[]:"KR"  # Used for mopeds
 #	def1[]:"KS"  # Used for tractors
-#	def1[]:"KT"
+#	def1[]:"KT"  # Not issued?
 #	def1[]:"KU"  # Used for motorcycles
 	def1[]:"KV"
 	def1[]:"KW"
@@ -327,14 +330,14 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"LE"
 	def1[]:"LF"
 #	def1[]:"LG"  # Used for trailers
-#	def1[]:"LH"
-#	def1[]:"LJ"
-#	def1[]:"LK"
+#	def1[]:"LH"  # Used for trailers
+#	def1[]:"LJ"  # Used for motorcycles
+#	def1[]:"LK"  # Not issued?
 	def1[]:"LL"
-#	def1[]:"LM"
+#	def1[]:"LM"  # Not issued?
 	def1[]:"LN"
-#	def1[]:"LP"
-#	def1[]:"LR"
+#	def1[]:"LP"  # Used for trailers
+#	def1[]:"LR"  # Used for mopeds
 	def1[]:"LS"
 	def1[]:"LT"
 	def1[]:"LU"
@@ -342,19 +345,19 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"LW"
 	def1[]:"LX"
 	def1[]:"LY"
-#	def1[]:"MA"
-#	def1[]:"MC"
+#	def1[]:"MA"  # Not issued?
+#	def1[]:"MC"  # Used for double-row plates
 	def1[]:"ME"
 	def1[]:"MF"
 	def1[]:"MG"
-#	def1[]:"MH"
+#	def1[]:"MH"  # Not issued?
 	def1[]:"MJ"
 	def1[]:"MK"
 	def1[]:"ML"
-#	def1[]:"MM"
+#	def1[]:"MM"  # Not issued?
 #	def1[]:"MN"  # Used for trailers
-#	def1[]:"MP"
-#	def1[]:"MR"
+#	def1[]:"MP"  # Used for tractors
+#	def1[]:"MR"  # Used for electric vehicles
 	def1[]:"MS"
 	def1[]:"MT"
 	def1[]:"MU"
@@ -362,8 +365,8 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"MW"
 	def1[]:"MX"
 	def1[]:"MY"
-#	def1[]:"NA"
-#	def1[]:"NC"
+#	def1[]:"NA"  # Used for motorcycles
+#	def1[]:"NC"  # Used for mopeds
 	def1[]:"NE"
 	def1[]:"NF"
 	def1[]:"NG"
@@ -374,15 +377,196 @@ license_plate_data : .piotrkowt.lp.car
 	def1[]:"NM"
 	def1[]:"NN"
 	def1[]:"NP"
-#	def1[]:"NR"
-#	def1[]:"NS"
-#	def1[]:"NT"
+#	def1[]:"NR"  # Used for trailers
+#	def1[]:"NS"  # Not issued?
+#	def1[]:"NT"  # Used for motorcycles
 	def1[]:"NU"
-#	def1[]:"NV"
+	def1[]:"NV"
 	def1[]:"NW"
-#	def1[]:"NX"
-	def1[]:"NY"  # "EPI" VI latest issued (April 2021)
+	def1[]:"NX"
+	def1[]:"NY"
+	def1[]:"PA"
+	def1[]:"PC"
+	def1[]:"PE"
+	def1[]:"PF"
+#	def1[]:"PG"  # Used for trailers
+	def1[]:"PH"
+	def1[]:"PJ"
+	def1[]:"PK"
+	def1[]:"PL"
+	def1[]:"PM"
+	def1[]:"PN"
+	def1[]:"PP"
+#	def1[]:"PR"  # Used for motorcycles
+#	def1[]:"PS"  # Not issued?
+	def1[]:"PT"
+	def1[]:"PU"
+	def1[]:"PV"
+	def1[]:"PW"
+	def1[]:"PX"
+	def1[]:"PY"
+#	def1[]:"RA"  # Used for trailers
+#	def1[]:"RC"  # Not issued?
+#	def1[]:"RE"  # Used for tractors
+#	def1[]:"RF"  # Used for motorcycles
+#	def1[]:"RG"  # Used for tractors
+	def1[]:"RH"
+	def1[]:"RJ"
+	def1[]:"RK"
+	def1[]:"RL"
+	def1[]:"RM"
+#	def1[]:"RN"  # Not issued?
+#	def1[]:"RP"  # Used for trailers
+	def1[]:"RR"
+	def1[]:"RS"
+	def1[]:"RT"
+	def1[]:"RU"
+#	def1[]:"RV"  # Not issued?
+#	def1[]:"RW"  # Used for mopeds
+#	def1[]:"RX"  # Used for trailers
+	def1[]:"RY"
+	def1[]:"SA"
+	def1[]:"SC"
+	def1[]:"SE"
+	def1[]:"SF"
+	def1[]:"SG"
+#	def1[]:"SH"  # Not issued?
+#	def1[]:"SJ"  # Used for motorcycles
+	def1[]:"SK"
+	def1[]:"SL"
+	def1[]:"SM"
+	def1[]:"SN"
+	def1[]:"SP"
+	def1[]:"SR"
+#	def1[]:"SS"  # Not issued?
+#	def1[]:"ST"  # Used for trailers
+	def1[]:"SU"
+	def1[]:"SV"
+	def1[]:"SW"
+	def1[]:"SX"
+	def1[]:"SY"
+	def1[]:"TA"
+	def1[]:"TC"
+	def1[]:"TE"
+#	def1[]:"TF"  # Not issued?
+	def1[]:"TG"
+#	def1[]:"TH"  # Used for motorcycles
+	def1[]:"TJ"
+	def1[]:"TK"
+	def1[]:"TL"
+	def1[]:"TM"
+#	def1[]:"TN"  # Used for motorcycles
+#	def1[]:"TP"  # Used for trailers
+	def1[]:"TR"
+#	def1[]:"TS"  # Not issued?
+	def1[]:"TT"
+	def1[]:"TU"
+	def1[]:"TV"
+	def1[]:"TW"
+	def1[]:"TX"
+	def1[]:"TY"
+	def1[]:"UA"
+	def1[]:"UC"
+	def1[]:"UE"
+	def1[]:"UF"
+	def1[]:"UG"
+	def1[]:"UH"
+#	def1[]:"UJ"  # Not issued?
+	def1[]:"UK"
+	def1[]:"UL"
+	def1[]:"UM"
+	def1[]:"UN"
+#	def1[]:"UP"  # Not issued?
+	def1[]:"UR"
+#	def1[]:"US"  # Used for trailers
+	def1[]:"UT"
+	def1[]:"UU"
+	def1[]:"UV"
+	def1[]:"UW"
+#	def1[]:"UX"
+#	def1[]:"UY"
+	def1[]:"VA"
+	def1[]:"VC"
+	def1[]:"VE"
+#	def1[]:"VF"  # Not issued?
+	def1[]:"VG"
+	def1[]:"VH"
+#	def1[]:"VJ"  # Not issued?
+	def1[]:"VK"  # "EPI" VI latest issued (June 2022)
+#	def1[]:"VL"
+#	def1[]:"VM"
+#	def1[]:"VN"
+#	def1[]:"VP"
+#	def1[]:"VR"
+#	def1[]:"VS"
+##	def1[]:"VT"  # Used for trailers
+#	def1[]:"VU"
+#	def1[]:"VV"
+#	def1[]:"VW"
+#	def1[]:"VX"
+#	def1[]:"VY"
+#	def1[]:"WA"
+#	def1[]:"WC"
+#	def1[]:"WE"
+#	def1[]:"WF"
+#	def1[]:"WG"
+#	def1[]:"WH"
+#	def1[]:"WJ"
+#	def1[]:"WK"
+#	def1[]:"WL"
+#	def1[]:"WM"
+#	def1[]:"WN"
+#	def1[]:"WP"
+#	def1[]:"WR"
+#	def1[]:"WS"
+#	def1[]:"WT"
+#	def1[]:"WU"
+#	def1[]:"WV"
+#	def1[]:"WW"
+#	def1[]:"WX"
+#	def1[]:"WY"
+#	def1[]:"XA"
+#	def1[]:"XC"
+#	def1[]:"XE"
+#	def1[]:"XF"
+#	def1[]:"XG"
+#	def1[]:"XH"
+#	def1[]:"XJ"
+#	def1[]:"XK"
+#	def1[]:"XL"
+#	def1[]:"XM"
+#	def1[]:"XN"
+#	def1[]:"XP"
+#	def1[]:"XR"
+#	def1[]:"XS"
+#	def1[]:"XT"
+#	def1[]:"XU"
+#	def1[]:"XV"
+#	def1[]:"XW"
+#	def1[]:"XX"
+#	def1[]:"XY"
+#	def1[]:"YA"
+#	def1[]:"YC"
+#	def1[]:"YE"
+#	def1[]:"YF"
+#	def1[]:"YG"
+#	def1[]:"YH"
+#	def1[]:"YJ"
+#	def1[]:"YK"
+#	def1[]:"YL"
+#	def1[]:"YM"
+#	def1[]:"YN"
+#	def1[]:"YP"
+#	def1[]:"YR"
+#	def1[]:"YS"
+#	def1[]:"YT"
+#	def1[]:"YU"
+#	def1[]:"YV"
+#	def1[]:"YW"
+#	def1[]:"YX"
+#	def1[]:"YY"
 
+	# "EPI" II/III/IV/V
 	def2[]:"A"
 	def2[]:"C"
 	def2[]:"E"
@@ -432,10 +616,17 @@ license_plate_data : .piotrkowt.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Two letter powiat codes
 #	templates[]:"EP50444"    # I    some before EU stars
 	templates[]:"EP5144A"    # II
+	templates[]:"EP5244C"    # II
+	templates[]:"EP5244C"    # II
+	templates[]:"EP5244C"    # II
+	templates[]:"EP5244C"    # II
 
+	# "EP" I
 #	def0[]:"00"
 #	def0[]:"01"
 #	def0[]:"02"
@@ -462,7 +653,7 @@ license_plate_data : .piotrkowt.lp.truck
 #	def0[]:"23"
 #	def0[]:"24"
 #	def0[]:"25"
-##	def0[]:"26"  # Partially used for double-row plates
+##	def0[]:"26"  # Half used for double-row plates
 #	def0[]:"27"  # Some before EU stars
 #	def0[]:"28"
 #	def0[]:"29"
@@ -490,7 +681,7 @@ license_plate_data : .piotrkowt.lp.truck
 #	def0[]:"51"
 #	def0[]:"52"
 ##	def0[]:"53"  # Used for trailers
-##	def0[]:"54"  # Partially used for double-row plates
+##	def0[]:"54"  # Half used for double-row plates
 #	def0[]:"55"
 #	def0[]:"56"
 #	def0[]:"57"
@@ -537,6 +728,7 @@ license_plate_data : .piotrkowt.lp.truck
 #	def0[]:"98"
 #	def0[]:"99"
 
+	# "EP" II ....A
 #	def1[]:"00"
 #	def1[]:"01"
 #	def1[]:"02"
@@ -552,36 +744,36 @@ license_plate_data : .piotrkowt.lp.truck
 #	def1[]:"12"
 #	def1[]:"13"
 #	def1[]:"14"
-	def1[]:"15"
-	def1[]:"16"
-	def1[]:"17"
-	def1[]:"18"
-	def1[]:"19"
-	def1[]:"20"
-	def1[]:"21"
-	def1[]:"22"
-	def1[]:"23"
-	def1[]:"24"
-	def1[]:"25"
-	def1[]:"26"
-	def1[]:"27"
-	def1[]:"28"
-	def1[]:"29"
-	def1[]:"30"
-	def1[]:"31"
-	def1[]:"32"
-	def1[]:"33"
-	def1[]:"34"
-	def1[]:"35"
-	def1[]:"36"
-	def1[]:"37"
-	def1[]:"38"
-	def1[]:"39"
-	def1[]:"40"
-	def1[]:"41"
-	def1[]:"42"
-	def1[]:"43"
-	def1[]:"44"  # "EP" II A latest issued (April 2021)
+#	def1[]:"15"
+#	def1[]:"16"
+#	def1[]:"17"
+#	def1[]:"18"
+#	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
+#	def1[]:"30"
+#	def1[]:"31"
+#	def1[]:"32"
+#	def1[]:"33"
+#	def1[]:"34"
+#	def1[]:"35"
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
 #	def1[]:"45"
 #	def1[]:"46"
 #	def1[]:"47"
@@ -615,28 +807,130 @@ license_plate_data : .piotrkowt.lp.truck
 #	def1[]:"75"
 #	def1[]:"76"
 #	def1[]:"77"
-#	def1[]:"78"
-#	def1[]:"79"
-#	def1[]:"80"
-#	def1[]:"81"
-#	def1[]:"82"
-#	def1[]:"83"
-#	def1[]:"84"
-#	def1[]:"85"
-#	def1[]:"86"
-#	def1[]:"87"
-#	def1[]:"88"
-#	def1[]:"89"
-#	def1[]:"90"
-#	def1[]:"91"
-#	def1[]:"92"
-#	def1[]:"93"
-#	def1[]:"94"
-#	def1[]:"95"
-#	def1[]:"96"
-#	def1[]:"97"
-#	def1[]:"98"
-#	def1[]:"99"
+	def1[]:"78"
+	def1[]:"79"
+	def1[]:"80"
+	def1[]:"81"
+	def1[]:"82"
+	def1[]:"83"
+	def1[]:"84"
+	def1[]:"85"
+	def1[]:"86"
+	def1[]:"87"
+	def1[]:"88"
+	def1[]:"89"
+	def1[]:"90"
+	def1[]:"91"
+	def1[]:"92"
+	def1[]:"93"
+	def1[]:"94"
+	def1[]:"95"
+	def1[]:"96"
+	def1[]:"97"
+	def1[]:"98"
+	def1[]:"99"
+
+	# "EP" II ....C
+#	def2[]:"00"  # 00-49 reserved for trailers
+#	def2[]:"01"
+#	def2[]:"02"
+#	def2[]:"03"
+#	def2[]:"04"
+#	def2[]:"05"
+#	def2[]:"06"
+#	def2[]:"07"
+#	def2[]:"08"
+#	def2[]:"09"
+#	def2[]:"10"
+#	def2[]:"11"
+#	def2[]:"12"
+#	def2[]:"13"
+#	def2[]:"14"
+#	def2[]:"15"
+#	def2[]:"16"
+#	def2[]:"17"
+#	def2[]:"18"
+#	def2[]:"19"
+#	def2[]:"20"
+#	def2[]:"21"
+#	def2[]:"22"
+#	def2[]:"23"
+#	def2[]:"24"
+#	def2[]:"25"
+#	def2[]:"26"
+#	def2[]:"27"
+#	def2[]:"28"
+#	def2[]:"29"
+#	def2[]:"30"
+#	def2[]:"31"
+#	def2[]:"32"
+#	def2[]:"33"
+#	def2[]:"34"
+#	def2[]:"35"
+#	def2[]:"36"
+#	def2[]:"37"
+#	def2[]:"38"
+#	def2[]:"39"
+#	def2[]:"40"
+#	def2[]:"41"
+#	def2[]:"42"
+#	def2[]:"43"
+#	def2[]:"44"
+#	def2[]:"45"
+#	def2[]:"46"
+#	def2[]:"47"
+#	def2[]:"48"
+#	def2[]:"49"
+	def2[]:"50"
+	def2[]:"51"
+	def2[]:"52"
+	def2[]:"53"
+	def2[]:"54"
+	def2[]:"55"
+	def2[]:"56"
+	def2[]:"57"
+	def2[]:"58"
+	def2[]:"59"
+	def2[]:"60"
+	def2[]:"61"
+	def2[]:"62"
+	def2[]:"63"
+	def2[]:"64"
+	def2[]:"65"
+	def2[]:"66"
+	def2[]:"67"  # "EP" II ....C latest issued (August 2022)
+#	def2[]:"68"
+#	def2[]:"69"
+#	def2[]:"70"
+#	def2[]:"71"
+#	def2[]:"72"
+#	def2[]:"73"
+#	def2[]:"74"
+#	def2[]:"75"
+#	def2[]:"76"
+#	def2[]:"77"
+#	def2[]:"78"
+#	def2[]:"79"
+#	def2[]:"80"
+#	def2[]:"81"
+#	def2[]:"82"
+#	def2[]:"83"
+#	def2[]:"84"
+#	def2[]:"85"
+#	def2[]:"86"
+#	def2[]:"87"
+#	def2[]:"88"
+#	def2[]:"89"
+#	def2[]:"90"
+#	def2[]:"91"
+#	def2[]:"92"
+#	def2[]:"93"
+#	def2[]:"94"
+#	def2[]:"95"
+#	def2[]:"96"
+#	def2[]:"97"
+#	def2[]:"98"
+#	def2[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -656,9 +950,16 @@ license_plate_data : .piotrkowt.lp.trailer
 {
 	type: trailer
 
-	# Two letter powiat codes
-	templates[]:"EP5044"    # I    some before EU stars
+	probability: 0.3
 
+	# Two letter powiat codes
+	templates[]:"EP5044"     # I    some before EU stars
+	templates[]:"EP5144C"    # II
+	templates[]:"EP5144C"    # II
+	templates[]:"EP5144C"    # II
+	templates[]:"EP5144C"    # II
+
+	# "EP" I
 #	def0[]:"055"
 #	def0[]:"056"
 #	def0[]:"057"
@@ -698,17 +999,69 @@ license_plate_data : .piotrkowt.lp.trailer
 #	def0[]:"736"
 #	def0[]:"737"
 #	def0[]:"738"
-	def0[]:"739"
-	def0[]:"830"
-	def0[]:"831"
-	def0[]:"832"
+#	def0[]:"739"
+#	def0[]:"830"
+#	def0[]:"831"
+#	def0[]:"832"
 	def0[]:"833"
 	def0[]:"834"
 	def0[]:"835"
 	def0[]:"836"
 	def0[]:"837"
-	def0[]:"838"  # "EP" I latest issued (April 2021)
-#	def0[]:"839"
+	def0[]:"838"
+	def0[]:"839"
+
+	# "EP" II ....C
+	def1[]:"00"
+	def1[]:"01"
+	def1[]:"02"  # "EP" II ....C latest issued (July 2022)
+#	def1[]:"03"
+#	def1[]:"04"
+#	def1[]:"05"
+#	def1[]:"06"
+#	def1[]:"07"
+#	def1[]:"08"
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
+#	def1[]:"12"
+#	def1[]:"13"
+#	def1[]:"14"
+#	def1[]:"15"
+#	def1[]:"16"
+#	def1[]:"17"
+#	def1[]:"18"
+#	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
+#	def1[]:"30"
+#	def1[]:"31"
+#	def1[]:"32"
+#	def1[]:"33"
+#	def1[]:"34"
+#	def1[]:"35"
+#	def1[]:"36"
+#	def1[]:"37"
+#	def1[]:"38"
+#	def1[]:"39"
+#	def1[]:"40"
+#	def1[]:"41"
+#	def1[]:"42"
+#	def1[]:"43"
+#	def1[]:"44"
+#	def1[]:"45"
+#	def1[]:"46"
+#	def1[]:"47"
+#	def1[]:"48"
+#	def1[]:"49"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -727,6 +1080,8 @@ license_plate_data : .piotrkowt.lp.trailer
 license_plate_data : .piotrkowt.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# F = Łódź (Łódzkie) Voivodeship Headquarters
 	templates[]:"HPF51222"

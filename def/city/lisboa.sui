@@ -8,17 +8,17 @@ city_data : city.lisboa
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: -10
-	map_x_offsets[]: -70
-	map_x_offsets[]: -70
-	map_x_offsets[]: -70
-	map_x_offsets[]: -70
+	map_x_offsets[]: 200
+	map_x_offsets[]: 20
+	map_x_offsets[]: -10
+	map_x_offsets[]: -68
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: -50
 	map_y_offsets[]: -28
-	map_y_offsets[]: -10
-	map_y_offsets[]: -10
+	map_y_offsets[]: 20
+	map_y_offsets[]: 0
 	map_y_offsets[]: -10
 	map_y_offsets[]: -10
 

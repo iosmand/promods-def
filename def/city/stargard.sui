@@ -21,6 +21,17 @@ city_data: city.stargard
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
+
+	### SMALL-MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 0.7  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.65 // whole world map zoom
+
 	license_plate[]: .stargard.lp.car
 	license_plate[]: .stargard.lp.truck
 	license_plate[]: .stargard.lp.trailer
@@ -35,10 +46,12 @@ license_plate_data : .stargard.lp.car
 #	templates[]:"ZST50444"   # I    before EU stars
 	templates[]:"ZST5441"    # II   some before EU stars
 	templates[]:"ZST52444"   # VII
-	templates[]:"ZST52444"   # VII
-	templates[]:"ZST52444"   # VII
-	templates[]:"ZST52444"   # VII
+	templates[]:"ZST5344A"   # VIII
+	templates[]:"ZST5344A"   # VIII
+	templates[]:"ZST5344A"   # VIII
+	templates[]:"ZST5344A"   # VIII
 
+	# "ZST" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -60,6 +73,7 @@ license_plate_data : .stargard.lp.car
 #	def0[]:"X"
 #	def0[]:"Y"
 
+	# "ZST" II
 #	def1[]:"AA"
 ##	def1[]:"AC"  # Used for trailers
 ##	def1[]:"AE"  # Used for motorcycles
@@ -461,6 +475,7 @@ license_plate_data : .stargard.lp.car
 	def1[]:"YX"
 	def1[]:"YY"
 
+	# "ZST" VII
 	def2[]:"00"
 #	def2[]:"01"  # Partially used for double-row plates and trailers
 	def2[]:"02"
@@ -551,16 +566,118 @@ license_plate_data : .stargard.lp.car
 #	def2[]:"87"  # Partially used for trailers
 	def2[]:"88"
 	def2[]:"89"
-	def2[]:"90"  # Partially used for trailers
-	def2[]:"91"  # "ZST" VII latest issued (April 2021)
-#	def2[]:"92"
-#	def2[]:"93"
-#	def2[]:"94"
-#	def2[]:"95"
-#	def2[]:"96"
-#	def2[]:"97"
-#	def2[]:"98"
-#	def2[]:"99"
+#	def2[]:"90"  # Partially used for trailers and double-row plates
+#	def2[]:"91"  # Partially used for double-row plates and trailers
+#	def2[]:"92"  # Partially used for trailers
+#	def2[]:"93"  # Partially used for trailers
+	def2[]:"94"
+#	def2[]:"95"  # Partially used for trailers
+#	def2[]:"96"  # Partially used for trailers
+	def2[]:"97"
+#	def2[]:"98"  # Partially used for trailers
+#	def2[]:"99"  # Partially used for trailers and double-row plates
+
+	# "ZST" VIII ....A
+	def3[]:"00"
+	def3[]:"01"
+	def3[]:"02"
+	def3[]:"03"
+	def3[]:"04"
+#	def3[]:"05"  # Partially used for trailers
+	def3[]:"06"
+	def3[]:"07"
+	def3[]:"08"
+	def3[]:"09"
+	def3[]:"10"
+	def3[]:"11"
+	def3[]:"12"
+	def3[]:"13"
+	def3[]:"14"
+#	def3[]:"15"  # Used for trailers
+#	def3[]:"16"  # Partially used for trailers
+	def3[]:"17"
+	def3[]:"18"
+	def3[]:"19"
+	def3[]:"20"
+#	def3[]:"21"  # Partially used for trailers
+	def3[]:"22"
+	def3[]:"23"
+	def3[]:"24"
+	def3[]:"25"  # "ZST" VIII ....A latest issued (October 2022)
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
+#	def3[]:"29"
+#	def3[]:"30"
+#	def3[]:"31"
+#	def3[]:"32"
+#	def3[]:"33"
+#	def3[]:"34"
+#	def3[]:"35"
+#	def3[]:"36"
+#	def3[]:"37"
+#	def3[]:"38"
+#	def3[]:"39"
+#	def3[]:"40"
+#	def3[]:"41"
+#	def3[]:"42"
+#	def3[]:"43"
+#	def3[]:"44"
+#	def3[]:"45"
+#	def3[]:"46"
+#	def3[]:"47"
+#	def3[]:"48"
+#	def3[]:"49"
+#	def3[]:"50"
+#	def3[]:"51"
+#	def3[]:"52"
+#	def3[]:"53"
+#	def3[]:"54"
+#	def3[]:"55"
+#	def3[]:"56"
+#	def3[]:"57"
+#	def3[]:"58"
+#	def3[]:"59"
+#	def3[]:"60"
+#	def3[]:"61"
+#	def3[]:"62"
+#	def3[]:"63"
+#	def3[]:"64"
+#	def3[]:"65"
+#	def3[]:"66"
+#	def3[]:"67"
+#	def3[]:"68"
+#	def3[]:"69"
+#	def3[]:"70"
+#	def3[]:"71"
+#	def3[]:"72"
+#	def3[]:"73"
+#	def3[]:"74"
+#	def3[]:"75"
+#	def3[]:"76"
+#	def3[]:"77"
+#	def3[]:"78"
+#	def3[]:"79"
+#	def3[]:"80"
+#	def3[]:"81"
+#	def3[]:"82"
+#	def3[]:"83"
+#	def3[]:"84"
+#	def3[]:"85"
+#	def3[]:"86"
+#	def3[]:"87"
+#	def3[]:"88"
+#	def3[]:"89"
+#	def3[]:"90"
+#	def3[]:"91"
+#	def3[]:"92"
+#	def3[]:"93"
+#	def3[]:"94"
+#	def3[]:"95"
+#	def3[]:"96"
+#	def3[]:"97"
+#	def3[]:"98"
+#	def3[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -580,11 +697,17 @@ license_plate_data : .stargard.lp.truck
 {
 	type: truck
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"ZST50444"   # I    before EU stars
 #	templates[]:"ZST5441"    # II   some before EU stars
 	templates[]:"ZST52444"   # VII
+	templates[]:"ZST5344A"   # VIII
+	templates[]:"ZST5344A"   # VIII
+	templates[]:"ZST5344A"   # VIII
 
+	# "ZST" I
 #	def0[]:"A"
 #	def0[]:"C"
 #	def0[]:"E"
@@ -606,6 +729,7 @@ license_plate_data : .stargard.lp.truck
 #	def0[]:"X"
 #	def0[]:"Y"
 
+	# "ZST" II
 #	def1[]:"AA"
 ##	def1[]:"AC"  # Used for trailers
 ##	def1[]:"AE"  # Used for motorcycles
@@ -1007,6 +1131,7 @@ license_plate_data : .stargard.lp.truck
 #	def1[]:"YX"
 #	def1[]:"YY"
 
+	# "ZST" VII
 #	def2[]:"00"
 ##	def2[]:"01"  # Partially used for double-row plates and trailers
 #	def2[]:"02"
@@ -1096,17 +1221,119 @@ license_plate_data : .stargard.lp.truck
 ##	def2[]:"86"  # Partially used for trailers
 ##	def2[]:"87"  # Partially used for trailers
 #	def2[]:"88"
-	def2[]:"89"
-	def2[]:"90"  # Partially used for trailers
-	def2[]:"91"  # "ZST" VII latest issued (April 2021)
-#	def2[]:"92"
-#	def2[]:"93"
+#	def2[]:"89"
+##	def2[]:"90"  # Partially used for trailers and double-row plates
+##	def2[]:"91"  # Partially used for double-row plates and trailers
+##	def2[]:"92"  # Partially used for trailers
+##	def2[]:"93"  # Partially used for trailers
 #	def2[]:"94"
-#	def2[]:"95"
-#	def2[]:"96"
-#	def2[]:"97"
-#	def2[]:"98"
-#	def2[]:"99"
+##	def2[]:"95"  # Partially used for trailers
+##	def2[]:"96"  # Partially used for trailers
+	def2[]:"97"
+#	def2[]:"98"  # Partially used for trailers
+#	def2[]:"99"  # Partially used for trailers and double-row plates
+
+	# "ZST" VIII ....A
+	def3[]:"00"
+	def3[]:"01"
+	def3[]:"02"
+	def3[]:"03"
+	def3[]:"04"
+#	def3[]:"05"  # Partially used for trailers
+	def3[]:"06"
+	def3[]:"07"
+	def3[]:"08"
+	def3[]:"09"
+	def3[]:"10"
+	def3[]:"11"
+	def3[]:"12"
+	def3[]:"13"
+	def3[]:"14"
+#	def3[]:"15"  # Used for trailers
+#	def3[]:"16"  # Partially used for trailers
+	def3[]:"17"
+	def3[]:"18"
+	def3[]:"19"
+	def3[]:"20"
+#	def3[]:"21"  # Partially used for trailers
+	def3[]:"22"
+	def3[]:"23"
+	def3[]:"24"
+	def3[]:"25"  # "ZST" VIII ....A latest issued (October 2022)
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
+#	def3[]:"29"
+#	def3[]:"30"
+#	def3[]:"31"
+#	def3[]:"32"
+#	def3[]:"33"
+#	def3[]:"34"
+#	def3[]:"35"
+#	def3[]:"36"
+#	def3[]:"37"
+#	def3[]:"38"
+#	def3[]:"39"
+#	def3[]:"40"
+#	def3[]:"41"
+#	def3[]:"42"
+#	def3[]:"43"
+#	def3[]:"44"
+#	def3[]:"45"
+#	def3[]:"46"
+#	def3[]:"47"
+#	def3[]:"48"
+#	def3[]:"49"
+#	def3[]:"50"
+#	def3[]:"51"
+#	def3[]:"52"
+#	def3[]:"53"
+#	def3[]:"54"
+#	def3[]:"55"
+#	def3[]:"56"
+#	def3[]:"57"
+#	def3[]:"58"
+#	def3[]:"59"
+#	def3[]:"60"
+#	def3[]:"61"
+#	def3[]:"62"
+#	def3[]:"63"
+#	def3[]:"64"
+#	def3[]:"65"
+#	def3[]:"66"
+#	def3[]:"67"
+#	def3[]:"68"
+#	def3[]:"69"
+#	def3[]:"70"
+#	def3[]:"71"
+#	def3[]:"72"
+#	def3[]:"73"
+#	def3[]:"74"
+#	def3[]:"75"
+#	def3[]:"76"
+#	def3[]:"77"
+#	def3[]:"78"
+#	def3[]:"79"
+#	def3[]:"80"
+#	def3[]:"81"
+#	def3[]:"82"
+#	def3[]:"83"
+#	def3[]:"84"
+#	def3[]:"85"
+#	def3[]:"86"
+#	def3[]:"87"
+#	def3[]:"88"
+#	def3[]:"89"
+#	def3[]:"90"
+#	def3[]:"91"
+#	def3[]:"92"
+#	def3[]:"93"
+#	def3[]:"94"
+#	def3[]:"95"
+#	def3[]:"96"
+#	def3[]:"97"
+#	def3[]:"98"
+#	def3[]:"99"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -1126,11 +1353,17 @@ license_plate_data : .stargard.lp.trailer
 {
 	type: trailer
 
+	probability: 0.3
+
 	# Three letter powiat codes
 #	templates[]:"ZST504"     # I    before EU stars
 #	templates[]:"ZST5441"    # II   some before EU stars
 	templates[]:"ZST5244"    # VII
+	templates[]:"ZST534A"    # VIII
+	templates[]:"ZST534A"    # VIII
+	templates[]:"ZST534A"    # VIII
 
+	# "ZST" I
 #	def0[]:"A60"
 #	def0[]:"A61"
 #	def0[]:"A62"
@@ -1212,6 +1445,7 @@ license_plate_data : .stargard.lp.trailer
 #	def0[]:"W28"
 #	def0[]:"W29"
 
+	# "ZST" II
 #	def1[]:"AC"
 #	def1[]:"CH"
 #	def1[]:"EG"
@@ -1228,6 +1462,7 @@ license_plate_data : .stargard.lp.trailer
 #	def1[]:"VE"
 #	def1[]:"VF"
 
+	# "ZST" VII
 #	def2[]:"011"
 #	def2[]:"012"
 #	def2[]:"063"
@@ -1250,16 +1485,49 @@ license_plate_data : .stargard.lp.trailer
 #	def2[]:"672"
 #	def2[]:"673"
 #	def2[]:"706"
-	def2[]:"727"
-	def2[]:"775"
-	def2[]:"776"
-	def2[]:"777"
-	def2[]:"823"
-	def2[]:"844"
-	def2[]:"861"
+#	def2[]:"727"
+#	def2[]:"775"
+#	def2[]:"776"
+#	def2[]:"777"
+#	def2[]:"823"
+#	def2[]:"844"
+#	def2[]:"861"
 	def2[]:"875"
 	def2[]:"902"
-	def2[]:"914"  # "ZST" VII latest issued (April 2021)
+	def2[]:"914"
+	def2[]:"925"
+	def2[]:"936"
+	def2[]:"957"
+	def2[]:"968"
+	def2[]:"985"
+#	def2[]:"996"  # Half used for trailer double-row plates
+
+	# "ZST" VIII ....A
+	def3[]:"050"
+	def3[]:"051"
+	def3[]:"052"
+	def3[]:"053"
+	def3[]:"054"
+	def3[]:"150"
+	def3[]:"151"
+	def3[]:"152"
+	def3[]:"153"
+	def3[]:"154"
+	def3[]:"155"
+	def3[]:"156"
+	def3[]:"157"
+	def3[]:"158"
+	def3[]:"159"
+	def3[]:"160"
+	def3[]:"161"
+	def3[]:"162"
+	def3[]:"163"
+	def3[]:"164"
+	def3[]:"210"  # "ZST" VIII ....A latest issued (October 2022)
+#	def3[]:"211"
+#	def3[]:"212"
+#	def3[]:"213"
+#	def3[]:"214"
 
 	def4[]:"0"
 	def4[]:"1"
@@ -1278,6 +1546,8 @@ license_plate_data : .stargard.lp.trailer
 license_plate_data : .stargard.lp.police
 {
 	type: police
+
+	probability: 0.9
 
 	# W = West Pomeranian (Zachodniopomorskie) Voivodeship Headquarters
 	templates[]:"HPW51222"

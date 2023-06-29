@@ -8,31 +8,31 @@
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -190
+	map_x_offsets[]: -100
+	map_x_offsets[]: -50
+	map_x_offsets[]: -30
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -15
+	map_y_offsets[]: -20
+	map_y_offsets[]: -15
 
 	vehicle_brands[]:"volvo"
 
-	### MEDIUM CITY ###
+	### SMALL CITY ###
 	city_pin_scale_factor[]: 1.0
 	city_pin_scale_factor[]: 1.0
-	city_pin_scale_factor[]: 1.0  // close zoom for minimap
-	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for minimap
 	city_pin_scale_factor[]: 1.0  // city zoom for world map
-	city_pin_scale_factor[]: 1.0  // closest zoom for world map
-	city_pin_scale_factor[]: 1.0  // middle zoom for world map
-	city_pin_scale_factor[]: 0.8  // whole world map zoom
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
 
 	license_plate[]: .kandalaksha.lp.car
 	license_plate[]: .kandalaksha.lp.truck

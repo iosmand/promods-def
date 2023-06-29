@@ -9,9 +9,9 @@ country_data : country.data.romania
 
 	pos: (50000, 0, 22000)
 	
-	fuel_price: 1.82
+	fuel_price: 1.362
 
-	fuel_price: 1.82
+	fuel_price: 1.362
 
 	lights_mandatory: true
 	driving_tired_offence: true
@@ -24,6 +24,47 @@ country_data : country.data.romania
 	mass_limit_per_axle_count[]: 38000
 	mass_limit_per_axle_count[]: 40000	# 44t containers
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

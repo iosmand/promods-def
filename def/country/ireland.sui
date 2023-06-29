@@ -10,7 +10,7 @@ country_data : country.data.ireland
 
 	pos: (-69000, 0, -33000)
 
-	fuel_price: 1.95
+	fuel_price: 1.489
 
 	lights_mandatory: false
 	imperial_units: false
@@ -26,6 +26,47 @@ country_data : country.data.ireland
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 44000	# 44t for 40ft containers :(
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

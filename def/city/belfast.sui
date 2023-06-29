@@ -8,19 +8,29 @@ city_data: city.belfast
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: 0
+	map_x_offsets[]: -260
+	map_x_offsets[]: -60
+	map_x_offsets[]: -45
+	map_x_offsets[]: -1
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
-	map_y_offsets[]: 0
+	map_y_offsets[]: -50
+	map_y_offsets[]: -5
+	map_y_offsets[]: -10
+	map_y_offsets[]: -1
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for minimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
 
 	vehicle_brands[]:"iveco"
 
@@ -105,7 +115,9 @@ license_plate_data : .belfast.lp.car
 	def0[]:"TGZ"
 	def0[]:"UGZ"
 	def0[]:"VGZ"
-	def0[]:"WGZ"  # Latest issue as of April 2022
+	def0[]:"WGZ"
+	def0[]:"XGZ"
+	def0[]:"YGZ"  # Latest issue as of February 2023
 
 	def1[]:"1"
 	def1[]:"2"
@@ -141,10 +153,10 @@ license_plate_data : .belfast.lp.truck
 	probability: 0.33
 
 	# Belfast County Borough / Belfast City
-	def0[]:"TGZ"
-	def0[]:"UGZ"
 	def0[]:"VGZ"
-	def0[]:"WGZ"  # Latest issue as of April 2022
+	def0[]:"WGZ"
+	def0[]:"XGZ"
+	def0[]:"YGZ"  # Latest issue as of February 2023
 
 	def1[]:"1"
 	def1[]:"2"

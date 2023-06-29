@@ -41,4 +41,174 @@ vehicle_wheel_accessory : atego_fire.nl.rearwheel2 {
  data_path: "/def/vehicle/r_wheel/steel.sii"
 }
 
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  pl  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.atego_fire.pl
+{
 
+ 	accessories[]: atego_fire.pl.chassis2
+ 	accessories[]: atego_fire.pl.fwdwheel2
+ 	accessories[]: atego_fire.pl.rearwheel2
+
+	allow_parked: true
+	max_speed: 100
+	vehicle_mass: 9000
+	engine_power: 400
+	sound_move[]: "/sound/traffic/truck_eu_1.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_2.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_3.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_1.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_3.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_5.soundref"
+	spawn_ratio: 0.0
+	lod_dist[]: 70
+	
+	sound_move[]: "/sound/traffic/truck_eu_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_5.soundref"
+
+@include "/def/vehicle/ai/promods/road/drivers/driver_fire.sui"	
+	
+}
+vehicle_accessory : atego_fire.pl.chassis2 {
+ data_path: "/def/vehicle/ai/promods/road/atego_fire/chassis_pl.sii"
+}
+
+vehicle_wheel_accessory : atego_fire.pl.fwdwheel2 {
+ data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory : atego_fire.pl.rearwheel2 {
+ data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  at  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.atego_fire.at
+{
+
+ 	accessories[]: atego_fire.at.chassis2
+ 	accessories[]: atego_fire.at.fwdwheel2
+ 	accessories[]: atego_fire.at.rearwheel2
+
+	allow_parked: true
+	max_speed: 100
+	vehicle_mass: 9000
+	engine_power: 400
+	sound_move[]: "/sound/traffic/truck_eu_1.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_2.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_3.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_1.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_3.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_5.soundref"
+	spawn_ratio: 0.0
+	lod_dist[]: 70
+	
+	sound_move[]: "/sound/traffic/truck_eu_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_5.soundref"
+
+@include "/def/vehicle/ai/promods/road/drivers/driver_fire.sui"	
+	
+}
+vehicle_accessory : atego_fire.at.chassis2 {
+ data_path: "/def/vehicle/ai/promods/road/atego_fire/chassis_at.sii"
+}
+
+vehicle_wheel_accessory : atego_fire.at.fwdwheel2 {
+ data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory : atego_fire.at.rearwheel2 {
+ data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  hr  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.atego_fire.hr	
+{
+
+ 	accessories[]: atego_fire.hr.chassis2
+ 	accessories[]: atego_fire.hr.fwdwheel2
+ 	accessories[]: atego_fire.hr.rearwheel2
+
+	allow_parked: true
+	max_speed: 100
+	vehicle_mass: 9000
+	engine_power: 400
+	sound_move[]: "/sound/traffic/truck_eu_1.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_2.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_3.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_1.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_3.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_5.soundref"
+	spawn_ratio: 0.0
+	lod_dist[]: 70
+	
+	sound_move[]: "/sound/traffic/truck_eu_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_5.soundref"
+
+@include "/def/vehicle/ai/promods/road/drivers/driver_fire.sui"	
+	
+}
+vehicle_accessory : atego_fire.hr.chassis2 {
+ data_path: "/def/vehicle/ai/promods/road/atego_fire/chassis_hr.sii"
+}
+
+vehicle_wheel_accessory : atego_fire.hr.fwdwheel2 {
+ data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory : atego_fire.hr.rearwheel2 {
+ data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+ # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  lu  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.atego_fire.lu	
+{
+
+ 	accessories[]: atego_fire.lu.chassis2
+ 	accessories[]: atego_fire.lu.fwdwheel2
+ 	accessories[]: atego_fire.lu.rearwheel2
+
+	allow_parked: true
+	max_speed: 100
+	vehicle_mass: 9000
+	engine_power: 400
+	sound_move[]: "/sound/traffic/truck_eu_1.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_2.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_3.soundref"
+	sound_move[]: "/sound/traffic/truck_eu_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_1.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_3.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_5.soundref"
+	spawn_ratio: 0.0
+	lod_dist[]: 70
+	
+	sound_move[]: "/sound/traffic/truck_eu_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_4.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_5.soundref"
+
+@include "/def/vehicle/ai/promods/road/drivers/driver_fire.sui"	
+	
+}
+vehicle_accessory : atego_fire.lu.chassis2 {
+ data_path: "/def/vehicle/ai/promods/road/atego_fire/chassis_lu.sii"
+}
+
+vehicle_wheel_accessory : atego_fire.lu.fwdwheel2 {
+ data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory : atego_fire.lu.rearwheel2 {
+ data_path: "/def/vehicle/r_wheel/steel.sii"
+}
