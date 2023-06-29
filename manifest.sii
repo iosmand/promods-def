@@ -6,10 +6,10 @@ mod_package : .package_name
 {
 
 	# Package version can be any string with any length.
-	package_version: "2.65"
+	package_version: "2.651"
 
 	# Display name can be any string with any length.
-	display_name: "ProMods Definition Package"
+	display_name: "iProMods Definition Package"
 
 	# Author can be any string with any length.
 	author: "ProMods Team"
