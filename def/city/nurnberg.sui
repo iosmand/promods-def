@@ -22,7 +22,7 @@ city_data: city.nurnberg
 	map_y_offsets[]: -5
 	map_y_offsets[]: -10
 
-	vehicle_brands[]:"man"
+	vehicle_brands[]:"volvo"
 
 	license_plate[]: .nurnberg.lp.car
 	license_plate[]: .nurnberg.lp.truck

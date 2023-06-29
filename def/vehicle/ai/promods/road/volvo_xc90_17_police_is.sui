@@ -1,0 +1,37 @@
+traffic_vehicle : traffic.volvo_xc9017.police.is
+{
+	accessories[]: .volvo_xc9017.police.is.chassis
+	accessories[]: .volvo_xc9017.police.is.fwheel
+	accessories[]: .volvo_xc9017.police.is.rwheel
+
+    allow_parked: true
+	max_speed: 160
+	sound_move[]: "/sound/traffic/car_default_1.soundref"
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	vehicle_mass: 2533
+	lod_dist[]: 70
+	lod_dist[]: 110	
+	spawn_ratio: 0.0
+	
+@include "/def/vehicle/ai/drivers_generic_police.sui"
+}
+
+vehicle_accessory: .volvo_xc9017.police.is.chassis
+{
+    	data_path: "/def/vehicle/ai/promods/road/volvo_xc90_17/chassis_police_is.sii"
+}
+
+vehicle_wheel_accessory: .volvo_xc9017.police.is.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/volvo_xc90_17_f.sii"
+}
+
+vehicle_wheel_accessory: .volvo_xc9017.police.is.rwheel
+{
+	offset: 0
+    	data_path: "/def/vehicle/ai_wheel/volvo_xc90_17_r.sii"
+}

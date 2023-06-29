@@ -541,7 +541,9 @@
 	def2[]:"XS"  # ~November 2021
 	def2[]:"XT"
 	def2[]:"XU"
-	def2[]:"XV"  # Latest issued (April 2022)
+	def2[]:"XV"
+	def2[]:"XW"  # July 2021
+	def2[]:"XX"  # Latest issued (august 2022)
 #	def2[]:"XZ"
 
 
@@ -806,9 +808,9 @@
 	def4[]:"NE"
 	def4[]:"NF"  # April 2022
 	def4[]:"NG"  # May 2022
-	def4[]:"NH"  # Latest issued (23.06.2022)
-#	def4[]:"NI"
-#	def4[]:"NJ"
+	def4[]:"NH"  # June 2022
+	def4[]:"NI"  # August 2022
+	def4[]:"NJ"  # Latest issued (October 2022)
 #	def4[]:"NK"
 #	def4[]:"NL"
 #	def4[]:"NM"

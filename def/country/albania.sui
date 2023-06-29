@@ -10,7 +10,7 @@ country_data : country.data.albania
 
 	pos: (38500, 0, 56400)
 
-	fuel_price: 2.063
+	fuel_price: 1.665
 
 	lights_mandatory: false
 	driving_tired_offence: true
@@ -22,6 +22,52 @@ country_data : country.data.albania
 	mass_limit_per_axle_count[]: 26000
 	mass_limit_per_axle_count[]: 36000
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

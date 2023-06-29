@@ -6,20 +6,20 @@ city_data: city.paris
 
 	map_x_offsets[]: 0
 	map_x_offsets[]: 0
-	map_x_offsets[]: 0
-	map_x_offsets[]: -10
-	map_x_offsets[]: -50
-	map_x_offsets[]: -40
-	map_x_offsets[]: -35
+	map_x_offsets[]: -110
+	map_x_offsets[]: -60
+	map_x_offsets[]: -250
+	map_x_offsets[]: -140
+	map_x_offsets[]: -58
 	map_x_offsets[]: -28
 
 	map_y_offsets[]: 0
 	map_y_offsets[]: 0
-	map_y_offsets[]: 25
-	map_y_offsets[]: -28
-	map_y_offsets[]: -230
-	map_y_offsets[]: -60
-	map_y_offsets[]: -35
+	map_y_offsets[]: -70
+	map_y_offsets[]: -45
+	map_y_offsets[]: -250
+	map_y_offsets[]: -130
+	map_y_offsets[]: -42
 	map_y_offsets[]: -30
 
 	### VERY LARGE CITY ###

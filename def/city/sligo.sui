@@ -48,6 +48,8 @@ license_plate_data : .sligo.lp.car
 	templates[]:"2-3-10"
 	templates[]:"2-3-100"
 	templates[]:"2-3-1000"
+	templates[]:"2-3-1000"
+	templates[]:"2-3-1000"
 	templates[]:"2-3-10000"
 
 @include "/def/country/ireland/license_plates_ie_1987_year_codes.sui"
@@ -60,10 +62,6 @@ license_plate_data : .sligo.lp.car
 	templates[]:"4-5-100"
 	templates[]:"4-5-1000"
 	templates[]:"4-5-1000"
-	templates[]:"4-5-10000"
-	templates[]:"4-5-10000"
-	templates[]:"4-5-10000"
-	templates[]:"4-5-10000"
 
 @include "/def/country/ireland/license_plates_ie_2014_year_codes.sui"
 
@@ -101,10 +99,6 @@ license_plate_data : .sligo.lp.truck
 	templates[]:"4-5-100"
 	templates[]:"4-5-1000"
 	templates[]:"4-5-1000"
-	templates[]:"4-5-10000"
-	templates[]:"4-5-10000"
-	templates[]:"4-5-10000"
-	templates[]:"4-5-10000"
 
 @include "/def/country/ireland/license_plates_ie_2014_year_codes.sui"
 

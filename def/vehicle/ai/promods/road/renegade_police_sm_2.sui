@@ -1,0 +1,38 @@
+traffic_vehicle : traffic.renegade.police.sm_2
+{
+	accessories[]: .renegade.police.sm_2.chassis
+	accessories[]: .renegade.police.sm_2.fwheel
+	accessories[]: .renegade.police.sm_2.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 2000
+
+	sound_move[]: "/sound/traffic/car_default_1.soundref"
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_diesel_2.soundref"
+
+	lod_dist[]: 60
+	lod_dist[]: 110
+
+	spawn_ratio: 0.0
+
+@include "/def/vehicle/ai/drivers_generic_police.sui"	
+}
+
+vehicle_accessory: .renegade.police.sm_2.chassis
+{
+	data_path: "/def/vehicle/ai/mideast/road/renegade/chassis_police_sm_2.sii"
+}
+
+vehicle_wheel_accessory: .renegade.police.sm_2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o_1.sii"
+}
+
+vehicle_wheel_accessory: .renegade.police.sm_2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o_1.sii"
+}

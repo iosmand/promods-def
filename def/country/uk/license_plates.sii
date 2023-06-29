@@ -46,7 +46,7 @@ license_plate_data : .lp.car
 	def0[]:"JU"
 	def0[]:"JV"
 	def0[]:"JW"
-#	def0[]:"JX"  # (none found)
+	def0[]:"JX"
 	def0[]:"JY"
 	def0[]:"TA"
 	def0[]:"TB"
@@ -92,8 +92,8 @@ license_plate_data : .lp.car
 	def0[]:"UU"
 	def0[]:"UV"
 	def0[]:"UW"
-#	def0[]:"UX"  # (none found)
-#	def0[]:"UY"  # (none found)
+	def0[]:"UX"
+	def0[]:"UY"
 	def0[]:"XG"
 	def0[]:"XH"
 	def0[]:"XJ"
@@ -110,7 +110,7 @@ license_plate_data : .lp.car
 	def0[]:"XV"
 	def0[]:"XW"
 	def0[]:"XX"
-#	def0[]:"XY"  # (none found)
+	def0[]:"XY"
 
 	# Age identifier (2001-2022)
 	def1[]:"51"
@@ -155,9 +155,9 @@ license_plate_data : .lp.car
 	def1[]:"21"
 	def1[]:"71"
 	def1[]:"22"
-	# Make newer plates (2017-2022) twice as likely
-	def1[]:"17"
-	def1[]:"67"
+	def1[]:"72"
+	def1[]:"23"
+	# Make newer plates (2018-2023) twice as likely
 	def1[]:"18"
 	def1[]:"68"
 	def1[]:"19"
@@ -167,6 +167,8 @@ license_plate_data : .lp.car
 	def1[]:"21"
 	def1[]:"71"
 	def1[]:"22"
+	def1[]:"72"
+	def1[]:"23"
 
 	# Unique vehicle identifier
 	def2[]:"A"
@@ -233,7 +235,7 @@ license_plate_data : .lp.truck
 	def0[]:"JU"
 	def0[]:"JV"
 	def0[]:"JW"
-#	def0[]:"JX"  # (none found)
+	def0[]:"JX"
 	def0[]:"JY"
 	def0[]:"TA"
 	def0[]:"TB"
@@ -279,8 +281,8 @@ license_plate_data : .lp.truck
 	def0[]:"UU"
 	def0[]:"UV"
 	def0[]:"UW"
-#	def0[]:"UX"  # (none found)
-#	def0[]:"UY"  # (none found)
+	def0[]:"UX"
+	def0[]:"UY"
 	def0[]:"XG"
 	def0[]:"XH"
 	def0[]:"XJ"
@@ -297,7 +299,7 @@ license_plate_data : .lp.truck
 	def0[]:"XV"
 	def0[]:"XW"
 	def0[]:"XX"
-#	def0[]:"XY"  # (none found)
+	def0[]:"XY"
 
 	# Age identifier (2001-2022)
 	def1[]:"51"
@@ -342,9 +344,9 @@ license_plate_data : .lp.truck
 	def1[]:"21"
 	def1[]:"71"
 	def1[]:"22"
-	# Make newer plates (2017-2022) twice as likely
-	def1[]:"17"
-	def1[]:"67"
+	def1[]:"72"
+	def1[]:"23"
+	# Make newer plates (2018-2023) twice as likely
 	def1[]:"18"
 	def1[]:"68"
 	def1[]:"19"
@@ -354,6 +356,8 @@ license_plate_data : .lp.truck
 	def1[]:"21"
 	def1[]:"71"
 	def1[]:"22"
+	def1[]:"72"
+	def1[]:"23"
 
 	# Unique vehicle identifier
 	def2[]:"A"

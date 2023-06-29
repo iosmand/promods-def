@@ -35,7 +35,7 @@ vehicle_damage_data : .damage_data
 	trailer_wheel_damage_ratio: 0.15
 	cargo_damage_ratio: 1.0
 
-	# damage distribution address 0xc5c3717fff4
+	# damage distribution address 0x58d5f17fff4
 
 }
 }

@@ -15,7 +15,11 @@ SiiNunit
 
 country_traffic_info : .country.info.traffic.toyota_prius.police.ua	 {
 	object: traffic.toyota_prius.police.ua	
-	spawn_ratio: 1.00	
+	spawn_ratio: 0.30	
+}
+country_traffic_info : .country.info.traffic.duster.police.ua	 {
+	object: traffic.duster.police.ua
+	spawn_ratio: 0.70	
 }
 country_traffic_info : .country.info.traffic.talisman.police.un {
 	object: traffic.talisman.police.un

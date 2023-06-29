@@ -10,7 +10,7 @@ country_data : country.data.armenia
 	
 	pos: (148000, 0, 32000)
 
-	fuel_price: 1.12
+	fuel_price: 0.910
 
 	lights_mandatory: false
 	leftside_traffic: true
@@ -24,6 +24,50 @@ country_data : country.data.armenia
 	mass_limit_per_axle_count[]: 44000
 	mass_limit_per_axle_count[]: 44000
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

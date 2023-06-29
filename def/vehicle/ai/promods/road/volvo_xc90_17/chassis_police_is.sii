@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_chassis_data : chassis.volvo_xc9017.police.is
+{
+	model: "/vehicle/ai/promods/road/xc90/ai_police.pmd"
+	collision: "/vehicle/ai/promods/road/xc90/ai_police.pmc"
+	lods[]: "/vehicle/ai/promods/road/xc90/lod_police.pmd"	
+	lods[]: "/vehicle/ai/promods/road/xc90/lod2_police.pmd"
+	shadow_texture: "/vehicle/ai/share/shadow_occlusion.tobj"
+	shadow_intensity: 1.2
+	variant: default
+	look: default
+}
+}

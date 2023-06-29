@@ -25,4 +25,11 @@ country_traffic_info : .country.info.traffic.passat_2014.police.un {
 	object: traffic.passat_2014.police.un
 	spawn_ratio: 0.10
 }
+
+########## Fire Departement
+
+country_traffic_info : .country.info.traffic.atego_fire.at {
+	object: traffic.atego_fire.at
+	spawn_ratio: 1.0
+}
 }

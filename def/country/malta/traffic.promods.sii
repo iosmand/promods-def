@@ -12,7 +12,7 @@ SiiNunit
 # in your definition file (see above) with the same value for 'object' attribute as the one being overridden
 # For each 'object' the LAST LOADED traffic info is used
 #
-country_traffic_info : .country.info traffic.peugeot_208.police.mt {
+country_traffic_info : .country.info.traffic.peugeot_208.police.mt {
 	object:  traffic.peugeot_208.police.mt
 	spawn_ratio: 1.00
 }

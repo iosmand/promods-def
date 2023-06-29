@@ -10,7 +10,7 @@ country_data : country.data.cyprus
 
 	pos: (100200, 0, 77700)
 
-	fuel_price: 1.965
+	fuel_price: 1.560
 
 	lights_mandatory: false
 	imperial_units: false
@@ -25,6 +25,47 @@ country_data : country.data.cyprus
 	mass_limit_per_axle_count[]: 33000
 	mass_limit_per_axle_count[]: 40000
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
